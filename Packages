@@ -6426,6 +6426,189 @@ Name: iPhoneDuoIcon
 Author: Banana
 
 Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 0.1.24
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 864
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoicon_0.1.24_iphoneos-arm64_af6e345f031c6bdc4032a41f66314990ade423c577f3cb4bb2f128458958d932.deb
+Size: 148620
+MD5sum: ba61e9a07a0495ba046d56fe7356e99c
+SHA1: 3bd0f6b09e8ae451f23f48537368959e51ab8784
+SHA256: af6e345f031c6bdc4032a41f66314990ade423c577f3cb4bb2f128458958d932
+SHA512: bf29be8a57e2a98ee94bb6569dd7f07ea08905da0dcb7ca801807f21443803023bb48038008d42afa31b3cf42580d09b13902bd2325f9d81939aa4a58d63ad16
+Description: Combined battery, Wi-Fi and dual-line cellular status icon.
+Name: iPhoneDuoIcon
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 0.1.6
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 556
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoicon_0.1.6_iphoneos-arm64_52520e39b0b0a6d4507c7be740a446886a6341c6b1dc1d0c7363bd07c995e894.deb
+Size: 67720
+MD5sum: 43affbeebf7f4960eb0da7d28aa3c1af
+SHA1: 23e4db8de92bee67161ac1b2f7cfbe6d2affdd0f
+SHA256: 52520e39b0b0a6d4507c7be740a446886a6341c6b1dc1d0c7363bd07c995e894
+SHA512: 14502596196488db7ffe5815004d6d44d883c0001982b02092d3fde26d8762b39b967d1898b3dda91296c7c1d216c8e1f904a1b3cb5723b5978e1ee87f5d86c3
+Description: Combined battery, Wi-Fi and dual-line cellular status icon.
+Name: iPhoneDuoIcon
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 2208
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoicon_1.0.0_iphoneos-arm64_1b20b8cc7c042bbf1c98c8a7aab96faae60b6491d0905debcda7fa805fc58a48.deb
+Size: 395628
+MD5sum: 2cfd1e25409c1806fb45702c68bb0f80
+SHA1: 955c3feb9d13e5fda2fe254c9b4912bdeead091b
+SHA256: 1b20b8cc7c042bbf1c98c8a7aab96faae60b6491d0905debcda7fa805fc58a48
+SHA512: d47dad4dcc69b92d35d54c1bc4563b691c8bc2a443dcf3b8682fd9ff7a62f936ffc7e2b9f45fed832d90e02e53ed265ef9283869585701642468b2f5c371c17f
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 2524
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoicon_1.0.1_iphoneos-arm64_acfdd79f72447dc503919d5e471fb66d93e84374633251f2308e9c2a3999826d.deb
+Size: 448206
+MD5sum: 9eb5ff3ce39024c82814ec61054b560c
+SHA1: fe832f9961eb54a77f66abf0f745ee6b48323c14
+SHA256: acfdd79f72447dc503919d5e471fb66d93e84374633251f2308e9c2a3999826d
+SHA512: decf666d28d2a7e6d34d2da1028579e389cc889a6cf223ad119affd02486dc08ea3773efca0cf6cc6a60cb8177c8dc4161eefac2541e73e0ff78349c55e4b12e
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 3200
+Depends: firmware (>= 16.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoicon_1.0.2_iphoneos-arm64_5526cc0366b3e24cec78dbd33c97d11bdba4bbb7eac84222638e5451e4744c53.deb
+Size: 547814
+MD5sum: e4c53addf3e08fff17d9ecf305187607
+SHA1: 83d195cc336b8a48fdc0af6f5776ed40246bfb75
+SHA256: 5526cc0366b3e24cec78dbd33c97d11bdba4bbb7eac84222638e5451e4744c53
+SHA512: 4f38c03d0cdcf3eda5255afbfba7b43df9afc886ed374cf593dfa32804cdd4dc7fa410c19bfb6b9f2567a221c9d88224d5318133e9d3a6361a9e57346ff63a15
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.0.4~beta9
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 3696
+Depends: firmware (>= 16.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoicon_1.0.4~beta9_iphoneos-arm64_076ff78172e14b126624bdd42298b05a15a2d0651423c6ec8c2610458a210e39.deb
+Size: 646662
+MD5sum: 137133648ce387ad7016b39aef3b4410
+SHA1: a8f16181b0cf2ce76aaca560ab1e888788ad3b4d
+SHA256: 076ff78172e14b126624bdd42298b05a15a2d0651423c6ec8c2610458a210e39
+SHA512: 5435fb72cd0efc8b87416439448280570e13e0f3dbee4e06fb113b439284d8c6cafb2d0b3b05df20d99135652c1dc464acca26e703c34c0fa0cf3eaa50e3729b
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.0.6~beta3
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 3984
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoicon_1.0.6~beta3_iphoneos-arm64_fefe20bd7f2938407c6dab8654c7872edfb97e1b3d5a35c2f7b4a68789276205.deb
+Size: 682196
+MD5sum: 61bb90d996b4c217b118ea99d3c4f4b6
+SHA1: 8f52afc7eb6e9d935557a97f972c86f61228bd10
+SHA256: fefe20bd7f2938407c6dab8654c7872edfb97e1b3d5a35c2f7b4a68789276205
+SHA512: 8d8fe62bf19782eb2bca7dbfb7fbb638897f4592a4990df132f27c2c2f6af1ad451e77264ff274ffd5c34508f50617bbb9987c9c029396e47a2feceb8210b488
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.0.6~beta4
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 3984
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoicon_1.0.6~beta4_iphoneos-arm64_12e8c91a4491b61be9ca5e9186e458c9cba11d690f927dd9e1df5cc08ad1883d.deb
+Size: 682724
+MD5sum: 5b3d909141d9951cbd52509c0471ffdf
+SHA1: 22ef1d2ed14e3a7d1cc90604c625b07f124695e1
+SHA256: 12e8c91a4491b61be9ca5e9186e458c9cba11d690f927dd9e1df5cc08ad1883d
+SHA512: 2a1a5449c98e8c1da81ef44a73a483c93f92201f72ab4c48d10ce91151c293f51ad4e4a875073740baea4fe37d25ebb25834d4f190e727aa17031a995b0b841e
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 4044
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoicon_1.0.7_iphoneos-arm64_fa44920359e7318b511456221d446e6f871ccb574090f4c50b75d9e84bb98c21.deb
+Size: 703322
+MD5sum: 838d3e6cc61bfd6d76130d371a65df71
+SHA1: 5ff61fb78c32b3d1611a5e3740e7fa6b9fc2fbb6
+SHA256: fa44920359e7318b511456221d446e6f871ccb574090f4c50b75d9e84bb98c21
+SHA512: 23671faae6e16ba058ec4a2dad02277d02a3e55032326cc33783ae1bce512433a6721e880af04cf9bcde7d4c306e2e5c86bc6a486cc0708e008bcd478d8b1b62
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 4680
+Provides: com.ryannair05.audiosnapshotserver2 (= 2.1+lunora1)
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn, com.ryannair05.audiosnapshotserver2
+Breaks: com.ryannair05.libmitsuha6 (<< 2.0)
+Replaces: com.ryannair05.audiosnapshotserver2
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoicon_1.0.8_iphoneos-arm64_18038147e63a04ff9626e240168f2f187e36b8ac3ebe96a44e89cea59fd8a577.deb
+Size: 762288
+MD5sum: 03f547f96da7dbadd2a310e6428fa7b5
+SHA1: edee01dfd6130b1065f2ab890d6b461b3d71a723
+SHA256: 18038147e63a04ff9626e240168f2f187e36b8ac3ebe96a44e89cea59fd8a577
+SHA512: 7ab93a4c8f203a9faba909625ac58e8848a98ad29d8b020192bda46d0fe35f43d9e14cce97c8781f9a95b0ae56f656da4434f3fd0aa8b8219e09c005b947e6be
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
 Architecture: iphoneos-arm64e
 Version: 0.1.16
 Section: Tweaks
@@ -6442,3 +6625,467 @@ SHA512: 8896e1556245b650540a6cbccd76428f64a0f897dda6320fb23f1f828db378f6637468d3
 Description: Combined battery, Wi-Fi and dual-line cellular status icon.
 name: iPhoneDuoIcon
 author: Banana
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 3184
+Depends: firmware (>= 16.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64e/iya.banana.iphoneduoicon_1.0.2_iphoneos-arm64e_515a06a041b2c17b06678ff25a803772396554c89694e64f2fbed468687b75ba.deb
+Size: 548178
+MD5sum: b7c83fd225b043ab336d949bf15370a9
+SHA1: 6f3a5981c831ef1896649ea54f151339e9a652d4
+SHA256: 515a06a041b2c17b06678ff25a803772396554c89694e64f2fbed468687b75ba
+SHA512: 397ef3c0bac4cd660927d3ab620a268b6497cf0daa56a17ade6e195a9b7e02ffb8d802fa2f83c0f88c2a63ec9c0e2534bdaa54df7465d302df489453ae2c1348
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.0.4~beta9
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 3696
+Depends: firmware (>= 16.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64e/iya.banana.iphoneduoicon_1.0.4~beta9_iphoneos-arm64e_23ec0c8a6d07982d6d8de709cdb09c16d66bf35cd2131628d76dbb75b9fcf1fb.deb
+Size: 646424
+MD5sum: 0c382caf86af7d9b0961e6f6fcaad244
+SHA1: 06e5d45e282f87950db5256f8d6dc97bfe1784e7
+SHA256: 23ec0c8a6d07982d6d8de709cdb09c16d66bf35cd2131628d76dbb75b9fcf1fb
+SHA512: 798ecf7bcd71825e16a90625d82936b8ec61e2924594f3bdd31add5b7df8fb59005dc67fa24d590e8b691c907ca05afe7ce09c31888c65177ec4843ffb945df8
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.0.6~beta3
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 3984
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64e/iya.banana.iphoneduoicon_1.0.6~beta3_iphoneos-arm64e_fc75c5f3287a2a3b79dbea5b0322546991191e974cb3a4b912cdeb13a95bd184.deb
+Size: 682818
+MD5sum: 22506da509876603933f8aa61a174521
+SHA1: e4400c31d666b04fd0f17b7b05d2e18f11f46de1
+SHA256: fc75c5f3287a2a3b79dbea5b0322546991191e974cb3a4b912cdeb13a95bd184
+SHA512: fb244deeea8f14a4df35482e6e44da3c5ffc4333fea611409a2e429309cd2c68a8fcba92ae0c75194f3ccaec620ff918fed2609761c5f383da628189e2e69fdd
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.0.6~beta4
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 3984
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64e/iya.banana.iphoneduoicon_1.0.6~beta4_iphoneos-arm64e_dcda595a654e0b0467c335da1da621397882eedf8a8469979e0e463456afa700.deb
+Size: 681778
+MD5sum: a20c7a537bdcc720a4e15591c96e4f97
+SHA1: c12e4abe7c358d043e5fb6c9bbb25a981a19b7ce
+SHA256: dcda595a654e0b0467c335da1da621397882eedf8a8469979e0e463456afa700
+SHA512: 852c2b7c2fd45633331c15693979f1dbbe0550b4af4346c18d6dc1242a5d2f82fb6b2005bfc7b8130f49fc95104ac2e879126ad398b817d014ef314411779ac0
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.0.7
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 4044
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64e/iya.banana.iphoneduoicon_1.0.7_iphoneos-arm64e_0f4761ecfb4e133f29f39510eb25e1d4496b1cc54c871007d025269ad233b10a.deb
+Size: 702690
+MD5sum: ce150cf7404c5809fd5cc75846cec0df
+SHA1: 31bc100fab58f6f4d3e457218072dd65641d1181
+SHA256: 0f4761ecfb4e133f29f39510eb25e1d4496b1cc54c871007d025269ad233b10a
+SHA512: 9063e9dd4a19cb4c68e2ae884b3969612e5a07b06bd16dda28b0e69a3f91708d05bf68dd9f93ba3df37325c58d5deada4004dd32f613420406440c3d3c212acb
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.0.8
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 4664
+Provides: com.ryannair05.audiosnapshotserver2 (= 2.1+lunora1)
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn, com.ryannair05.audiosnapshotserver2
+Breaks: com.ryannair05.libmitsuha6 (<< 2.0)
+Replaces: com.ryannair05.audiosnapshotserver2
+Filename: debs/iphoneos-arm64e/iya.banana.iphoneduoicon_1.0.8_iphoneos-arm64e_0c4ceefa08ecd9ade4230bd74a7981bcc10803bdbb168be5d5ff3f3a1cb50cf9.deb
+Size: 756832
+MD5sum: d3f9749a1504302bf9e87cb0ed6cccad
+SHA1: 0c92787367635a9b1fcbb3f9ad4aea6ed34885fc
+SHA256: 0c4ceefa08ecd9ade4230bd74a7981bcc10803bdbb168be5d5ff3f3a1cb50cf9
+SHA512: 63159c9606c091db27a323ffe8ec3dbb03a1c0ca4aae010707fc57e645be6a2bb03e0cf7c35bc3a18cdf0d6c3321b64b193390b13b2aa693e0a90a72a9a89d56
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.jumpguard
+Architecture: iphoneos-arm64e
+Version: 0.1.2
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 560
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Filename: debs/iphoneos-arm64e/iya.banana.jumpguard_0.1.2_iphoneos-arm64e_ae21e54e432fafa72d6996d764085e26b2125e16d4db65af3904dbe5829040d9.deb
+Size: 66896
+MD5sum: 8f2461505dc9c4a62b4b852fc7d02fb3
+SHA1: 18d12de63116ac2a94ec670f5f5ff231675ddf34
+SHA256: ae21e54e432fafa72d6996d764085e26b2125e16d4db65af3904dbe5829040d9
+SHA512: 33d09e4cdab8b66c7c687e5ede15d76a234db79664544f1ddd22cdc144c68c3847842e822804c63eac64cdad0e233e62c5968b7d936f41470cb084ae960aa61c
+Description: Confirm or block cross-app launch requests on RootHide iOS.
+Name: JumpGuard
+Author: hades
+
+Package: iya.iapple.siri
+Architecture: iphoneos-arm64
+Version: 1.1.3
+Section: Tweaks
+Maintainer: Thijs mussig
+Installed-Size: 2252
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourcompany.liquidsiri
+Replaces: com.yourcompany.liquidsiri
+Filename: debs/iphoneos-arm64/iya.iapple.siri_1.1.3_iphoneos-arm64_13fca93f398ddc4d26ea3a7131f44ecd5d2c1e4b7ed8c852207415b20aebe439.deb
+Size: 986524
+MD5sum: 558324492bde647dca1dc35ff31ea8ef
+SHA1: 8d51e6806565b7b57bf4b74458d352d8fc6efeea
+SHA256: 13fca93f398ddc4d26ea3a7131f44ecd5d2c1e4b7ed8c852207415b20aebe439
+SHA512: 3e99cdbbef8a4efdc039171145b456c648f72f31f3745e4475c77e1ac2d62e746e28bcc848f4f49febedeeeacfebabb1b3dd16ff8bed60dc99d4c43c6e6c0baf
+Description: Customize Siri with NewSiri edge lighting or the SiriAI glass interface.
+Name: LiquidSiri
+Author: Thijs mussig, Banana
+
+Package: local.notifybubbles
+Architecture: iphoneos-arm64e
+Version: 0.4.1
+Section: Tweaks
+Maintainer: NotifyBubbles
+Installed-Size: 436
+Depends: firmware (>= 16.0), firmware (<< 17.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/local.notifybubbles_0.4.1_iphoneos-arm64e_93106c67a4170bbd112ed915c7035c7976469fcb40294543a8a05ca3fed67754.deb
+Size: 38318
+MD5sum: 06b8a4d2bf168555d1bfd7f87dc2ac07
+SHA1: a8ced756d2c45a98764a4fa5e58facacacf43432
+SHA256: 93106c67a4170bbd112ed915c7035c7976469fcb40294543a8a05ca3fed67754
+SHA512: 5b0ce5d99891dbf551cf765559df8282b790c7e0463ae0faee2ab5f222a0408f21dc98f3fd970d62b6570934819f27d859333ec8395407a2ee8324c630e8d3d3
+Description: Notification bubbles for iOS 16 and Dopamine RootHide. Experimental first build.
+Name: 通知悬浮气泡
+Author: NotifyBubbles
+
+Package: netskao.wechatpurifications
+Architecture: iphoneos-arm64e
+Version: 2026.04
+Section: 微信插件
+Maintainer: BigBoss
+Installed-Size: 23256
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: netskao.wechatpurification
+Filename: debs/iphoneos-arm64e/netskao.wechatpurifications_2026.04_iphoneos-arm64e_10a8ead9bf54dff054d00304f233037f2bb1c79ee01b77cab267a2541a397c76.deb
+Size: 7996412
+MD5sum: 0c1d1ae9cddaefd45b517ed4c8737468
+SHA1: 4a3f0c4477120e4123b8afa510b9e2c7399d27e7
+SHA256: 10a8ead9bf54dff054d00304f233037f2bb1c79ee01b77cab267a2541a397c76
+SHA512: dcf344e58c5753fa569167113901f12a82001a4f2fafd6429de6540426b0cd1fb92bcf320d7ba5439e645656269f1bf68670c6209d274236e3f06923c916c168
+Description: 微信净化 2026.04 版本
+ * 还原聊天本质，干净的微信给你
+ * 2026 年基于 2023 年最终版重新编译，仅优化防止热更新导致的功能失效，未修复任何因微信版本更新出现的问题
+ * 如需私有版(¥68.00)可联系 admin@initnil.com 进行了解
+Author: Netskao
+Name: 微信净化 2026.04
+icon: https://TrollStoreX.Github.io/sileodepiction/WechatPure/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WechatPure/js.json
+
+Package: wiki.qaq.inspector
+Architecture: iphoneos-arm64
+Version: 0.6.3
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 20740
+Depends: firmware (>= 13.0), uikittools, launchctl
+Filename: debs/iphoneos-arm64/wiki.qaq.inspector_0.6.3_iphoneos-arm64_1feccad6dc8c17870cfddac7b650bb3df803efab64894601bffd624e286b9554.deb
+Size: 6982180
+MD5sum: c2ef943d5a51116590a370a25047ca17
+SHA1: c4853146e2d06fddb3d90874a944191e6b22a9cf
+SHA256: 1feccad6dc8c17870cfddac7b650bb3df803efab64894601bffd624e286b9554
+SHA512: 381d3ee5ff01523eb9adbc9b3a9c92d39c941dff39f85c555768cd0b764565c8e12ad355751e81e55d235b2c37a07b048b602da5f470a56c122e25291a59b8db
+Description: Live process inspector for rootless jailbreaks
+ See what your device is actually doing. Every running process, refreshed once a
+ second, with its CPU share, memory, thread count and owner. Search by name or
+ PID, sort by any column, filter down to system, user or app processes, and
+ pause the list to hold a moment still. Open a process for its threads, open
+ files and sockets, Mach ports, loaded modules, sandbox status and disk and
+ network use, then quit it, force quit it, or export the whole report. The
+ `inspector` command answers the same questions from a terminal. Available
+ in English, Simplified Chinese, Japanese, Russian, German, French, Spanish and
+ Arabic.
+Name: Inspector
+Icon: https://owngoal-dev.github.io/Inspector/icon.png
+Depiction: https://owngoal-dev.github.io/Inspector/
+SileoDepiction: https://owngoal-dev.github.io/Inspector/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.inspector
+Architecture: iphoneos-arm64e
+Version: 0.6.3
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 20740
+Depends: firmware (>= 13.0), uikittools, launchctl
+Filename: debs/iphoneos-arm64e/wiki.qaq.inspector_0.6.3_iphoneos-arm64e_eab15179a1d95b537eacd4841c70a2ce4d387d8af7795cb0e9444c9029bdb798.deb
+Size: 6985550
+MD5sum: 796f7ea777e305ad2058c3215fa09c09
+SHA1: fa142910586c584863d0919b8ca2b002da965b80
+SHA256: eab15179a1d95b537eacd4841c70a2ce4d387d8af7795cb0e9444c9029bdb798
+SHA512: f8a82f16aaa21e868a983eea3d75494ab29afc23d3b76571130b69e7f82c2a5dc8c7c238de67eaf66884377909d7ffa8690be61a064060ef693dbf15d14002e6
+Description: Live process inspector for roothide jailbreaks
+ See what your device is actually doing. Every running process, refreshed once a
+ second, with its CPU share, memory, thread count and owner. Search by name or
+ PID, sort by any column, filter down to system, user or app processes, and
+ pause the list to hold a moment still. Open a process for its threads, open
+ files and sockets, Mach ports, loaded modules, sandbox status and disk and
+ network use, then quit it, force quit it, or export the whole report. The
+ `inspector` command answers the same questions from a terminal. Available
+ in English, Simplified Chinese, Japanese, Russian, German, French, Spanish and
+ Arabic.
+Name: Inspector
+Icon: https://owngoal-dev.github.io/Inspector/icon.png
+Depiction: https://owngoal-dev.github.io/Inspector/
+SileoDepiction: https://owngoal-dev.github.io/Inspector/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64
+Version: 4.5.14
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 18324
+Depends: firmware (>= 16.0)
+Filename: debs/iphoneos-arm64/wiki.qaq.irisin_4.5.14_iphoneos-arm64_c127572204ed0e9f1823878cedd6670fbc2eab1ca01ada3d6e4edab7d25cbb34.deb
+Size: 5518508
+MD5sum: f50f256543c2aea25d994381003e2395
+SHA1: ca4423cda9d5a686082b6abd5ebb802e318b8367
+SHA256: c127572204ed0e9f1823878cedd6670fbc2eab1ca01ada3d6e4edab7d25cbb34
+SHA512: c13207110865b36e650e78ef4f653989fd238d31d20a430e4a64a213b7e5373d5019494b2e6a040a68d8478dfaf6b5a69ea58265c41546b80382075b387eca5c
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64
+Version: 4.5.16
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 18328
+Depends: firmware (>= 16.0)
+Filename: debs/iphoneos-arm64/wiki.qaq.irisin_4.5.16_iphoneos-arm64_0b5e23eb60f0d2fee512b9bdd6b29ccd3d91537f3144e7999cde4a9e9d9ccc3a.deb
+Size: 5520368
+MD5sum: fc37671b744d71a6483e3e1b54685e1a
+SHA1: 0f80a040673a36883307239031e416dc73061093
+SHA256: 0b5e23eb60f0d2fee512b9bdd6b29ccd3d91537f3144e7999cde4a9e9d9ccc3a
+SHA512: 2281be99144ba72275e962b1961338a23d747ededd7502cbfaa6edb3477394d59e6ee8111dedb8dd793431f7eaa40063be3551d32e76e15c2487253a3832075c
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64
+Version: 4.5.18
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 18328
+Depends: firmware (>= 16.0)
+Filename: debs/iphoneos-arm64/wiki.qaq.irisin_4.5.18_iphoneos-arm64_0b6178889b193dc482c1d5001e0e4fe05ac000809cb773dc09d6f88152579847.deb
+Size: 5521184
+MD5sum: 28e4209bf7da2961c4f3831e9ae758a5
+SHA1: f163c401fcbae33176d21083f70259ae817da9de
+SHA256: 0b6178889b193dc482c1d5001e0e4fe05ac000809cb773dc09d6f88152579847
+SHA512: 86e2a2ab77bbf44ae8553aab4704d6cdeece3fc5cc1ab1ace4af16ff3e85795c8a56f409a417010594db9cc73811d1853f4f26fd8bfc63da5af2ddf1ffd1c840
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64
+Version: 4.5.19
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 18364
+Depends: firmware (>= 16.0)
+Filename: debs/iphoneos-arm64/wiki.qaq.irisin_4.5.19_iphoneos-arm64_302f5ce13355438bf98ff19b8ce0ee3c3610276d44168f360b4c1c3f0ad37f84.deb
+Size: 5531580
+MD5sum: c42b49bdacda29485a14ec6b76700f26
+SHA1: a3d7484979b0eedad76f3e67a2d1dea80f6a2138
+SHA256: 302f5ce13355438bf98ff19b8ce0ee3c3610276d44168f360b4c1c3f0ad37f84
+SHA512: 10cc40e16678c2532aca7691ee7f47410c577aedfc58428edc7c1cca7b6711f1e70583c2d675ffaf4bb50d5a57f085987fef220e29c7322a5180158fe1914630
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64e
+Version: 4.5.14
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 18324
+Depends: firmware (>= 16.0)
+Filename: debs/iphoneos-arm64e/wiki.qaq.irisin_4.5.14_iphoneos-arm64e_946a065ebb21ebc3e02d9dec40c7b8f1888f78a55ffddabfce68f07065a2d08d.deb
+Size: 5517964
+MD5sum: ea3b6bb793d8adb0a20e834d9cc1eaa0
+SHA1: ece61cd55206f82bad11e3eea8e7e1b9aba1af1c
+SHA256: 946a065ebb21ebc3e02d9dec40c7b8f1888f78a55ffddabfce68f07065a2d08d
+SHA512: db5a3ee5563f5e8be740fe676e1512cd0d9ffedcc42ca9be109621814a3e059cf53e507159145361a4dcdf33d05e4fdccb059a6837cc02fa50900a5e804ed21e
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64e
+Version: 4.5.16
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 18328
+Depends: firmware (>= 16.0)
+Filename: debs/iphoneos-arm64e/wiki.qaq.irisin_4.5.16_iphoneos-arm64e_753721977c2751eeb2307c1f2f5c165b47e71d80c3b27f5a6fa6fcc2d738412a.deb
+Size: 5520260
+MD5sum: 222ec63ce952a570d2071c7096fd0f51
+SHA1: f21045381453472157027dbab9b6e97bd75427ff
+SHA256: 753721977c2751eeb2307c1f2f5c165b47e71d80c3b27f5a6fa6fcc2d738412a
+SHA512: 73f23b05cdd950445cdf677ab6bf0c43a091304c4139906dacabba85be85b5d417218f9766746a9574b95d6ec5939178f56117d8b1fb8ca048c74ca752840fda
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64e
+Version: 4.5.18
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 18328
+Depends: firmware (>= 16.0)
+Filename: debs/iphoneos-arm64e/wiki.qaq.irisin_4.5.18_iphoneos-arm64e_5ce7a50d95307edafda69f9f7782f58d90ce6ea1556579abbadeb133a4dbb869.deb
+Size: 5521256
+MD5sum: 4fe001997328925535997e05dda35e38
+SHA1: 8bb3ad1437666ba75f3ce4fefd297831d9bba9ce
+SHA256: 5ce7a50d95307edafda69f9f7782f58d90ce6ea1556579abbadeb133a4dbb869
+SHA512: cd4edf106bac0e14cd20c33aed8baad78bbd2d3437fce9ff5dd8de57dc824940ed5af9cca7a7e644053d076b0e84c1f615a29c1e3c01d0be0de3c017b4fa3038
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64e
+Version: 4.5.19
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 18364
+Depends: firmware (>= 16.0)
+Filename: debs/iphoneos-arm64e/wiki.qaq.irisin_4.5.19_iphoneos-arm64e_f1c8af1ea913e94f9ec64fb76d3f97f259dca3d2613dcd85a8d8601967efffa4.deb
+Size: 5532260
+MD5sum: 02e6015721a35d6294663a97cc5e5859
+SHA1: 56434656d6702150a27cdaf87cd6a0400ed3b8bf
+SHA256: f1c8af1ea913e94f9ec64fb76d3f97f259dca3d2613dcd85a8d8601967efffa4
+SHA512: da604ff230eb5bdd9e56f6110b1186cb9fc9e3a5c0e53ee9a76500593db0fa2db337e66ee82064b34876bbbb7eac2f95e465920610cdd5285c2830a61edf0fc2
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
