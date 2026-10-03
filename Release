@@ -1,0 +1,8 @@
+Origin: Mowang Archive
+Label: Mowang Backup
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: Public archive of the Mowang APT source

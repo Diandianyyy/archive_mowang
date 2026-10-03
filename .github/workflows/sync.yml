@@ -1,0 +1,74 @@
+name: Sync Mowang APT source
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_downloads:
+        description: "Maximum new packages to download (0 means all)"
+        required: false
+        default: "100"
+  schedule:
+    - cron: "47 */6 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: sync-mowang-apt
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      MAX_DOWNLOADS: ${{ inputs.max_downloads || '100' }}
+      REQUEST_INTERVAL: "3"
+
+    steps:
+      - name: Check out backup repository
+        uses: actions/checkout@v4
+
+      - name: Install repository tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y apt-utils dpkg-dev
+
+      - name: Download, verify and commit packages in batches
+        run: |
+          [[ "$MAX_DOWNLOADS" =~ ^[0-9]+$ ]] || exit 1
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          remaining=$((10#$MAX_DOWNLOADS))
+          while true; do
+            batch=100
+            if (( remaining > 0 && remaining < batch )); then batch=$remaining; fi
+            python3 -u scripts/sync_apt_repo.py \
+              --source "https://mowang7426.github.io/mowang/" \
+              --max-downloads "$batch"
+            git add Packages Packages.bz2 Packages.gz Packages.xz debs/
+            if git diff --cached --quiet; then break; fi
+            git commit -m "Sync new packages from Mowang"
+            git push
+            if (( MAX_DOWNLOADS != 0 )); then
+              remaining=$((remaining - batch))
+              if (( remaining <= 0 )); then break; fi
+            fi
+          done
+
+      - name: Build public APT source
+        run: python3 scripts/build_pages.py
+
+      - name: Upload source index
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Publish refreshed source
+        id: deployment
+        uses: actions/deploy-pages@v4
