@@ -15,6 +15,25 @@ Description: A狗微信全局圆角破解组件 安装此组件即可解锁授�
 Name: 微信全局圆角（免授权）
 Author: JJ
 
+Package: byg.iosios.net.autotouch
+Architecture: iphoneos-arm64e
+Version: 8.0.11k
+Section: 杂七杂八
+Maintainer: 搬运工
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/byg.iosios.net.autotouch_8.0.11k_iphoneos-arm64e_7ce921d08e929c42ce8ce3f369e9cf5205bff980b8b93a7c33823e83db4d41b3.deb
+Size: 31980058
+MD5sum: 0d85da6794c443e16fe99468d4e2aecb
+SHA1: df6d16bef66f5903f885347e3ec40160be4bc06a
+SHA256: 7ce921d08e929c42ce8ce3f369e9cf5205bff980b8b93a7c33823e83db4d41b3
+SHA512: d59fba457ca2c39b55dfaaff126ec182da69381e66109e0926c02eb971cea0f85f87dcd514b887993aa32bda48f7fa42d3598d3e17bb7954e9e2cab0be9908f4
+Description: Record and playback touch operations, play macro scripts automatically.打开闪退的请进系统设置-显示与亮度，关闭粗体显示即可！如果安全模式，缷载还是安全模式，多注销几次即可，本源插件都是源主测试过才上架，放心使用。插件介绍：AutoTouch用来录制和回放您在移动设备上的各种触摸和点击操作，它还可以运行事先用Lua语言写好的脚本，通过模拟人的触摸操作，来实现更多意想不到的功能。您可以用它自动玩游戏打怪赚取金币、批量编辑照片、进行程序自动化测试或者自动登入邮箱等。
+Name: AutoTouch连点器（按键精灵）-Rootless
+Author: Kent Krantz
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.mango
 Architecture: iphoneos-arm64
 Version: 1.0-Beta4-2
@@ -3673,6 +3692,23 @@ Name: AI 日志分析
 Author: MoWang
 
 Package: com.mowang.crashanalyzer
+Architecture: iphoneos-arm64
+Version: 1.3.2
+Section: Utilities
+Maintainer: MoWang
+Installed-Size: 260
+Depends: preferenceloader
+Filename: debs/iphoneos-arm64/com.mowang.crashanalyzer_1.3.2_iphoneos-arm64_c878a21cfa5cbe24f2589462da9b671651a29b4fc2babd384608e407eab96966.deb
+Size: 121234
+MD5sum: 44c991e1f0dfabc6a9ca7c095c84da45
+SHA1: f441476a6d992511995aef01aa23a9ad8f49a43e
+SHA256: c878a21cfa5cbe24f2589462da9b671651a29b4fc2babd384608e407eab96966
+SHA512: 7cee9a0c022db3edc87c46bae783ef1df1ea1f8136fbfcd219f20198056860aa10eb9a766bac22651e1a077b93760aa51c1938e71c9a7857d0008cf68b7a5242
+Description: 自动扫描、分类和分析 iOS .ips 日志
+Name: AI 日志分析
+Author: MoWang
+
+Package: com.mowang.crashanalyzer
 Architecture: iphoneos-arm64e
 Version: 1.1.5
 Section: Utilities
@@ -3702,6 +3738,23 @@ MD5sum: 963c47b80d42191790fe6a0726c929d3
 SHA1: ea7933c502155be57e088daac5762292a0802e9f
 SHA256: f1934882e413d0d382fe0c1d32257bd2a7a00edbf8a4fa152362c01dbcbcd74a
 SHA512: f3ab697ee1ae87ee77e7a04db5a5aa2794462495ce144a0080a2c0f893feed8dfb4b82589239135d1cc78c7d65c5824f8294e1be447d57be33f73300ded68dbb
+Description: 自动扫描、分类和分析 iOS .ips 日志
+Name: AI 日志分析
+Author: MoWang
+
+Package: com.mowang.crashanalyzer
+Architecture: iphoneos-arm64e
+Version: 1.3.2
+Section: Utilities
+Maintainer: MoWang
+Installed-Size: 260
+Depends: preferenceloader
+Filename: debs/iphoneos-arm64e/com.mowang.crashanalyzer_1.3.2_iphoneos-arm64e_626beffc5c2e645eb2e06537a6c9fcc91e90e5b298f92f7ff0a9b7ba2929865e.deb
+Size: 121102
+MD5sum: 847d7cdb74f1c1a1ed3b1c381c0fb7fa
+SHA1: 5b7b25dd44bccab221c33c14609399b0c79d1fde
+SHA256: 626beffc5c2e645eb2e06537a6c9fcc91e90e5b298f92f7ff0a9b7ba2929865e
+SHA512: fefbd93837aa1f3d959497d5966c27e7058a87a9357c01b05870630da17790d79857a6abc32a3205f1ed9f5e5602df6ee79b8bf148866f645f67ccbc2db3f09b
 Description: 自动扫描、分类和分析 iOS .ips 日志
 Name: AI 日志分析
 Author: MoWang
@@ -3776,6 +3829,38 @@ SHA512: 345ff56a999e429e366d5ee9279d4f688cfa17d7cff60a539a9353b2ff8e24da44f52779
 Description: Stheno分屏正式版（关闭诊断文件日志） 下拉分屏点击全屏 只支持原生横幅通知。原插件含激活码授权验证，仅自用。
 Name: Stheno奥利奥分屏
 Author: Crassna
+
+Package: com.opa334.trollstorelite
+Architecture: iphoneos-arm64
+Version: 2.1.1
+Section: Applications
+Maintainer: opa334
+Installed-Size: 11424
+Filename: debs/iphoneos-arm64/com.opa334.trollstorelite_2.1.1_iphoneos-arm64_264b4944df34d28e562b966f264a78190739c5a1d35074ce916c940eb0ee85a1.deb
+Size: 3684976
+MD5sum: 44b9e0a418757ccf0c2f5bb30abb8442
+SHA1: bd9c0bb270b68af827bf11136dcc3d141153f968
+SHA256: 264b4944df34d28e562b966f264a78190739c5a1d35074ce916c940eb0ee85a1
+SHA512: 9b946280c4ed56310042c1c57c555183bc6a6b7e846a5e4db139cde474afa247d6993600394a3dc24b19291c6e99abbf8ac19670a8f61196c83f241648c86a65
+Description: A modified TrollStore by iosdump for jailbroken iOS
+Name: TrollStore Lite
+Author: opa334&iosdump
+
+Package: com.opa334.trollstorelite
+Architecture: iphoneos-arm64e
+Version: 2.1.1
+Section: Applications
+Maintainer: opa334
+Installed-Size: 11424
+Filename: debs/iphoneos-arm64e/com.opa334.trollstorelite_2.1.1_iphoneos-arm64e_13665cdbd99c60597a25ffae6a72aa6f9a0c9f73a727d50818d697a31e4e23b2.deb
+Size: 3685026
+MD5sum: 9d99f92ae744d4220e303bb8e6aed41f
+SHA1: 906cd9caaf8c5a88e723d3171077ad179db59233
+SHA256: 13665cdbd99c60597a25ffae6a72aa6f9a0c9f73a727d50818d697a31e4e23b2
+SHA512: 68ed5464afd5707a51b7dbef8e4a77ee09347c25f6789c4fec11f03f043545762ffbb516f9ef4650af3d3160129ae8a143533f45c3e59a745271b54a6d2ae146
+Description: A modified TrollStore by iosdump for jailbroken iOS
+Name: TrollStore Lite (RootHide)
+Author: opa334&iosdump
 
 Package: com.qianuo.chatassist
 Architecture: iphoneos-arm64e
@@ -4350,6 +4435,23 @@ Name: SB CPU Floating
 Author: MoWang
 
 Package: com.sbcpu.floating
+Architecture: iphoneos-arm64
+Version: 4.81
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 2996
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.sbcpu.floating_4.81_iphoneos-arm64_25a890611f9dc443fd2f68154c7a7608bdc410a8094d1acf2c24544f4486437e.deb
+Size: 983088
+MD5sum: 523e4441c7246763800c05730dbe15a0
+SHA1: 67ef2d93c60128fd6040612ecc2f833feca9fdfc
+SHA256: 25a890611f9dc443fd2f68154c7a7608bdc410a8094d1acf2c24544f4486437e
+SHA512: 05fb000dc0d9f168548d7f584d2adebee787a4b516cc5b87d23e0051ae6024913c4844e90ed81e7f068982bfc8572290bd9465860739365991cf48ad78b77a77
+Description: 修改温控 bug：极限满频全局状态同步与 App/桌面切换掉频修复；新控制器注册后立即继承当前性能模式。保留系统与硬件临界温度安全保护。
+Name: SB CPU Floating
+Author: MoWang
+
+Package: com.sbcpu.floating
 Architecture: iphoneos-arm64e
 Version: 4.63
 Section: Tweaks
@@ -4782,6 +4884,23 @@ SHA1: bf2317f71551f378f6b44d9b7bfe03d7f2b5f21a
 SHA256: 502873044dd60537a9e4046fde653a6a7c586310b154c3c9c58921f67939a509
 SHA512: ea0b316bbe204d61dbd8ef99c96a41c47aeb5b60423c2b0d77d1119ce47ef052cebd53fdf2dbd553ce94d873a52dfb65c4b4a03996238b512afca095af5de244
 Description: 新增智能切换，新增夜间分时充电，新增吸附顶部状态栏
+Name: SB CPU Floating
+Author: MoWang
+
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64e
+Version: 4.81
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 2996
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.sbcpu.floating_4.81_iphoneos-arm64e_d34e5e6b67aa9c619162ef8bcdef3ee878c877ef6504d2e2e664280f3f743100.deb
+Size: 973824
+MD5sum: 371ed1f2098e49c9e98c9ba566b66d9e
+SHA1: dd8cabcedcaea3f6186463cae69dd7c43c6494d1
+SHA256: d34e5e6b67aa9c619162ef8bcdef3ee878c877ef6504d2e2e664280f3f743100
+SHA512: 610e3e2f8410ccdfb45ca2ca89d870ff7a20966690f5506842bcba55be461922d402023c40d55cc17b3fa870450c850afd096c4446f3c2bc377872137e4d9ec1
+Description: 修改温控 bug：极限满频全局状态同步与 App/桌面切换掉频修复；新控制器注册后立即继承当前性能模式。保留系统与硬件临界温度安全保护。
 Name: SB CPU Floating
 Author: MoWang
 
@@ -7123,3 +7242,26 @@ Icon: https://lakr233.github.io/Irisin/icon.png
 Depiction: https://lakr233.github.io/Irisin/
 SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
 Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: xyz.cypwn.remotecompanion
+Architecture: iphoneos-arm64e
+Version: 2.0.0
+Section: Tweaks
+Maintainer: CyPwn
+Installed-Size: 1060
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), netcat
+Conflicts: com.pizzaman.remotecommand
+Replaces: com.pizzaman.remotecommand
+Filename: debs/iphoneos-arm64e/xyz.cypwn.remotecompanion_2.0.0_iphoneos-arm64e_df1b79fdfb08064bd1a921cabc0d86056d723ed3b5822a713ae02c7362a82ee8.deb
+Size: 402988
+MD5sum: a43c7706d8e3c1e501418d730d6bd70d
+SHA1: f03b281808df9caf2b54868a5f96e2a0820aa195
+SHA256: df1b79fdfb08064bd1a921cabc0d86056d723ed3b5822a713ae02c7362a82ee8
+SHA512: 576b05877e1534689cb2db1a45d28c9844f14e01120f3125e5b3c1af74b7b6c891d9f024ceef6ebec06e57f5bdd0077f7a09363e1e046ae9d6fe7c0eff85e84a
+Description: A modern Activator replacement for rootless jailbreaks. Bind triggers like Touch ID, Power/Volume buttons, and Status Bar gestures to system actions, Siri automation, and custom TCP commands. GitHub: https://github.com/saihgupr/RemoteCompanion
+Depiction: https://repo.cypwn.xyz/depiction/3486
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3486
+Icon: https://repo.cypwn.xyz/packages/RemoteCompanion-Rootless/icon.png
+Name: RemoteCompanion
+Author: Saihgupr
