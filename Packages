@@ -1361,6 +1361,42 @@ Description: 下拉桌面图标弹出多开应用容器，无设置项。(支持
 Name: Crane Drop Down
 Author: crctdd
 
+Package: com.crctdd.memtrim
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 820
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/com.crctdd.memtrim_0.0.2_iphoneos-arm64_24d6babe21eceacfffd06c4c26bb36e5f9077408f12b22cd8e53c5fd5baf1db5.deb
+Size: 125198
+MD5sum: 37a2f6b78bad2d98266bd577b816aa97
+SHA1: 832c2a0d172b83fe1cc49b2bcfa25950d4080738
+SHA256: 24d6babe21eceacfffd06c4c26bb36e5f9077408f12b22cd8e53c5fd5baf1db5
+SHA512: 402bd1a9d38fa162f6b7972f98d7584cff641e8e5b738f03f9f651cf2c0bef24fc676ae8f256f78d72c50422816dec3a87de5fe5a7ad8922ac8b31a4e7d2174e
+Homepage: https://crctdd.github.io/repo/
+Description: 优化并释放部分运行内存。(支持iOS 15-17)
+Name: MemTrim
+Author: crctdd
+
+Package: com.crctdd.memtrim
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 388
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/com.crctdd.memtrim_0.0.2_iphoneos-arm64e_2bb22166f174bb72bae2d0487d6dffcb475fc3f847c43ae5961a9125478cfc97.deb
+Size: 71676
+MD5sum: 13868da5467edc7ebef48f4887a8f14b
+SHA1: c4051eeb9b5a21c1533871afb252185b66c806a6
+SHA256: 2bb22166f174bb72bae2d0487d6dffcb475fc3f847c43ae5961a9125478cfc97
+SHA512: 56115c12efd09c8cda350c2f61dc3f571ca42fa16d4d25ad6268b188b6c714af214661fe4f0a4ed56c6c5a38e3130c642e8c40fc46f4e3ab015a7171be0401f6
+Homepage: https://crctdd.github.io/repo/
+Description: 优化并释放部分运行内存。(支持iOS 15-17)
+Name: MemTrim
+Author: crctdd
+
 Package: com.crctdd.mobileslideshowhook
 Architecture: iphoneos-arm64
 Version: 0.0.5
@@ -2541,6 +2577,24 @@ Author: iosdump
 
 Package: com.iosdump.shellx
 Architecture: iphoneos-arm64
+Version: 11.1
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 12324
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/iphoneos-arm64/com.iosdump.shellx_11.1_iphoneos-arm64_fb98e22f33055193314d359c7663ec66d03f6e17950c0a881f620af65e79149c.deb
+Size: 2715674
+MD5sum: f43f0714084ff87e3072aa9ad3889f27
+SHA1: 3f47c42e4c966ad3968ab2e3e3aab69f0ed99edb
+SHA256: fb98e22f33055193314d359c7663ec66d03f6e17950c0a881f620af65e79149c
+SHA512: 83181c7855f5291c393081b4fe121cb481ba8695c6253ee769435ed288b0638cf7fb4250fa9816da49012f88b7485724bae61c3eb4c8f4cb6da3e6e5c18191b5
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Name: SHELLX
+Author: iosdump
+
+Package: com.iosdump.shellx
+Architecture: iphoneos-arm64
 Version: 3.1.1
 Section: Tweaks
 Maintainer: iosdump
@@ -2661,6 +2715,24 @@ MD5sum: 41ef36de218802c1aa9307377682e06d
 SHA1: f7123e56ea741452301cbec1ee6ef4e7fc60b634
 SHA256: 6468abc3f589f3450ffb501feecc0658fafcbcd7579be5921be97c11caeb04b4
 SHA512: 6e9666cf3dcc585b52d9e0e5e126de930744da548d35b3a35ab199264b3d6c3929aeec4fe402239194235b553e564f3255c21c5d6a1ab1db6cf91664d3e04798
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Name: SHELLX
+Author: iosdump
+
+Package: com.iosdump.shellx
+Architecture: iphoneos-arm64e
+Version: 11.1
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 12292
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/iphoneos-arm64e/com.iosdump.shellx_11.1_iphoneos-arm64e_52d54e17b99de0dc42d67e99c11116b5ef9895687e32af723fdc36fbdb58e7ba.deb
+Size: 2714576
+MD5sum: 1b557febbf69156c219d19835eea890a
+SHA1: 1fa6bb15c7dc616cb80cfb154174c581d29ed0a0
+SHA256: 52d54e17b99de0dc42d67e99c11116b5ef9895687e32af723fdc36fbdb58e7ba
+SHA512: be509fd94f04335bc66cf07d360c1e1a0be3442b8f383f284c9b8ce511ad09fd6cd761d6ba8f284dc6b65ebac3a8450dfb4f9ef4fa59e0f18cfcd5bcc5ff202d
 Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
 Name: SHELLX
 Author: iosdump
