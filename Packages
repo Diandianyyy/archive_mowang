@@ -1653,6 +1653,40 @@ Name: StayAlive Lite
 Author: crctdd
 
 Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64
+Version: 0.3.7
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 1924
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.crctdd.stayalivelite_0.3.7_iphoneos-arm64_896afaff27c1de1aad702b3f7d201f3905453ab1474f05f0ac072d25c9acca67.deb
+Size: 230096
+MD5sum: 81be7441580cdc62b30d394dcb3f5aeb
+SHA1: 3bf004f4826b3bb71a8eef7bfcbc60bf3632b3e0
+SHA256: 896afaff27c1de1aad702b3f7d201f3905453ab1474f05f0ac072d25c9acca67
+SHA512: 8ed465200d72a9dd86a706871a8140e0683c50127c6ee983c6da29239d6fcb09346ce230ecb761c266066b8eb50af0cd6f1bf8720b8d9bfb8727d8bc49594a69
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64
+Version: 0.3.8
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 1924
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.crctdd.stayalivelite_0.3.8_iphoneos-arm64_37c0f6f28162c3e5e85b9bae7b2cf13036fff21d36722cebebc1f070cfce0680.deb
+Size: 232912
+MD5sum: aec7c190633622690f9a207acdd3e323
+SHA1: a2cb7bbf6ba1ebb6eb52dc085b7037f9241407fc
+SHA256: 37c0f6f28162c3e5e85b9bae7b2cf13036fff21d36722cebebc1f070cfce0680
+SHA512: 8e451ab6692db50282ad048a7a3e02ddcf2b41bbc8c90cfdfe14270a8cc23a03430c573b10e510268a5bbaa4eb6d316847c73d32f55b0a8d04828fcf416f09b1
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+
+Package: com.crctdd.stayalivelite
 Architecture: iphoneos-arm64e
 Version: 0.1.7
 Section: 工具
@@ -1767,6 +1801,40 @@ MD5sum: a4db97c22ac94308f2277169c5cdacd2
 SHA1: 50f3131ea16b5c802b1f3596f0b4e70bfd3121cf
 SHA256: 18c8ae379364124a709d08f50ede4a5a7764ba57e1d7c14d431bcf04fef50381
 SHA512: 7d16710613732baedcccb75cdc137f7f289e9adfadda69cbb3a9e1dc96837401b09155560bfa8bff436b204865c274735df62897f2b4bd95cb125f3bdce25122
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64e
+Version: 0.3.7
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 948
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.crctdd.stayalivelite_0.3.7_iphoneos-arm64e_f24255f93db3bd3232f2f6c97a1dbd2962d793901e8d3f12275c1c89df6b62f0.deb
+Size: 156524
+MD5sum: 95a8a9004a1c9389f4fc9bad8c6bdd1c
+SHA1: 81d90f2ab05d47354dba007c05eec36b630b5d49
+SHA256: f24255f93db3bd3232f2f6c97a1dbd2962d793901e8d3f12275c1c89df6b62f0
+SHA512: d417e24b3168b973de9527ea2f6b02f9b2f33ab11106446e498e0ab09a18fb6ca8f7512587f985c1f72cb51de90045b4a8cc0596a5596c2252944b9497446107
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64e
+Version: 0.3.8
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 948
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.crctdd.stayalivelite_0.3.8_iphoneos-arm64e_0f0499b0fa7e5f2caf0c31b17857225f792af17f5fbcd7f044a22f1c755e6f8f.deb
+Size: 158064
+MD5sum: d606ce58e2f46236f6c65fb89ba6ff2d
+SHA1: 969435006553cbe67728a10fdb23111e0f17817d
+SHA256: 0f0499b0fa7e5f2caf0c31b17857225f792af17f5fbcd7f044a22f1c755e6f8f
+SHA512: 9f2f302bc101ed6332716fe29819f5459fc9e7db9205b67335f36a5168dbfad7e1b932d0cc14383575a0859a6952da02f830095b42570a2d66daac515ad7c08f
 Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
 Name: StayAlive Lite
 Author: crctdd
@@ -4005,6 +4073,23 @@ Name: MUtool(roothide)
 Author: Muzi
 Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.ngkhoi.26home
+Architecture: iphoneos-arm64e
+Version: 1.3.3-unlock-persist-zh-roothide
+Section: Tweaks
+Maintainer: ngkhoi
+Installed-Size: 29320
+Depends: mobilesubstrate | ellekit, preferenceloader
+Filename: debs/iphoneos-arm64e/com.ngkhoi.26home_1.3.3-unlock-persist-zh-roothide_iphoneos-arm64e_60d4745031673ede8c4a57d651ec315e5f1307df1077fca60990730b0adb4af6.deb
+Size: 20041260
+MD5sum: 3ae5f33eedacbf35cb1bb06b4fa70a63
+SHA1: 8960cfa403cf67473f2cabee965d63a049313f2f
+SHA256: 60d4745031673ede8c4a57d651ec315e5f1307df1077fca60990730b0adb4af6
+SHA512: 11247e4f05f36b24e10f5c8b36f6c07422f4be8cd19b0a155f9da08c258231f15821d0af4e25e435334d7a63933b18e2c37cfe4418e32143e778282f2249ad67
+Description: 26Home Chinese RootHide build with icon persistence after unlocking.
+Name: 26Home
+Author: ngkhoi
 
 Package: com.nx.stheno
 Architecture: iphoneos-arm64
