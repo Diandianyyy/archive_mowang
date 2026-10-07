@@ -4430,6 +4430,49 @@ Author: 热心网友
 dev: 君临
 Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
 
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64
+Version: 2.0.5
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 3112
+Depends: firmware (>= 16.0.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64/com.qq391160.cpucore_2.0.5_iphoneos-arm64_5693e34911073c0e0c9965b4c3dd3bc16ef422dc24461eacf2f238fe41c5628a.deb
+Size: 462152
+MD5sum: 6972f83b2316cee209d4bffdbe7c94de
+SHA1: 948096608a787f6295bdedecaa5f5cb62b82ae77
+SHA256: 5693e34911073c0e0c9965b4c3dd3bc16ef422dc24461eacf2f238fe41c5628a
+SHA512: 5d56a774e7260fbffb6391bff5455252ef4d231a26413eaa2fbb9ca69bb03e81a9974070b7ef7ae3b2a2d5d85453f67f62c53030e0f39e7f2f15b1c1971f9b3d
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64e
+Version: 2.0.5
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 3112
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64e/com.qq391160.cpucore_2.0.5_iphoneos-arm64e_7c042aa0425d11f71dbcbd3da44ed5331440d45a96fd8b7d9a5cd2645b0bd357.deb
+Size: 1674082
+MD5sum: 28de45ec85bd1b3339341a996ae289ce
+SHA1: b2aec21ef0fa5f4e3e1619742382f38ee1ea0f48
+SHA256: 7c042aa0425d11f71dbcbd3da44ed5331440d45a96fd8b7d9a5cd2645b0bd357
+SHA512: ee138a5ee7e1ff12baa061046f21512ad4a7534d626e38c11bb9b3928d265d4522feaeec94646a819a8f5e2db1565d500ef57b40bc06bdb2e3f4c3039e530d03
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
 Package: com.sbcpu.floating
 Architecture: iphoneos-arm64
 Version: 4.61
@@ -4868,6 +4911,23 @@ SHA256: 25a890611f9dc443fd2f68154c7a7608bdc410a8094d1acf2c24544f4486437e
 SHA512: 05fb000dc0d9f168548d7f584d2adebee787a4b516cc5b87d23e0051ae6024913c4844e90ed81e7f068982bfc8572290bd9465860739365991cf48ad78b77a77
 Description: 修改温控 bug：极限满频全局状态同步与 App/桌面切换掉频修复；新控制器注册后立即继承当前性能模式。保留系统与硬件临界温度安全保护。
 Name: SB CPU Floating
+Author: MoWang
+
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64
+Version: 5.0
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3100
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.sbcpu.floating_5.0_iphoneos-arm64_2913ab96eb00176e4a577443c6c839b94ec2ed9861bac83b61f67727504ef623.deb
+Size: 1101562
+MD5sum: 66fec8ce13bb17e724a334dfa4e771a9
+SHA1: f55336e48ddaa395b6d64b110fddcb83dcf4ca15
+SHA256: 2913ab96eb00176e4a577443c6c839b94ec2ed9861bac83b61f67727504ef623
+SHA512: 1e49721939cceccb5c28daf6e0d918d869278d60772563d0956d42dfa0a87b9f56bd06d5051f252a55109fcdc93acb50f5a7b7fc159f3708c9636c5aec73ffa5
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
+Name: 灵动监测
 Author: MoWang
 
 Package: com.sbcpu.floating
@@ -5321,6 +5381,23 @@ SHA256: d34e5e6b67aa9c619162ef8bcdef3ee878c877ef6504d2e2e664280f3f743100
 SHA512: 610e3e2f8410ccdfb45ca2ca89d870ff7a20966690f5506842bcba55be461922d402023c40d55cc17b3fa870450c850afd096c4446f3c2bc377872137e4d9ec1
 Description: 修改温控 bug：极限满频全局状态同步与 App/桌面切换掉频修复；新控制器注册后立即继承当前性能模式。保留系统与硬件临界温度安全保护。
 Name: SB CPU Floating
+Author: MoWang
+
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64e
+Version: 5.0
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3080
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.sbcpu.floating_5.0_iphoneos-arm64e_fccc2e26e191f247d156764a2c401cbab756e32ec6f34fa97cbfd525cdea4eaf.deb
+Size: 1091432
+MD5sum: eeadbd2cc998c0c1c48a42af01963902
+SHA1: 8d73e2ce418392fa6a11ddeb37e22606a33664d8
+SHA256: fccc2e26e191f247d156764a2c401cbab756e32ec6f34fa97cbfd525cdea4eaf
+SHA512: cc9a6e2c071a5fdc25f13659bbca51a09eb6d531382735046434ed83a5376095628ae3ddf5d29bb5ff72b5c962d7d24aeb16850e6cf025ce8f5c1e675609efa7
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
+Name: 灵动监测
 Author: MoWang
 
 Package: com.shtm.amplify
@@ -6852,6 +6929,40 @@ Description: iOS 26 风格「液态玻璃」系统 UI 美化插件：分阶段�
   - 本包为 RootHide（arm64e）版
 Name: SBLiquidGlass
 Author: MoWang
+
+Package: iya.banana.billie.ambientbadge
+Architecture: iphoneos-arm64
+Version: 0.1.15
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 704
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/iya.banana.billie.ambientbadge_0.1.15_iphoneos-arm64_5c59a4786b3ed03b5f76b1f19abcbb4d03922bb9888c99b673e66edf6ef661f7.deb
+Size: 106686
+MD5sum: 7316bda79770ca3c784c27134676ee25
+SHA1: 4a03e224505f7d9e9f427fa8e63cfd233872516a
+SHA256: 5c59a4786b3ed03b5f76b1f19abcbb4d03922bb9888c99b673e66edf6ef661f7
+SHA512: 6eb0b8c421a18ea7cc523cb0216dd48fce2ac0554ae529b646039def7fcce14849f77b9de1f97baff7de92359a4411234bd9669232d841355a0c7e730c50133c
+Description: Custom notification badge styles with adaptive ambient glow. For Billie.
+Name: AmbientBadge
+Author: Banana
+
+Package: iya.banana.billie.ambientbadge
+Architecture: iphoneos-arm64e
+Version: 0.1.15
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 704
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/iya.banana.billie.ambientbadge_0.1.15_iphoneos-arm64e_187738883535c14350b8c8e8fe4fce3ac0495aaf2501a76890e0d689465e9df1.deb
+Size: 106586
+MD5sum: 14367bd78f512f7d1c561fc818fb4be6
+SHA1: 7b17fa4188180b99c30f500140f62950c4c30da2
+SHA256: 187738883535c14350b8c8e8fe4fce3ac0495aaf2501a76890e0d689465e9df1
+SHA512: 2ed486f314f7d5dae8b53a86822976f825d5d2f3a66ce767c7b37a71d714d5c763fc4948d304e20f4ad79510a75407bc76d30cb69c82028693a8db3dc8a6ff4d
+Description: Custom notification badge styles with adaptive ambient glow. For Billie.
+Name: AmbientBadge
+Author: Banana
 
 Package: iya.banana.iphoneduoicon
 Architecture: iphoneos-arm64
