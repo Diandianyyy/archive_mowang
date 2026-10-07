@@ -2983,6 +2983,40 @@ Name: 德发素材仓（免授权）
 Author: 德发
 SileoDepiction: https://tlzypjy.github.io/jb-repo/depictions/com.liuf.wxyj.json
 
+Package: com.mathelord.infobar
+Architecture: iphoneos-arm64
+Version: 1.2.0
+Section: Tweaks
+Maintainer: mathelord
+Installed-Size: 480
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.mathelord.infobar_1.2.0_iphoneos-arm64_fc2d40e4fafb2d2709d03996e5c738a07a0aed3681487fbac28e3cbebf4f9d54.deb
+Size: 53700
+MD5sum: eb1845858f3e82ba042815c53b7b560f
+SHA1: a2244f909b6cd126e3956dd7dcd053dd49d106d2
+SHA256: fc2d40e4fafb2d2709d03996e5c738a07a0aed3681487fbac28e3cbebf4f9d54
+SHA512: af57894ce6a828c5a45c5d2b3e89dc42e115cbff8fb003fed4b2e9cdf2c9bb207f423599ce02e90ae2746d642e06f9557c6ab8e347ce0523ced7a52518e646e2
+Description: Movable overlay showing CPU, RAM, battery, network and system info. Pin it in place, collapse it, and configure everything in Settings.
+Name: InfoBar
+Author: mathelord
+
+Package: com.mathelord.infobar
+Architecture: iphoneos-arm64e
+Version: 1.2.0
+Section: Tweaks
+Maintainer: mathelord
+Installed-Size: 480
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.mathelord.infobar_1.2.0_iphoneos-arm64e_fb95e402c5f355dfe18ca1c1fbab97e263aa927f87fcb8428e0aef8864c518ed.deb
+Size: 53720
+MD5sum: 2ae0831c878e390dcf23afada1cbed5a
+SHA1: b6327b3c34f698a336289500ce7d9e5ebfcb554c
+SHA256: fb95e402c5f355dfe18ca1c1fbab97e263aa927f87fcb8428e0aef8864c518ed
+SHA512: 7b528452f5536de3f0ba9eef01bb7c17ef16ce77c74f294ba478af641dadbf63254dfe2baa088698a7f56900e345e29524da3f12130767983bd30502f3f976c1
+Description: Movable overlay showing CPU, RAM, battery, network and system info. Pin it in place, collapse it, and configure everything in Settings.
+Name: InfoBar
+Author: mathelord
+
 Package: com.minis.lockscreengradientclock
 Architecture: iphoneos-arm64
 Version: 1.5.1
