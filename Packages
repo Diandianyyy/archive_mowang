@@ -1687,6 +1687,23 @@ Name: StayAlive Lite
 Author: crctdd
 
 Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64
+Version: 0.3.9
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 1928
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.crctdd.stayalivelite_0.3.9_iphoneos-arm64_bb03ef3028ef1e6423de392e924e79125c0aef9ac4afd90fc3aaef0c87ffaa84.deb
+Size: 236694
+MD5sum: 76c1bccdb7f1396422d85f37c8c24b85
+SHA1: 8139c6a7c37386ed6e75da7af5323a52f361880d
+SHA256: bb03ef3028ef1e6423de392e924e79125c0aef9ac4afd90fc3aaef0c87ffaa84
+SHA512: fe24c64e35e3dc0121344166c2af86f323b91a792495fd0a815e9313626c543c34b5c9645736970588f533b6c38212f6fffd2885e39505183b2e86359cb994f5
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+
+Package: com.crctdd.stayalivelite
 Architecture: iphoneos-arm64e
 Version: 0.1.7
 Section: 工具
@@ -1835,6 +1852,23 @@ MD5sum: d606ce58e2f46236f6c65fb89ba6ff2d
 SHA1: 969435006553cbe67728a10fdb23111e0f17817d
 SHA256: 0f0499b0fa7e5f2caf0c31b17857225f792af17f5fbcd7f044a22f1c755e6f8f
 SHA512: 9f2f302bc101ed6332716fe29819f5459fc9e7db9205b67335f36a5168dbfad7e1b932d0cc14383575a0859a6952da02f830095b42570a2d66daac515ad7c08f
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64e
+Version: 0.3.9
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 984
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.crctdd.stayalivelite_0.3.9_iphoneos-arm64e_8b415d196652bdef852da5f6b39f4f43d539a4cb93d906c8a5c2d03a8f0db736.deb
+Size: 160458
+MD5sum: 2569ca21ef1fb00ebc22cdfacbc60cdd
+SHA1: 7c4b2e4dbed3da9919b9ad78b10f847513fb829c
+SHA256: 8b415d196652bdef852da5f6b39f4f43d539a4cb93d906c8a5c2d03a8f0db736
+SHA512: c9f38e636c9e9f32a78739ee9d93d18134f9da38980e8f2ebe1eececd3d2d1bbe1d4e127b088b08b823c5f95fa7e6f42e3b92bcff0f76110ac8641cc07def406
 Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
 Name: StayAlive Lite
 Author: crctdd
@@ -3095,6 +3129,40 @@ Name: 88 液态锁屏时间渐变
 Author: MoWang
 
 Package: com.minis.lockscreengradientclock
+Architecture: iphoneos-arm64
+Version: 2.0.6
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 900
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.minis.lockscreengradientclock_2.0.6_iphoneos-arm64_1b6413f5df0a357edc6982c09590753ad43f848b592134296041a2fdd1964524.deb
+Size: 246334
+MD5sum: 17d77255b52050b707c82aca5f61e05e
+SHA1: 4b5279bdea88dab0b051d45f88602fdc5ab31226
+SHA256: 1b6413f5df0a357edc6982c09590753ad43f848b592134296041a2fdd1964524
+SHA512: cfd1014bd5ae86afc10fc76dd5697cc3055d39eb4bebe0ad52cdd9689d5fe6e7122dce66b18d588da6e405cc083ade3c3a049811bff1bcf2af5b243d6a89825f
+Description: Configurable Lock Screen clock gradient.
+Name: 独立锁屏时间渐变
+Author: MoWang
+
+Package: com.minis.lockscreengradientclock
+Architecture: iphoneos-arm64
+Version: 2.0.8
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 876
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.minis.lockscreengradientclock_2.0.8_iphoneos-arm64_5230d41f415a82703ff20e211ea45b5be5d0f8c262335473812089ca35023f20.deb
+Size: 397874
+MD5sum: 1a37ff41c112d5adeba83f350b64e925
+SHA1: 894f07da1b2264575508ad012cb0c7b67bc6874d
+SHA256: 5230d41f415a82703ff20e211ea45b5be5d0f8c262335473812089ca35023f20
+SHA512: 697e4cd1dac955529a3ea7e9670c3f2d3cec77c90d5a35db7b39d1e35d88b7a6411288cb48bc37385c28633612a3b09291e878ff70b91e305759d0885436eb7a
+Description: 独立的时间锁屏，不依赖 88 液态锁屏时间。如果继续想用 88 液态那种效果，不建议升级，
+Name: 独立锁屏时间渐变
+Author: MoWang
+
+Package: com.minis.lockscreengradientclock
 Architecture: iphoneos-arm64e
 Version: 1.5.1
 Section: Tweaks
@@ -3169,6 +3237,40 @@ SHA256: e6afd07c76d138c886688f25c6b357fc0f0c3cc060aa3b8ae6e6778456651e84
 SHA512: 3696b97032218619925ae82da42b8b957d79d3fdba569a4b74d1915ae9a13906dfe8ebcdea241c6475a99f64ce812e3f30456cd4d435418ea81dc7e6dfde26eb
 Description: 更新说明：修复注销后日期和农历不渐变
 Name: 88 液态锁屏时间渐变
+Author: MoWang
+
+Package: com.minis.lockscreengradientclock
+Architecture: iphoneos-arm64e
+Version: 2.0.6
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 900
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.minis.lockscreengradientclock_2.0.6_iphoneos-arm64e_fd379133b812f207d94f2eeaa7bc34e3bd9f0e7788ab1adee45b4c7a84d9bc18.deb
+Size: 246342
+MD5sum: 571ca6ec92917706fa7853820bddb886
+SHA1: c27b35bfeb516415c6f6a687eb0087be71980352
+SHA256: fd379133b812f207d94f2eeaa7bc34e3bd9f0e7788ab1adee45b4c7a84d9bc18
+SHA512: 8f354138962e5f2bf9a53bf644088ea4ef650b2cbf4aaa406620bc07f4cb4f9e231250608f78d82d8b9d030d8413900e770eeeb7d748d0aa8fc9cca9cd947139
+Description: Configurable Lock Screen clock gradient.
+Name: 独立锁屏时间渐变
+Author: MoWang
+
+Package: com.minis.lockscreengradientclock
+Architecture: iphoneos-arm64e
+Version: 2.0.8
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 876
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.minis.lockscreengradientclock_2.0.8_iphoneos-arm64e_a49735ebf4a01de29f48105a1eca304929ab9b8e74b134ffa6ba68dc2237406b.deb
+Size: 397554
+MD5sum: 226ba829fb1468b8b12b6a458d73df59
+SHA1: 3ba693d6c99658dac188a9587726f491c9aeace3
+SHA256: a49735ebf4a01de29f48105a1eca304929ab9b8e74b134ffa6ba68dc2237406b
+SHA512: 7dba074c3432ebd7e602a61b54838cb639a14437c9379dd68b022391a2b8435cc63d3ce40da8d7ed6f96a572155f4f9a4419d4819dede17ef33676965ffc8033
+Description: 独立的时间锁屏，不依赖 88 液态锁屏时间。如果继续想用 88 液态那种效果，不建议升级，
+Name: 独立锁屏时间渐变
 Author: MoWang
 
 Package: com.minis.rainbowkeyboard
@@ -4965,6 +5067,23 @@ Name: 灵动监测
 Author: MoWang
 
 Package: com.sbcpu.floating
+Architecture: iphoneos-arm64
+Version: 5.1
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3100
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.sbcpu.floating_5.1_iphoneos-arm64_222f943e2e9ffe690c4782a2f7359c0e2362b108ba382470a20ea9e49b7a246b.deb
+Size: 1101766
+MD5sum: cb9f062c7edfaac02b41f20ce819c65e
+SHA1: 77b763a1fab135dcfa1213b1a26467d1c98690d6
+SHA256: 222f943e2e9ffe690c4782a2f7359c0e2362b108ba382470a20ea9e49b7a246b
+SHA512: 8a90d77a51be522b34385a319ab2ee27ff9ac128807b2a4ab6f0fa9902a534bfdb794e28a53de2ea5385a10f289ba7d50ba2802a441f2e58bc823d4b54bc426a
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
+Name: 灵动监测
+Author: MoWang
+
+Package: com.sbcpu.floating
 Architecture: iphoneos-arm64e
 Version: 4.63
 Section: Tweaks
@@ -5430,6 +5549,23 @@ MD5sum: eeadbd2cc998c0c1c48a42af01963902
 SHA1: 8d73e2ce418392fa6a11ddeb37e22606a33664d8
 SHA256: fccc2e26e191f247d156764a2c401cbab756e32ec6f34fa97cbfd525cdea4eaf
 SHA512: cc9a6e2c071a5fdc25f13659bbca51a09eb6d531382735046434ed83a5376095628ae3ddf5d29bb5ff72b5c962d7d24aeb16850e6cf025ce8f5c1e675609efa7
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
+Name: 灵动监测
+Author: MoWang
+
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64e
+Version: 5.1
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3080
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.sbcpu.floating_5.1_iphoneos-arm64e_2347a1228087265962af397ab91f530d9fd2259370fd01ab6e151acff56a0b65.deb
+Size: 1091834
+MD5sum: c9abfa4dc1dca40ad6b770ea81bab84e
+SHA1: d67b4ab6f1d08062c7f3a1918c3a1874a48f4635
+SHA256: 2347a1228087265962af397ab91f530d9fd2259370fd01ab6e151acff56a0b65
+SHA512: 22e76e82225199e4969606ad9c46846ab1e68689b36f67b5e3c889071b7c77ec1719cbb85da4525927f299ec37598107b0823cbec07d65a70d7f0ad49732b33d
 Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
 Name: 灵动监测
 Author: MoWang
@@ -7727,6 +7863,60 @@ SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
 Author: OwnGoal Studio <no-reply@owngoal.dev>
 
 Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64
+Version: 4.5.23
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 18844
+Depends: firmware (>= 16.0)
+Filename: debs/iphoneos-arm64/wiki.qaq.irisin_4.5.23_iphoneos-arm64_de2c6277551949da6a263b38b609bae5540711694890553f3d911a1f22f8b488.deb
+Size: 5691720
+MD5sum: 95d4482e1998b674d1a954c114d1aaca
+SHA1: 9edb4cc6c9d3376a603f0fd2732c312c825708d8
+SHA256: de2c6277551949da6a263b38b609bae5540711694890553f3d911a1f22f8b488
+SHA512: e4dfcc405e1f165be4261acd78526a4f7da38005f944fbbb52ef0837488901d9a2f6f7e9a1f5e1f76de4e68d7adfa11841c863fcfa1f9051a8fa5dcc725f1917
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64
+Version: 4.5.24
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 18892
+Depends: firmware (>= 16.0)
+Filename: debs/iphoneos-arm64/wiki.qaq.irisin_4.5.24_iphoneos-arm64_eaf779eee835bcf4499798d1de5e801303bf91cd838bc8f4df7d1acd4a836b5c.deb
+Size: 5706548
+MD5sum: 5af7174a3fa32efe1c396f6cd60d453e
+SHA1: d3a99c03433998e6318e79bf68bffa0c1fdde140
+SHA256: eaf779eee835bcf4499798d1de5e801303bf91cd838bc8f4df7d1acd4a836b5c
+SHA512: 50a6d2ef1c85e32be8624ff3a531e21941ee3bdc95525674f4806584f19b3893b1e7f8bdaff12c1f33f6f500ec394c1a4be79ddef0d021b6f60f59f6762ca0f5
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
 Architecture: iphoneos-arm64e
 Version: 4.5.14
 Priority: optional
@@ -7848,6 +8038,60 @@ MD5sum: 361c3362c482f48327d2e4de119defc3
 SHA1: ab7e1c91a72aff0c4cf40de12c11627f5a144afb
 SHA256: c19c51decb5f148ff40956c593e389ffe371932450b34e19a9fae736f2b06149
 SHA512: cd9ef786018b98f2c1cfb06c7b4293d0b4530e2b6ddd84f28eb5824fb2d640e46316167f966081e7f342eaed225299522862f32e8979675b4d2c3fe1931e69e2
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64e
+Version: 4.5.23
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 18844
+Depends: firmware (>= 16.0)
+Filename: debs/iphoneos-arm64e/wiki.qaq.irisin_4.5.23_iphoneos-arm64e_c911a9a7af984da663ba90b990de351b24557ff7c39998e059abdce39870214e.deb
+Size: 5692972
+MD5sum: ca587fbd576fd99242b15b88cce98c3b
+SHA1: b9c71c4d3ed95c54d14d50283fbec3af2acc6242
+SHA256: c911a9a7af984da663ba90b990de351b24557ff7c39998e059abdce39870214e
+SHA512: 064f156a03e13bfacaa1369b9cf07962841881b8adb59bc8c523826d6d47cf7203b7e7f321c2df871ed1566e78bdc21669e237360d87bac70030b16f4d86cc65
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64e
+Version: 4.5.24
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 18892
+Depends: firmware (>= 16.0)
+Filename: debs/iphoneos-arm64e/wiki.qaq.irisin_4.5.24_iphoneos-arm64e_fc91a359544bdad14cf23844e1389df12513194d6020cc0f55e47c4c482c54c6.deb
+Size: 5705604
+MD5sum: 028773fce8f6a76df17188af1905bf5e
+SHA1: a60f6279a47fb3bf173f51926aa8e5c4943f25c0
+SHA256: fc91a359544bdad14cf23844e1389df12513194d6020cc0f55e47c4c482c54c6
+SHA512: c4dd91b0d1e34bdde4037f01317632bd2ce0953b7c671b0d353e386136107d124785e10d78150ace712956ba8a167e85eac545ea2bbee8eca76b969f05a7b76a
 Homepage: https://github.com/Lakr233/Irisin
 Description: Modern package manager for roothide custom firmware
  Browse your repositories, install and remove packages, keep tweaks updated
