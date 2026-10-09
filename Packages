@@ -993,6 +993,59 @@ Author: Axs
 Icon: https://axs66.github.io/pro/icon/switchicon.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/switchicon/js.json
 
+Package: com.axs.tweakshub
+Architecture: iphoneos-arm64
+Version: 5.2.0-58
+Section: Axs-Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 352
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.nightwind.onesettings, com.creaturecoding.shuffle, com.sop.settingsrevamp, com.hk.settingsrevamp, com.dao.settingsrevamp, byg.iosios.net.settingsrevamp
+Filename: debs/iphoneos-arm64/com.axs.tweakshub_5.2.0-58_iphoneos-arm64_2874b6a4b9c36dcfa570f998e34ea86de522f70d717538df595b1f42e760ae98.deb
+Size: 20876
+MD5sum: fb3d870c860f60f220433681d40c2244
+SHA1: e3c77c43293f4616c21ff386097c18e9ded707e5
+SHA256: 2874b6a4b9c36dcfa570f998e34ea86de522f70d717538df595b1f42e760ae98
+SHA512: c5e728a0848f9ca75386523c72b821a8554c7802bc2dc64ffcae2ee091de321a31befe8a7971dbe0c8977a4d25c21b098dc4bfd97bee97595df3a428aa39ba2e
+Description: 集中收纳统一管理越狱插件与第三方 App 设置，一处直达。
+ * 设置首页同组并排两个入口：越狱插件 + 应用软件
+ * 自动隐藏其他插件的首页独立入口，整组收纳系统第三方 App 设置
+ * 越狱插件面板递归聚合所有已装插件设置
+ * 应用软件面板收录第三方 App 设置入口（点击仍进原生设置页）
+ * 支持 Prefs:root=TWEAKS_CELL / TWEAKS_APPS_CELL 深链直达
+Name: TweaksHub
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/tweakshub.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/tweakshub/js.json
+
+Package: com.axs.tweakshub
+Architecture: iphoneos-arm64
+Version: 5.2.0-79
+Section: Axs-Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 492
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.nightwind.onesettings, com.creaturecoding.shuffle, com.sop.settingsrevamp, com.hk.settingsrevamp, com.dao.settingsrevamp, byg.iosios.net.settingsrevamp
+Filename: debs/iphoneos-arm64/com.axs.tweakshub_5.2.0-79_iphoneos-arm64_9c327c776ee7e1a5780588d5d1891d03be09bc570117de3732b14c11e814d48c.deb
+Size: 53962
+MD5sum: 74222ed81d989eb85a58a76bde611921
+SHA1: 39327099892ea46a93cc1cdd0c3c666c1af97ac7
+SHA256: 9c327c776ee7e1a5780588d5d1891d03be09bc570117de3732b14c11e814d48c
+SHA512: 7901524e1e95abd54b800f3b7590593a20766db3a7f9050bd85071161e93e076603eeb68236e3bb3b1c9cf13b5b54e4ace3188c355d6e1edc28ca3877d3a5c17
+Description: 集中收纳统一管理越狱插件与第三方 App 设置，支持插件自定义名称和图标。
+ * 设置首页同组并排两个入口：越狱插件 + 应用软件
+ * 自动隐藏其他插件的首页独立入口，整组收纳系统第三方 App 设置
+ * 越狱插件面板递归聚合所有已装插件设置
+ * 应用软件面板收录第三方 App 设置入口（点击仍进原生设置页）
+ * 支持 Prefs:root=TWEAKS_CELL / TWEAKS_APPS_CELL 深链直达
+ * 「附加功能」新增屏蔽部件与维修记录（隐藏非原装电池、维修记录相关提示行）
+ * 「附加功能」新增屏蔽系统更新提示（隐藏设置首页「现有 iOS xx 可用」行）
+ * 「附加功能」新增自定义插件名称与图标，图标放进 /var/mobile/Axs/TweaksHub/ 即可用
+Name: TweaksHub
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/tweakshub.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/tweakshub/js.json
+
 Package: com.be-huge.floating-view
 Architecture: iphoneos-arm64
 Version: 1.6.0-6
@@ -1782,6 +1835,23 @@ Name: StayAlive Lite
 Author: crctdd
 
 Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64
+Version: 0.4.0
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 1944
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.crctdd.stayalivelite_0.4.0_iphoneos-arm64_ca55a795340ecdbde911e2be4e35abacb20f91d96408b72d1ec75e7eac84b7b1.deb
+Size: 239908
+MD5sum: f512beaebcd9ed88bca98b2459c61ef2
+SHA1: 1acac69fc1f0ccadcd93a55fe44920396352f9a1
+SHA256: ca55a795340ecdbde911e2be4e35abacb20f91d96408b72d1ec75e7eac84b7b1
+SHA512: cc69f9ff58221d83bd872fb5aac2e62867ecc4374fe6595670d7e998e0bc7813ae55e097d9ed3115e9347c16630a491250674224c613c792d64b84032db28356
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+
+Package: com.crctdd.stayalivelite
 Architecture: iphoneos-arm64e
 Version: 0.1.7
 Section: 工具
@@ -1950,6 +2020,42 @@ SHA512: c9f38e636c9e9f32a78739ee9d93d18134f9da38980e8f2ebe1eececd3d2d1bbe1d4e127
 Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
 Name: StayAlive Lite
 Author: crctdd
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64e
+Version: 0.4.0
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 1000
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.crctdd.stayalivelite_0.4.0_iphoneos-arm64e_7176bff7e391fe048c4ba218afa4237f1965561117e1e9f2718e3d0bf25ebd71.deb
+Size: 162052
+MD5sum: 9917ecc2e7b82d01c0a7a2b16b38c10b
+SHA1: 1cd7634986c1ef854283d1cde276cd1addf1dfde
+SHA256: 7176bff7e391fe048c4ba218afa4237f1965561117e1e9f2718e3d0bf25ebd71
+SHA512: 9c0f4d664643cdcd3e6b5ecce68494be4aa88e47037dc6b305a9c75fd35caeb3dde7ad7118dac1c7947a6f85c84b6bb126957940579e0225297b8b166695c74b
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+
+Package: com.doimty.promotion
+Architecture: iphoneos-arm64e
+Version: 1.0.14-1
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 108
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/iphoneos-arm64e/com.doimty.promotion_1.0.14-1_iphoneos-arm64e_b96bfa462178b034897400cec04cdbd334a27453f8582f6738de0dc6e7c741ff.deb
+Size: 19460
+MD5sum: 4104e1df96fd208defcebf7a065634eb
+SHA1: 6753b547c235583176256c2bdcd0d2c4e21b09df
+SHA256: b96bfa462178b034897400cec04cdbd334a27453f8582f6738de0dc6e7c741ff
+SHA512: a11a5a4daaf01a7547860465610080f8a0e873016007d24354cc82d1e23591e4b156b886226ef990343f92eaffe0d6061bff40e8fdecb92ef93d92acfe0bb040
+Description: High-refresh policy tweak for supported iPhone Pro models, with app and system refresh requests and a persistent SpringBoard keepalive.
+Tag: supports::roothide
+Name: ProMotion 120Hz
+Author: doimty
 
 Package: com.go.mango
 Architecture: iphoneos-arm64
@@ -5537,6 +5643,23 @@ Name: 灵动监测
 Author: MoWang
 
 Package: com.sbcpu.floating
+Architecture: iphoneos-arm64
+Version: 5.7
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3424
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.sbcpu.floating_5.7_iphoneos-arm64_0764a538918b7d14385d89043e2153a2aa5c3601b29c7cdaab83e41e347b8d61.deb
+Size: 1129706
+MD5sum: aa36db1be55b3bbfe7b451bdc1ddb236
+SHA1: f24aaab36a8ddd34603c6eb28494179be8d04419
+SHA256: 0764a538918b7d14385d89043e2153a2aa5c3601b29c7cdaab83e41e347b8d61
+SHA512: 4d920d306aeab7690af1d248fd98f1a705a99abe1623f73ea79c9b0a0ab068f528d4b754812c28c8ac5b1518d29ecd8425ec6300ac789208fd85e57eddb5ce5e
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
+Name: 灵动监测
+Author: MoWang
+
+Package: com.sbcpu.floating
 Architecture: iphoneos-arm64e
 Version: 4.63
 Section: Tweaks
@@ -6108,6 +6231,23 @@ Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按�
 Name: 灵动监测
 Author: MoWang
 
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64e
+Version: 5.7
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3392
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.sbcpu.floating_5.7_iphoneos-arm64e_0571c9d9efeb906170c5b6c5252114800d0f753512d4f3b93b03e9a87a6fe571.deb
+Size: 1121310
+MD5sum: 950e2bb62b609b872778ad5186aa1292
+SHA1: a7abc67aba9fdcacde8d49b841d1a80e17fd3ce2
+SHA256: 0571c9d9efeb906170c5b6c5252114800d0f753512d4f3b93b03e9a87a6fe571
+SHA512: 9d35b53a2cbb87622eedbf2726c81a3f16da3a4e33776beda4391e594a14f007e0d62b15d9efa1c6d21791e088033ef3454b81f1b05bcf574c4a6a837c962532
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
+Name: 灵动监测
+Author: MoWang
+
 Package: com.shtm.amplify
 Architecture: iphoneos-arm64
 Version: 1.1-0beta2
@@ -6528,6 +6668,24 @@ Author: SuSu
 Icon: https://repo.susubaby.cn/icons/ScreenCore.png
 
 Package: com.susudear.screencore
+Architecture: iphoneos-arm64
+Version: 2.0.3
+Section: Tweaks
+Maintainer: SuSu
+Installed-Size: 2964
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/iphoneos-arm64/com.susudear.screencore_2.0.3_iphoneos-arm64_92ae17c4a8edd4c75e92f9807820b1390e58f0f72802546f532618215f832fc5.deb
+Size: 464436
+MD5sum: ce7615aa014a4b34d984fa9186277a91
+SHA1: 96052ca94781e9129fca18ef1af2f0f7e0428980
+SHA256: 92ae17c4a8edd4c75e92f9807820b1390e58f0f72802546f532618215f832fc5
+SHA512: 7d1adcdd8512c64cd39bd2f0ffb547004f0bc2204e66f65d3a03bd30e30017c4e9b9c313dbb583b08841311a0e0ebf9b8793b94ca93b6a63aa396a6fa84d682d
+Description: 分屏而已
+Name: ScreenCore
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+
+Package: com.susudear.screencore
 Architecture: iphoneos-arm64e
 Version: 1.0.7
 Section: Tweaks
@@ -6684,6 +6842,24 @@ MD5sum: 38cf7d4f825e8e056a0a0685a6d27563
 SHA1: f51001bc4024a76c05c862d7d23f6ebc4eef8efe
 SHA256: 37f2797c6c92b73f93ca1d9d1f22ebf43add1f31bb05207fa8b99444f3721ef9
 SHA512: 5fa5ae678d91ffd93536d644881801942b8394b7e9d80ba16f5d5d91be99608cb0dd42784af1d2d8c3b49fcc6ee39fb2951b1e24db522f40e0ede26ae882fdbd
+Description: 分屏而已
+Name: ScreenCore
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+
+Package: com.susudear.screencore
+Architecture: iphoneos-arm64e
+Version: 2.0.3
+Section: Tweaks
+Maintainer: SuSu
+Installed-Size: 2964
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/iphoneos-arm64e/com.susudear.screencore_2.0.3_iphoneos-arm64e_99b5308fc6e2a8053e5531930893d54e6904cb01e6e921959e12e2957b879592.deb
+Size: 465980
+MD5sum: 78325457ae89a733d749954b034a13f8
+SHA1: e143327d204f10935f346dd78ad019adc24acc0a
+SHA256: 99b5308fc6e2a8053e5531930893d54e6904cb01e6e921959e12e2957b879592
+SHA512: 10ce8e1809a72b2b885dfbcc55f8f4d8f1da39b8bb6f35f95da8617f5ec3f030a920477387560dafcd277836c2ac2e62e35aad2a903644dec3e0fe7aed6bf7a7
 Description: 分屏而已
 Name: ScreenCore
 Author: SuSu
