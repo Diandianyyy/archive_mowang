@@ -3407,6 +3407,23 @@ Author: MoWang
 
 Package: com.minis.lockscreengradientclock
 Architecture: iphoneos-arm64
+Version: 2.0.18
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 960
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.minis.lockscreengradientclock_2.0.18_iphoneos-arm64_eb9d26b2946e42521fe36ff5cc3e3844576060dbe7768aebfe7239b6b3f87532.deb
+Size: 439100
+MD5sum: 5f1463a0f4facd56a58dd8696c0cad06
+SHA1: cf447ae4bd4471e65ffffcf4c082785df480a5f6
+SHA256: eb9d26b2946e42521fe36ff5cc3e3844576060dbe7768aebfe7239b6b3f87532
+SHA512: 189f3d03e644b5da4e386e4d08ac5522c323429dabd03995f2fda9dfdafa83f230bcdf67cd22c30513cfc5c898db45362d340381db1e8002d4e5569b430095b9
+Description: 新增充电胶囊，新增隐藏系统自带的目前电量和上滑解锁字样。
+Name: 独立锁屏时间渐变
+Author: MoWang
+
+Package: com.minis.lockscreengradientclock
+Architecture: iphoneos-arm64
 Version: 2.0.6
 Section: Tweaks
 Maintainer: MoWang
@@ -3530,6 +3547,23 @@ SHA1: 873019ca7895cd28825426606c1a345904d4cb0c
 SHA256: 2ecad02976c18c808dc2bc961a81b27bfcdbdd8c069b169308a89dac187dc112
 SHA512: e33b58c1f3863c2e88c2d91be958061726512982e57f2957638d551a48a269e74459098bf25310de1c8cb75f81b558d9b301795b9a4eb47939aa00e343c94d25
 Description: 新增隐藏原生时间，解决锁屏和亮屏出现原生字体闪烁
+Name: 独立锁屏时间渐变
+Author: MoWang
+
+Package: com.minis.lockscreengradientclock
+Architecture: iphoneos-arm64e
+Version: 2.0.18
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 960
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.minis.lockscreengradientclock_2.0.18_iphoneos-arm64e_eb836420410fff55daf707d99e9b1f94e8afb82875fa10bccca4bef3edec5f9c.deb
+Size: 438772
+MD5sum: 3b8278d0de246e0d349cbcd03d6230c2
+SHA1: 139bfa49256b507a9b2b168b54f303106b0bb2c9
+SHA256: eb836420410fff55daf707d99e9b1f94e8afb82875fa10bccca4bef3edec5f9c
+SHA512: 2e2b5887586719a6ec3e3afb4b9a34a9f6d61c3c4bab3dcf28ab7538d0f8aeb387e4cc663b5e5c9ae95ccb22659aadfd50114b4586f987c172c107ecc1a53955
+Description: 新增充电胶囊，新增隐藏系统自带的目前电量和上滑解锁字样。
 Name: 独立锁屏时间渐变
 Author: MoWang
 
@@ -5907,6 +5941,23 @@ Name: 灵动监测
 Author: MoWang
 
 Package: com.sbcpu.floating
+Architecture: iphoneos-arm64
+Version: 6.0
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3444
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.sbcpu.floating_6.0_iphoneos-arm64_fee95b5e6a70ebd5774b94c8d8f987a74b6800fea75c62fe169990f8eab3aa38.deb
+Size: 1158658
+MD5sum: 7f9445ef8b53f3072ad3088f4f8649c9
+SHA1: cf44b5eff19c0655dd34b0664c816c0d612157a5
+SHA256: fee95b5e6a70ebd5774b94c8d8f987a74b6800fea75c62fe169990f8eab3aa38
+SHA512: 71e90b0e2e6b17ec56ac450d23b41fefb16bac86bb445ad8ad2c1a83bb5e1d769a09157851b15e5c74f2eb47b0155a7e64dbfed138872dd2c13a260d186ccaf6
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复浮窗文字横屏不跟随，修复温控一些 bug，新增灵动岛保护开关，原双击浮窗打开设置改为双击浮窗锁定浮窗位置）
+Name: 灵动监测
+Author: MoWang
+
+Package: com.sbcpu.floating
 Architecture: iphoneos-arm64e
 Version: 4.63
 Section: Tweaks
@@ -6526,6 +6577,23 @@ SHA1: 2946f254e7b11961aecd5a23f281acca1a3e67e7
 SHA256: b62ddee0c357297eb7c36a8072a689a3e31b01c3ab0e04cc928cc45c1bf106f6
 SHA512: 269b291d7655b1d89da2fc6f20b21da0847bcf39e0438421e6897bf2b4e79419c867027f00839230d1527309cb34264c9a1e96f53ff201184c4a30c235f5c9c4
 Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（实时反色支持胶囊）
+Name: 灵动监测
+Author: MoWang
+
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64e
+Version: 6.0
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3444
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.sbcpu.floating_6.0_iphoneos-arm64e_62c2eb7eb7df5c5ef3970a2ab308059afbe935a85b0cb14dac6206f85bcd4074.deb
+Size: 1150888
+MD5sum: 61621dc0ce0002ff80b315482247b624
+SHA1: 318ae4741f47e9c6318195d3cdf2686d885c446c
+SHA256: 62c2eb7eb7df5c5ef3970a2ab308059afbe935a85b0cb14dac6206f85bcd4074
+SHA512: 157d7240853ec6e52f268209514431b34c6ed7c491436b2bf0321f3482b2a2e899223f4e98470d61917d766110118979f10823ec94700fe50036cfa37a16ed81
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复浮窗文字横屏不跟随，修复温控一些 bug，新增灵动岛保护开关，原双击浮窗打开设置改为双击浮窗锁定浮窗位置）
 Name: 灵动监测
 Author: MoWang
 
@@ -9523,6 +9591,36 @@ SileoDepiction: https://owngoal-dev.github.io/Inspector/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.inspector
+Architecture: iphoneos-arm64
+Version: 0.6.6
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 3864
+Depends: firmware (>= 13.0), uikittools, launchctl
+Filename: debs/iphoneos-arm64/wiki.qaq.inspector_0.6.6_iphoneos-arm64_10e77070134df713fdab366ccbfc7e9f918ce7f30db58407a9a1489fad74cc57.deb
+Size: 1297282
+MD5sum: a1bed9950cadea9346f128146447b6ce
+SHA1: 36fd02f61ab32067c1ee86db85d568ea7f1e4943
+SHA256: 10e77070134df713fdab366ccbfc7e9f918ce7f30db58407a9a1489fad74cc57
+SHA512: 199023bf94ed9c39b7c4bb7ca384062520d3cda32f9c9520a3af7d7d14f10960795186968c8076344ad80ca9b203126752a25019a918f01d3dc98f145d9188f0
+Description: Live process inspector for iOS on custom firmware (rootless)
+ See what your device is actually doing. Every running process, refreshed once a
+ second, with its CPU share, memory, thread count and owner. Search by name or
+ PID, sort by any column, filter down to system, user or app processes, and
+ pause the list to hold a moment still. Open a process for its threads, open
+ files and sockets, Mach ports, loaded modules, sandbox status and disk and
+ network use, then quit it, force quit it, or export the whole report. The
+ `inspector` command answers the same questions from a terminal. Available
+ in English, Simplified Chinese, Japanese, Russian, German, French, Spanish and
+ Arabic.
+Name: Inspector
+Icon: https://owngoal-dev.github.io/Inspector/icon.png
+Depiction: https://owngoal-dev.github.io/Inspector/
+SileoDepiction: https://owngoal-dev.github.io/Inspector/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.inspector
 Architecture: iphoneos-arm64e
 Version: 0.6.3
 Priority: optional
@@ -9566,6 +9664,36 @@ MD5sum: 6b9fd9e4844eb0b5c21967c955a982c8
 SHA1: 607f4dd4c4e3abcadc465732733a002eeaca9c66
 SHA256: 0bbf9bc62e403a11fd87994c7baf3f38373d4ff6d72df63621f50743140914fe
 SHA512: 7788282f2e129fc213009135f72b5666eb3b185cbfa36b16b8a677243fdcd63a12f61f08cc33dbc33d55f5dc1c8931d15989c7c49d6b150f4f5bddaf00315b14
+Description: Live process inspector for iOS on custom firmware (roothide)
+ See what your device is actually doing. Every running process, refreshed once a
+ second, with its CPU share, memory, thread count and owner. Search by name or
+ PID, sort by any column, filter down to system, user or app processes, and
+ pause the list to hold a moment still. Open a process for its threads, open
+ files and sockets, Mach ports, loaded modules, sandbox status and disk and
+ network use, then quit it, force quit it, or export the whole report. The
+ `inspector` command answers the same questions from a terminal. Available
+ in English, Simplified Chinese, Japanese, Russian, German, French, Spanish and
+ Arabic.
+Name: Inspector
+Icon: https://owngoal-dev.github.io/Inspector/icon.png
+Depiction: https://owngoal-dev.github.io/Inspector/
+SileoDepiction: https://owngoal-dev.github.io/Inspector/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.inspector
+Architecture: iphoneos-arm64e
+Version: 0.6.6
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 3864
+Depends: firmware (>= 13.0), uikittools, launchctl
+Filename: debs/iphoneos-arm64e/wiki.qaq.inspector_0.6.6_iphoneos-arm64e_3baf573f258454f566d17a73ec2fb0bbc9321163b9bd03bc3bd8cff88b8e56f2.deb
+Size: 1297104
+MD5sum: 7b3016e152d30bbc0739dfba31e49a02
+SHA1: 661e654cc45f6fdfac0478a91db7dbb33f2c8dc0
+SHA256: 3baf573f258454f566d17a73ec2fb0bbc9321163b9bd03bc3bd8cff88b8e56f2
+SHA512: 4e9a3c5feffe94aec145b9be18d4b82f25a75f53dc8732aadaea59402079c1191548d4ef3e6d4ea6a367612e3b5cf49d2746b0f23267eeefa62198df9ed0a117
 Description: Live process inspector for iOS on custom firmware (roothide)
  See what your device is actually doing. Every running process, refreshed once a
  second, with its CPU share, memory, thread count and owner. Search by name or
@@ -9799,6 +9927,33 @@ SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
 Author: OwnGoal Studio <no-reply@owngoal.dev>
 
 Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64
+Version: 4.5.27
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 17400
+Depends: firmware (>= 16.0)
+Filename: debs/iphoneos-arm64/wiki.qaq.irisin_4.5.27_iphoneos-arm64_ad0d03a3c5f8e1f65d4e82864fc6fc765d02f0f5fda4a0047d480b902e3a3ca1.deb
+Size: 4942948
+MD5sum: 0071d1fb841e4c2e752c0085e3c00dfb
+SHA1: abadf80564ac2e03806d5ea655ddc49300e50b79
+SHA256: ad0d03a3c5f8e1f65d4e82864fc6fc765d02f0f5fda4a0047d480b902e3a3ca1
+SHA512: 1f0dd1300f4b4767ef6728bfc2f5ee6a70a4d394fae3668a6c22bd6fc2bb7d94d9c634428d7356757c66989ae897803668e683f039c28c3d05ff9397216f6a0e
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
 Architecture: iphoneos-arm64e
 Version: 4.5.14
 Priority: optional
@@ -10001,6 +10156,33 @@ MD5sum: 69340edc64b4da50176cb2158407760a
 SHA1: 0b2b0f89f49e10c0a53504df4910f5b9a29162fe
 SHA256: 9cde7456ea65348b17774f2b50ed0714de77beb1ee72c1166a73548f8246a565
 SHA512: 3ae7c1df239634d28901acaa2a64b4c48034b6e5dd99eca9e3057322e1e8a4150f6a266729ce2e9345725e22f4edd1d75adc22b7131b4cd878712839d533707f
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64e
+Version: 4.5.27
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 17400
+Depends: firmware (>= 16.0)
+Filename: debs/iphoneos-arm64e/wiki.qaq.irisin_4.5.27_iphoneos-arm64e_10997c83a55512baae1d0b26fd311a38e3b9386e3cd03bc186657394dd579430.deb
+Size: 4942892
+MD5sum: 40f94a6b7a9ba73500fb06090e931a42
+SHA1: 38eab950afd4aa3ab19b8ea06731a4e49e110397
+SHA256: 10997c83a55512baae1d0b26fd311a38e3b9386e3cd03bc186657394dd579430
+SHA512: 1c95c75d22f00d0ea3fe93f8ee4883c601f55ac377c13a76e987d9729793e916518f41c353fe9fb86c4b67ea01f9652dc7c28e7418ae55d534b1b7eeeeb76e1b
 Homepage: https://github.com/Lakr233/Irisin
 Description: Modern package manager for roothide custom firmware
  Browse your repositories, install and remove packages, keep tweaks updated
