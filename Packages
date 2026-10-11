@@ -1869,6 +1869,23 @@ Name: StayAlive Lite
 Author: crctdd
 
 Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64
+Version: 0.4.1
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 2568
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.crctdd.stayalivelite_0.4.1_iphoneos-arm64_c461432292217c9a22103107fdb8ea16f792a9f48345461747165efe18c89777.deb
+Size: 280160
+MD5sum: bc3481e91f6dbd2f951e15032e24daad
+SHA1: 7c9de8bd369fce70001c6cff78b5eaf4a78cf704
+SHA256: c461432292217c9a22103107fdb8ea16f792a9f48345461747165efe18c89777
+SHA512: b086917e7372e0901a9d05da97a6a7d62219e4d982e00161624170c2f02ec054f2de9e3cb557b11e5dabec9cb0cfe36fee82e3013469bf9ded9fcca9c122bde5
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+
+Package: com.crctdd.stayalivelite
 Architecture: iphoneos-arm64e
 Version: 0.1.7
 Section: 工具
@@ -2051,6 +2068,23 @@ MD5sum: 9917ecc2e7b82d01c0a7a2b16b38c10b
 SHA1: 1cd7634986c1ef854283d1cde276cd1addf1dfde
 SHA256: 7176bff7e391fe048c4ba218afa4237f1965561117e1e9f2718e3d0bf25ebd71
 SHA512: 9c0f4d664643cdcd3e6b5ecce68494be4aa88e47037dc6b305a9c75fd35caeb3dde7ad7118dac1c7947a6f85c84b6bb126957940579e0225297b8b166695c74b
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64e
+Version: 0.4.1
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 1272
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.crctdd.stayalivelite_0.4.1_iphoneos-arm64e_854f2626019702e59b7a93d3dfdb4bacbf53fba67987651b0121e5422d9c98b7.deb
+Size: 188524
+MD5sum: 3fab3c10374a4ebd001a8e7bd10dedc0
+SHA1: 8a46cf937c6c39efcb292b9209967bf812d24eb1
+SHA256: 854f2626019702e59b7a93d3dfdb4bacbf53fba67987651b0121e5422d9c98b7
+SHA512: 1d5545aadcaf4ccdd5f3b697e222d40b18747f9f1848058392fe0236fc9748346db6a0259ec5dc95c31da79909139f4fae9e6ab3bb409589d3c2cba1669629e1
 Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
 Name: StayAlive Lite
 Author: crctdd
@@ -3441,6 +3475,40 @@ Author: MoWang
 
 Package: com.minis.lockscreengradientclock
 Architecture: iphoneos-arm64
+Version: 2.0.19
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 992
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.minis.lockscreengradientclock_2.0.19_iphoneos-arm64_22e747463a40204ad8cb8f3ba842a9636c16aee2f7f90366d7236701df9f471a.deb
+Size: 450854
+MD5sum: 57e6aa1fd4a892dd8c3846847eef02e4
+SHA1: 78eb32517c7fe5e6e656bcb823efee9b13434522
+SHA256: 22e747463a40204ad8cb8f3ba842a9636c16aee2f7f90366d7236701df9f471a
+SHA512: 7b1dec4880cbda1d78073c2a6a99f7c07ceabaddca0eb9d676b5d896220f1805d9f81d1ccf6cd6b43bbd9cd118d719dd528f10c470c540cf7c2e2e094a30b5e5
+Description: 修复无法隐藏原生目前电量显示
+Name: 独立锁屏时间渐变
+Author: MoWang
+
+Package: com.minis.lockscreengradientclock
+Architecture: iphoneos-arm64
+Version: 2.0.20
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 992
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.minis.lockscreengradientclock_2.0.20_iphoneos-arm64_3d7dbf8d5d3dfe7275fa13d75db29dbf44dedf9b6bd3354885b6bd74686b8536.deb
+Size: 452782
+MD5sum: 940e15ea3c81b87093574d2abdcced0e
+SHA1: 580026f97c0806b417191c12b34231112fcdd1c7
+SHA256: 3d7dbf8d5d3dfe7275fa13d75db29dbf44dedf9b6bd3354885b6bd74686b8536
+SHA512: d68d67ebba6ef92dc4934f5595eb096ffcdab15426635806083bbdd2f5a41e73261f8a359e5a5337abece5f786ce81775136cf94b5f501ccf3b28dadd3e9ef2a
+Description: 修复胶囊未充电显示
+Name: 独立锁屏时间渐变
+Author: MoWang
+
+Package: com.minis.lockscreengradientclock
+Architecture: iphoneos-arm64
 Version: 2.0.6
 Section: Tweaks
 Maintainer: MoWang
@@ -3581,6 +3649,40 @@ SHA1: 139bfa49256b507a9b2b168b54f303106b0bb2c9
 SHA256: eb836420410fff55daf707d99e9b1f94e8afb82875fa10bccca4bef3edec5f9c
 SHA512: 2e2b5887586719a6ec3e3afb4b9a34a9f6d61c3c4bab3dcf28ab7538d0f8aeb387e4cc663b5e5c9ae95ccb22659aadfd50114b4586f987c172c107ecc1a53955
 Description: 新增充电胶囊，新增隐藏系统自带的目前电量和上滑解锁字样。
+Name: 独立锁屏时间渐变
+Author: MoWang
+
+Package: com.minis.lockscreengradientclock
+Architecture: iphoneos-arm64e
+Version: 2.0.19
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 992
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.minis.lockscreengradientclock_2.0.19_iphoneos-arm64e_bd61fa40e129715888e23a97b3ca6cada6c3fd43183d0855af4d80416bcbee12.deb
+Size: 450520
+MD5sum: 00eca94bfc0be2a36b675e8f2e572764
+SHA1: ec5c6ea66bdf02079e179e00ca56114a31d1ce6e
+SHA256: bd61fa40e129715888e23a97b3ca6cada6c3fd43183d0855af4d80416bcbee12
+SHA512: 40b873713bb3d05fd38fa12a2f1c8ac40ffb47f67ff3be5cc18bbf8b70eb2f039595c12f8ea6ef7aee1d1afd9c3dc5d0406849e55d7e78f964aeef7beca06708
+Description: 修复无法隐藏原生目前电量显示
+Name: 独立锁屏时间渐变
+Author: MoWang
+
+Package: com.minis.lockscreengradientclock
+Architecture: iphoneos-arm64e
+Version: 2.0.20
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 992
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.minis.lockscreengradientclock_2.0.20_iphoneos-arm64e_afb72fdfcc7a36545cd49a895ab15ecb0bbef578fd352a85fbf9986622b5e52b.deb
+Size: 452454
+MD5sum: 059c282e9939e7224cc809beb3c8a7f2
+SHA1: 40c0fe1cf19a5fe7306a4ade24dcccc3dd0ae2c5
+SHA256: afb72fdfcc7a36545cd49a895ab15ecb0bbef578fd352a85fbf9986622b5e52b
+SHA512: 1e95808d1b273c2def86c75a9eaab58674baffe83bd795dbb4aa4bac58c8397786a3df962e58a1db9eb262f8df2161333fa6fbbfc4455ad65b3d562b20e4f33f
+Description: 修复胶囊未充电显示
 Name: 独立锁屏时间渐变
 Author: MoWang
 
@@ -5206,6 +5308,27 @@ Author: qq391160
 Icon: https://qq391160.github.io/repo/icons/thermal.png
 
 Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64
+Version: 2.0.96
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 3976
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64/com.qq391160.cpucore_2.0.96_iphoneos-arm64_f9898038670641e4ee66606c34d56f58b95ae0aedf7afba91284cceec2dd434b.deb
+Size: 569726
+MD5sum: 208088e7d7cd0b9b5f4e52fd35393c21
+SHA1: 19079d00ddaaebb31c002c9400550361615ef2dd
+SHA256: f9898038670641e4ee66606c34d56f58b95ae0aedf7afba91284cceec2dd434b
+SHA512: 486c9681ea5ba51586cc417613fdfd5c6bcffb662f79bad4c82b141a9bab2ff2177c1cdc1179a9683a1da49e05db6a887a12d41a52cf3e6260ee5e224c044dc6
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
 Architecture: iphoneos-arm64e
 Version: 2.0.45
 Priority: optional
@@ -5285,6 +5408,27 @@ MD5sum: a34a304e13bd73cc8d0d896f4ea79dde
 SHA1: 06b3db70baa2e110b1c9945842e53fd6f4a65ea4
 SHA256: d1df2dc8d052f99f3ffbe9b17f9f248cf6f477e77a7e56f27346f97ea964b1d6
 SHA512: 45e6499b3a79319e232a10923b682b657ffef0b6ae6463593c643dead138afb04b53a3cd5f1409700588bfe960369633a0cce3eddead2eb169af1dfd1ed69b57
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64e
+Version: 2.0.96
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4220
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64e/com.qq391160.cpucore_2.0.96_iphoneos-arm64e_c70d7b49a9d799b036489202096ebf2c756d17226f660478da74343fdbc2ab86.deb
+Size: 608832
+MD5sum: 62d59e5f53fa6eb0da9c9061df4793d7
+SHA1: bd8a6870d86c8cae9f58ebaef6c1c5325671a9fc
+SHA256: c70d7b49a9d799b036489202096ebf2c756d17226f660478da74343fdbc2ab86
+SHA512: 3a5ce0d66e9dd27d134dea18aecda9f99699abcf2c02ba667d9d568108fb8072f14e3302c0c304411ded4e6a50cc8835010707d5b369dc20587baeb1281c0482
 Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
 Name: CPU智能温控(iOS16/17)
 Author: qq391160
