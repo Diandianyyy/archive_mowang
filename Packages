@@ -1562,6 +1562,23 @@ Description: 系统相册增加视频进度条 (支持iOS 15-17)
 Name: 系统相册视频进度条
 Author: crctdd
 
+Package: com.crctdd.sbtrim
+Architecture: iphoneos-arm64e
+Version: 0.0.15
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 524
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/com.crctdd.sbtrim_0.0.15_iphoneos-arm64e_2339320c5fb22abe8142510dda562070b0e85703a74acc98c75d33c427908b50.deb
+Size: 73022
+MD5sum: 0d5b656fc9e24bc5a386c51be26407a1
+SHA1: 6eba604d3fed08474758db7bd72ddcd41dfb66a9
+SHA256: 2339320c5fb22abe8142510dda562070b0e85703a74acc98c75d33c427908b50
+SHA512: 4b81a4f2ec21943d15ac5178eaeada1778b718a5987fa43697ae983693f3cc92a605fb90b830be918509c1a9de9b4ec840e383a5195af29e573b33ba3e59987d
+Description: 当SpringBoard的Phys占用阈值超过一定数值，自动轻量优化回收。(支持iOS 15-17)
+Name: SBTrim
+Author: crctdd
+
 Package: com.crctdd.shorbar
 Architecture: iphoneos-arm64
 Version: 0.0.9
@@ -8096,6 +8113,80 @@ SHA512: 5f3e1dd387759ba4931331e51f676cf2ad899a3cc7da8aacedada665d1102871dc2bff13
 Description: WeChatOrbit
 Name: WeChatOrbit（免授权）
 Author: ylr
+
+Package: com.yzdmm.kbtheme
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Section: Tweaks
+Maintainer: yzdmm
+Installed-Size: 860
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.yzdmm.kbtheme_1.1.1_iphoneos-arm64_1e115a8de87e51fcdd16c803024083a0f7dc123f2a0517f34e90abdf703835cc.deb
+Size: 475460
+MD5sum: 2e0768b32041d04613bc7d78cb88a1a0
+SHA1: 9eae5ad80fbfb3d3f8b33e5817983ccc473a8ca2
+SHA256: 1e115a8de87e51fcdd16c803024083a0f7dc123f2a0517f34e90abdf703835cc
+SHA512: e283cfdce1c6c2929c46e0366fc772e0d83f02b37bd0e5a93080fa7040a32a17ff9736f65ba7d76804142b4cf897176c2b1b7d3541832b13a4d70a13c891f981
+Description: iOS 原生输入法增强（键盘背景/整键盘透明/按键配色/彩虹皮肤/字母渐变/按键形状/工具栏布局）
+Name: 原生输入法增强
+Author: yzdmm
+icon: https://huayuarc.github.io/icon/kb.jpg
+
+Package: com.yzdmm.kbtheme
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Section: Tweaks
+Maintainer: yzdmm
+Installed-Size: 860
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.yzdmm.kbtheme_1.1.1_iphoneos-arm64e_b819eb7bf7795554489aadd63ab65f516ba60cbf56e4f9b8fc234f46b89fef9a.deb
+Size: 474672
+MD5sum: c8bf257e4c2b22d261d22967058dd66d
+SHA1: b7c797918e8fe37391c5edd5c36d737c7a29c28a
+SHA256: b819eb7bf7795554489aadd63ab65f516ba60cbf56e4f9b8fc234f46b89fef9a
+SHA512: 1d45b29057e19b81ba5bd8d39ad2155d75ff25c990ae3eb103652235415b92edc7754afece21930026801824febe870038ed2430d44f1ae2d59dbbb4b3f20e6d
+Description: iOS 原生输入法增强（键盘背景/整键盘透明/按键配色/彩虹皮肤/字母渐变/按键形状/工具栏布局）
+Name: 原生输入法增强
+Author: yzdmm
+icon: https://huayuarc.github.io/icon/kb.jpg
+
+Package: com.yzdmm.keyboardstatus
+Architecture: iphoneos-arm64
+Version: 1.3.7
+Section: Tweaks
+Maintainer: yzdmm
+Installed-Size: 612
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.yzdmm.keyboardstatus_1.3.7_iphoneos-arm64_7f73518e2edd7b6b5c92b3c1e5d56d5d986ca4fe47f3c3996be4a367e2bc6e47.deb
+Size: 82036
+MD5sum: 34a31271855118621817f4173d98944c
+SHA1: b35649292f9d668943a568cebc5b2c6b61291721
+SHA256: 7f73518e2edd7b6b5c92b3c1e5d56d5d986ca4fe47f3c3996be4a367e2bc6e47
+SHA512: 1d5243b43ac26ce929730358a21f895bb3a7049855174ca29d59af08133835efcecbe54361e16e10a626450d021dbea0de19c6e9c2b9e3a514c810148a2c37bb
+Description: 系统键盘底栏加功能按钮（全选/剪切/粘贴/光标移动/剪贴板历史/快捷短语/收起键盘）+ 可选状态条。rootless 适配，逐功能可关，安全不崩。
+Name: 键盘下方状态
+Author: yzdmm
+icon: https://huayuarc.github.io/icon/kb.jpg
+
+Package: com.yzdmm.keyboardstatus
+Architecture: iphoneos-arm64e
+Version: 1.3.7
+Section: Tweaks
+Maintainer: yzdmm
+Installed-Size: 612
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.yzdmm.keyboardstatus_1.3.7_iphoneos-arm64e_4af36fc83a6ec8ed87b9ba7dd9b8b906a6b7f9b452712882a798fd1ae9af97e2.deb
+Size: 79668
+MD5sum: 42fdb760758dc79fc4bf49c3bb99cba4
+SHA1: eda5a73dd1c8bdff8a1528723e156b108d924fe1
+SHA256: 4af36fc83a6ec8ed87b9ba7dd9b8b906a6b7f9b452712882a798fd1ae9af97e2
+SHA512: 6806f8c32a4d676190701a970b0496cd758ae09a1aeb96d4a6eb42ca9565203687fb6eda59dcb3848be51b65b7cf6c578f56b6384963099d4a4566be8dba628f
+Description: 系统键盘底栏加功能按钮（全选/剪切/粘贴/光标移动/剪贴板历史/快捷短语/收起键盘）+ 可选状态条。rootless 适配，逐功能可关，安全不崩。
+Name: 键盘下方状态
+Author: yzdmm
+icon: https://huayuarc.github.io/icon/kb.jpg
 
 Package: com.zegeyoudaoli.liquidass27
 Architecture: iphoneos-arm64
