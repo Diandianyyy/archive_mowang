@@ -503,6 +503,42 @@ Author: Axs<qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/cpufree.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/cpufree/js.json
 
+Package: com.axs.cpufree
+Architecture: iphoneos-arm64
+Version: 5.2.0-68
+Section: Axs-Tweaks
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1428
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.axs.cpufree_5.2.0-68_iphoneos-arm64_0d23abff9c0fa0cb6c0a46f5b099474a6b9767097440ed2727fba13d156d8e94.deb
+Size: 96040
+MD5sum: 0d82b87a44eb8b394a31a4e7e14d2425
+SHA1: cb834bf1d6f211ded122bc2b0bb99255904e257e
+SHA256: 0d23abff9c0fa0cb6c0a46f5b099474a6b9767097440ed2727fba13d156d8e94
+SHA512: 2c5c109b76e90eddade57fb9deb828aa4b53c0027776ba121b0ec56d1109c4c97416a769f489b1b5d80d90cc389b68070653a08e86005eebee0d309034a2d4d8
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU实时频率：显示大核最大驻留档位（实际工作频率），低功耗模式下不超过上限 2016MHz。
+ * 五、状态栏显示
+ * 1. 状态栏显示大核实时频率 + 整机 CPU 占用率（形如 3468MHz 42%），文字颜色跟随状态栏；
+ * 2. 位置可用面板的「水平 / 垂直偏移」微调，避开其它状态栏插件。
+ * 六、机型适配
+ * 1. 内置 A11–A17 Pro 大核上限表（2390 / 2490 / 2650 / 3090 / 3230 / 3468 / 3780MHz），按机型自动匹配上限。
+Name: CPU Free
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/cpufree/js.json
+
 Package: com.axs.duostatus
 Architecture: iphoneos-arm64
 Version: 5.2.0-101
@@ -4841,6 +4877,23 @@ Name: AI 日志分析
 Author: MoWang
 
 Package: com.mowang.crashanalyzer
+Architecture: iphoneos-arm64
+Version: 1.4.0
+Section: Utilities
+Maintainer: MoWang
+Installed-Size: 292
+Depends: preferenceloader
+Filename: debs/iphoneos-arm64/com.mowang.crashanalyzer_1.4.0_iphoneos-arm64_40e672d788533d9e2d5f963bcb0ef826a2f48d8018b305856f2103553048c5c0.deb
+Size: 135038
+MD5sum: e2f0a4ff7e1c17b104d49902db438f9f
+SHA1: 11ab61c26a67d985544066f0be5e5021dd0043b0
+SHA256: 40e672d788533d9e2d5f963bcb0ef826a2f48d8018b305856f2103553048c5c0
+SHA512: 74c56294951fe15f9ec2169438f5e2d4d0e06e17064cd90944cb786778089d3ab081ba2fd704c75b18c545390682baf2507094aa611aa0c6690c9e79e97ddef8
+Description: iOS IPS 日志搜索、进程分组与证据分析（1.4.0 体验版）
+Name: AI 日志分析
+Author: MoWang
+
+Package: com.mowang.crashanalyzer
 Architecture: iphoneos-arm64e
 Version: 1.1.5
 Section: Utilities
@@ -4905,6 +4958,23 @@ SHA1: e1180d1024c8a9625ffdb1dfeae5558023e14028
 SHA256: 7a82600167a22d5e13b2c59595fb78c3bf1b7c6aafe32adc7622ff59e60ebc43
 SHA512: 0fbad747d4dcbee3b84328c529973b67e960cbc86388e210c2acfd137a2e5b8848a93713e349008d5df0c42be0f487af55906187f9a07f0c484b4e96ec718260
 Description: 自动扫描、分类和分析 iOS .ips 日志
+Name: AI 日志分析
+Author: MoWang
+
+Package: com.mowang.crashanalyzer
+Architecture: iphoneos-arm64e
+Version: 1.4.0
+Section: Utilities
+Maintainer: MoWang
+Installed-Size: 292
+Depends: preferenceloader
+Filename: debs/iphoneos-arm64e/com.mowang.crashanalyzer_1.4.0_iphoneos-arm64e_dfd43cdb2d3b6a5ce4494170fd51b751e27181d867b29b75c0b9343148c0798b.deb
+Size: 134918
+MD5sum: bb3a7ea7f7e1a76a37df4077e5b038d9
+SHA1: 3257837f3db6b867d2b95b6b1f64d5e0933ac613
+SHA256: dfd43cdb2d3b6a5ce4494170fd51b751e27181d867b29b75c0b9343148c0798b
+SHA512: 29993b0a55b8c10374e9037cb7ade5fa71654d7a5cba75d4d1f39c9b914e3515fb8f3e7f68a7450d5d2d18c4171045fbee75ac29f790f417990d31f87f43bb88
+Description: iOS IPS 日志搜索、进程分组与证据分析（1.4.0 体验版）
 Name: AI 日志分析
 Author: MoWang
 
@@ -5530,6 +5600,27 @@ Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c1
 
 Package: com.qq391160.cpucore
 Architecture: iphoneos-arm64
+Version: 2.0.103
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 3960
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64/com.qq391160.cpucore_2.0.103_iphoneos-arm64_5a1cd78abcbadc547567456808f1cfcdc17487c5e45d5f696be7202760c2ae8e.deb
+Size: 567612
+MD5sum: 3c606d285efe6de751cf4ca28495633d
+SHA1: efd69aed3fd1f5a51ba853b61c6f96510f02ae34
+SHA256: 5a1cd78abcbadc547567456808f1cfcdc17487c5e45d5f696be7202760c2ae8e
+SHA512: 2dfb810479d0e3882c5ae2f2c5c4b6f9b23ac70d174f39f0edb71e3c3553bbfc17e9e461a1a0570d4ffc56f33bbb5353db97cba995b7a583a7dafd3b59318fdf
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64
 Version: 2.0.45
 Priority: optional
 Section: Tweaks
@@ -5649,6 +5740,27 @@ MD5sum: 48bebba2a144317cc652a1946d52c3ea
 SHA1: b12765703f27cb24897b8e37a622c9cb5e30814d
 SHA256: 85548f61738b1758c31daa359bf4aeeb1837fb2aa68dd35101f7179797bc6d7e
 SHA512: dcc2dec6bbf6d95f28e832aab27e8bbe29aaf842b03c6101ad3e925eff10266c8f2853c15ebb741656f62abaf062624be1ec15e3b8b60cb81731b59cb5d14d85
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64e
+Version: 2.0.103
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4204
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64e/com.qq391160.cpucore_2.0.103_iphoneos-arm64e_2538b56cf42a16752d9d5e65f0c342a5d0d80145ab4d6eb3852e2cf8973fed1c.deb
+Size: 607768
+MD5sum: a870f71867238a506a635a51628badf1
+SHA1: ea9cd938c9535c40b1335b519728d3b0d04cdd2a
+SHA256: 2538b56cf42a16752d9d5e65f0c342a5d0d80145ab4d6eb3852e2cf8973fed1c
+SHA512: 414f71591f07efe31922fb8b49a22c4c27be322b22599e9db5f36fbda56a1920151f18061f636dcd3c71f8119aee806c43cd278fde003150ff9b8b60fce43d0b
 Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
 Name: CPU智能温控(iOS16/17)
 Author: qq391160
@@ -10864,6 +10976,33 @@ SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
 Author: OwnGoal Studio <no-reply@owngoal.dev>
 
 Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64
+Version: 4.6.1
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 17432
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/wiki.qaq.irisin_4.6.1_iphoneos-arm64_e8097c510868ab545e42b39603545a2627baf9860cbc42ab7f2e72671392808e.deb
+Size: 4955488
+MD5sum: 54148fb059ee4f30dd3d75c68a2f3c0f
+SHA1: b393f0d18cd4d4c9963196a771896e136af18853
+SHA256: e8097c510868ab545e42b39603545a2627baf9860cbc42ab7f2e72671392808e
+SHA512: d1e14632587a1e139b6b6182197cc9a523d61667ec4bee519e7f82b4c3c9f7df5b86b78c8c513f07e7f06226491b13040d314553922642691db6cb9c0dff607d
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
 Architecture: iphoneos-arm64e
 Version: 4.5.14
 Priority: optional
@@ -11120,6 +11259,33 @@ MD5sum: d92615b33be989264175e2e4a7652482
 SHA1: f4738022074f2c050f81f4b1317469f38ca6eb90
 SHA256: 3260d06c4c9137c13bfd696e265719dd7b69773c155a2149bf53505c07ebeb8d
 SHA512: 29167fecc4728421b96b170f799cb49ef22ac423fe860e602f59482f3d71c706c98f98f85c641168ee0c705b9bd7dfa81d1f7f64c1d2ff4ed7471dee49ab46c0
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64e
+Version: 4.6.1
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 17432
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/wiki.qaq.irisin_4.6.1_iphoneos-arm64e_82ee6fd4e7f66406cf58d1c778a2f65e6133150d376b58c37ee96ba921c46646.deb
+Size: 4956112
+MD5sum: 0e2a1bb4eea0a1294ba55813c5a47129
+SHA1: 06785ed0337697abbfbe60cd74bd74a81bf0b5de
+SHA256: 82ee6fd4e7f66406cf58d1c778a2f65e6133150d376b58c37ee96ba921c46646
+SHA512: f6feef9143cbd651944b10032336b45c9658fbb233c365706900501f7bcef28e1bedac1785cae096dc04eef0fe8bcb8ff4e7c42307ba49f7af797ef2a4f7e84e
 Homepage: https://github.com/Lakr233/Irisin
 Description: Modern package manager for roothide custom firmware
  Browse your repositories, install and remove packages, keep tweaks updated
