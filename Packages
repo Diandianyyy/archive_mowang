@@ -358,6 +358,40 @@ Description: 小工具。屏蔽截屏录屏检测
 Name: ScreenshotBypass
 Author: Anfyya
 
+Package: com.anyi.wcpluginsclone-v4.1.6
+Architecture: iphoneos-arm64
+Version: 4.1.6+trollfix
+Section: Tweaks
+Maintainer: Anyi <anyi@example.com>
+Installed-Size: 1612
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: debs/iphoneos-arm64/com.anyi.wcpluginsclone-v4.1.6_4.1.6+trollfix_iphoneos-arm64_4272924cc97c17f1825eabd22cb86982c96ee63e4fcc1f5f32034a8f2c7d7062.deb
+Size: 836156
+MD5sum: 7d431e7be070132fa73be5cd58d4cd2f
+SHA1: 79ed026a2950d9375fa7e4f8a9228fda127ef589
+SHA256: 4272924cc97c17f1825eabd22cb86982c96ee63e4fcc1f5f32034a8f2c7d7062
+SHA512: 0ac95bad17b1abdbb0a58ad1e446522d4ce20bab3ddddf74c33dd70abf5af6c6f78b7a2f00a922af91d73c6fa30804508b3c244620a6213eaaf3c8829db696c5
+Description: 微信插件收纳美化
+Name: WCPluginsClone
+Author: Anyi
+
+Package: com.anyi.wcpluginsclone-v4.1.6
+Architecture: iphoneos-arm64e
+Version: 4.1.6+trollfix
+Section: Tweaks
+Maintainer: Anyi <anyi@example.com>
+Installed-Size: 796
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: debs/iphoneos-arm64e/com.anyi.wcpluginsclone-v4.1.6_4.1.6+trollfix_iphoneos-arm64e_39c2eac4996e62a288d637be347ff2ac4824d6eddc5a12c3e9f7abef38cd83df.deb
+Size: 419612
+MD5sum: 798908b38b6e47878bf4a9e6d02b1905
+SHA1: 1194eab13e9e2a8dc84448c602f4f7ae689ffa64
+SHA256: 39c2eac4996e62a288d637be347ff2ac4824d6eddc5a12c3e9f7abef38cd83df
+SHA512: e068c54adff73e06afb7ebe834a797658497304883a05a4f81942ba88a9876b17bb30562bc9acfe5c81e597bca5c3b02a02fafa34f97d798967be69ebe0af226
+Description: 微信插件收纳美化
+Name: WCPluginsClone
+Author: Anyi
+
 Package: com.axs.ahsfilter
 Architecture: iphoneos-arm64
 Version: 5.2.0-3
@@ -2210,6 +2244,40 @@ Description: 完全可自由定制的通知横幅变色，根据开源编译/优
 Name: Velvet2 中文版(RootHide)
 Author: NoisyFlake
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/velvet2/js.json
+
+Package: com.doimty.fiona
+Architecture: iphoneos-arm64
+Version: 0.3
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 304
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.doimty.fiona_0.3_iphoneos-arm64_6c99bc146296e388299cefc65152df439151176f36d8e130303e8c3c72396af2.deb
+Size: 4962
+MD5sum: eebc8e660c42510908751004ebbaab3f
+SHA1: 260b67696805c3d92215bd597fa1ac6d0ba4c8b5
+SHA256: 6c99bc146296e388299cefc65152df439151176f36d8e130303e8c3c72396af2
+SHA512: 363baa8683e7dde69f309b54d53fd93676e2c7c04d3effe5c4ba065c5f59af8ceaa831fcee5d5b171cdd075cbaa7d631a6807ce932c6550222e64f7c652159fc
+Description: 锁屏时保持 WiFi 连接；热点无客户端时不自动关闭。无开关，安装即生效；
+Name: Fiona
+Author: doimty
+
+Package: com.doimty.fiona
+Architecture: iphoneos-arm64e
+Version: 0.3
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 304
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.doimty.fiona_0.3_iphoneos-arm64e_b280dbd7d0d521cc24d3c3a083f6f0fac71cf6d894534ae269fe0136c14e932c.deb
+Size: 4908
+MD5sum: 35545bdc292d9c982cccf6c21ecfa912
+SHA1: c7859ec8d79d530d538a92d6afd216c8a5fe96a2
+SHA256: b280dbd7d0d521cc24d3c3a083f6f0fac71cf6d894534ae269fe0136c14e932c
+SHA512: 29132164a41628f075fd9a3fed636b970516d5b4c0c8092648fe266f6e8874cad09dc46051fb18c31913b3c55bb6b1cd499ae7d4f6106bc68e8f753697bf6ae0
+Description: 锁屏时保持 WiFi 连接；热点无客户端时不自动关闭。无开关，安装即生效；
+Name: Fiona
+Author: doimty
 
 Package: com.doimty.promotion
 Architecture: iphoneos-arm64e
@@ -6449,6 +6517,23 @@ Name: 灵动监测
 Author: MoWang
 
 Package: com.sbcpu.floating
+Architecture: iphoneos-arm64
+Version: 6.4
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3544
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.sbcpu.floating_6.4_iphoneos-arm64_35177072183374e9af4107a9ffff3952cefe9d99af41b70c1473174e07088de5.deb
+Size: 1208484
+MD5sum: c3f9c3fbce36fcd25082af457d95c887
+SHA1: 3caf5ba3983cace8437fbac7f1d0b677ac4c0b44
+SHA256: 35177072183374e9af4107a9ffff3952cefe9d99af41b70c1473174e07088de5
+SHA512: 44699098b3a5e8f9c7e01aafd2fb11479fdda0054788312a11cd7f6aa81e7f7a65be277ccca1cf097b34240f77c2cb7d0f3685d0ac615d6c3e18284172df0625
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
+Name: 灵动监测
+Author: MoWang
+
+Package: com.sbcpu.floating
 Architecture: iphoneos-arm64e
 Version: 4.63
 Section: Tweaks
@@ -7136,6 +7221,23 @@ SHA1: c448e882e793ec0c0735efc4d761d4ee1485c327
 SHA256: 3cee5e1732d5fa0ca339421104ec0c3988d600e88d21fb598a3cd25d57de4cf2
 SHA512: 5a69fffd6b5b5be80a3da43efc9dcfa7e956dc785e85237c46bb84c6484b16df28dff5f1182fe07b103ce2ef49028fff233d8095edadc1ab7b50bd60f50dac93
 Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复文字浮窗不是系统原生字体，改了一下排版锁定问题，新增浮窗 2，可以弄两个浮窗，新增上下行网速开关。）
+Name: 灵动监测
+Author: MoWang
+
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64e
+Version: 6.4
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3544
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.sbcpu.floating_6.4_iphoneos-arm64e_b45d929af94743737b9e3ad4a243d1885cbd4dd265f8232560056d59aedc4f3a.deb
+Size: 1200680
+MD5sum: 7774613f1be1c07956030158aacacf90
+SHA1: 95bc615b6bf850f74e3e013458d9d71631691516
+SHA256: b45d929af94743737b9e3ad4a243d1885cbd4dd265f8232560056d59aedc4f3a
+SHA512: 688e2e1a9a08641672e7140be502f08225ab4849a78d49ea739fb803503266373e1beaaa7d274e58f523d7728cd68713c359379e984ac8a717bd69cb6de3cc7a
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
 Name: 灵动监测
 Author: MoWang
 
@@ -9722,6 +9824,27 @@ Description: iOS 26 风格「液态玻璃」系统 UI 美化插件：分阶段�
   - 本包为 RootHide（arm64e）版
 Name: SBLiquidGlass
 Author: MoWang
+
+Package: im.mjh.xianyuadblock
+Architecture: iphoneos-arm64
+Version: 3.0.0
+Section: Tweaks
+Maintainer: junhong
+Installed-Size: 488
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/iphoneos-arm64/im.mjh.xianyuadblock_3.0.0_iphoneos-arm64_3af6dd88273dc9de0c90bc7702d470383d8e973ae0e7b23bdc66243638c54084.deb
+Size: 82542
+MD5sum: 9e8b896222364564ed9bcaa797f261a2
+SHA1: 4df6b7f7a25ae497161cbd1da71088377173ea2d
+SHA256: 3af6dd88273dc9de0c90bc7702d470383d8e973ae0e7b23bdc66243638c54084
+SHA512: 6b890dd04f7e44fcc5fca82601a9deb6569de6a8116092de6378f26d470d722f9ec2ce0c26bccd2bb8746871bf08cce08bba2e168f0bfa71318f13edd8d85147
+Homepage: https://xianyu.goforit.si
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Name: 闲鱼助手
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 
 Package: iya.banana.billie.ambientbadge
 Architecture: iphoneos-arm64
