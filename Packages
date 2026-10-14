@@ -830,6 +830,28 @@ Icon: https://axs66.github.io/pro/icon/ips.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
 
 Package: com.axs.ipslog
+Architecture: iphoneos-arm64
+Version: 5.2.0-30
+Section: Axs-Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 496
+Depends: preferenceloader
+Filename: debs/iphoneos-arm64/com.axs.ipslog_5.2.0-30_iphoneos-arm64_6a796508f5c122e5929013cf3bef99760ab828415759c56748560f05a20f5b91.deb
+Size: 85156
+MD5sum: e7b9d46820e1405e0462c9f6d8666f7f
+SHA1: 47b508302393fa008b8f8f3471c7dd52e41b5ad0
+SHA256: 6a796508f5c122e5929013cf3bef99760ab828415759c56748560f05a20f5b91
+SHA512: bf775fabfbb0562dbbf66fc729587601eadbeac75134d9d07680c265069822fd1ac14eccbb62dac602821da6c17bfddee081b65ff42b9a26fb6d8de288f660d3
+Description: 设置内一键查看与分析设备上的 .ips 崩溃日志，快速定位崩溃原因。
+ * 崩溃日志查看器：按进程聚合、按时间倒序、关键字搜索、可筛选分类、可一键清空日志
+ * 解析异常类型 / 异常码 / 触发线程 / 崩溃堆栈 / 二进制映像
+ * 支持查看完整原文、复制任意字段、分享导出、删除单条与清空
+Name: IPSLog
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ips.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
+
+Package: com.axs.ipslog
 Architecture: iphoneos-arm64e
 Version: 5.2.0-11
 Section: Axs-Tweaks
@@ -932,6 +954,28 @@ MD5sum: f16a422f49817a43f1b2037a125aff19
 SHA1: b44c6ddaa07a03c387d9aba1590988b4fcb6e32e
 SHA256: 8cb7f79fdf9ad3d8c934d4de134ee4e84ab02ccf6f8ca1bec0bd27bdf8b95df6
 SHA512: 04048741959555f35c5d6757f2fc5e7890a7f37d68f487e33d46fa010a90f275760ceb78c91599509e3c91971ca7be300585c620f953df047c1e714f4406d9b0
+Description: 设置内一键查看与分析设备上的 .ips 崩溃日志，快速定位崩溃原因。
+ * 崩溃日志查看器：按进程聚合、按时间倒序、关键字搜索、可筛选分类、可一键清空日志
+ * 解析异常类型 / 异常码 / 触发线程 / 崩溃堆栈 / 二进制映像
+ * 支持查看完整原文、复制任意字段、分享导出、删除单条与清空
+Name: IPSLog
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ips.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
+
+Package: com.axs.ipslog
+Architecture: iphoneos-arm64e
+Version: 5.2.0-30
+Section: Axs-Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 496
+Depends: preferenceloader
+Filename: debs/iphoneos-arm64e/com.axs.ipslog_5.2.0-30_iphoneos-arm64e_78fa9e89b8aa2a3f99bef422d06437e6950ce12c7eb311fe29941dd29e52a961.deb
+Size: 84186
+MD5sum: af8bf675427f2da0622fb1c006a677f3
+SHA1: dc82c106fa0175f8e7280245ece4adc4ffb76869
+SHA256: 78fa9e89b8aa2a3f99bef422d06437e6950ce12c7eb311fe29941dd29e52a961
+SHA512: 1813b755fa0c505ab3e8b726a774de6cd4f6ce4a01d7dd47bdf805efb563d90a8898946371a0e8c98bfbedf7d62be48880f4002f6330ccebf10da27b3bfd8aa1
 Description: 设置内一键查看与分析设备上的 .ips 崩溃日志，快速定位崩溃原因。
  * 崩溃日志查看器：按进程聚合、按时间倒序、关键字搜索、可筛选分类、可一键清空日志
  * 解析异常类型 / 异常码 / 触发线程 / 崩溃堆栈 / 二进制映像
@@ -2279,6 +2323,24 @@ Description: 轻量后台守护插件，支持多种运行方式与任务角色�
 Name: StayAlive Lite
 Author: crctdd
 
+Package: com.dao.filzacrack
+Architecture: iphoneos-arm64e
+Version: 1.1-9
+Section: 嗨-工具
+Maintainer: Nets
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.filzacrack, netskao.filzacrack-rootless
+Filename: debs/iphoneos-arm64e/com.dao.filzacrack_1.1-9_iphoneos-arm64e_370d022cefa5615f39acb2ed9f16627bc765c958f0279924fd7991c9f6abc698.deb
+Size: 28916
+MD5sum: 780888e00f6a297ae56497c8a703e641
+SHA1: 32f92db6ca5cc095b25291484ff87a293263fd24
+SHA256: 370d022cefa5615f39acb2ed9f16627bc765c958f0279924fd7991c9f6abc698
+SHA512: ddd776131b68748dea90efd8f2b99460f139fedba2fdde149c7fdfc16f7aab8ab9c025a1a1d1e893b24327ded06cb7ce567bc52823e74fcaabe62135567a6919
+Description: Filza解锁全部功能，请在官方源安装Filza。Netskao新更的版本，上架备份；转换支持 roothide。
+Name: Filza Crack(RootHide)
+Author: Netskao
+
 Package: com.dao.velvet2
 Architecture: iphoneos-arm64
 Version: 2.3
@@ -3538,6 +3600,42 @@ Name: 58 液态玻璃
 Author: jl
 Icon: https://winaviation.github.io/repo/depictions/jl.liquidass/icon.png
 
+Package: com.johndie.triggr
+Architecture: iphoneos-arm64
+Version: 1.5.0
+Section: Tweaks
+Maintainer: John d_ie
+Installed-Size: 1644
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.johndie.triggr_1.5.0_iphoneos-arm64_71acf50f079605d1fc9c3eabd6319a826c19939e9fa34eea9eed5df3f2b17def.deb
+Size: 198276
+MD5sum: c1f69afa321d3efff97b9745af24efbe
+SHA1: 84d6ea7c6f3ad2696667a370e14a7048c80b697c
+SHA256: 71acf50f079605d1fc9c3eabd6319a826c19939e9fa34eea9eed5df3f2b17def
+SHA512: d80a852b0e1fbd21330c90789d2a826556d88af07fc36c993055da38fbd8655973b2fd4a3f8e359d2a6b56c3d7550f6af66749f849cf848ebd876ffd4b96c801
+Description: 用于无根多巴胺的Activator-lite：将操作分配给主页、锁定和音量按钮、触控ID、静音开关、状态栏点击、图标轻弹、摇晃以及充电器、Wi-Fi、电池电量或一天中的时间等事件。支持A12及更新（arm64e）。Activator-lite for rootless Dopamine: assign actions to the home, lock and volume buttons, Touch ID, the mute switch, status bar taps, icon flicks, shaking, and events like charger, Wi-Fi, battery level or a time of day. Supports A12 and newer (arm64e).
+Name: Triggr
+Author: John d_ie
+icon: https://huayuarc.github.io/icon/triggr.png
+
+Package: com.johndie.triggr
+Architecture: iphoneos-arm64e
+Version: 1.5.0
+Section: Tweaks
+Maintainer: John d_ie
+Installed-Size: 1588
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.johndie.triggr_1.5.0_iphoneos-arm64e_3916678a1e118a47e9561c0f3b7abe2b66e601c87038cfffa16d4e9b843399fe.deb
+Size: 199564
+MD5sum: 6fdf4fccde4650cafe1cc36a69001274
+SHA1: 6ca4073081139b0298240209b91adcfd22054413
+SHA256: 3916678a1e118a47e9561c0f3b7abe2b66e601c87038cfffa16d4e9b843399fe
+SHA512: b10d3ef0a071a88f73c83d1555824d25beb6c605d22014ec7ea91d22feacab4522ce4b321f35b28837eb20313eab95633c90d0b9c7ec50bdffb6b38377e7b56b
+Description: 用于无根多巴胺的Activator-lite：将操作分配给主页、锁定和音量按钮、触控ID、静音开关、状态栏点击、图标轻弹、摇晃以及充电器、Wi-Fi、电池电量或一天中的时间等事件。支持A12及更新（arm64e）。Activator-lite for rootless Dopamine: assign actions to the home, lock and volume buttons, Touch ID, the mute switch, status bar taps, icon flicks, shaking, and events like charger, Wi-Fi, battery level or a time of day. Supports A12 and newer (arm64e).
+Name: Triggr
+Author: John d_ie
+icon: https://huayuarc.github.io/icon/triggr.png
+
 Package: com.kernelrw.adytum
 Architecture: iphoneos-arm64
 Version: 2.2
@@ -3828,6 +3926,23 @@ Author: MoWang
 
 Package: com.minis.lockscreengradientclock
 Architecture: iphoneos-arm64
+Version: 2.0.21
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 992
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.minis.lockscreengradientclock_2.0.21_iphoneos-arm64_523eebd4b0505ebde5244be1b606691f5aa2b7f43d1c2f6416186dfd080c850b.deb
+Size: 462032
+MD5sum: 8e60982f86c2af8e6fb82428b23a7e94
+SHA1: bd71d445d505e4704ce93446a6836e87edded286
+SHA256: 523eebd4b0505ebde5244be1b606691f5aa2b7f43d1c2f6416186dfd080c850b
+SHA512: 516cdf36e911e671416f34f638e59085b9e737b2de730838f230de6ee3b1b8872b5cf009bb474f025c5fae7593faa279fffcc4e0b325d310de72595a21a69826
+Description: 新增隐藏原生日期和农历
+Name: 独立锁屏时间渐变
+Author: MoWang
+
+Package: com.minis.lockscreengradientclock
+Architecture: iphoneos-arm64
 Version: 2.0.6
 Section: Tweaks
 Maintainer: MoWang
@@ -4002,6 +4117,23 @@ SHA1: 40c0fe1cf19a5fe7306a4ade24dcccc3dd0ae2c5
 SHA256: afb72fdfcc7a36545cd49a895ab15ecb0bbef578fd352a85fbf9986622b5e52b
 SHA512: 1e95808d1b273c2def86c75a9eaab58674baffe83bd795dbb4aa4bac58c8397786a3df962e58a1db9eb262f8df2161333fa6fbbfc4455ad65b3d562b20e4f33f
 Description: 修复胶囊未充电显示
+Name: 独立锁屏时间渐变
+Author: MoWang
+
+Package: com.minis.lockscreengradientclock
+Architecture: iphoneos-arm64e
+Version: 2.0.21
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 992
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.minis.lockscreengradientclock_2.0.21_iphoneos-arm64e_c432dedfc5cbda1bd87784092555a42ba5128ee447b3bb374a2cd1d0b943fc52.deb
+Size: 461718
+MD5sum: 4cd9e24f1d19202e639bd075e790250a
+SHA1: 699d876291de68355eb4f231acb01742b0020fe7
+SHA256: c432dedfc5cbda1bd87784092555a42ba5128ee447b3bb374a2cd1d0b943fc52
+SHA512: fe3bb498fef77dc56b93715cb026f715799d3193c4eed686ec022bad76370a51c167b6bd0c80a3cbf090f655248acfdd1beb1a453b37a682510b4423170bfbc1
+Description: 新增隐藏原生日期和农历显示
 Name: 独立锁屏时间渐变
 Author: MoWang
 
@@ -6870,6 +7002,23 @@ Name: 灵动监测
 Author: MoWang
 
 Package: com.sbcpu.floating
+Architecture: iphoneos-arm64
+Version: 6.5
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3560
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.sbcpu.floating_6.5_iphoneos-arm64_8dc447682a962368866cdbdabf2fd485e044a2d1157f17bd3e1f32b78d128ac6.deb
+Size: 1212112
+MD5sum: 76151b7e97e11cdab69aa2657f6c1a6e
+SHA1: 5f6a64c1e9ae7f181b4a0d8fc9a9b2c1fcac1a72
+SHA256: 8dc447682a962368866cdbdabf2fd485e044a2d1157f17bd3e1f32b78d128ac6
+SHA512: 9c055acbebee03c09911d253071f4e00c330159c17af921f1896648ce84165bace93419febe0c690e7d53348361afec5c9c5df2bcb9c1f29e1d43fa78ce05589
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复部分机型无法读取 cpu 频率）
+Name: 灵动监测
+Author: MoWang
+
+Package: com.sbcpu.floating
 Architecture: iphoneos-arm64e
 Version: 4.63
 Section: Tweaks
@@ -7577,6 +7726,23 @@ Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按�
 Name: 灵动监测
 Author: MoWang
 
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64e
+Version: 6.5
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3544
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.sbcpu.floating_6.5_iphoneos-arm64e_375f7161ad4a07d9753a789eedbff21f87df6bbf77dca98323e1e2782ff5e658.deb
+Size: 1204314
+MD5sum: bbd47c43c55f36579f39f4e022a21eb4
+SHA1: a9ce0cbbf2ecd2a6ad107c485099fdbfd20db2ea
+SHA256: 375f7161ad4a07d9753a789eedbff21f87df6bbf77dca98323e1e2782ff5e658
+SHA512: 2c88b33c1192684301d310efb1d4c5222e3ade89b6d93390b09fc9cb3e82441bd32b9838aab609c6be9eefc5baf8f5604f75d7c3e6c7989e8cd2b7f2ada620ec
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复部分机型无法读取 cpu 频率）
+Name: 灵动监测
+Author: MoWang
+
 Package: com.shtm.amplify
 Architecture: iphoneos-arm64
 Version: 1.1-0beta2
@@ -7594,6 +7760,25 @@ Description: 微信美化插件
 Name: AmpLify
 Author: SHTM
 Icon: file:///Library/PreferenceBundles/AmpLifySettings.bundle/icon.png
+
+Package: com.sini.filzaswipeselect
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: korboy <korboybeats@gmail.com>
+Installed-Size: 184
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.sini.filzaswipeselect_0.0.2_iphoneos-arm64_bb35b028584d80704653eac118dcd8a340cf1b4953b29d61d2241f062d7a8cc0.deb
+Size: 8716
+MD5sum: 7bcbd25de2a6bbc3bf6989d8aeaff789
+SHA1: 88b0dc31959390f146fe408dd052773f16456502
+SHA256: bb35b028584d80704653eac118dcd8a340cf1b4953b29d61d2241f062d7a8cc0
+SHA512: 42ea0fa6a83386b93ae06069eee415e0c85889ce811f9dc24c705d2203007253819c06ea497dff1a0a0b1fc0e9d5bd342f32ee580a07d49fc4b473f4a6bfbfb1
+Description: Filza的滑动多选功能。不再单独点击每个文件进行选择。
+Icon: https://huayuarc.github.io/icon/Filza.jpg
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/filzaswipeselect/js.json
+Name: FilzaSwipeSelect
+Author: korboy <korboybeats@gmail.com>
 
 Package: com.siwenjiajia.tweak.comm
 Architecture: iphoneos-arm64
@@ -8917,6 +9102,28 @@ SHA512: 662ec5a7dbce7542f173a2f2fb7e7ea3ec0f5bfc4b55e567e17d098b1922652ce6de153a
 Description: 微信主题盒子
 Name: 主题盒子（免授权）
 Author: Mao
+
+Package: com.tigisoftware.filza64bits
+Architecture: iphoneos-arm64e
+Version: 4.0.1-4~roothide
+Section: RootHide
+Maintainer: TIGI Software
+Pre-Depends: patches-com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39, com.tigisoftware.filza64bit
+Filename: debs/iphoneos-arm64e/com.tigisoftware.filza64bits_4.0.1-4~roothide_iphoneos-arm64e_4d86696f88752f031d455c6532041c01f6facec1e37a73eec15a3c0ec0f43f7b.deb
+Size: 6970916
+MD5sum: 46bbea1723b62c27e10810562042539e
+SHA1: d2a6995632fee7c65f645e935ffd5cdfda8e5fd0
+SHA256: 4d86696f88752f031d455c6532041c01f6facec1e37a73eec15a3c0ec0f43f7b
+SHA512: 6675d8983fdb291904b197fbf1c2b7e920deb7663f82056da5053c596bf3b661ffd94b542f92051faeac896153e671786b24c9b31927d8015f7fc8a96a673b91
+Description: Filza 文件管理器 RootHide 专用
+ * 支持 RootHide Dopamine、BootStrap 半越狱
+ * 支持解压打包 deb 插件
+Name: Filza 文件管理器
+Author: TIGI Software
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Filza/js.json
+Icon: https://TrollStoreX.Github.io/sileodepiction/Filza/icon.png
 
 Package: com.tsangbaby.kayoko
 Architecture: iphoneos-arm64e
