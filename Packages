@@ -341,6 +341,42 @@ Author: A
 Icon: https://axs66.github.io/repo/icon/wechat.png
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/yuanjiao/js.json
 
+Package: com.aa22qq.axiskey
+Architecture: iphoneos-arm64
+Version: 10.0.0
+Section: Tweaks
+Maintainer: aa22qq
+Installed-Size: 780
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/com.aa22qq.axiskey_10.0.0_iphoneos-arm64_94d3431b2bdae1dae3e1841fe972be9324d289698d477623fc4278dbd8e27309.deb
+Size: 109148
+MD5sum: c347601c4c41de00607027bca49a5753
+SHA1: d9a7e100a5625c2d6eaa65d54515ee84cfe261c4
+SHA256: 94d3431b2bdae1dae3e1841fe972be9324d289698d477623fc4278dbd8e27309
+SHA512: ab00451254c596c8a8f1a570979eaede85979f6b7cfafaca8080d4b6058a3d4a22ae4008c494371020eb0df212d6323b3f661a8ade8b4416e0f639927d113ba4
+Description: 结合物理按键手势与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌
+Name: AxisKeyGesture
+Author: aa22qq
+icon: https://huayuarc.github.io/icon/axiskey.png
+
+Package: com.aa22qq.axiskey
+Architecture: iphoneos-arm64e
+Version: 10.0.0
+Section: Tweaks
+Maintainer: aa22qq
+Installed-Size: 780
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64e/com.aa22qq.axiskey_10.0.0_iphoneos-arm64e_af7cbf760b79728f80a7f7bc4d6678d5933ff433872c7d20ca6e7320434fc1dc.deb
+Size: 108736
+MD5sum: 0ff9e94d4332d47a45dafef74d9b9530
+SHA1: 92aee521ddd73c370ee3b925c9fde770f648556b
+SHA256: af7cbf760b79728f80a7f7bc4d6678d5933ff433872c7d20ca6e7320434fc1dc
+SHA512: c9abfedb0d2545405fd2e6bfcdcbb71f6dceef86aa45b31f908045f538df471917b13a68f04a231f6a97a793a7ea9446aacd54c64e8873e63885a28b1168192e
+Description: 结合物理按键手势与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌
+Name: AxisKeyGesture
+Author: aa22qq
+icon: https://huayuarc.github.io/icon/axiskey.png
+
 Package: com.anfyya.screenshotbypass
 Architecture: iphoneos-arm64e
 Version: 1.0.2
@@ -4685,6 +4721,25 @@ Icon: https://mlgm66.github.io/icon/actra.png
 Author: mlgm
 
 Package: com.mlgm.actra
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3844
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/iphoneos-arm64/com.mlgm.actra_1.2_iphoneos-arm64_8954f43e62046550be2cdd9e3aa032fe6af1ba7de3f132db7757cbbd3772fef2.deb
+Size: 753924
+MD5sum: 98904d6d68b585c30880770c73ca7c7f
+SHA1: fcfb6180ef970d49bb359a65a4b382109e8899e9
+SHA256: 8954f43e62046550be2cdd9e3aa032fe6af1ba7de3f132db7757cbbd3772fef2
+SHA512: a22dcc52b2eacc3277567d1e2f6e580319fc694ed8724c09b7bd05395cabe8077876bcee800e5244bd248b98bbafda7b93ccd9fe2d32b6cf7df5cfc8e4857929
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
+Package: com.mlgm.actra
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
@@ -4722,6 +4777,25 @@ Name: Actra
 Icon: https://mlgm66.github.io/icon/actra.png
 Author: mlgm
 
+Package: com.mlgm.actra
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3844
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/iphoneos-arm64e/com.mlgm.actra_1.2_iphoneos-arm64e_ac3941f9d55999ef08545488d62948a348d0e73c489cd86c0bd3ee08176679a1.deb
+Size: 756080
+MD5sum: 1ea0379a8f0dd681cc61c35401e50e22
+SHA1: 14ac08e28a09f568ba4bce27642198fbbdf5dd83
+SHA256: ac3941f9d55999ef08545488d62948a348d0e73c489cd86c0bd3ee08176679a1
+SHA512: 1448adbe9128af91df49f00ebaa28939208b7a00f2f2e6549df478758561a1141c33799353dc58b073c24569e648265cd3563bcead4b2e62d66cc47f5989fd48
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
 Package: com.mlgm.idata
 Architecture: iphoneos-arm64
 Version: 1.2.1
@@ -4739,6 +4813,78 @@ Description: 应用、插件数据管理工具，一键备份/恢复
 Name: iData
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/idata.png
+
+Package: com.mlgm.isgkb
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 448
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.mlgm.isgkb_1.1.1_iphoneos-arm64_0abaf8dce4a7d09bd3006c42e4b3cee0f9629f0b3c68ed0f8d9afcfc60b1c467.deb
+Size: 41496
+MD5sum: c0e757ea42c547ea10f1b79827eaec1d
+SHA1: 4239f14bfcfcec13c372363975ef70c2b3f63354
+SHA256: 0abaf8dce4a7d09bd3006c42e4b3cee0f9629f0b3c68ed0f8d9afcfc60b1c467
+SHA512: 45a3fee8c6c2d68739be7050e927dcc3abb7250b8aeedad6a70efcec72c67c466fe67c9d5518c0e1e7d38363744f0598557358e6a2a350160947fdd8b77c588c
+Description: 更换搜狗输入法 Logo，自定义动作快捷呼出剪贴板。
+Name: iSgkb
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/isgkb.png
+
+Package: com.mlgm.isgkb
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 448
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.mlgm.isgkb_1.1.1_iphoneos-arm64e_7f833bb23db31c9c136532da67150268bf5b36c565cf688466c4fab3391753ba.deb
+Size: 39524
+MD5sum: 1dca3263537e1d878ad9f7dbf79388b5
+SHA1: 4631da18fdafdde575854286da78ed01fc4be3f8
+SHA256: 7f833bb23db31c9c136532da67150268bf5b36c565cf688466c4fab3391753ba
+SHA512: 277d0e58be61feea23d38a84022e36363211ff44976bcc5c29a0cb29ab19bc1584def1c795a939eea25a7df2b46f5e7ffce67d329928c69b16c8aa9cc2d3b781
+Description: 更换搜狗输入法 Logo，自定义动作快捷呼出剪贴板。
+Name: iSgkb
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/isgkb.png
+
+Package: com.mlgm.iwxkb
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 424
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.mlgm.iwxkb_1.1.1_iphoneos-arm64_f7af98d77ee4ec69cffbfb2e0c20c263026433c8e547c3f47c98716328f43bd0.deb
+Size: 44704
+MD5sum: 503f5f4a3e0aba18e21f97dff0cf84f2
+SHA1: 03d4e734bd9088249098d0088c33adf692355a90
+SHA256: f7af98d77ee4ec69cffbfb2e0c20c263026433c8e547c3f47c98716328f43bd0
+SHA512: 9a6d177286b08da43520b6d46143733bc53386cac2319ead2338cf0ac8481e8a902361597d67ee0b23f789729af0a0b5ff14c90afc2a4de9ba2830bdd6feb9b0
+Description: 更换微信输入法 Logo，自定义动作快捷呼出剪贴板。
+Name: iWxkb
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/iwxkb.png
+
+Package: com.mlgm.iwxkb
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 420
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.mlgm.iwxkb_1.1.1_iphoneos-arm64e_0d20805a1805dfc5934699145842f162509f33cd4b7c2dc048588c4f56467802.deb
+Size: 42936
+MD5sum: dba2858ec4c7df12de89d86546f52da0
+SHA1: 9f61b7d872fbcf448076dc576fbc2f79ffec8c52
+SHA256: 0d20805a1805dfc5934699145842f162509f33cd4b7c2dc048588c4f56467802
+SHA512: a651e8c3e995f076eaedb41a45f45b0f93fdfa1e9a8adef3149941d8411405251b00507c497384f14bacf35468f19cbb45082f629d9c870daacc895e972593bf
+Description: 更换微信输入法 Logo，自定义动作快捷呼出剪贴板。
+Name: iWxkb
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/iwxkb.png
 
 Package: com.mlgm.prefnest
 Architecture: iphoneos-arm64e
@@ -5330,6 +5476,24 @@ Author: 半生年华
 icon: https://huayuarc.github.io/icon/NoAds@2x.png
 
 Package: com.noads.tweka
+Architecture: iphoneos-arm64
+Version: 1.3.1
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 2616
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.noads.tweka_1.3.1_iphoneos-arm64_d6ee3ffc665be31d52e05d3c667bd9930ee49140d196853546ad4dc442d534ef.deb
+Size: 767952
+MD5sum: 82d85d4e4bd67eeb40f721e1ea5ee70c
+SHA1: 0dbece6baa7825af07145577cf9cd072d3d16a53
+SHA256: d6ee3ffc665be31d52e05d3c667bd9930ee49140d196853546ad4dc442d534ef
+SHA512: 22dc1df5db125c4bc09e9d3170bf5606a47dd321a8afc00576ea6c715ae20635454f11a0ea80d478bee318413a730746b07b2cb2481884daad1d1112c928c849
+Description: 去除广告。
+Name: NoAdsX
+Author: 半生年华
+icon: https://huayuarc.github.io/icon/NoAds@2x.png
+
+Package: com.noads.tweka
 Architecture: iphoneos-arm64e
 Version: 1.2.7
 Section: Tweaks
@@ -5360,6 +5524,24 @@ MD5sum: 4e8e127e6ec528eeab343fcac08bd830
 SHA1: 9691e88d755141a6b9a2d53b6aa9b1421ad5a90c
 SHA256: 4b4a588d029ec46fc595d9f4ee9083cc28d7b19761f369e14df2084a7dc57b3b
 SHA512: e3f0f6fab79041b0d55c06db6f0fd853ad09ee5d9d546de7a9f1c7b0b8933dd5fb5f0c12dadba142a465590cc22420f22413091b9fd31a85cdd151adc789e0b1
+Description: 去除广告。
+Name: NoAdsX
+Author: 半生年华
+icon: https://huayuarc.github.io/icon/NoAds@2x.png
+
+Package: com.noads.tweka
+Architecture: iphoneos-arm64e
+Version: 1.3.1
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 2616
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.noads.tweka_1.3.1_iphoneos-arm64e_c4ee712d376462ffc58b2a82f897038bffc6515e5777b506f90b206e4616db99.deb
+Size: 765864
+MD5sum: 2b2f2a28158215a080f6ddf03ea2514e
+SHA1: 2c8f06954e51bdfff014e7b54b631539ae9b210d
+SHA256: c4ee712d376462ffc58b2a82f897038bffc6515e5777b506f90b206e4616db99
+SHA512: 0c379bc600400d1ce32a0cf0dfbfc69e2e0a99e6f62fd32f59bdaafa894538aba8a9450ef6fc5d8e618e3ca0732555755a4291626138092858083c5f9708b646
 Description: 去除广告。
 Name: NoAdsX
 Author: 半生年华
@@ -5621,6 +5803,27 @@ Icon: https://qq391160.github.io/repo/icons/thermal.png
 
 Package: com.qq391160.cpucore
 Architecture: iphoneos-arm64
+Version: 2.0.109
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4012
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64/com.qq391160.cpucore_2.0.109_iphoneos-arm64_d84535a6cc37772fb0096939849a51c2bec1e6c1afb3bf05ebe52fd23b26cd7b.deb
+Size: 579318
+MD5sum: ee37e20f0629365b92ed89eb7bd51697
+SHA1: b794b3443c8440f84949ed557ad8f28cea9058ac
+SHA256: d84535a6cc37772fb0096939849a51c2bec1e6c1afb3bf05ebe52fd23b26cd7b
+SHA512: 42ad07bc4ed9233b3419979d93ce6de242065662b6551bb697349959aa7719184771ca6372cda8eb3a2171c8d8a27c572e9d204e9585403ac4f1a506a82bc1b8
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64
 Version: 2.0.45
 Priority: optional
 Section: Tweaks
@@ -5761,6 +5964,27 @@ MD5sum: a870f71867238a506a635a51628badf1
 SHA1: ea9cd938c9535c40b1335b519728d3b0d04cdd2a
 SHA256: 2538b56cf42a16752d9d5e65f0c342a5d0d80145ab4d6eb3852e2cf8973fed1c
 SHA512: 414f71591f07efe31922fb8b49a22c4c27be322b22599e9db5f36fbda56a1920151f18061f636dcd3c71f8119aee806c43cd278fde003150ff9b8b60fce43d0b
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64e
+Version: 2.0.109
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4220
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64e/com.qq391160.cpucore_2.0.109_iphoneos-arm64e_a1da9d9490de8ef818d58de2ac873d4b40d9ee86e5a5a8ad54f08fdc1ac10f22.deb
+Size: 621424
+MD5sum: a7d8538babc0fceeebc6e1f258b473ef
+SHA1: fd6a2da8411f811e9f3e3e6116f5c98ea14cf692
+SHA256: a1da9d9490de8ef818d58de2ac873d4b40d9ee86e5a5a8ad54f08fdc1ac10f22
+SHA512: 85c12e34db8cc0d697f8aca85c5badfc8cb767cf95cdd5b038c9257afda4615cf993823cbdd1235df16826080a2164c007621a04b39ba365bd3a72ba6b8aa606
 Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
 Name: CPU智能温控(iOS16/17)
 Author: qq391160
@@ -10483,6 +10707,40 @@ SHA512: 3e99cdbbef8a4efdc039171145b456c648f72f31f3745e4475c77e1ac2d62e746e28bcc8
 Description: Customize Siri with NewSiri edge lighting or the SiriAI glass interface.
 Name: LiquidSiri
 Author: Thijs mussig, Banana
+
+Package: local.minis.hideairdrop
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Section: Tweaks
+Maintainer: Minis
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 17.0)
+Filename: debs/iphoneos-arm64/local.minis.hideairdrop_1.1.0_iphoneos-arm64_3b4326fcb23cb73414c1fdb6a289053177f6115486095e25fb6e19850ab80617.deb
+Size: 10976
+MD5sum: 692bdd3f1730f4e1809851890192a05c
+SHA1: 3572485dadee8a14b0ac4a619867b059379c3128
+SHA256: 3b4326fcb23cb73414c1fdb6a289053177f6115486095e25fb6e19850ab80617
+SHA512: 893417dcc792836337e3f0d107a0550114da951082a54d493b9fcea9c374e3691329bdc2b60cfac7225e2029bf03ca91e82f1cb7a44b38d65d1dd395cd6ee756
+Description: 如上，好像不支持 17 以下
+Name: 禁用分享隔空投送
+Author: Minis
+
+Package: local.minis.hideairdrop
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Section: Tweaks
+Maintainer: Minis
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 17.0)
+Filename: debs/iphoneos-arm64e/local.minis.hideairdrop_1.1.0_iphoneos-arm64e_5868facc0a847408988b9a62ad026a67a3439af0dbcfd53327ccdd2dd8e416d2.deb
+Size: 10838
+MD5sum: cdc90f04b63b0ac84599339bcf5e88f4
+SHA1: dbb906250651a1e7bb6931ffe988fb9231ed732f
+SHA256: 5868facc0a847408988b9a62ad026a67a3439af0dbcfd53327ccdd2dd8e416d2
+SHA512: ae85e3b68ef15bd1bf103fd710fd80fbf49cbbfee4499e71d457120e1b6a92399e63d1177aff9bab7ea72f77a6391eddd7eb59f30e3836780d609ebcc820e65d
+Description: 如上，好像不支持 17 以下
+Name: 禁用分享隔空投送
+Author: Minis
 
 Package: local.notifybubbles
 Architecture: iphoneos-arm64e
