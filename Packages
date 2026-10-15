@@ -4833,6 +4833,43 @@ Description: 修复表情渐变 bug
 Name: 彩虹键盘光效
 Author: MoWang
 
+Package: com.minis.wetypeverticalswitch
+Architecture: iphoneos-arm64
+Version: 0.4.5
+Section: Tweaks
+Maintainer: 小菜
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.minis.wetypeverticalswitch_0.4.5_iphoneos-arm64_5acf848d6f73732cb565387531571ea37bb08dcdc64d64cd96cd6061e35e8b73.deb
+Size: 75708
+MD5sum: 66e7b9ed6d8da89e385f0565768e855d
+SHA1: 8f49793131cca0eab95bda7b5d629f69b57c8eae
+SHA256: 5acf848d6f73732cb565387531571ea37bb08dcdc64d64cd96cd6061e35e8b73
+SHA512: 2127e3de83af405678e6663ec566f6d224e3f250f8c7e8e0be35948468457d1976dfa6221040791c4754210244540d1e986d95af06ac086aea7fd4610ce670d6
+Description: 微信输入法 3.5.5/743 全键盘上下滑动切换中英文（rootless）。
+ 0.4.5 更新：修复关闭「禁用下滑」后下滑仍收回键盘的问题——关闭时下滑与上滑一样切换中英文，
+ 开启时下滑收回键盘；开关下方新增行为注解。新增「更多好玩」按钮（跳转群聊）与「注销桌面」按钮
+ （确认后 sbreload 重载 SpringBoard，非重启）。设置页含总开关、灵敏度滑条、作者：小菜。
+ 需真机验证；仅适配微信输入法 3.5.5（743）。
+Name: 微信输入法滑动切换
+Author: 小菜
+
+Package: com.minis.wetypeverticalswitch
+Architecture: iphoneos-arm64e
+Version: 0.4.3
+Section: Tweaks
+Maintainer: 小菜
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.minis.wetypeverticalswitch_0.4.3_iphoneos-arm64e_8c99048258f64406869feda3e563266b30c5d10c2fa218ee35dbfb35a3685710.deb
+Size: 44208
+MD5sum: ac078b7ba6acf8c3fd158c406d251ac5
+SHA1: d0fe33beef66402db2a117ec705ec39fee1f5d35
+SHA256: 8c99048258f64406869feda3e563266b30c5d10c2fa218ee35dbfb35a3685710
+SHA512: 6f5d2d76736e62930f11c1180889762c8a844632d51db517e2145da7f8a544f1b06d2b6cd35229dcfcef1585b594e19f4d0846423be60ac2dc67527a767bc41c
+Description: Native touch transaction staging for WeType 3.5.5/743; includes Settings. Device testing required.
+Name: 微信输入法滑动切换
+Author: 小菜
+
 Package: com.mlgm.actra
 Architecture: iphoneos-arm64
 Version: 1.1.1
@@ -6278,6 +6315,39 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
 Package: com.quicklaunch.tweak
+Architecture: iphoneos-arm64
+Version: 0.1.55
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1284
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/iphoneos-arm64/com.quicklaunch.tweak_0.1.55_iphoneos-arm64_cf69aa1028a0200a15f81209faf8f6f65840c61483d494b19f6c57bc506d3770.deb
+Size: 376910
+MD5sum: a9c698127733b2725d9904d1958b6b97
+SHA1: 517fce803743dd87152e29fdff12f190e1b4a09c
+SHA256: cf69aa1028a0200a15f81209faf8f6f65840c61483d494b19f6c57bc506d3770
+SHA512: f52cc4c722f364301cdc9497684e4c4342293b1e988762b088d45908c0314a3fb1097ab7f7c1793e3eb743b3a4c0aab1bd15ca0b5f51c9e915f4bae6b22131a8
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and stay hidden until the keyboard dismisses.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Name: QuickLaunch
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
+Package: com.quicklaunch.tweak
 Architecture: iphoneos-arm64e
 Version: 0.1.44
 Priority: optional
@@ -6297,6 +6367,39 @@ Description: Independent quick-launch rail and notification capsule for iOS 15.0
  Keep two overlays with separate apps and settings, adapting to portrait and landscape.
  Tap notification apps to open and remove them; long-press for the full list.
  Both overlays share the lock-screen switch; the capsule hides while typing.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Name: QuickLaunch
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
+Package: com.quicklaunch.tweak
+Architecture: iphoneos-arm64e
+Version: 0.1.55
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 708
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/iphoneos-arm64e/com.quicklaunch.tweak_0.1.55_iphoneos-arm64e_09260ee552deea35f6573fbd34a870aae8ddcdbec92b8361b7c229d89c876509.deb
+Size: 225456
+MD5sum: 58e6d7226aa6a44f1091d098a66558bd
+SHA1: df2e463dde6ede789cf7a1ab29ed74c55e582797
+SHA256: 09260ee552deea35f6573fbd34a870aae8ddcdbec92b8361b7c229d89c876509
+SHA512: 67133a5f01942a06b71a1761d5316f9f5269bde10492bd7ecf11b222013346d0ec4d9f2e270f8b519fb77f8f10b7bf9057d65a89a3ba6194692051223fe6816e
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and stay hidden until the keyboard dismisses.
  The border turns green when charging and red below 20 percent battery.
  Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
  Five adaptive dock shapes include a short bar, thermometer, dot and pill.
@@ -7015,6 +7118,23 @@ SHA1: 5f6a64c1e9ae7f181b4a0d8fc9a9b2c1fcac1a72
 SHA256: 8dc447682a962368866cdbdabf2fd485e044a2d1157f17bd3e1f32b78d128ac6
 SHA512: 9c055acbebee03c09911d253071f4e00c330159c17af921f1896648ce84165bace93419febe0c690e7d53348361afec5c9c5df2bcb9c1f29e1d43fa78ce05589
 Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复部分机型无法读取 cpu 频率）
+Name: 灵动监测
+Author: MoWang
+
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64
+Version: 6.61
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3560
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.sbcpu.floating_6.61_iphoneos-arm64_9d2eade112987f13e001ea9688aaf5b465ce8cfede31275f7b843bd1829df2fb.deb
+Size: 1211204
+MD5sum: 4a8fe372713646ec74014bdb503b2905
+SHA1: e9c29938126e067b6ae2f8b9caeaaf438673fd92
+SHA256: 9d2eade112987f13e001ea9688aaf5b465ce8cfede31275f7b843bd1829df2fb
+SHA512: 5decff4f817f6f69ef6f29cb37c3912d806aae1bb7e197b7c77a5a597bb9bdbdc2fcb77ec07ca3fe01822ea5935e63775feeae6b8552829c268e5764490b96b4
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复了一下浮窗文字排版）
 Name: 灵动监测
 Author: MoWang
 
@@ -7757,6 +7877,23 @@ SHA1: 7d7cf33c3c58cad773dd730beb0a026b80de4436
 SHA256: 92f40a4a422c5c2c96076494b56217bbc937211cce988f4a6a7f93ef83c568f0
 SHA512: 553d4863614662b12cb3fcb35afce27baf42bad339e24c80fdc55f0c5cf4153bc088ff308beba863591efcf7ee64d00d7aa9163d920e6dc3514ba1d5766beb8f
 Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复快充不生效，实测 80 以上可破涓流充电）（修复快充不生效，实测 80 以上可破涓流充电）
+Name: 灵动监测
+Author: MoWang
+
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64e
+Version: 6.6.1
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3544
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.sbcpu.floating_6.6.1_iphoneos-arm64e_0140a43d99af4f0ce153bcf10ecbdd8e4ddd4832b27241e08ddf5b9fb729d3ee.deb
+Size: 1203394
+MD5sum: 8be0e49df909cdcdd3f91ccc996d91b5
+SHA1: c845fecb2283345389ed9b933011636f212b8d73
+SHA256: 0140a43d99af4f0ce153bcf10ecbdd8e4ddd4832b27241e08ddf5b9fb729d3ee
+SHA512: 4012038790702f1ebfb5ff79597f5f34081edea7f3333323ce5a0e0c1a915788224f7f25e4af53ce88e2c69bd6ed066acafc9149def110442aa44cf2e97e56ed
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复了一下浮窗文字排版）
 Name: 灵动监测
 Author: MoWang
 
@@ -10440,6 +10577,40 @@ Description: Custom notification badge styles with adaptive ambient glow. For Bi
 Name: AmbientBadge
 Author: Banana
 
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64
+Version: 0.9.20
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1960
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 28.0)
+Filename: debs/iphoneos-arm64/iya.banana.dockicon_0.9.20_iphoneos-arm64_bc4af65745016595c1ff84b7acfa5a25d5c54e8a248cad87841e4e7457f62ab5.deb
+Size: 427142
+MD5sum: 18fac7f535276a38dc4564fafed05608
+SHA1: 3236f6b5762fdfac31c9ea68e08e5658baada153
+SHA256: bc4af65745016595c1ff84b7acfa5a25d5c54e8a248cad87841e4e7457f62ab5
+SHA512: 1cf13e28c4944f4609cda054fa14c0b97cc26a4c14a250d088a4786ec8dfd922b91adb58d608d609b799dfe592a9ce86047ec4d21b903b226f9dedbb32f13894
+Description: Icon styles and theme packs on iOS 15-18, 26 and 27; photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64e
+Version: 0.9.20
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1960
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 28.0)
+Filename: debs/iphoneos-arm64e/iya.banana.dockicon_0.9.20_iphoneos-arm64e_161601dcf526ab4f183c9e60c26d0dd018763d7bf25fc79ea5251114a083dacb.deb
+Size: 428640
+MD5sum: ee3aee6342d4973bccf3583a6cf7a762
+SHA1: c68f8a35e64630939c7f62634fdc1195e7ef8c48
+SHA256: 161601dcf526ab4f183c9e60c26d0dd018763d7bf25fc79ea5251114a083dacb
+SHA512: b4287c5fc03840aef46586d69a7c41178cf08f8e096fe1c1928ef9f5266d3b1ac2ab764f088f839c162c1ad0b249e01cfb18ee4af99c4d1fafbee286c63ac7e5
+Description: Icon styles and theme packs on iOS 15-18, 26 and 27; photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+
 Package: iya.banana.iphoneduoicon
 Architecture: iphoneos-arm64
 Version: 0.1.13
@@ -10768,6 +10939,25 @@ Name: Lunora
 Author: Banana
 
 Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.0.9~beta15
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 4540
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoicon_1.0.9~beta15_iphoneos-arm64_34c5958ed6e40d55e9297dbf02673694ecd021f7225852434c7003124f8ce967.deb
+Size: 802410
+MD5sum: 35ecfc6c32f2f660518dcd5607308020
+SHA1: eba29d79e886bbe503b48cc6e3da5c444df36599
+SHA256: 34c5958ed6e40d55e9297dbf02673694ecd021f7225852434c7003124f8ce967
+SHA512: f84740a41f0024e9ed9524a65ce06b863b55b6afd0664c513596cbf89eb4459fb09697175d5e3b29e7fc91af08f532e7f6e699affdc91609fcd7b31aca5da9bd
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
 Architecture: iphoneos-arm64e
 Version: 0.1.16
 Section: Tweaks
@@ -10892,6 +11082,25 @@ MD5sum: d3f9749a1504302bf9e87cb0ed6cccad
 SHA1: 0c92787367635a9b1fcbb3f9ad4aea6ed34885fc
 SHA256: 0c4ceefa08ecd9ade4230bd74a7981bcc10803bdbb168be5d5ff3f3a1cb50cf9
 SHA512: 63159c9606c091db27a323ffe8ec3dbb03a1c0ca4aae010707fc57e645be6a2bb03e0cf7c35bc3a18cdf0d6c3321b64b193390b13b2aa693e0a90a72a9a89d56
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.0.9~beta15
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 4508
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64e/iya.banana.iphoneduoicon_1.0.9~beta15_iphoneos-arm64e_745bed3e7653dd4994277cb08787d07bf4928cbb1c51c9346e3c0d5d607494e3.deb
+Size: 794290
+MD5sum: 329fda4a9a4470ba5011080734bf03f7
+SHA1: cf4639fd5680b340ef091fda03da0ad71b059638
+SHA256: 745bed3e7653dd4994277cb08787d07bf4928cbb1c51c9346e3c0d5d607494e3
+SHA512: 0a4c33ec8c983135d9005c7bbf52e623d07290975c4e0bf3462ff80d1063c630520dadc05104c588ce61abc65381217eab97d99b22d65214dfacc21d5d0d54ea
 Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
 Name: Lunora
 Author: Banana
