@@ -852,6 +852,28 @@ Icon: https://axs66.github.io/pro/icon/ips.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
 
 Package: com.axs.ipslog
+Architecture: iphoneos-arm64
+Version: 5.2.0-31
+Section: Axs-Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 512
+Depends: preferenceloader
+Filename: debs/iphoneos-arm64/com.axs.ipslog_5.2.0-31_iphoneos-arm64_0d899012456e9acc3542ec4385a9e0a956e1beaea7153f74aafe080be57542a3.deb
+Size: 87630
+MD5sum: fba662bc47c8159b3fbe82076e7f3d73
+SHA1: 2f77e56fb8f4804ef64d9efd141ff0e71e49977d
+SHA256: 0d899012456e9acc3542ec4385a9e0a956e1beaea7153f74aafe080be57542a3
+SHA512: ffdc3d021e3b02085b01d08a6d703ad5dd594452d8d953e91f39dbdbbfc96ecead44ff83202ab5f7e4dfb4e5e0b41fbb114d11a0cae75fb5233bc13e3a2b13ef
+Description: 设置内一键查看与分析设备上的 .ips 崩溃日志，快速定位崩溃原因。
+ * 崩溃日志查看器：按进程聚合、按时间倒序、关键字搜索、可筛选分类、可一键清空日志
+ * 解析异常类型 / 异常码 / 触发线程 / 崩溃堆栈 / 二进制映像
+ * 支持查看完整原文、复制任意字段、分享导出、删除单条与清空
+Name: IPSLog
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ips.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
+
+Package: com.axs.ipslog
 Architecture: iphoneos-arm64e
 Version: 5.2.0-11
 Section: Axs-Tweaks
@@ -976,6 +998,28 @@ MD5sum: af8bf675427f2da0622fb1c006a677f3
 SHA1: dc82c106fa0175f8e7280245ece4adc4ffb76869
 SHA256: 78fa9e89b8aa2a3f99bef422d06437e6950ce12c7eb311fe29941dd29e52a961
 SHA512: 1813b755fa0c505ab3e8b726a774de6cd4f6ce4a01d7dd47bdf805efb563d90a8898946371a0e8c98bfbedf7d62be48880f4002f6330ccebf10da27b3bfd8aa1
+Description: 设置内一键查看与分析设备上的 .ips 崩溃日志，快速定位崩溃原因。
+ * 崩溃日志查看器：按进程聚合、按时间倒序、关键字搜索、可筛选分类、可一键清空日志
+ * 解析异常类型 / 异常码 / 触发线程 / 崩溃堆栈 / 二进制映像
+ * 支持查看完整原文、复制任意字段、分享导出、删除单条与清空
+Name: IPSLog
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ips.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
+
+Package: com.axs.ipslog
+Architecture: iphoneos-arm64e
+Version: 5.2.0-31
+Section: Axs-Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 512
+Depends: preferenceloader
+Filename: debs/iphoneos-arm64e/com.axs.ipslog_5.2.0-31_iphoneos-arm64e_3ce1c25f9a5dcb8eb3e3b2d5ede15a5af641638f8871b053018c7d504000aa18.deb
+Size: 87864
+MD5sum: 127031f60618f90c275312aad0899841
+SHA1: 80a1684c6c34a57438d39a03a62b3b1558be6836
+SHA256: 3ce1c25f9a5dcb8eb3e3b2d5ede15a5af641638f8871b053018c7d504000aa18
+SHA512: a9116d38f9c13cd6c8df4b189f477223df5ad92ae736302393145d54a00d96c79d15a3469cf2def4a745bdd0a3730a4c07bc14059577cdd309c44cfd70e198c3
 Description: 设置内一键查看与分析设备上的 .ips 崩溃日志，快速定位崩溃原因。
  * 崩溃日志查看器：按进程聚合、按时间倒序、关键字搜索、可筛选分类、可一键清空日志
  * 解析异常类型 / 异常码 / 触发线程 / 崩溃堆栈 / 二进制映像
@@ -5993,6 +6037,27 @@ Icon: https://qq391160.github.io/repo/icons/thermal.png
 
 Package: com.qq391160.cpucore
 Architecture: iphoneos-arm64
+Version: 2.0.119
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4180
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64/com.qq391160.cpucore_2.0.119_iphoneos-arm64_01096a5199e4822bd5b49d30c854403d7ad03832d71140b1d79d3049162eaf16.deb
+Size: 609708
+MD5sum: a5f8520124099e634d8ec31a90eaba90
+SHA1: 21c32bbe1a6f69543ba5e27abab84567ca5b28a3
+SHA256: 01096a5199e4822bd5b49d30c854403d7ad03832d71140b1d79d3049162eaf16
+SHA512: d8054c0b625d0670c899220d4aa47c61170729b20e26bf041eaa57f70e0894c7f671809af2aa881e50a3e3bae424564a241bb44c4833bba54f698187595f28ef
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64
 Version: 2.0.45
 Priority: optional
 Section: Tweaks
@@ -6154,6 +6219,27 @@ MD5sum: a7d8538babc0fceeebc6e1f258b473ef
 SHA1: fd6a2da8411f811e9f3e3e6116f5c98ea14cf692
 SHA256: a1da9d9490de8ef818d58de2ac873d4b40d9ee86e5a5a8ad54f08fdc1ac10f22
 SHA512: 85c12e34db8cc0d697f8aca85c5badfc8cb767cf95cdd5b038c9257afda4615cf993823cbdd1235df16826080a2164c007621a04b39ba365bd3a72ba6b8aa606
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64e
+Version: 2.0.119
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4400
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64e/com.qq391160.cpucore_2.0.119_iphoneos-arm64e_5ff2b7dd8a2929418bb120f0c16b654f9e68793ff1afbac4877d4848e5d9a743.deb
+Size: 667886
+MD5sum: fb05ef22283f7366900eb678c078abf4
+SHA1: f840131c1ece70cc29fb81cd3ce57619bb7f81f3
+SHA256: 5ff2b7dd8a2929418bb120f0c16b654f9e68793ff1afbac4877d4848e5d9a743
+SHA512: c7690b04ef8f6e10e938549677584788c4542be4bf3113f572a2642d536891321a1cf8ebbd6b06012fb5e1577daf8e47d04b1d3e3c6d37d041bb0faa6a796c53
 Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
 Name: CPU智能温控(iOS16/17)
 Author: qq391160
@@ -6348,6 +6434,42 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
 Package: com.quicklaunch.tweak
+Architecture: iphoneos-arm64
+Version: 0.1.58
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1356
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/iphoneos-arm64/com.quicklaunch.tweak_0.1.58_iphoneos-arm64_34e10361594aabbcff0b6a320d21cbac06491f7cfba7d98a67eb0995ae2ce015.deb
+Size: 404468
+MD5sum: 12f5d622490873b01ba0c4d6029cefc4
+SHA1: 9ae28ca732dc8a1463ab4d46ade1167d03669170
+SHA256: 34e10361594aabbcff0b6a320d21cbac06491f7cfba7d98a67eb0995ae2ce015
+SHA512: 24e5386d1526f68faa4342a5ced2096ce55361bb50075ad2f085514a88a53a5d713f3c675386fb18ddb7a31854451a0ccc552423d4260caf23f92958ad042e8f
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and stay hidden until the keyboard dismisses.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Name: QuickLaunch
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
+Package: com.quicklaunch.tweak
 Architecture: iphoneos-arm64e
 Version: 0.1.44
 Priority: optional
@@ -6395,6 +6517,42 @@ Description: Independent quick-launch rail and notification capsule for iOS 15.0
  Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
  Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
  Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and stay hidden until the keyboard dismisses.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Name: QuickLaunch
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
+Package: com.quicklaunch.tweak
+Architecture: iphoneos-arm64e
+Version: 0.1.58
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 748
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/iphoneos-arm64e/com.quicklaunch.tweak_0.1.58_iphoneos-arm64e_d1654269372fba7ca3ad80959c498628772710088a9c0c24afceae4c3d865692.deb
+Size: 242638
+MD5sum: 5ccdf5f654dae0402fbb24db5e4fbf37
+SHA1: 00ac3e1bed9a25604f793ae22263af7d58b15d03
+SHA256: d1654269372fba7ca3ad80959c498628772710088a9c0c24afceae4c3d865692
+SHA512: 0623bb6c25f3d2a0ff000ae8ff7a6372f41cbad9e8185989ea2c362a5fcd148b9b1c08a4607a37c49fee57c8014ea273eec42857dd4569a53310ff4ba1d8ea33
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
  Optionally retain one to three empty Home Screen pages after existing pages.
  Keep two overlays with separate apps and settings, adapting to portrait and landscape.
  Select any number of rail apps; scroll within a fixed eight-slot viewport.
@@ -7118,6 +7276,23 @@ SHA1: 5f6a64c1e9ae7f181b4a0d8fc9a9b2c1fcac1a72
 SHA256: 8dc447682a962368866cdbdabf2fd485e044a2d1157f17bd3e1f32b78d128ac6
 SHA512: 9c055acbebee03c09911d253071f4e00c330159c17af921f1896648ce84165bace93419febe0c690e7d53348361afec5c9c5df2bcb9c1f29e1d43fa78ce05589
 Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复部分机型无法读取 cpu 频率）
+Name: 灵动监测
+Author: MoWang
+
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64
+Version: 6.6.2
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3560
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.sbcpu.floating_6.6.2_iphoneos-arm64_165fd0dc5d0a39e5c2d67bcde59e600e9193b8aa95a12e2e4ea7991481c821de.deb
+Size: 1213178
+MD5sum: 83af163c9cfb3c6f5da16adc4c163183
+SHA1: 1c0badd6738a5c99b42ffd6d1b72500d887af0ad
+SHA256: 165fd0dc5d0a39e5c2d67bcde59e600e9193b8aa95a12e2e4ea7991481c821de
+SHA512: d825a9091bf6b0fd2c8526d1de2bed6eadc6e8e9b9d14774dd1046f64e2098932756063c6fbae243079916d35268c43a2ee6c4a2065cf9acbadfeafdaaea983f
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
 Name: 灵动监测
 Author: MoWang
 
@@ -7894,6 +8069,23 @@ SHA1: c845fecb2283345389ed9b933011636f212b8d73
 SHA256: 0140a43d99af4f0ce153bcf10ecbdd8e4ddd4832b27241e08ddf5b9fb729d3ee
 SHA512: 4012038790702f1ebfb5ff79597f5f34081edea7f3333323ce5a0e0c1a915788224f7f25e4af53ce88e2c69bd6ed066acafc9149def110442aa44cf2e97e56ed
 Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复了一下浮窗文字排版）
+Name: 灵动监测
+Author: MoWang
+
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64e
+Version: 6.6.2
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3560
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.sbcpu.floating_6.6.2_iphoneos-arm64e_7cbe46e4a0f6d81f89d38894bca9bd088355919caf811f3cc021ab4d62c9a71e.deb
+Size: 1205452
+MD5sum: 3996dd9f3b1d4f6115e2a0343ed578e7
+SHA1: 04ac968183770a019e9379d03d01cca8d6db667b
+SHA256: 7cbe46e4a0f6d81f89d38894bca9bd088355919caf811f3cc021ab4d62c9a71e
+SHA512: db3c6bfeace77f786f3de4cb45c479d32193c7697f8098cb045eb3f10447a9798498f6be30e7749bd19507f77a47cd1b51dfcc54278e90ccfd27de0f545f2fa5
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
 Name: 灵动监测
 Author: MoWang
 
@@ -9476,6 +9668,43 @@ Name: SystemX（wkk）
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 
+Package: com.wxkb
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: 小菜
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.minis.wetypeverticalswitch, com.wxkb
+Replaces: com.minis.wetypeverticalswitch, com.wxkb
+Filename: debs/iphoneos-arm64/com.wxkb_1.0.0_iphoneos-arm64_398cd45d1e7a42d17ace2634e1a341f9169611b059b98dc6ef484abc351724fa.deb
+Size: 143188
+MD5sum: 997c7ab43d67147c6570da9441d98fb5
+SHA1: f738711fd899a6f100a02e47e755451e3f83b3f1
+SHA256: 398cd45d1e7a42d17ace2634e1a341f9169611b059b98dc6ef484abc351724fa
+SHA512: a4a1f85c07273c7b249c12ee763688c4232398be78d07546d1c502e4be5ad9f6c94f2a0bf104f247f6a190fcce4e1641fac01e19063fba85b547b84365d035ee
+Description: 在微信输入法上启用上下滑手势切换输入方式 只会切换英文 不会和键盘切换按钮冲突 同理可以切换三种键盘
+Name: Wxkb
+Author: 小菜
+
+Package: com.wxkb
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: 小菜
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.minis.wetypeverticalswitch, com.wxkb
+Replaces: com.minis.wetypeverticalswitch, com.wxkb
+Filename: debs/iphoneos-arm64e/com.wxkb_1.0.0_iphoneos-arm64e_e25a5f9ccbf1ffc7208f2c9ee06ac7dc2e014dbd75958cf4f2adc8dad96f7775.deb
+Size: 160314
+MD5sum: 3e3a2c9100fd736517461e762180f454
+SHA1: ec0daddf84ee6e4a20dc00a4096a7e129931b18f
+SHA256: e25a5f9ccbf1ffc7208f2c9ee06ac7dc2e014dbd75958cf4f2adc8dad96f7775
+SHA512: 51eee86ff97b48bc9fa5a1e6fb5b7ee6d06f2e14fb853436f476a40c689928174870a5ca3d9359920cf7bc1435b28d518c7aceb1a5d27fd9086be8d5b60cdd39
+Description: 在微信输入法上启用上下滑手势切换输入方式 只会切换英文 不会和键盘切换按钮冲突 同理可以切换三种键盘
+Name: Wxkb
+Author: 小菜
+
 Package: com.ylr.wcfloatsplit
 Architecture: iphoneos-arm64
 Version: 3.0-5
@@ -10940,6 +11169,25 @@ Author: Banana
 
 Package: iya.banana.iphoneduoicon
 Architecture: iphoneos-arm64
+Version: 1.0.9
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 4524
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoicon_1.0.9_iphoneos-arm64_b840ab0261d9650fce66ad49ce3f86204c61a220c5c5609eacc55daf34d9b3c5.deb
+Size: 795614
+MD5sum: bae5c123043f2a07802ad860e9d65766
+SHA1: 255c444d6b246fe5e1342b4d3f1b788947fa5531
+SHA256: b840ab0261d9650fce66ad49ce3f86204c61a220c5c5609eacc55daf34d9b3c5
+SHA512: 4d98ee1407fee6b5a8cc88254098ad2417fbb638694e84ce668ed21634f6caa044799462080d8852d7cf8accf271aaafae2013bbb76fd553c981a616d27af8d2
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
 Version: 1.0.9~beta15
 Section: Tweaks
 Maintainer: Banana
@@ -11082,6 +11330,25 @@ MD5sum: d3f9749a1504302bf9e87cb0ed6cccad
 SHA1: 0c92787367635a9b1fcbb3f9ad4aea6ed34885fc
 SHA256: 0c4ceefa08ecd9ade4230bd74a7981bcc10803bdbb168be5d5ff3f3a1cb50cf9
 SHA512: 63159c9606c091db27a323ffe8ec3dbb03a1c0ca4aae010707fc57e645be6a2bb03e0cf7c35bc3a18cdf0d6c3321b64b193390b13b2aa693e0a90a72a9a89d56
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.0.9
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 4524
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64e/iya.banana.iphoneduoicon_1.0.9_iphoneos-arm64e_f83c246f71e4c0a89de8b45838faa2b0bd4e7b17c45d233eb8013339a613f403.deb
+Size: 793636
+MD5sum: 4186f3bff7a5fc41cbded8ac813d75e9
+SHA1: d4e141267a1a499ba39994a0a6aae18e0f4f9feb
+SHA256: f83c246f71e4c0a89de8b45838faa2b0bd4e7b17c45d233eb8013339a613f403
+SHA512: 54ba035a85b4cd5ff151568c7c274a592a9d598ab162d2007dd6d7d9e0e2e1f932cd3ef4d85ed48bdd417bf23985d4b329a9b2f99b8543a9eecb995af6a53155
 Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
 Name: Lunora
 Author: Banana
