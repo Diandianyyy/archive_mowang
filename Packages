@@ -1325,6 +1325,40 @@ Description: 分屏，不必太复杂，一切从简即可。
 Name: floatingView
 Author: be-huge
 
+Package: com.be-huge.insulation
+Architecture: iphoneos-arm64
+Version: 0.1.38.1
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 828
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.be-huge.insulation_0.1.38.1_iphoneos-arm64_a16ad08b248239e9f4e4b6813412925f2f3ca183c2365c0d10422480e906e7f7.deb
+Size: 59732
+MD5sum: 28b27349aa2d8a560702ccb8a74f4b77
+SHA1: 417817a73765c65d908c657c46a9b3cb15276a58
+SHA256: a16ad08b248239e9f4e4b6813412925f2f3ca183c2365c0d10422480e906e7f7
+SHA512: 6cf867bfaaf98c1dab9bf503477ef9f02926bd3672b85b4a1505f1dcc6c521c0203e6b8529f834384a16c0e41037179fb595e1e12806f21ad6be0f4b096e28a2
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
+Name: insulation
+Author: be-huge & doimty
+
+Package: com.be-huge.insulation
+Architecture: iphoneos-arm64e
+Version: 0.1.38.1
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 780
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.be-huge.insulation_0.1.38.1_iphoneos-arm64e_75d9920232145bae39c8a3217091e8cb3dec60d0074df265fbfa86a7d44e19c9.deb
+Size: 57024
+MD5sum: 548758f431fed3ae2df216bb491d6c62
+SHA1: fd40899f9d37489c30a01a79d245d80c20af9f45
+SHA256: 75d9920232145bae39c8a3217091e8cb3dec60d0074df265fbfa86a7d44e19c9
+SHA512: faec1fb9a37f317941c6c17f743fbfa1886eb3454de2e9b4c76c1e5f39e61d4f596800d72c8fb316d48c4db429164c43d5e8c5e7dfbd85b6b57b061795f17972
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
+Name: insulation
+Author: be-huge & doimty
+
 Package: com.binglan.dynamicfx
 Architecture: iphoneos-arm64
 Version: 1.0.7
@@ -2472,6 +2506,24 @@ SHA1: 6753b547c235583176256c2bdcd0d2c4e21b09df
 SHA256: b96bfa462178b034897400cec04cdbd334a27453f8582f6738de0dc6e7c741ff
 SHA512: a11a5a4daaf01a7547860465610080f8a0e873016007d24354cc82d1e23591e4b156b886226ef990343f92eaffe0d6061bff40e8fdecb92ef93d92acfe0bb040
 Description: High-refresh policy tweak for supported iPhone Pro models, with app and system refresh requests and a persistent SpringBoard keepalive.
+Tag: supports::roothide
+Name: ProMotion 120Hz
+Author: doimty
+
+Package: com.doimty.promotion
+Architecture: iphoneos-arm64e
+Version: 1.0.8
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.doimty.promotion_1.0.8_iphoneos-arm64e_163356804400a7144f7794823f357648bb8a103d3ecebe93ce35193ff223af68.deb
+Size: 25936
+MD5sum: 357609839a3d5471004855e357463729
+SHA1: 4f643641c669f3ee781f673acfddf2b00fafb2c1
+SHA256: 163356804400a7144f7794823f357648bb8a103d3ecebe93ce35193ff223af68
+SHA512: 1d2c3c0d7e5d8d628af3fe6620c49621b6a410301e8974e3a02e279345a565c63b02e30028f664591924b222191921e32b77cdc77a80aa92634277bdb4dd5bc5
+Description: Force global 120Hz ProMotion, bypass the 80Hz system cap. iPhone 13 Pro and above only.
 Tag: supports::roothide
 Name: ProMotion 120Hz
 Author: doimty
@@ -3626,6 +3678,23 @@ Description: 支持录屏/截图套壳，水印以及区域截图、长截图、
 Name: SHELLX
 Author: iosdump
 
+Package: com.iosdump.zone
+Architecture: iphoneos-arm64
+Version: 2.1.0
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 1164
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.iosdump.zone_2.1.0_iphoneos-arm64_7b35aa49d09be6361ed5db8b064e7178a7a1ca2d2f273ee2a6d54f833d441cca.deb
+Size: 210892
+MD5sum: 2aca1f5da7d0a2683f7aeef8a6eef85c
+SHA1: f387eec2fe6121cfcd3183542523ee5e6a56d4c0
+SHA256: 7b35aa49d09be6361ed5db8b064e7178a7a1ca2d2f273ee2a6d54f833d441cca
+SHA512: e1610826852edfe44241ded7548795d679c9c7458cadf8dc95ed130b7c5917ecbb4e716bfdd8779e8d4ebdae38314607daeb0b01e4225bfecfd5d2b75dd838a7
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Name: Zone
+Author: iosdump
+
 Package: com.jl.liquidglass
 Architecture: iphoneos-arm64
 Version: 0.1.6.56
@@ -3822,6 +3891,46 @@ SHA512: 7b528452f5536de3f0ba9eef01bb7c17ef16ce77c74f294ba478af641dadbf63254dfe2b
 Description: Movable overlay showing CPU, RAM, battery, network and system info. Pin it in place, collapse it, and configure everything in Settings.
 Name: InfoBar
 Author: mathelord
+
+Package: com.mikifp.griddys
+Architecture: iphoneos-arm64
+Version: 1.1.2
+Section: 插件
+Maintainer: mikifp
+Installed-Size: 272
+Depends: mobilesubstrate
+Conflicts: com.mikifp.griddy, xyz.cypwn.griddy, com.dao.griddy, byg.iosios.net.griddy
+Filename: debs/iphoneos-arm64/com.mikifp.griddys_1.1.2_iphoneos-arm64_2631e631c14f41968777668d0a31507cdadeeec485ea92e69c89d33690503617.deb
+Size: 27712
+MD5sum: 8aae089e780dfe4bf891cec1cffb11d1
+SHA1: faeda084168cc90068d1db57ef1efdea2be96919
+SHA256: 2631e631c14f41968777668d0a31507cdadeeec485ea92e69c89d33690503617
+SHA512: add9f92703326c7efb923c7fac380b17f9a9c459ffde4d66e8a33091c5f28424833c7ea4113d6966fc0958a7722d67bbed201193a29e781f93657101eab7ae37
+Description: 桌面图标可以随意摆放
+ * Layout your icons anywhere you want!
+Name: Griddy
+Author: mikifp
+icon: https://TrollStoreX.Github.io/sileodepiction/Griddy/icon.png
+
+Package: com.mikifp.griddys
+Architecture: iphoneos-arm64e
+Version: 1.1.2
+Section: 插件
+Maintainer: mikifp
+Installed-Size: 272
+Depends: mobilesubstrate
+Conflicts: com.mikifp.griddy, xyz.cypwn.griddy, com.dao.griddy, byg.iosios.net.griddy
+Filename: debs/iphoneos-arm64e/com.mikifp.griddys_1.1.2_iphoneos-arm64e_63cc252d702ed46befe82d4394174baeaf5201a5453f038d867035b13279ea8e.deb
+Size: 26584
+MD5sum: 8d5e1f3aaa51d16a669e6807de5ec40f
+SHA1: a78551b43e91df52655e24261c4f63b6edd777c9
+SHA256: 63cc252d702ed46befe82d4394174baeaf5201a5453f038d867035b13279ea8e
+SHA512: 8dd3908685f56bacb5a16ddb18a8c1a939bf547c4a01b5e5605cd3f556d88865bd32cf743b48689c224db3311f9da8f54b38d45634f15e0d4eb88d099426d4c9
+Description: 桌面图标可以随意摆放
+ * Layout your icons anywhere you want!
+Name: Griddy
+Author: mikifp
+icon: https://TrollStoreX.Github.io/sileodepiction/Griddy/icon.png
 
 Package: com.minis.lockscreengradientclock
 Architecture: iphoneos-arm64
@@ -5566,6 +5675,74 @@ Name: Mutoollite
 Author: Muzi
 Icon: https://muzikeji.github.io/Sileo/icons/mutoollite.png
 Sileodepiction: https://muzikeji.github.io/Sileo/depictions/com.muzi.mutoollite.json
+
+Package: com.nan.deb
+Architecture: iphoneos-arm64
+Version: 0.3.0
+Section: Terminal_Support
+Maintainer: zhaonan
+Depends: coreutils, sed, findutils
+Filename: debs/iphoneos-arm64/com.nan.deb_0.3.0_iphoneos-arm64_b118565c12aa7257b0ab4c2b372e890586f84931ff0ea2aba059f74fec91a602.deb
+Size: 4280
+MD5sum: 8d85747587fa2d3cb2733408bb0d28fd
+SHA1: eb2db2c14f4b615e001c2a957886deddedcd5638
+SHA256: b118565c12aa7257b0ab4c2b372e890586f84931ff0ea2aba059f74fec91a602
+SHA512: b8da8358b1e6acc3aa087950f7376227114c121ebe1354a5a88b4b415abc1b760641807fb5071c5bd331056095d6a82c137855cdfd68f35a0fcb857924a01be9
+Description: deb 工具，普通解压，普通打包，批量解压，批量打包，提取已安装软件包，deb 信息查看
+Name: deb
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.deb/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
+
+Package: com.nan.deb
+Architecture: iphoneos-arm64e
+Version: 0.3.0
+Section: Terminal_Support
+Maintainer: zhaonan
+Depends: coreutils, sed, findutils
+Filename: debs/iphoneos-arm64e/com.nan.deb_0.3.0_iphoneos-arm64e_a4ab792400b7a63c6193eae143b2e51f9a81c420bdc617cbbcf7bcb8319120e9.deb
+Size: 4260
+MD5sum: 01da4bd69920757d94adaf2fcfebc8ee
+SHA1: b398d75478a7ef64d2c1ed6e18a3b8d9de649175
+SHA256: a4ab792400b7a63c6193eae143b2e51f9a81c420bdc617cbbcf7bcb8319120e9
+SHA512: dcc704c9258d8ea1a80f7bae93ab2ed9c0551addf5ab61f401ccd2d3c5c12685af02b12c09421f3afebc3416cb4f6b025070f42146f15aa71f8288efd925d0dd
+Description: deb 工具，普通解压，普通打包，批量解压，批量打包，提取已安装软件包，deb 信息查看
+Name: deb
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.deb/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
+
+Package: com.nan.debd
+Architecture: iphoneos-arm64
+Version: 0.4.2
+Section: Terminal_Support
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk, curl, zstd, xz-utils, bzip2, gzip, text-cmds, ncurses-bin, file, jq, defaults
+Filename: debs/iphoneos-arm64/com.nan.debd_0.4.2_iphoneos-arm64_e91ffbdfb1fb61f8300f1e239db55e312bbd0ad640efaf9f50d380a984872a25.deb
+Size: 4788
+MD5sum: 6794b6824bf170390848517805cd1218
+SHA1: 4a05a247d21f109b92951d62dc7af18160ba6c10
+SHA256: e91ffbdfb1fb61f8300f1e239db55e312bbd0ad640efaf9f50d380a984872a25
+SHA512: f50c34c97b6f3d759eae807364dd3c1bb57839bd2098a69b33397b3594864c54cbfd30bd589b9e353793a26e9a6e718ef72c25b17be659196b6166594d7c69cf
+Description: 轻量 deb 下载工具，不支持付费才能下的插件
+Name: debd
+Author: zhaonan
+
+Package: com.nan.debd
+Architecture: iphoneos-arm64e
+Version: 0.4.2
+Section: Terminal_Support
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk, curl, zstd, xz-utils, bzip2, gzip, text-cmds, ncurses-bin, file, jq, defaults
+Filename: debs/iphoneos-arm64e/com.nan.debd_0.4.2_iphoneos-arm64e_1ff5350a748a52b3ea24a167b75056edfc943fabca42d540f241425ae3afc7ca.deb
+Size: 4764
+MD5sum: 8058cf876c153d1d1b8775e18b41c5f1
+SHA1: 04f96e514f3c34935a26dc784262220bbb1aa8c2
+SHA256: 1ff5350a748a52b3ea24a167b75056edfc943fabca42d540f241425ae3afc7ca
+SHA512: a68e74b42bd16be5fa054b824ffd9ab30560ac335fb9804c0dddb4d1e3e7f987bf3697a19b1ecae61b9ac7c47eb21013aced6f90bb8e9a4259583e6ba7652612
+Description: 轻量 deb 下载工具，不支持付费才能下的插件
+Name: debd
+Author: zhaonan
 
 Package: com.ngkhoi.26home
 Architecture: iphoneos-arm64e
@@ -9649,6 +9826,43 @@ Description: cool！
 Name: CopylogX（wkk）
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+
+Package: com.wkk.dndmyrecording
+Architecture: iphoneos-arm64
+Version: 1.3
+Section: Tweaks
+Maintainer: gilshahar7, 0xkuj
+Installed-Size: 216
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.wkk.dndmyrecording_1.3_iphoneos-arm64_e3608f8287c57d6cd08a0a2ef22f5dddf8aa68d5c4aceaaf38d9428dfe46619c.deb
+Size: 7016
+MD5sum: 503b79e4d52be91fb33cd62ac5d0e4ea
+SHA1: c604286f396cda4324da6202b4c8f001181efd75
+SHA256: e3608f8287c57d6cd08a0a2ef22f5dddf8aa68d5c4aceaaf38d9428dfe46619c
+SHA512: 173d356f223c90bc70b489d7ec651749e493bf094995df3cfa98f215c38294cf7c6c550e4f16518ba5cb7063df8f3651426c5d7961bbfdcdb01297db32f5610f
+Description: 录屏时自动开启勿扰模式，防止一切通知打扰录屏！（录屏结束自动关闭）
+Name: DNDMyRecording
+Author: gilshahar7, 0xkuj
+Icon: https://s1.imagehub.cc/images/2025/01/02/8ec09e4613791a26f568aed1a81478ef.png
+
+Package: com.wkk.dndmyrecording
+Architecture: iphoneos-arm64e
+Version: 1.3
+Section: Tweaks
+Maintainer: gilshahar7, 0xkuj
+Installed-Size: 216
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.wkk.dndmyrecording_1.3_iphoneos-arm64e_9bc0ca08f5085d057f9d33d47ea3178c0e1c685105e75c1fc7984561b8a8bd74.deb
+Size: 8172
+MD5sum: 8f6ce4f213a4b22970eb2361b9f1f3d0
+SHA1: 5fe990726f079a9c882a5892ddb5068561fe1468
+SHA256: 9bc0ca08f5085d057f9d33d47ea3178c0e1c685105e75c1fc7984561b8a8bd74
+SHA512: 06881aa79ce08e195c1e1fcf33914a41920f0d998732f36590675e23ace77cf9f051e679255943d776a45e676f0a2d297f17da9cb0280f88362ed5ca7f4e4333
+Description: 录屏时自动开启勿扰模式，防止一切通知打扰录屏！（录屏结束自动关闭）
+Name: DNDMyRecording
+Author: gilshahar7, 0xkuj
+Icon: https://s1.imagehub.cc/images/2025/01/02/8ec09e4613791a26f568aed1a81478ef.png
 
 Package: com.wkk.installedpackages
 Architecture: iphoneos-arm64
