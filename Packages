@@ -6470,6 +6470,44 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
 Package: com.quicklaunch.tweak
+Architecture: iphoneos-arm64
+Version: 0.1.60
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1416
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/iphoneos-arm64/com.quicklaunch.tweak_0.1.60_iphoneos-arm64_f341ff11878a3ec86715f1669588f2f98fed24e0dc93f9c497980ee30d1ddfd2.deb
+Size: 416190
+MD5sum: 452ad582d9c9dac70452bf7771f9f056
+SHA1: 978e48fee731964800c8ded3966918a68c0969a9
+SHA256: f341ff11878a3ec86715f1669588f2f98fed24e0dc93f9c497980ee30d1ddfd2
+SHA512: b4d483f385e3ac7851d9c4f3de0c84f5924206f01a23300e5b3b295e98f46c00850fc5eccff143b03a6501787e9cb688b812c8eb9692228eab9c26eab11cccf2
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Adapt radial menus and debug touch regions to landscape, with independent landscape dimensions and position.
+ Optionally show the capsule only in landscape; scroll unlimited capsule apps within four landscape slots and one to ten portrait slots.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and stay hidden until the keyboard dismisses.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Name: QuickLaunch
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
+Package: com.quicklaunch.tweak
 Architecture: iphoneos-arm64e
 Version: 0.1.44
 Priority: optional
@@ -6553,6 +6591,44 @@ Description: Independent quick-launch rail and notification capsule for iOS 15.0
  Choose left or right radial activation with mirrored swipe animation and debug touch regions.
  Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
  Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and stay hidden until the keyboard dismisses.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Name: QuickLaunch
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
+Package: com.quicklaunch.tweak
+Architecture: iphoneos-arm64e
+Version: 0.1.60
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 776
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/iphoneos-arm64e/com.quicklaunch.tweak_0.1.60_iphoneos-arm64e_4c3b745372bf192bdabaff38ff5a7b097183ac93ccb5fb21bd9e56bdc8b0942f.deb
+Size: 250046
+MD5sum: adc2fb6ce247ddf6f47915aade0f462a
+SHA1: 88598f9fa552e9d38cc7427c02b4d520d7296d24
+SHA256: 4c3b745372bf192bdabaff38ff5a7b097183ac93ccb5fb21bd9e56bdc8b0942f
+SHA512: eb96d0d4d002c882d5d70676f2be0edd44cb0e0f7b580b2c0a5aeccc50a668683cce54f36656cd0fe400034bcd25c3ae7fe15e58c6af8bd7645a3e9e238abe7c
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Adapt radial menus and debug touch regions to landscape, with independent landscape dimensions and position.
+ Optionally show the capsule only in landscape; scroll unlimited capsule apps within four landscape slots and one to ten portrait slots.
  Optionally retain one to three empty Home Screen pages after existing pages.
  Keep two overlays with separate apps and settings, adapting to portrait and landscape.
  Select any number of rail apps; scroll within a fixed eight-slot viewport.
@@ -11206,6 +11282,25 @@ Name: Lunora
 Author: Banana
 
 Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 4540
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoicon_1.1.0_iphoneos-arm64_0529a3fd35539375ff92468c806ecf24c6c642ca4406012bbd1153e3ff6a7f76.deb
+Size: 805968
+MD5sum: 423a01810a13a61b57105234ccf6b91c
+SHA1: 927eb35c92fd8a05becee5eb181f76ebc10751c7
+SHA256: 0529a3fd35539375ff92468c806ecf24c6c642ca4406012bbd1153e3ff6a7f76
+SHA512: 1f70705917fde90c75e88985987ebd396f30101e2965c75db34fd041b2fe09fdf689e85f26752a836d56e87be84036bda2a631dddbec66859d5b24ea0cab5e19
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
 Architecture: iphoneos-arm64e
 Version: 0.1.16
 Section: Tweaks
@@ -11368,6 +11463,25 @@ MD5sum: 329fda4a9a4470ba5011080734bf03f7
 SHA1: cf4639fd5680b340ef091fda03da0ad71b059638
 SHA256: 745bed3e7653dd4994277cb08787d07bf4928cbb1c51c9346e3c0d5d607494e3
 SHA512: 0a4c33ec8c983135d9005c7bbf52e623d07290975c4e0bf3462ff80d1063c630520dadc05104c588ce61abc65381217eab97d99b22d65214dfacc21d5d0d54ea
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 4524
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64e/iya.banana.iphoneduoicon_1.1.0_iphoneos-arm64e_1ab31b116860145cd4b97a571fd76f66ae032a7b6cfb94d76886b01ba92494fe.deb
+Size: 794612
+MD5sum: 1a94eecc8cd3af6b956baf945ff535f7
+SHA1: cceb6051600c006653b4225946770891e931690a
+SHA256: 1ab31b116860145cd4b97a571fd76f66ae032a7b6cfb94d76886b01ba92494fe
+SHA512: 5ede2bd2bfbd2a141d87c6399d3510c4d099477d3e5eff1c1ea23bb1f981052bd722a77ef0aeea302803c855efcc7ec1ef39391061d2069de4901c50d0d65725
 Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
 Name: Lunora
 Author: Banana
