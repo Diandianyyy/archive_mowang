@@ -2630,6 +2630,23 @@ Description: Mango分屏，小液微信液态美化，系统级真液态玻璃�
 Name: mango
 Author: go
 
+Package: com.gu.xianyupick
+Architecture: iphoneos-arm
+Version: 1.9.1
+Section: Tweaks
+Maintainer: 故
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm/com.gu.xianyupick_1.9.1_iphoneos-arm_e60874e71d94f8fa4d1b28d5dd5bd7e0d947ec76dcceff3aab39b6b511941120.deb
+Size: 153346
+MD5sum: 61c8a1b95aeaf654e7d0c246607c0bff
+SHA1: 61853cc463b5395e9f17991be2bf07a2bbc45b58
+SHA256: e60874e71d94f8fa4d1b28d5dd5bd7e0d947ec76dcceff3aab39b6b511941120
+SHA512: dd4574c8df726dacf22988d9defbbdf7ca8633b796398b41215d4713ca945feadaed1004928bd068be5a556b54e6b704d0f1170e8fb8b3cb9f76f8c44f4b15bd
+Homepage: https://t.me/zakadeep_bot
+Description: 闲鱼商品嗅探 + 筛选捡漏工具。悬浮球面板可按机型/容量/系统版本/机身颜色/成色/价格/想要人数筛选，自动翻页、单条复制、点击直达商品。v1.9.1：激活弹窗精简（去掉机器码说明与操作提示两行文字，界面更干净）；卡密校验改为进算法层做严格对账——错码不再只是弹提示，而是当场终止，挡掉批量试码的脚本。抓取与筛选逻辑与 v1.9.0 完全一致。
+Name: 闲鱼捡漏
+Author: 故
+
 Package: com.hang.zzzj
 Architecture: iphoneos-arm64e
 Version: 0.0.1-8
@@ -6819,6 +6836,24 @@ Name: QuickLaunch
 Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
+Package: com.rain.rainback
+Architecture: iphoneos-arm64
+Version: 1.6.4-4+debug
+Section: Tweaks
+Maintainer: rain
+Installed-Size: 1124
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: debs/iphoneos-arm64/com.rain.rainback_1.6.4-4+debug_iphoneos-arm64_4978b04e971e5b7981d1eec73344591f0a90426382e2967bea68c78f0b1cff22.deb
+Size: 420530
+MD5sum: fde3ad8cc10149498a205b7a4e5b2bbb
+SHA1: 4b10fb170f58251de8c1763bbd0ab545203fcffe
+SHA256: 4978b04e971e5b7981d1eec73344591f0a90426382e2967bea68c78f0b1cff22
+SHA512: 21159e9701a8d31d28434e2398b964d27d5208e2364cc88bee47e4ea038bcb357bd524817273a4994932e6c1a997605feb24c67ab7da096339384d06f73d15e3
+Description: 从屏幕边缘或任意位置滑动返回上一页面，支持灵敏度调节、全屏手势、墨水扩散、光剑切割、动态触觉、自定义音效、黑白名单。
+Tag: role::hacker, purpose::extension
+Name: rain的返回（免授权）
+Author: rain
 
 Package: com.sbcpu.floating
 Architecture: iphoneos-arm64
@@ -11515,6 +11550,25 @@ Name: Lunora
 Author: Banana
 
 Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.1.1~beta6
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 4620
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoicon_1.1.1~beta6_iphoneos-arm64_b81a003ffb8b8cb1be645f95b7e19404ce0b914029b3d56199c37e07f40ff10b.deb
+Size: 2089302
+MD5sum: cd1db39bcfb174fd349680d6470d0f8d
+SHA1: c667b8855f19b56fff30ab700b72691a9c33560a
+SHA256: b81a003ffb8b8cb1be645f95b7e19404ce0b914029b3d56199c37e07f40ff10b
+SHA512: 579f870725b7916481360c1db0639e8eedbb2dfbb2e8b78a0679033f1bbb67fe429f4610e278d8d6bf4331f1cd5bce77dacd047ba9e82161734b61352f6cf451
+Description: 测试版已支持 15 系统，修复左侧胶囊开启卡顿问题，测试了请反馈
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
 Architecture: iphoneos-arm64e
 Version: 0.1.16
 Section: Tweaks
@@ -11697,6 +11751,25 @@ SHA1: cceb6051600c006653b4225946770891e931690a
 SHA256: 1ab31b116860145cd4b97a571fd76f66ae032a7b6cfb94d76886b01ba92494fe
 SHA512: 5ede2bd2bfbd2a141d87c6399d3510c4d099477d3e5eff1c1ea23bb1f981052bd722a77ef0aeea302803c855efcc7ec1ef39391061d2069de4901c50d0d65725
 Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.1.1~beta6
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 4620
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64e/iya.banana.iphoneduoicon_1.1.1~beta6_iphoneos-arm64e_025991e3d606c8a6dd5d88c08f573c989088eff58960142d180d067aa7a4225f.deb
+Size: 2084870
+MD5sum: e90516d7fd8e75e77b095b41bb61b62b
+SHA1: 494c7825ebfd9aaf8ae181225ce718da1275c4d2
+SHA256: 025991e3d606c8a6dd5d88c08f573c989088eff58960142d180d067aa7a4225f
+SHA512: ffa4888aba4f1d81b561877f0bd93b93aac3c2ec401c9813613bfe7538deecc0a8af443466e6b0aae532824e0766e5223b6f8bc51bb4b02d5cef3ab528832922
+Description: 测试版已支持 15 系统，修复左侧胶囊开启卡顿问题，测试了请反馈
 Name: Lunora
 Author: Banana
 
@@ -12584,6 +12657,40 @@ Icon: https://lakr233.github.io/Irisin/icon.png
 Depiction: https://lakr233.github.io/Irisin/
 SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
 Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.writenow
+Architecture: iphoneos-arm64
+Version: 2.4
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 11060
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/wiki.qaq.writenow_2.4_iphoneos-arm64_f34874c5656a954e05d206f4119377fd472d52b17badaadc7d14adb7b7aabb3a.deb
+Size: 2574454
+MD5sum: fef9f8ac34581710824673b30cf67afa
+SHA1: cdb7c74881064830a3de4bbdc3421a90e030d8cd
+SHA256: f34874c5656a954e05d206f4119377fd472d52b17badaadc7d14adb7b7aabb3a
+SHA512: 00eba828dc1c605f7448b2caf55e8baf9f4bc49b3ca03072e0b0851bb2af2655abb2a2a07db5a22f8392544ec6715e4a8a6c88c168bcfddfe23dec38e8362c42
+Description: AI tool within your hands.
+Name: Write Now
+Author: Lessica <82flex@gmail.com>
+
+Package: wiki.qaq.writenow
+Architecture: iphoneos-arm64e
+Version: 2.4
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 11076
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/wiki.qaq.writenow_2.4_iphoneos-arm64e_6aac278ee54996693c8bb42be4c1b9eb60e20a74b04812e521c24e8aa0e71389.deb
+Size: 2572380
+MD5sum: fefc988a4b26562f1975294728a4a5db
+SHA1: 4ddb4d4b8dcfd312b1c9b21a7c508ccdd221bd54
+SHA256: 6aac278ee54996693c8bb42be4c1b9eb60e20a74b04812e521c24e8aa0e71389
+SHA512: e5646f6eb1c5598fe6c56d1fbf15a3ce655e70662b2d2c543bc6b78051b03023b187d6734dc5189a8f099219d4ba930fdbecb9c8b5c0741039323d806bacf11f
+Description: AI tool within your hands.
+Name: Write Now
+Author: Lessica <82flex@gmail.com>
 
 Package: xyz.cypwn.remotecompanion
 Architecture: iphoneos-arm64e
