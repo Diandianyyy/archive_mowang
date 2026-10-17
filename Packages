@@ -1736,6 +1736,384 @@ Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64e
+Version: 6.63
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1104
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx.floatingball_6.63_iphoneos-arm64e_22f36e1db45c9203c442f4644e5329f5bd94cee051745553a7444b40f5d5be64.deb
+Size: 525384
+MD5sum: bceb7dbea0510cdf0f3c6a00daea2db2
+SHA1: b1c1c11c20c64c0c97d8acb635d1d88d72ea4d7c
+SHA256: 22f36e1db45c9203c442f4644e5329f5bd94cee051745553a7444b40f5d5be64
+SHA512: 16ebbe7bc1668d56837298ee713c4bf02bf3a498c29ff4fbbb1ef00b5817d2e3443066b028520e8029e650fc5d0020d69dc3aa311f5d93ec56a3f78ff97f1947
+Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
+ 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
+ .
+ 【核心功能】
+ - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
+ - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
+ - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.63 键盘持续隐藏修复】
+ - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
+ - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
+ - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 桌面、设置和 App 上方显示；键盘出现自动隐藏，收起恢复原位置
+ - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 点击按进程和场景转发；重复和过期请求不会再次返回
+ - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
+ - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
+ .
+ 【运行依赖】
+ - 越狱注入框架与 PreferenceLoader 设置加载器
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64e
+Version: 6.64
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1152
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx.floatingball_6.64_iphoneos-arm64e_daf06f4879253def0f0df47713cdd570af069a08c590b54451a7debf9b72e083.deb
+Size: 540434
+MD5sum: 66ed940c006e2b87f35062c4ddc7b396
+SHA1: 81924b3950e3663ede3e203eeb73759b9933640b
+SHA256: daf06f4879253def0f0df47713cdd570af069a08c590b54451a7debf9b72e083
+SHA512: eb04c93691dfe267d6a3b849bfc499345a3e8534210d312d84a2c0541a1abf577ab51aaad6abe69102a2422a3a93c2660b3b06cd056b3e74649b5097426f102f
+Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
+ 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
+ .
+ 【核心功能】
+ - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
+ - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
+ - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.64 桌面快捷菜单与键盘避让】
+ - 桌面再点击可单选呼出 QuickLaunch 普通栏、胶囊或圆形菜单
+ - 需兼容 QuickLaunch 0.1.61；默认关闭，不改变各菜单原有独立配置
+ - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
+ - 键盘收起恢复原位，自动避让不保存临时位置
+ - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
+ - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
+ - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
+ - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 点击按进程和场景转发；重复和过期请求不会再次返回
+ - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
+ - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
+ .
+ 【运行依赖】
+ - 越狱注入框架与 PreferenceLoader 设置加载器
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64e
+Version: 6.65
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1136
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx.floatingball_6.65_iphoneos-arm64e_75a3f5d507fb2e478111fd20df85c0207af8df17b3b03d22721536d12da9ef59.deb
+Size: 538020
+MD5sum: 932203416620ee9d2c757c240419d377
+SHA1: ee824f42a1abfffc93340b5ba012a5c72ad40c65
+SHA256: 75a3f5d507fb2e478111fd20df85c0207af8df17b3b03d22721536d12da9ef59
+SHA512: 42099fa18794972ee73453fd0ed37e22bd1b3cb3d30fe3a94ee6a961978b5a1fd09e0d9da1f9294f60d8b54a3feee6ef3be4fc81968d974e809c31df8cf8c9e1
+Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
+ 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
+ .
+ 【核心功能】
+ - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
+ - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
+ - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.65 全局长按快捷菜单】
+ - 桌面、App 或小窗中长按悬浮球约 0.45 秒，单选呼出普通栏、胶囊或圆形菜单
+ - 单击保持原返回功能，桌面单击无动作；松开长按不返回，拖动仍可移动
+ - 配合 QuickLaunch 0.1.62 支持键盘避让时长按呼出，胶囊可临时在竖屏显示
+ - 收起或打开 App 后恢复原隐藏规则，不修改各菜单独立配置；沿用旧版模式选择
+ - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
+ - 键盘收起恢复原位，自动避让不保存临时位置
+ - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
+ - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
+ - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
+ - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 点击按进程和场景转发；重复和过期请求不会再次返回
+ - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
+ - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
+ .
+ 【运行依赖】
+ - 越狱注入框架与 PreferenceLoader 设置加载器
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64e
+Version: 6.66
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1368
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx.floatingball_6.66_iphoneos-arm64e_58f36c2b8132be5937fab1d7003076472f384ec126f36c6d21813319478e354d.deb
+Size: 622806
+MD5sum: b520eee967ff00b355bbc3fed340dc2a
+SHA1: a44868058eeabf04bb96a9542940767d6e6e20a5
+SHA256: 58f36c2b8132be5937fab1d7003076472f384ec126f36c6d21813319478e354d
+SHA512: 0671c76a663890013d096199e737f2e91a345b1ef882102c273727b90b0883fc71572857127a9cf2ad8c2ef0ac353893376b82c45911ad451ec6098f0817fca9
+Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
+ 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
+ .
+ 【核心功能】
+ - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
+ - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
+ - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.66 固定位置与四向动作】
+ - 新增固定当前位置开关，禁止手动移动，保留键盘隐藏、自动避让和收起回位
+ - 上下左右滑动分别配置应用、系统工具、快捷指令或自定义 URL，默认不执行
+ - 自由模式快速滑动执行动作，慢拖移动；固定模式滑动只执行动作，不移动
+ - 应用和工具支持搜索，快捷指令支持列表和名称填写，URL 支持命名、编辑和删除
+ - 系统工具与动作启动内置实现，不依赖 Bottom-x、ScreenCore 或 QuickLaunch
+ .
+ 【保留的全局长按快捷菜单】
+ - 桌面、App 或小窗中长按悬浮球约 0.45 秒，单选呼出普通栏、胶囊或圆形菜单
+ - 单击保持原返回功能，桌面单击无动作；松开长按不返回，未固定时慢拖可移动
+ - 配合 QuickLaunch 0.1.62 支持键盘避让时长按呼出，胶囊可临时在竖屏显示
+ - 收起或打开 App 后恢复原隐藏规则，不修改各菜单独立配置；沿用旧版模式选择
+ - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
+ - 键盘收起恢复原位，自动避让不保存临时位置
+ - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
+ - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
+ - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
+ - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 点击按进程和场景转发；重复和过期请求不会再次返回
+ - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
+ - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
+ .
+ 【运行依赖】
+ - 越狱注入框架与 PreferenceLoader 设置加载器
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64e
+Version: 6.69
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1400
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx.floatingball_6.69_iphoneos-arm64e_14fbc4f12fa4da988a45cf92faf68913d63320611db47507f4ab1f1505c8c530.deb
+Size: 638420
+MD5sum: 58232c4567d1008da7a301a3aa59cae2
+SHA1: db9416c272ae027f8e52eff0e813dea1b224faed
+SHA256: 14fbc4f12fa4da988a45cf92faf68913d63320611db47507f4ab1f1505c8c530
+SHA512: fcdaa3ea883de0728dee3240d04f4b0bcb18e768eafc081b73a8266255879efbe42277406219401a2e4ded24d68e5401474d1f6a4130947467665f175ec84679
+Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
+ 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
+ .
+ 【核心功能】
+ - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
+ - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
+ - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.69 系统工具修复】
+ - 回到桌面接入三路 Home 后备并检查状态，多任务增加系统双击和新旧协调器兼容
+ - 修复音量单例、静音对象、蓝牙电源状态、低电量框架及显示亮度调用
+ - StayShot 改用实际分布式通知通道，失败提示具体工具名称
+ - 保留键盘隐藏和避让、位置稳定、固定模式、四向动作及全部应用打开方式
+ .
+ 【保留的 SHELLX 工具接入】
+ - 系统工具增加 SHELLX 11.3 原有的 12 个动作，支持搜索和四个方向独立选择
+ - 兼容已保存的 SHELLX prefs / App-prefs URL，改走插件拦截的桌面原生入口
+ - 未加载 SHELLX 或接口不可用时提示失败，不误打开系统设置
+ - 保留 6.67 的应用打开方式、快速滑动原位及无键盘切换位置修复
+ .
+ 【保留的应用打开方式与位置稳定】
+ - 仅打开应用新增全屏、PullOver-X 主卡、ScreenCore 小窗，四个方向分别保存
+ - 主卡或小窗需要对应插件，接口不可用时自动回退全屏，普通启动无需 QuickLaunch
+ - 自由模式已配置的快速滑动保持原位，慢拖仍可移动
+ - 无键盘时普通界面切换与定时刷新不再重新限制位置，键盘隐藏及避让保留
+ .
+ 【保留的固定位置与四向动作】
+ - 新增固定当前位置开关，禁止手动移动，保留键盘隐藏、自动避让和收起回位
+ - 上下左右滑动分别配置应用、系统工具、快捷指令或自定义 URL，默认不执行
+ - 自由模式快速滑动执行动作，慢拖移动；固定模式滑动只执行动作，不移动
+ - 应用和工具支持搜索，快捷指令支持列表和名称填写，URL 支持命名、编辑和删除
+ - 普通应用、系统工具、快捷指令与 URL 启动内置实现，无原 Bottom-x 依赖
+ .
+ 【保留的全局长按快捷菜单】
+ - 桌面、App 或小窗中长按悬浮球约 0.45 秒，单选呼出普通栏、胶囊或圆形菜单
+ - 单击保持原返回功能，桌面单击无动作；松开长按不返回，未固定时慢拖可移动
+ - 配合 QuickLaunch 0.1.62 支持键盘避让时长按呼出，胶囊可临时在竖屏显示
+ - 收起或打开 App 后恢复原隐藏规则，不修改各菜单独立配置；沿用旧版模式选择
+ - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
+ - 键盘收起恢复原位，自动避让不保存临时位置
+ - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
+ - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
+ - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
+ - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 点击按进程和场景转发；重复和过期请求不会再次返回
+ - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
+ - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
+ .
+ 【运行依赖】
+ - 越狱注入框架与 PreferenceLoader 设置加载器
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64e
+Version: 6.70
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1432
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx.floatingball_6.70_iphoneos-arm64e_85f4a640195b5154ada8f96d68f2d15366c4d87bd580af407bd82ba2c9b3982d.deb
+Size: 641848
+MD5sum: 65f37d966ff4274df8a995b93649ae58
+SHA1: 6c44c96bfca8f11b8183f0543782d80e52c4d07e
+SHA256: 85f4a640195b5154ada8f96d68f2d15366c4d87bd580af407bd82ba2c9b3982d
+SHA512: 8155a47e20bc69b954bb95a370e313e002a59e9a331f23f83c3dacb367bfc1c416443e00c118de82a55f098bfefed8c9854087367af4db9501c1f2e33011d7c5
+Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
+ 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
+ .
+ 【核心功能】
+ - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
+ - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
+ - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.70 双击固定位置】
+ - 双击悬浮球切换固定位置，与设置开关同步保存，单击返回和长按菜单保留
+ - 未固定时立即暂停四向动作，直接拖动调整；再次双击固定并恢复已配置动作
+ - 双击不会返回，切换时取消待处理导航；键盘隐藏、避让及收起回位保留
+ .
+ 【保留的系统工具修复】
+ - 回到桌面接入三路 Home 后备并检查状态，多任务增加系统双击和新旧协调器兼容
+ - 修复音量单例、静音对象、蓝牙电源状态、低电量框架及显示亮度调用
+ - StayShot 改用实际分布式通知通道，失败提示具体工具名称
+ - 保留键盘隐藏和避让、位置稳定、固定模式、四向动作及全部应用打开方式
+ .
+ 【保留的 SHELLX 工具接入】
+ - 系统工具增加 SHELLX 11.3 原有的 12 个动作，支持搜索和四个方向独立选择
+ - 兼容已保存的 SHELLX prefs / App-prefs URL，改走插件拦截的桌面原生入口
+ - 未加载 SHELLX 或接口不可用时提示失败，不误打开系统设置
+ - 保留三种应用打开方式及无键盘切换位置修复，固定时四向动作保持原位
+ .
+ 【保留的应用打开方式与位置稳定】
+ - 仅打开应用新增全屏、PullOver-X 主卡、ScreenCore 小窗，四个方向分别保存
+ - 主卡或小窗需要对应插件，接口不可用时自动回退全屏，普通启动无需 QuickLaunch
+ - 未固定时拖动直接移动，已配置的四向动作暂停
+ - 无键盘时普通界面切换与定时刷新不再重新限制位置，键盘隐藏及避让保留
+ .
+ 【保留的固定位置与四向动作】
+ - 新增固定当前位置开关，禁止手动移动，保留键盘隐藏、自动避让和收起回位
+ - 上下左右滑动分别配置应用、系统工具、快捷指令或自定义 URL，默认不执行
+ - 自由模式仅调整位置；固定模式滑动只执行动作，不移动
+ - 应用和工具支持搜索，快捷指令支持列表和名称填写，URL 支持命名、编辑和删除
+ - 普通应用、系统工具、快捷指令与 URL 启动内置实现，无原 Bottom-x 依赖
+ .
+ 【保留的全局长按快捷菜单】
+ - 桌面、App 或小窗中长按悬浮球约 0.45 秒，单选呼出普通栏、胶囊或圆形菜单
+ - 单击保持原返回功能，桌面单击无动作；松开长按不返回，未固定时慢拖可移动
+ - 配合 QuickLaunch 0.1.62 支持键盘避让时长按呼出，胶囊可临时在竖屏显示
+ - 收起或打开 App 后恢复原隐藏规则，不修改各菜单独立配置；沿用旧版模式选择
+ - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
+ - 键盘收起恢复原位，自动避让不保存临时位置
+ - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
+ - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
+ - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
+ - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 点击按进程和场景转发；重复和过期请求不会再次返回
+ - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
+ - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
+ .
+ 【运行依赖】
+ - 越狱注入框架与 PreferenceLoader 设置加载器
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
 Package: com.crctdd.cranedd
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -3711,6 +4089,60 @@ SHA512: e1610826852edfe44241ded7548795d679c9c7458cadf8dc95ed130b7c5917ecbb4e716b
 Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
 Name: Zone
 Author: iosdump
+
+Package: com.jaysuen.evocenter
+Architecture: iphoneos-arm64
+Version: 4.0.0-beta.2
+Section: Tweaks
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Installed-Size: 27220
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Filename: debs/iphoneos-arm64/com.jaysuen.evocenter_4.0.0-beta.2_iphoneos-arm64_f2af771b7900ac7193416908c65335d7c2fd54e326a44c51313e38280879033a.deb
+Size: 1445304
+MD5sum: a69af96b6bc11e194e7b7b5fae341193
+SHA1: 61cb12b06d1308cfd0f7519bd66b87d718d4477f
+SHA256: f2af771b7900ac7193416908c65335d7c2fd54e326a44c51313e38280879033a
+SHA512: 2b3d2868434f20fe22d1b963ea1660a76c0e970eb78dc73c860f9b455d6e0a6409f722f4de985755c9b642037f897250a089ef9e4baf77133d7bfe26f0fe59c0
+Homepage: https://eleveny123.github.io/EvoCenter/
+Description: 为旧系统带来类似ios18的现代化控制中心体验。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-17.4（已确认支持iOS16.7），其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Name: Evo Center
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.0.0-beta.2
+
+Package: com.jaysuen.evocenter
+Architecture: iphoneos-arm64e
+Version: 4.0.0-beta.2
+Section: Tweaks
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Installed-Size: 27716
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Filename: debs/iphoneos-arm64e/com.jaysuen.evocenter_4.0.0-beta.2_iphoneos-arm64e_188d16f3b0bbee54c13e8d7cf911ebae9fd1c7f88431809d3566ca6aa2592aa2.deb
+Size: 1453728
+MD5sum: d30c92a69340ad52f842287fe39767f5
+SHA1: 7c82475416520d09a8f07b4df02704c18b5f0427
+SHA256: 188d16f3b0bbee54c13e8d7cf911ebae9fd1c7f88431809d3566ca6aa2592aa2
+SHA512: ff7faeccea09fc5065777b8c50b95b834a50ec42ccb7b3bbce2bbf29d8e4320c6f4a939808a057d22e40dbcd56ae2addf6f971ab5f19991880db2596c60ac5ab
+Homepage: https://eleveny123.github.io/EvoCenter/
+Description: 为旧系统带来类似ios18的现代化控制中心体验。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-17.4（已确认支持iOS16.7），其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Name: Evo Center
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.0.0-beta.2
 
 Package: com.jl.liquidglass
 Architecture: iphoneos-arm64
@@ -6702,6 +7134,47 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
 Package: com.quicklaunch.tweak
+Architecture: iphoneos-arm64
+Version: 0.1.62
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1424
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/iphoneos-arm64/com.quicklaunch.tweak_0.1.62_iphoneos-arm64_91eb82a3341f9f57980ecadf126552de750e4c2eca67acdc4fbdfd87e6f6bb99.deb
+Size: 422218
+MD5sum: c9444af568f0cd11a1580f457e97822b
+SHA1: bf7a65515fd5ed41ef248b2d0d5c5e42bb740910
+SHA256: 91eb82a3341f9f57980ecadf126552de750e4c2eca67acdc4fbdfd87e6f6bb99
+SHA512: 87cf58d0ef2e7bd9e152b9c8d3405e73e4efe64deb369fa155ebef9621d46ddaab5a64aa1f8ddcdb5de3a68279adaa9e6286765d138374d018965e7dbb227f72
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Adapt radial menus and debug touch regions to landscape, with independent landscape dimensions and position.
+ Optionally show the capsule only in landscape; scroll unlimited capsule apps within four landscape slots and one to ten portrait slots.
+ Expose a guarded optional SpringBoard bridge for the floating ball to present one selected menu.
+ Long-press a visible floating ball in apps or on Home to explicitly present a menu, with temporary keyboard and capsule portrait overrides.
+ Adjust docked capsule artwork opacity from 0 to 100 percent while preserving invisible touch targets.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and hide for the keyboard unless explicitly presented by a ball long press.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Name: QuickLaunch
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
+Package: com.quicklaunch.tweak
 Architecture: iphoneos-arm64e
 Version: 0.1.44
 Priority: optional
@@ -6836,6 +7309,102 @@ Name: QuickLaunch
 Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
+Package: com.quicklaunch.tweak
+Architecture: iphoneos-arm64e
+Version: 0.1.61
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 780
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/iphoneos-arm64e/com.quicklaunch.tweak_0.1.61_iphoneos-arm64e_7a725cc237fda580076805b07ea7ed0dc29316313419c2bac93206386fbe0223.deb
+Size: 190130
+MD5sum: da74b67143a3012a74b3e502a3a2fe4d
+SHA1: 88b843589c4c0b7b597fc31b83b916ae8719be7f
+SHA256: 7a725cc237fda580076805b07ea7ed0dc29316313419c2bac93206386fbe0223
+SHA512: 213b4f5d797bf7c287cfae5e6e1cf58a8144092f119b365f82f5faf54995fe7f90de3009846915e6be5e31ee69c370fa34e62d99ff6dac72b7e2a25b745eeb90
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Adapt radial menus and debug touch regions to landscape, with independent landscape dimensions and position.
+ Optionally show the capsule only in landscape; scroll unlimited capsule apps within four landscape slots and one to ten portrait slots.
+ Expose a guarded optional SpringBoard bridge for the floating ball to present one selected menu.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and stay hidden until the keyboard dismisses.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Name: QuickLaunch
+Author: kanuo
+
+Package: com.quicklaunch.tweak
+Architecture: iphoneos-arm64e
+Version: 0.1.62
+Priority: optional
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 784
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/iphoneos-arm64e/com.quicklaunch.tweak_0.1.62_iphoneos-arm64e_cdc2c8ae479a3dca7116b69ffe3554194de5a6c3e619a7b226e7a66593b95594.deb
+Size: 253252
+MD5sum: eac18e60b38f2db6ceac88bb15040470
+SHA1: b6e54e746d95ac9756e5894145a8316ecb5bcf87
+SHA256: cdc2c8ae479a3dca7116b69ffe3554194de5a6c3e619a7b226e7a66593b95594
+SHA512: 7df19c2c2e01fbfebed505538824f9c1dfe8a81db78731ec6b54d65fb9906215c961cc51e017e984a4c2bfc4a33998f4edc3e2b4f108dfff26d3e7d1e06538da
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Adapt radial menus and debug touch regions to landscape, with independent landscape dimensions and position.
+ Optionally show the capsule only in landscape; scroll unlimited capsule apps within four landscape slots and one to ten portrait slots.
+ Expose a guarded optional SpringBoard bridge for the floating ball to present one selected menu.
+ Long-press a visible floating ball in apps or on Home to explicitly present a menu, with temporary keyboard and capsule portrait overrides.
+ Adjust docked capsule artwork opacity from 0 to 100 percent while preserving invisible touch targets.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and hide for the keyboard unless explicitly presented by a ball long press.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Name: QuickLaunch
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
+Package: com.rain.rainback
+Architecture: iphoneos-arm64
+Version: 1.6.4-4+debug
+Section: Tweaks
+Maintainer: rain
+Installed-Size: 1124
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: debs/iphoneos-arm64/com.rain.rainback_1.6.4-4+debug_iphoneos-arm64_41f296fca74e09df3b952b272252e77d79efe8493057d87ff0950ab36c10d5ae.deb
+Size: 314204
+MD5sum: eec6bea7c3c1f31f90746e87105cb37c
+SHA1: d0cefebd88e76a04825f5d2eefa7a4128bbdaacf
+SHA256: 41f296fca74e09df3b952b272252e77d79efe8493057d87ff0950ab36c10d5ae
+SHA512: 915045b402c730aeb7e7ef348fcff9320d076b4380a2c3233f801c2aa56e7e6c5e5bce32ea18d1453d3ae283b3965130175e7a6f7bc15cb3ca16f9e879c88994
+Description: 从屏幕边缘或任意位置滑动返回上一页面，支持灵敏度调节、全屏手势、墨水扩散、光剑切割、动态触觉、自定义音效、黑白名单。
+Tag: role::hacker, purpose::extension
+Name: rain的返回
+Author: rain
 
 Package: com.rain.rainback
 Architecture: iphoneos-arm64
@@ -12362,6 +12931,33 @@ SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
 Author: OwnGoal Studio <no-reply@owngoal.dev>
 
 Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64
+Version: 4.7.0
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 17652
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/wiki.qaq.irisin_4.7.0_iphoneos-arm64_63414756ec5873d28911e462628aeb48e26a609cfa607a4e9962a6fd4a6d899e.deb
+Size: 5078992
+MD5sum: 3d35652e20e2dba782e22bec5d320076
+SHA1: 150b2e92c4d8dfcff806c1f397a9f6499b5d5956
+SHA256: 63414756ec5873d28911e462628aeb48e26a609cfa607a4e9962a6fd4a6d899e
+SHA512: 27eeef37b890149aa66a5efe99c1f57f6e9f4b3dd4d9a8bb76efb7953c512979531f5702f59b86ab47ee4ec761272e362fdd41323e361f3ba8b833e15ed7cdc5
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
 Architecture: iphoneos-arm64e
 Version: 4.5.14
 Priority: optional
@@ -12645,6 +13241,33 @@ MD5sum: 0e2a1bb4eea0a1294ba55813c5a47129
 SHA1: 06785ed0337697abbfbe60cd74bd74a81bf0b5de
 SHA256: 82ee6fd4e7f66406cf58d1c778a2f65e6133150d376b58c37ee96ba921c46646
 SHA512: f6feef9143cbd651944b10032336b45c9658fbb233c365706900501f7bcef28e1bedac1785cae096dc04eef0fe8bcb8ff4e7c42307ba49f7af797ef2a4f7e84e
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64e
+Version: 4.7.0
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 17652
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/wiki.qaq.irisin_4.7.0_iphoneos-arm64e_35f77971bacc371297684661ec2281bc801debd54e6bbd9e5860ef925eb66ac8.deb
+Size: 5077472
+MD5sum: 1b480dd83be88a57e984b5fc5c3d65a0
+SHA1: 2399392a28fd93b21af59d094aa35d263377fb30
+SHA256: 35f77971bacc371297684661ec2281bc801debd54e6bbd9e5860ef925eb66ac8
+SHA512: 082519639b1d448eb833e1d85cd1ffc9c9344424149fa2f5b3c57405755c9cfb37d9f2c989ce19f3f18e5a7c7bc819e9bf6b065a9a0151670ac48f47e17ed1bc
 Homepage: https://github.com/Lakr233/Irisin
 Description: Modern package manager for roothide custom firmware
  Browse your repositories, install and remove packages, keep tweaks updated
