@@ -4167,6 +4167,23 @@ Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS1
 Name: Zone
 Author: iosdump
 
+Package: com.iosrxwy.weibonoads
+Architecture: iphoneos-arm64
+Version: 1.1-12
+Section: Tweaks
+Maintainer: iosrxwy
+Installed-Size: 348
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.iosrxwy.weibonoads_1.1-12_iphoneos-arm64_85351ce3e06d1cb83d3732dd257a7ea3b70e5a686e66ef3909118c0516dc94de.deb
+Size: 85214
+MD5sum: 2250e6f8e75f7b620a8f3f8dc7688781
+SHA1: 9dcfa12437271efa8b5791195c6f928641f9cbec
+SHA256: 85351ce3e06d1cb83d3732dd257a7ea3b70e5a686e66ef3909118c0516dc94de
+SHA512: fe123c9779e5e8bc294b9a2932050f166abe9bd9e6dae052f265d882ceb094805c25716dc232806804b955deb63dc5b2092754b7b1917860a2509d9d66628814
+Description: 微博去广告。广告位默认开启，搜索广场和下拉刷新始终去掉。可隐藏任务中心、为你推荐、你可能感兴趣、评论橱窗、分享模块和底栏视频、消息。可自动签到已关注超话，支持机型伪装与强制 120Hz。三指双击打开设置，长按底栏「我」开关设置
+Name: WeiboNoAds
+Author: iosrxwy
+
 Package: com.jaysuen.evocenter
 Architecture: iphoneos-arm64
 Version: 4.0.0-beta.2
