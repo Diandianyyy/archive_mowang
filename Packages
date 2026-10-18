@@ -1764,6 +1764,119 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
 Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64
+Version: 6.76
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1448
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64/com.colorblack.bottomx.floatingball_6.76_iphoneos-arm64_4c4b9ed4dcd79373281bf61f5aa5fb7402ac2351e59d7fc67ebc073fd6e83148.deb
+Size: 500016
+MD5sum: cf8c1e840d869e99de7fecd9c27e7286
+SHA1: c1089c843a17919fb070abe631e4561e1ea0a076
+SHA256: 4c4b9ed4dcd79373281bf61f5aa5fb7402ac2351e59d7fc67ebc073fd6e83148
+SHA512: dfa1b84684f5df34d112ee0bff0c8309d80f89c91b4e51d9d895e369738b0de38f10f59fee701ef865b8fb7df8f3f59fbe68222860777a8c74e52249b4b32a18
+Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
+ 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
+ .
+ 【核心功能】
+ - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
+ - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
+ - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.76 横屏四向手势坐标修复】
+ - 按屏幕实际坐标识别四向滑动，再转换到当前界面方向
+ - 完整计入窗口与根视图旋转，兼容前台横屏而桌面宿主竖屏
+ - 左右横屏及恢复竖屏按画面方向执行，固定模式滑动不移动位置
+ - 诊断增加最近一次手势的坐标、方向及窗口变换信息
+ .
+ 【保留的自动旋转显示与拖动修复】
+ - 全局球使用跟随前台方向的独立内容区域，覆盖桌面宿主仍竖屏的横屏 App
+ - 不再强制覆盖系统窗口及根视图尺寸，避免自动旋转后显示和触摸区域被裁切
+ - 拖动边界使用转换后的安全区域，横屏可上下左右调整位置
+ - 位置按可见区域比例保存与恢复，旋转后限制在屏幕内，普通切换不移动
+ .
+ 【保留的横屏滑动方向修复】
+ - 四向动作按当前界面方向识别，兼容左右横屏及返回竖屏
+ - 统一转换屏幕坐标，兼容前台横屏而全局窗口仍为竖屏，避免重复旋转
+ - 滑动中旋转取消当前手势，保留固定位置、自由拖动和键盘行为
+ - 修复 UIKit 提前更新窗口尺寸时漏掉旋转布局，避免悬浮球留在屏幕边缘外
+ .
+ 【保留的截图并复制】
+ - 四向滑动的工具选项新增“截图并复制（不保存）”，无需外部截图插件
+ - 截取屏幕图片后只写入系统剪贴板，不调用相册保存或系统截图编辑流程
+ - 截图前短暂隐藏悬浮球，完成或失败后恢复；切换界面或锁屏时取消待执行截图
+ .
+ 【保留的自定义键盘避让高度】
+ - 设置增加键盘避让高度，0.1 到 10 厘米，滑块、加减及数字输入，按 0.1 厘米调整
+ - 默认改为 1 厘米，保存后立即重新计算，保留原位置和双击固定模式
+ - 避让区域包含键盘上方缓冲带，空间不足时限制在顶部可见范围内
+ - 键盘收起恢复原位置，保留双击固定模式、四向动作、返回及长按菜单
+ .
+ 【保留的双击固定位置】
+ - 双击悬浮球切换固定位置，与设置开关同步保存，单击返回和长按菜单保留
+ - 未固定时立即暂停四向动作，直接拖动调整；再次双击固定并恢复已配置动作
+ - 双击不会返回，切换时取消待处理导航；键盘隐藏、避让及收起回位保留
+ .
+ 【保留的系统工具修复】
+ - 回到桌面接入三路 Home 后备并检查状态，多任务增加系统双击和新旧协调器兼容
+ - 修复音量单例、静音对象、蓝牙电源状态、低电量框架及显示亮度调用
+ - StayShot 改用实际分布式通知通道，失败提示具体工具名称
+ - 保留键盘隐藏和避让、位置稳定、固定模式、四向动作及全部应用打开方式
+ .
+ 【保留的 SHELLX 工具接入】
+ - 系统工具增加 SHELLX 11.3 原有的 12 个动作，支持搜索和四个方向独立选择
+ - 兼容已保存的 SHELLX prefs / App-prefs URL，改走插件拦截的桌面原生入口
+ - 未加载 SHELLX 或接口不可用时提示失败，不误打开系统设置
+ - 保留三种应用打开方式及无键盘切换位置修复，固定时四向动作保持原位
+ .
+ 【保留的应用打开方式与位置稳定】
+ - 仅打开应用新增全屏、PullOver-X 主卡、ScreenCore 小窗，四个方向分别保存
+ - 主卡或小窗需要对应插件，接口不可用时自动回退全屏，普通启动无需 QuickLaunch
+ - 未固定时拖动直接移动，已配置的四向动作暂停
+ - 无键盘时普通界面切换与定时刷新不再重新限制位置，键盘隐藏及避让保留
+ .
+ 【保留的固定位置与四向动作】
+ - 新增固定当前位置开关，禁止手动移动，保留键盘隐藏、自动避让和收起回位
+ - 上下左右滑动分别配置应用、系统工具、快捷指令或自定义 URL，默认不执行
+ - 自由模式仅调整位置；固定模式滑动只执行动作，不移动
+ - 应用和工具支持搜索，快捷指令支持列表和名称填写，URL 支持命名、编辑和删除
+ - 普通应用、系统工具、快捷指令与 URL 启动内置实现，无原 Bottom-x 依赖
+ .
+ 【保留的全局长按快捷菜单】
+ - 桌面、App 或小窗中长按悬浮球约 0.45 秒，单选呼出普通栏、胶囊或圆形菜单
+ - 单击保持原返回功能，桌面单击无动作；松开长按不返回，未固定时慢拖可移动
+ - 配合 QuickLaunch 0.1.62 支持键盘避让时长按呼出，胶囊可临时在竖屏显示
+ - 收起或打开 App 后恢复原隐藏规则，不修改各菜单独立配置；沿用旧版模式选择
+ - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
+ - 键盘收起恢复原位，自动避让不保存临时位置
+ - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
+ - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
+ - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
+ - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 点击按进程和场景转发；重复和过期请求不会再次返回
+ - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
+ - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
+ .
+ 【运行依赖】
+ - 越狱注入框架与 PreferenceLoader 设置加载器
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.floatingball
 Architecture: iphoneos-arm64e
 Version: 6.53
 Section: Tweaks
@@ -2209,6 +2322,119 @@ Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 
  - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
  .
  【6.70 双击固定位置】
+ - 双击悬浮球切换固定位置，与设置开关同步保存，单击返回和长按菜单保留
+ - 未固定时立即暂停四向动作，直接拖动调整；再次双击固定并恢复已配置动作
+ - 双击不会返回，切换时取消待处理导航；键盘隐藏、避让及收起回位保留
+ .
+ 【保留的系统工具修复】
+ - 回到桌面接入三路 Home 后备并检查状态，多任务增加系统双击和新旧协调器兼容
+ - 修复音量单例、静音对象、蓝牙电源状态、低电量框架及显示亮度调用
+ - StayShot 改用实际分布式通知通道，失败提示具体工具名称
+ - 保留键盘隐藏和避让、位置稳定、固定模式、四向动作及全部应用打开方式
+ .
+ 【保留的 SHELLX 工具接入】
+ - 系统工具增加 SHELLX 11.3 原有的 12 个动作，支持搜索和四个方向独立选择
+ - 兼容已保存的 SHELLX prefs / App-prefs URL，改走插件拦截的桌面原生入口
+ - 未加载 SHELLX 或接口不可用时提示失败，不误打开系统设置
+ - 保留三种应用打开方式及无键盘切换位置修复，固定时四向动作保持原位
+ .
+ 【保留的应用打开方式与位置稳定】
+ - 仅打开应用新增全屏、PullOver-X 主卡、ScreenCore 小窗，四个方向分别保存
+ - 主卡或小窗需要对应插件，接口不可用时自动回退全屏，普通启动无需 QuickLaunch
+ - 未固定时拖动直接移动，已配置的四向动作暂停
+ - 无键盘时普通界面切换与定时刷新不再重新限制位置，键盘隐藏及避让保留
+ .
+ 【保留的固定位置与四向动作】
+ - 新增固定当前位置开关，禁止手动移动，保留键盘隐藏、自动避让和收起回位
+ - 上下左右滑动分别配置应用、系统工具、快捷指令或自定义 URL，默认不执行
+ - 自由模式仅调整位置；固定模式滑动只执行动作，不移动
+ - 应用和工具支持搜索，快捷指令支持列表和名称填写，URL 支持命名、编辑和删除
+ - 普通应用、系统工具、快捷指令与 URL 启动内置实现，无原 Bottom-x 依赖
+ .
+ 【保留的全局长按快捷菜单】
+ - 桌面、App 或小窗中长按悬浮球约 0.45 秒，单选呼出普通栏、胶囊或圆形菜单
+ - 单击保持原返回功能，桌面单击无动作；松开长按不返回，未固定时慢拖可移动
+ - 配合 QuickLaunch 0.1.62 支持键盘避让时长按呼出，胶囊可临时在竖屏显示
+ - 收起或打开 App 后恢复原隐藏规则，不修改各菜单独立配置；沿用旧版模式选择
+ - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
+ - 键盘收起恢复原位，自动避让不保存临时位置
+ - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
+ - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
+ - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
+ - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 点击按进程和场景转发；重复和过期请求不会再次返回
+ - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
+ - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
+ .
+ 【运行依赖】
+ - 越狱注入框架与 PreferenceLoader 设置加载器
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64e
+Version: 6.76
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 1448
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx.floatingball_6.76_iphoneos-arm64e_fb391d9b0998f7bc6c346575ec1f9ea4ace8d5d98e368a37c1c1e9ddad367007.deb
+Size: 500028
+MD5sum: e0c2fa6d50923ce60fe574a0ace32cfd
+SHA1: f971db42a10f4bd8be5ae399dfb359d0e99a67d4
+SHA256: fb391d9b0998f7bc6c346575ec1f9ea4ace8d5d98e368a37c1c1e9ddad367007
+SHA512: 715f063fa2d773ef4aac2759b7910e2d40137fd2d20c434e63fd340b9a5a84682c6987cf2ede1cca8ee46bde9c86f6dc51517f4d87d3dff8547aca94dfb0ec30
+Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
+ 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
+ .
+ 【核心功能】
+ - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
+ - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
+ - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.76 横屏四向手势坐标修复】
+ - 按屏幕实际坐标识别四向滑动，再转换到当前界面方向
+ - 完整计入窗口与根视图旋转，兼容前台横屏而桌面宿主竖屏
+ - 左右横屏及恢复竖屏按画面方向执行，固定模式滑动不移动位置
+ - 诊断增加最近一次手势的坐标、方向及窗口变换信息
+ .
+ 【保留的自动旋转显示与拖动修复】
+ - 全局球使用跟随前台方向的独立内容区域，覆盖桌面宿主仍竖屏的横屏 App
+ - 不再强制覆盖系统窗口及根视图尺寸，避免自动旋转后显示和触摸区域被裁切
+ - 拖动边界使用转换后的安全区域，横屏可上下左右调整位置
+ - 位置按可见区域比例保存与恢复，旋转后限制在屏幕内，普通切换不移动
+ .
+ 【保留的横屏滑动方向修复】
+ - 四向动作按当前界面方向识别，兼容左右横屏及返回竖屏
+ - 统一转换屏幕坐标，兼容前台横屏而全局窗口仍为竖屏，避免重复旋转
+ - 滑动中旋转取消当前手势，保留固定位置、自由拖动和键盘行为
+ - 修复 UIKit 提前更新窗口尺寸时漏掉旋转布局，避免悬浮球留在屏幕边缘外
+ .
+ 【保留的截图并复制】
+ - 四向滑动的工具选项新增“截图并复制（不保存）”，无需外部截图插件
+ - 截取屏幕图片后只写入系统剪贴板，不调用相册保存或系统截图编辑流程
+ - 截图前短暂隐藏悬浮球，完成或失败后恢复；切换界面或锁屏时取消待执行截图
+ .
+ 【保留的自定义键盘避让高度】
+ - 设置增加键盘避让高度，0.1 到 10 厘米，滑块、加减及数字输入，按 0.1 厘米调整
+ - 默认改为 1 厘米，保存后立即重新计算，保留原位置和双击固定模式
+ - 避让区域包含键盘上方缓冲带，空间不足时限制在顶部可见范围内
+ - 键盘收起恢复原位置，保留双击固定模式、四向动作、返回及长按菜单
+ .
+ 【保留的双击固定位置】
  - 双击悬浮球切换固定位置，与设置开关同步保存，单击返回和长按菜单保留
  - 未固定时立即暂停四向动作，直接拖动调整；再次双击固定并恢复已配置动作
  - 双击不会返回，切换时取消待处理导航；键盘隐藏、避让及收起回位保留
@@ -12074,6 +12300,46 @@ Name: 闲鱼助手
 Author: junhong
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 
+Package: im.mjh.xianyuadblock
+Architecture: iphoneos-arm64
+Version: 3.1.2+2
+Section: Tweaks
+Maintainer: junhong
+Installed-Size: 1560
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/iphoneos-arm64/im.mjh.xianyuadblock_3.1.2+2_iphoneos-arm64_6b55456305f146c30cde541fa7e78fdf4d949d4d9383933350e902db67479dbb.deb
+Size: 560016
+MD5sum: 64d4e588e238aaf50cc99c02dc925b0e
+SHA1: 8940465d25eb261f6799bfd8017d17a1c75a7074
+SHA256: 6b55456305f146c30cde541fa7e78fdf4d949d4d9383933350e902db67479dbb
+SHA512: 69e24c09a91a637aae82fd265c393eb59f7c42fdbcc209f99d58b3be05d479978f46641dcc1637f8b9364a8901e31e5479b5c75ba0ab56cada75db959605c68b
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Name: 闲鱼助手
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+
+Package: im.mjh.xianyuadblock
+Architecture: iphoneos-arm64e
+Version: 3.1.2+2
+Section: Tweaks
+Maintainer: junhong
+Installed-Size: 1560
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/iphoneos-arm64e/im.mjh.xianyuadblock_3.1.2+2_iphoneos-arm64e_183f36952cdcd7598a90d698e449e69f62465cabaeaa19e0d94b35bbfab279f9.deb
+Size: 558192
+MD5sum: 37ba13d2cdb0a545869d0a0457e27052
+SHA1: 530ddaf24610ab7daf55260241f2992dc8293c8b
+SHA256: 183f36952cdcd7598a90d698e449e69f62465cabaeaa19e0d94b35bbfab279f9
+SHA512: f989776ab844122de13f0c398b2b54f79d808272c03e1f38d6d89f55d9776a5b36ca7c509eeacb14e75305446067dc29bca44c1b25a628d4e5944ef0fa0314b6
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Name: 闲鱼助手
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+
 Package: iya.banana.billie.ambientbadge
 Architecture: iphoneos-arm64
 Version: 0.1.15
@@ -12899,6 +13165,104 @@ Name: 微信净化 2026.04
 icon: https://TrollStoreX.Github.io/sileodepiction/WechatPure/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WechatPure/js.json
 
+Package: spoofnotify
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 300
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
+Replaces: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
+Filename: debs/iphoneos-arm64/spoofnotify_1.0.2_iphoneos-arm64_09ba1ac7b20c6fb1ac708e421b767876c900406a9c792889cac639635ffd4bb5.deb
+Size: 36720
+MD5sum: 2039fb5ee5b7d7baac07de9afcfeb85a
+SHA1: 1f9a2eace59ca3de41a9e5c613edd957160ffae1
+SHA256: 09ba1ac7b20c6fb1ac708e421b767876c900406a9c792889cac639635ffd4bb5
+SHA512: 83c63376ab62c828f15b810c54f9e30f24948e0b3ee16245c733586c58d8ede5ed0835447bb1b372e96e17d97e09733bd88e050a14003690bbebb506e854e833
+Description: 从虚拟权限插件独立出来的通知权限伪装插件
+ 使关闭了通知权限的 App 认为已开启通知，不再出现建议开启通知权限的弹窗。
+ App 正常开启通知权限时不会被拦截，通知提醒正常放行。
+ .
+ 兼容 iOS 15 及以上版本越狱，支持 rootless、roothide、巨魔注入、证书自签。
+ .
+ 越狱环境安装后在桌面打开「通知权限伪装」进行配置；巨魔/自签环境直接注入目标 App
+ 即可生效，默认伪装已开启通知权限，无需配置。
+Name: 通知权限伪装
+Author: Junhong
+icon: https://huayuarc.github.io/icon/spoofnotify.png
+
+Package: spoofnotify
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 300
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
+Replaces: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
+Filename: debs/iphoneos-arm64e/spoofnotify_1.0.2_iphoneos-arm64e_bd15949bf2bdf4ccb620bc1a04d46c029100897fa7d51ca29fb984267a787887.deb
+Size: 36644
+MD5sum: 0df70995c192a77af1f15083a3f06127
+SHA1: e09b429b60e18b68df16e39d3dc04d41bb350bde
+SHA256: bd15949bf2bdf4ccb620bc1a04d46c029100897fa7d51ca29fb984267a787887
+SHA512: 892f8b1ca27a6b521e5f0c044410d36980caca3c657213629adfba00b451a670193a3c4a0ec3f89205824e9897ee88caa4a1fad541ae6781d44dd4a2a63f11b2
+Description: 从虚拟权限插件独立出来的通知权限伪装插件
+ 使关闭了通知权限的 App 认为已开启通知，不再出现建议开启通知权限的弹窗。
+ App 正常开启通知权限时不会被拦截，通知提醒正常放行。
+ .
+ 兼容 iOS 15 及以上版本越狱，支持 rootless、roothide、巨魔注入、证书自签。
+ .
+ 越狱环境安装后在桌面打开「通知权限伪装」进行配置；巨魔/自签环境直接注入目标 App
+ 即可生效，默认伪装已开启通知权限，无需配置。
+Name: 通知权限伪装
+Author: Junhong
+icon: https://huayuarc.github.io/icon/spoofnotify.png
+
+Package: wiki.qaq.duostatusring
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Priority: optional
+Section: Tweaks
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 328
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/wiki.qaq.duostatusring_1.0.0_iphoneos-arm64_bdc7ef665f662ee372cac08fed2be8cf8a9c6b1feef3392d46cdc2f7dad08422.deb
+Size: 63784
+MD5sum: eb8e0e6f35714ccf2bc48b01a7ac4514
+SHA1: e4893eb0fb75e3c2448cc6bae874f83b9cf4ee41
+SHA256: bdc7ef665f662ee372cac08fed2be8cf8a9c6b1feef3392d46cdc2f7dad08422
+SHA512: 298b88e9eafc53222a5e8665cde4201e85d1cf8945ba06d269419f72bc9236c0717f40e5cdc5680fe3ecb2b8b7c4edb59d5f952e61b071c4e7fe9a0abf4e596c
+Description: Fold the status bar into a ring when the Dynamic Island splits.
+ When the Dynamic Island shows two activities side by side, the signal, Wi-Fi and battery icons fold into a ring beside the bubble, and unfold when the island becomes one again. No settings.
+Name: DuoStatusRing
+Icon: https://owngoal-dev.github.io/DuoStatusRing/icon.png
+Depiction: https://owngoal-dev.github.io/DuoStatusRing/
+SileoDepiction: https://owngoal-dev.github.io/DuoStatusRing/depiction.json
+Author: OwnGoal Studio <https://github.com/owngoal-dev/DuoStatusRing>
+
+Package: wiki.qaq.duostatusring
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Priority: optional
+Section: Tweaks
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 168
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/wiki.qaq.duostatusring_1.0.0_iphoneos-arm64e_3869da687ffb946439d4b1d17857369859f7a9793aaf8602e23d7fd82496471a.deb
+Size: 44846
+MD5sum: dd2931a2406f7917d67eca30526f9c18
+SHA1: a73786640071026ad23ba4acf36dee70e64fdcf5
+SHA256: 3869da687ffb946439d4b1d17857369859f7a9793aaf8602e23d7fd82496471a
+SHA512: e0e970c95206ec153f39f0a0f950250b917b5749c4b828d8b959f50df3231d63abfd5638cd25f5b98e8077557b0958518663dd5bc347f9de9f905efa1d350831
+Description: Fold the status bar into a ring when the Dynamic Island splits.
+ When the Dynamic Island shows two activities side by side, the signal, Wi-Fi and battery icons fold into a ring beside the bubble, and unfold when the island becomes one again. No settings.
+Name: DuoStatusRing
+Icon: https://owngoal-dev.github.io/DuoStatusRing/icon.png
+Depiction: https://owngoal-dev.github.io/DuoStatusRing/
+SileoDepiction: https://owngoal-dev.github.io/DuoStatusRing/depiction.json
+Author: OwnGoal Studio <https://github.com/owngoal-dev/DuoStatusRing>
+
 Package: wiki.qaq.inspector
 Architecture: iphoneos-arm64
 Version: 0.6.3
@@ -13404,6 +13768,33 @@ SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
 Author: OwnGoal Studio <no-reply@owngoal.dev>
 
 Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64
+Version: 4.7.1
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 17716
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/wiki.qaq.irisin_4.7.1_iphoneos-arm64_118c62245687c685d7464527b1d09332026175831747501ffe3bcb2bdfe16c4e.deb
+Size: 5096820
+MD5sum: ed2c3950c31f5ce6b522e363244949fb
+SHA1: 008d1c4268d07c6398ca804d27a6a19c05517fef
+SHA256: 118c62245687c685d7464527b1d09332026175831747501ffe3bcb2bdfe16c4e
+SHA512: e18c86ee6252f59d3b494dcc462772a6cda2ffec0bf616682cec8a86b248418c2ec817ac913461f3601924b2a0c998bf3f445301b1ddad133751579a9c6feb03
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
 Architecture: iphoneos-arm64e
 Version: 4.5.14
 Priority: optional
@@ -13714,6 +14105,33 @@ MD5sum: 1b480dd83be88a57e984b5fc5c3d65a0
 SHA1: 2399392a28fd93b21af59d094aa35d263377fb30
 SHA256: 35f77971bacc371297684661ec2281bc801debd54e6bbd9e5860ef925eb66ac8
 SHA512: 082519639b1d448eb833e1d85cd1ffc9c9344424149fa2f5b3c57405755c9cfb37d9f2c989ce19f3f18e5a7c7bc819e9bf6b065a9a0151670ac48f47e17ed1bc
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64e
+Version: 4.7.1
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 17716
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/wiki.qaq.irisin_4.7.1_iphoneos-arm64e_873dd531c5f0f3fae57ec222349d7644bb3e07279ffc88dee57e143657863669.deb
+Size: 5097168
+MD5sum: 9363c281d64084c38f51a4c9f8ed3666
+SHA1: 606cd74c9396cc97e216fe297fba965fdb1b9ec2
+SHA256: 873dd531c5f0f3fae57ec222349d7644bb3e07279ffc88dee57e143657863669
+SHA512: b04efe43c30145cc38ba25fbd963fc73a9b04fc60720ffd424569892a84e64ab8777c4842d19a2754ab6355abee8177faf3faeaf9e565199ff4653ca10cb5045
 Homepage: https://github.com/Lakr233/Irisin
 Description: Modern package manager for roothide custom firmware
  Browse your repositories, install and remove packages, keep tweaks updated
