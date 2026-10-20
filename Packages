@@ -1548,6 +1548,86 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/tweakshub.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/tweakshub/js.json
 
+Package: com.banana.trollpadex
+Architecture: iphoneos-arm64
+Version: 2.0.1
+Section: Tweaks
+Maintainer: banana
+Installed-Size: 612
+Provides: com.kdt.trollpad
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), plistbuddy
+Conflicts: com.kdt.trollpad
+Replaces: com.kdt.trollpad
+Filename: debs/iphoneos-arm64/com.banana.trollpadex_2.0.1_iphoneos-arm64_f0ade2524b737d51fe0cb7dd3ea79bbc90511accea8a02dff269e35d34e7030c.deb
+Size: 47036
+MD5sum: 4a99a49defdfca7053eade52b445d3c0
+SHA1: c6198cab8bdaa6f4dcaa7fa4b3dbf7080776e52a
+SHA256: f0ade2524b737d51fe0cb7dd3ea79bbc90511accea8a02dff269e35d34e7030c
+SHA512: 86bc680fe7d2675457c9d6a9f906daa71a6702123337cea9f19e5d44f6c00b6180a051bcbb33fa573975e749e95a23d98eec3ce89b277d5c8e5a9557734b43cf
+Description: Enhanced iPhone multitasking and Stage Manager controls based on TrollPad.
+Name: TrollPadEx
+Author: khanhduytran0 & banana
+
+Package: com.banana.trollpadex
+Architecture: iphoneos-arm64
+Version: 2.0.3
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 660
+Provides: com.kdt.trollpad
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), plistbuddy
+Conflicts: com.kdt.trollpad
+Replaces: com.kdt.trollpad
+Filename: debs/iphoneos-arm64/com.banana.trollpadex_2.0.3_iphoneos-arm64_db44c1bbe4cb854220adc3d3c060471002263f71faa72a6e2be38223729cf3d0.deb
+Size: 58402
+MD5sum: 547e0681b3ec508b4b61575b4090dcff
+SHA1: 9a28a84be45f93adcfca6e0eca0c053001bbde6b
+SHA256: db44c1bbe4cb854220adc3d3c060471002263f71faa72a6e2be38223729cf3d0
+SHA512: d380127399eee4276727496dd5b4b68f62dc7a35112c20a540cce67ecbe447ddae74c2840440fd76248743db8702f405220db5ef8e6b8b98c13fc6acd7487a49
+Description: Enhanced iPhone multitasking and Stage Manager controls based on TrollPad.
+Name: TrollPadEx
+Author: khanhduytran0 & Banana
+
+Package: com.banana.trollpadex
+Architecture: iphoneos-arm64e
+Version: 2.0.1
+Section: Tweaks
+Maintainer: banana
+Installed-Size: 612
+Provides: com.kdt.trollpad
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), plistbuddy
+Conflicts: com.kdt.trollpad
+Replaces: com.kdt.trollpad
+Filename: debs/iphoneos-arm64e/com.banana.trollpadex_2.0.1_iphoneos-arm64e_260eea4b4c0a83c5b8eebe908d6e53c827521ca37bb02247a88334e4c9ebef92.deb
+Size: 46962
+MD5sum: 231b39eff85f27dfbac100bdfc06274e
+SHA1: f86cd108ef5e21c33316c49559a84b5e7b0a9fc7
+SHA256: 260eea4b4c0a83c5b8eebe908d6e53c827521ca37bb02247a88334e4c9ebef92
+SHA512: 27a0538df4cf59830976c13169818ca5c449252ce3f8321aefbc54e4e17fc2db12565155e1abfefca21ba0bdcc7a36bfe846e63da269140eab264f38089e475a
+Description: Enhanced iPhone multitasking and Stage Manager controls based on TrollPad.
+Name: TrollPadEx
+Author: khanhduytran0 & banana
+
+Package: com.banana.trollpadex
+Architecture: iphoneos-arm64e
+Version: 2.0.3
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 660
+Provides: com.kdt.trollpad
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), plistbuddy
+Conflicts: com.kdt.trollpad
+Replaces: com.kdt.trollpad
+Filename: debs/iphoneos-arm64e/com.banana.trollpadex_2.0.3_iphoneos-arm64e_a806bd6f8a4d39ad97d4b43b8672895328e88e98a0c266befd7c7a9ee965bcb2.deb
+Size: 57556
+MD5sum: 439b7d8a46ab4271f88be14c28627497
+SHA1: b17db6205105468bec19e2dfb3a4ce462d252f60
+SHA256: a806bd6f8a4d39ad97d4b43b8672895328e88e98a0c266befd7c7a9ee965bcb2
+SHA512: 7f3147b127070c81ee6acd1f453a6fe50697ac98e4b4a90509978a40ad7d46d944ca33dcc0881bfa4b9436363d5c10c252687ef993e89888ef73cc8b2f65df7b
+Description: Enhanced iPhone multitasking and Stage Manager controls based on TrollPad.
+Name: TrollPadEx
+Author: khanhduytran0 & Banana
+
 Package: com.be-huge.floating-view
 Architecture: iphoneos-arm64
 Version: 1.6.0-6
@@ -3727,6 +3807,44 @@ Name: KeyBar(RootHide)
 Author: daodao
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/keybar/js.json
 
+Package: com.dao.little16
+Architecture: iphoneos-arm64
+Version: 0.0.12
+Section: 嗨-工具
+Maintainer: daodao
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.michaelmelita1.little16
+Filename: debs/iphoneos-arm64/com.dao.little16_0.0.12_iphoneos-arm64_245d618ac310adda467a670d847230fbed5879b9ae5178ae29dbf409581a71fb.deb
+Size: 12934
+MD5sum: 6308df700ac15f53d800cea77b6f8d2d
+SHA1: 05ce8c8466216359759cacea79d41bfee8e2f6ad
+SHA256: 245d618ac310adda467a670d847230fbed5879b9ae5178ae29dbf409581a71fb
+SHA512: a60963b3b38979012ce8edde2e9a65f76e0909a32ecf81616018074eaadc717a228fe2e344a359ec734d2870c047767b742e62c56daaaf0e43f37549b24519a4
+Description: 为直屏设备（iPhone7/8/SE2 等）带来 iPhone X 手势，并支持 iPad 风格状态栏、Dock 和锁屏快捷按钮（手电筒/相机），无需设置。
+Name: Little16(rootless)
+Author: michaelmelita1 & daodao
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/little16/js.json
+
+Package: com.dao.little16
+Architecture: iphoneos-arm64e
+Version: 0.0.12
+Section: 嗨-工具
+Maintainer: daodao
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.michaelmelita1.little16
+Filename: debs/iphoneos-arm64e/com.dao.little16_0.0.12_iphoneos-arm64e_37588285321927d751380ed453cae62a9ab05aa490d3a83f6f96641fe24c199b.deb
+Size: 12852
+MD5sum: 0ab30434efede2f575b3b980a3527aff
+SHA1: d408044fb34c497c19413e76582036224e34264f
+SHA256: 37588285321927d751380ed453cae62a9ab05aa490d3a83f6f96641fe24c199b
+SHA512: 3c4d5977588978ef23ade3045af0fb2e690b6016577080619622fd4ced3fe8e697b4fb74ff37b8b68597846d4e5bdc5ffd4945314eff2c843eac4487f475a49b
+Description: 为直屏设备（iPhone7/8/SE2 等）带来 iPhone X 手势，并支持 iPad 风格状态栏、Dock 和锁屏快捷按钮（手电筒/相机），无需设置。
+Name: Little16(RootHide)
+Author: michaelmelita1 & daodao
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/little16/js.json
+
 Package: com.dao.velvet2
 Architecture: iphoneos-arm64
 Version: 2.3
@@ -5204,6 +5322,40 @@ Description: 微博去广告。广告位默认开启，搜索广场和下拉刷�
 Name: WeiboNoAds
 Author: iosrxwy
 
+Package: com.iyaway.frameviewer
+Architecture: iphoneos-arm64
+Version: 0.1.6
+Section: Tweaks
+Maintainer: iyaway
+Installed-Size: 428
+Depends: mobilesubstrate, preferenceloader, firmware (>= 18.0)
+Filename: debs/iphoneos-arm64/com.iyaway.frameviewer_0.1.6_iphoneos-arm64_f13aacbb1986451b3eadadb3e6971a553f6aed0a40a56092bd875bb077bd9638.deb
+Size: 22234
+MD5sum: f07afb0a5a4b5c2d638d6dc11827ca05
+SHA1: 7efd72ef3690b6f40437e75d83df7ce30dd62c22
+SHA256: f13aacbb1986451b3eadadb3e6971a553f6aed0a40a56092bd875bb077bd9638
+SHA512: 21caba1f495d0c62675cdc3a2334ccfaf5964f005ac54ac51022f9a7bdaf9eb28eb7ebfed6f9af1d24485039efcca8ef18885610cd06a639b8f07536b150fed0
+Description: A filmstrip video scrubber in the Photos playback interface.
+Name: FrameViewer
+Author: iyaway
+
+Package: com.iyaway.frameviewer
+Architecture: iphoneos-arm64e
+Version: 0.1.6
+Section: Tweaks
+Maintainer: iyaway
+Installed-Size: 428
+Depends: mobilesubstrate, preferenceloader, firmware (>= 18.0)
+Filename: debs/iphoneos-arm64e/com.iyaway.frameviewer_0.1.6_iphoneos-arm64e_5594e4e40827c907466cab1cb1fe27317075e78dc317776b5bfc0a1358b4d12b.deb
+Size: 22138
+MD5sum: 32c80e28d21d9a1c1288aac3dc2f06b3
+SHA1: 4ed42494576eb855a48aa6809c2c72db92ed7738
+SHA256: 5594e4e40827c907466cab1cb1fe27317075e78dc317776b5bfc0a1358b4d12b
+SHA512: 44d295c0b309b07d9498b977138f9e5f68a3c632ea7967ef901b52d957e084f13509956ef11378821da064b813bbd80222b6c57f3a9083a2d15f8b17399a2193
+Description: A filmstrip video scrubber in the Photos playback interface.
+Name: FrameViewer
+Author: iyaway
+
 Package: com.jaysuen.evocenter
 Architecture: iphoneos-arm64
 Version: 4.0.0-beta.2
@@ -5311,6 +5463,40 @@ Description: 用于无根多巴胺的Activator-lite：将操作分配给主页�
 Name: Triggr
 Author: John d_ie
 icon: https://huayuarc.github.io/icon/triggr.png
+
+Package: com.kdt.unrestrictmirroring
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: khanhduytran0
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 18.0)
+Filename: debs/iphoneos-arm64/com.kdt.unrestrictmirroring_0.0.2_iphoneos-arm64_ba6c3b9a6fd67cb7e4d9470c64aec7dbc2921f92ff858c84caf8ccaae20975bc.deb
+Size: 4274
+MD5sum: 8611a99fd402297b0bf438a3333b358b
+SHA1: c4bb80807e36fb9162824db5358ce5e9b78f9152
+SHA256: ba6c3b9a6fd67cb7e4d9470c64aec7dbc2921f92ff858c84caf8ccaae20975bc
+SHA512: 3c25364b8309680a6491a75b7c460b87f5d2f2eabd0909a81d34a3847caf6e85a032e6de9275a3ee4107f6ca03403309fa560a61e6872c6de8374480c29ce360
+Description: Enables iPhone Mirroring while unlocked and Device Hub remote control
+Name: UnrestrictMirroring
+Author: khanhduytran0
+
+Package: com.kdt.unrestrictmirroring
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: khanhduytran0
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 18.0)
+Filename: debs/iphoneos-arm64e/com.kdt.unrestrictmirroring_0.0.2_iphoneos-arm64e_1b0e85a7837524c6dbfbc7f7298e7026c53a9353a17f8c65ca16541d168719f9.deb
+Size: 4204
+MD5sum: 16ea4c7d1fb7fcc99d49106f357ebf86
+SHA1: e9c08e7f6da8a9696e48b90ffdc4ae946d263e2a
+SHA256: 1b0e85a7837524c6dbfbc7f7298e7026c53a9353a17f8c65ca16541d168719f9
+SHA512: ad1b187c167319ee21d6e56cc8754482fc936c7c3933698af12e66d62083d9eefe1e60c71d2ea7899e1d463df556e45267af8b6d1b889ef3f9fa3d6d90915b5a
+Description: Enables iPhone Mirroring while unlocked and Device Hub remote control
+Name: UnrestrictMirroring
+Author: khanhduytran0
 
 Package: com.kernelrw.adytum
 Architecture: iphoneos-arm
@@ -6662,6 +6848,97 @@ Description: 扫码直达
 Name: 微信一键扫码直达
 Author: 泉涌
 
+Package: com.minis.wxscanrouter
+Architecture: iphoneos-arm64
+Version: 0.4.12-1+debug
+Section: Tweaks
+Maintainer: Minis
+Installed-Size: 312
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.minis.wxscanrouter_0.4.12-1+debug_iphoneos-arm64_398af567ce74d65b87bcbe55f00ca45f2140efd5aa7f2da423b358f5ac4c8b4d.deb
+Size: 58784
+MD5sum: e69bf47746aa10d93daaa87975c435ea
+SHA1: aa2c267a7d0e1a917aa20c8a39bbaead07bf9cad
+SHA256: 398af567ce74d65b87bcbe55f00ca45f2140efd5aa7f2da423b358f5ac4c8b4d
+SHA512: 71dcb57a65a9a3f8ed538fb539b9f4353b61cc655b9ab36ce08ec8e24a03b4819af7cccfeda29a12a50875a635b5692d7d621e94b4ffdd7fedbb2f92c957e788
+Description: 微信一键扫描直达WeChat QR direct routing prototype for RootHide/Relaxin
+Name: 微信扫描直达
+Author: Minis
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.minis.wxscanrouter
+Architecture: iphoneos-arm64
+Version: 0.4.5-1+debug
+Section: Tweaks
+Maintainer: 泉涌
+Installed-Size: 296
+Depends: firmware (>= 17.0), ellekit
+Filename: debs/iphoneos-arm64/com.minis.wxscanrouter_0.4.5-1+debug_iphoneos-arm64_9cbe7a7649b923d6db5019cd2cd88540a920c2fb6df1c3ad67ccd91c1c038abe.deb
+Size: 114632
+MD5sum: 70a63d84c4c675a9d1be56a71977d5f7
+SHA1: 49fa9f78aa987cddc0cc4606f6fcf3ae1b94caca
+SHA256: 9cbe7a7649b923d6db5019cd2cd88540a920c2fb6df1c3ad67ccd91c1c038abe
+SHA512: 7421afedf593942616dbeb90afd6330540344253ba9143aad96053d959dee5273bb3228db3a458a89dafb471a63bfe83e7e66b93628b238265348c3b3df26f0e
+Description: 微信扫码直达（用注入器注入到微信即可）
+Name: 微信扫码直达
+Author: 泉涌
+
+Package: com.minis.wxscanrouter
+Architecture: iphoneos-arm64
+Version: 0.5.1-1+debug
+Section: Tweaks
+Maintainer: Minis
+Installed-Size: 340
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.minis.wxscanrouter_0.5.1-1+debug_iphoneos-arm64_8538f79a870e321c408f0d30af8b99c6e508198af3c739d02f4902edf8829d97.deb
+Size: 67544
+MD5sum: 6a54292ccb78e9ca1a8b8009ce880dd2
+SHA1: 1c4a4b8e8d4aa1d29456f8f4f7cb5716f612111a
+SHA256: 8538f79a870e321c408f0d30af8b99c6e508198af3c739d02f4902edf8829d97
+SHA512: f4cda1745cb1ed8940cbaafa67bc57a97b55a586755cf7b5593886cb674fe21d1d1908c38af652ba8f7d651cd01f9a166e613a062cb1c6655565b3996a96b803
+Description: 微信一键扫码直达WeChat QR direct routing prototype for RootHide/Relaxin
+Name: 微信扫码直达
+Author: Minis
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.minis.wxscanrouter
+Architecture: iphoneos-arm64e
+Version: 0.4.12-1+debug
+Section: Tweaks
+Maintainer: Minis
+Installed-Size: 312
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.minis.wxscanrouter_0.4.12-1+debug_iphoneos-arm64e_65ad6c78e3ad4bff5f95ded503c825f41e07b637b5c6bf46a047b7fb7e747a47.deb
+Size: 59084
+MD5sum: bfaa22a93cde3896a61548890375152c
+SHA1: e4457bbe04e039fbf645916f15aadae044439130
+SHA256: 65ad6c78e3ad4bff5f95ded503c825f41e07b637b5c6bf46a047b7fb7e747a47
+SHA512: cb5ba0a2441ecfaf6579c5010aafa668a110d8b2a473a1417c565dcff1e42dcb627ec26929a4dc544f1b57ae46a02226ac1b442588846e43ef0d3134d89ba4e6
+Description: 微信一键扫描直达WeChat QR direct routing prototype for RootHide/Relaxin
+Name: 微信扫描直达
+Author: Minis
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.minis.wxscanrouter
+Architecture: iphoneos-arm64e
+Version: 0.5.1-1+debug
+Section: Tweaks
+Maintainer: Minis
+Installed-Size: 340
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.minis.wxscanrouter_0.5.1-1+debug_iphoneos-arm64e_12aeb82c60c023f8ba7db5d79df657bc360eff9361fe1f5bdf5f3228ff02f6fb.deb
+Size: 67704
+MD5sum: 06548919dd6d25df7111e747be5d42e2
+SHA1: bd67342940b0290a658df1979645d067045ec659
+SHA256: 12aeb82c60c023f8ba7db5d79df657bc360eff9361fe1f5bdf5f3228ff02f6fb
+SHA512: 2b33387e6da3cbd84d2d4dc63dabbc79efc7198eb5a435c50cffbdeea9fa4dbf0b6ba729cc18c31f917b665b5ab5bfce44d756cf60bfbb683353d11d9b27813d
+Description: 微信一键扫码直达WeChat QR direct routing prototype for RootHide/Relaxin
+Name: 微信扫码直达
+Author: Minis
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
 Package: com.mlgm.actra
 Architecture: iphoneos-arm64
 Version: 1.1.1
@@ -7172,6 +7449,42 @@ SHA512: c3e2ef7fbc3c78006279f1429c5dfcae708a27836d6690f54e8405becb3875536200160a
 Description: 修复渐变表情 bug
 Name: 彩虹键盘光效（安全版）
 Author: MoWang
+
+Package: com.mumu.wcgg
+Architecture: iphoneos-arm64
+Version: 0.2.0
+Section: Tweaks
+Maintainer: mumu
+Installed-Size: 1056
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.mumu.wcgg_0.2.0_iphoneos-arm64_904c45c7aaafae0a1acc9b7ba1813f3c1442fae54ed05a76c1cf5248078a210b.deb
+Size: 289944
+MD5sum: b2a2f6d10504692addc30ecf56047f8b
+SHA1: bed506ffd70c24a590179366f00b1221ca297bbd
+SHA256: 904c45c7aaafae0a1acc9b7ba1813f3c1442fae54ed05a76c1cf5248078a210b
+SHA512: c0961ceb086b6470256042eed8d2d372a94b9bfb0f422425893790825e440b739a58c8ecfbfbfdbcbb7ac2ce7acb8a5281289baca8afc25ed49b2e6cbfd4d1d4
+Description: WeChat custom badge plugin
+Name: WCGG
+Author: mumu
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.mumu.wcgg
+Architecture: iphoneos-arm64e
+Version: 0.2.0
+Section: Tweaks
+Maintainer: mumu
+Installed-Size: 1056
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.mumu.wcgg_0.2.0_iphoneos-arm64e_9c817adb54d08e87a35e772cd8b9cfef4434da058a140db462aeeade470b5f6f.deb
+Size: 289744
+MD5sum: 4dde5cc026ca9aa473478bfb889470f1
+SHA1: b0b7f7644c04bd339d1e713bec4fcc73a4e2498b
+SHA256: 9c817adb54d08e87a35e772cd8b9cfef4434da058a140db462aeeade470b5f6f
+SHA512: 722487ca56e83f84e463bcbcc44c7f0f23547b69ea8b5ee73f44ee54e66861061cf918e23466745d92d87c396eeb66eeb38e39cc235bdea89e5ba33cdadcac97
+Description: WeChat custom badge plugin
+Name: WCGG
+Author: mumu
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 
 Package: com.muratkurt.cyswitcher
 Architecture: iphoneos-arm64e
@@ -13922,6 +14235,108 @@ Name: 闲鱼助手
 Author: junhong
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 
+Package: iya.banana.appleintelligenceenabler
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Section: Tweaks
+Maintainer: hxhlb
+Installed-Size: 472
+Depends: preferenceloader, firmware (>= 18.1), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64/iya.banana.appleintelligenceenabler_0.1.0_iphoneos-arm64_6df4f99498612f2955c1bd7db721e0cde2ef5e3af7d0410c6fdb0598331a7f14.deb
+Size: 57390
+MD5sum: 62abdc3a22c2ee43530e19198c0c1bfc
+SHA1: a74272e15b997110eb7919a7aa8a5c42c2878bfc
+SHA256: 6df4f99498612f2955c1bd7db721e0cde2ef5e3af7d0410c6fdb0598331a7f14
+SHA512: 537898096797c9d4845811b32d1ae84f913e2194b600290b6d5ea7e7efc01c3a4cb84340fef07c4c8bb56ad7d9f1562c84081f187278091af2d86c5df0fc07fb
+Description: Applies the iPhone 15 Pro MobileGestalt configuration on iOS 18.1-18.x with per-value backup and restore.
+Name: Apple Intelligence Enabler
+Author: hxhlb
+
+Package: iya.banana.appleintelligenceenabler
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Section: Tweaks
+Maintainer: hxhlb
+Installed-Size: 472
+Depends: preferenceloader, firmware (>= 18.1), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64e/iya.banana.appleintelligenceenabler_0.1.0_iphoneos-arm64e_a139ed8d0712424a4f3f5f70d2c87c7cf35aca46f5789a234d3913cc45429725.deb
+Size: 57276
+MD5sum: cf7d24f4538d0812025f26f171a6b517
+SHA1: 31323ce2a59676664753186c3cc9947e9d4f4a7c
+SHA256: a139ed8d0712424a4f3f5f70d2c87c7cf35aca46f5789a234d3913cc45429725
+SHA512: 1eed096e6f9598adf53ef5856db0bea211f7fee4e891747d2721fed0ee9394480939519d789c988e350d2812d62e1d0aef6b364fb0ba323113e447e65e27561f
+Description: Applies the iPhone 15 Pro MobileGestalt configuration on iOS 18.1-18.x with per-value backup and restore.
+Name: Apple Intelligence Enabler
+Author: hxhlb
+
+Package: iya.banana.audioservice
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Development
+Maintainer: Banana
+Installed-Size: 716
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/iya.banana.audioservice_1.0.2_iphoneos-arm64_8306d4c6c4c3b0163aa2a25f713a4f320637908aec850d514eca05b59ebbae4c.deb
+Size: 49376
+MD5sum: ec5fd21462f5385da635a49d8eba7612
+SHA1: 589fb9b84fc678e5f345d27a16fd7b3213d3b89a
+SHA256: 8306d4c6c4c3b0163aa2a25f713a4f320637908aec850d514eca05b59ebbae4c
+SHA512: d34f5fa74a16b603c0bd2d9132f7e659d5e520256be2fc5e6e1d2068a01b21b490f0ed26b0252b411b6d4521e40a56c3f7eb9489c785d68988a6d8fa73d310ae
+Description: Shared local waveform and spectrum feature service for jailbreak tweaks.
+Name: Banana Audio Service
+Author: Banana
+
+Package: iya.banana.audioservice
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Section: Development
+Maintainer: Banana
+Installed-Size: 724
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/iya.banana.audioservice_1.0.4_iphoneos-arm64_4f39f0ac2f402374acec561a63f3f9679064a82456c784973a2c37d42a20ae4a.deb
+Size: 55356
+MD5sum: 4e6a498813024e64674d0ef9467f97c7
+SHA1: f3ca5974b3cef974ef2f5b087f7ed79062aace4e
+SHA256: 4f39f0ac2f402374acec561a63f3f9679064a82456c784973a2c37d42a20ae4a
+SHA512: 11587f537d5c5d74dc61ff570dceea3fcd5b3c3b004b43ea0082ec5f118be425c05cafdbff9911f97b4d0f1e7aef655a0709d0738cb046cf40990703f527fa22
+Description: Shared local waveform and spectrum feature service for jailbreak tweaks.
+Name: Banana Audio Service
+Author: Banana
+
+Package: iya.banana.audioservice
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Development
+Maintainer: Banana
+Installed-Size: 712
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/iya.banana.audioservice_1.0.2_iphoneos-arm64e_9a215445523b041198fb3291f403f2c54967007ceaae2c6ea54f15f43abac349.deb
+Size: 48496
+MD5sum: dedfc99a62c3d796c2680271acec03ed
+SHA1: 4f74fd3ad7027a8f92fca78f4feb532b296be183
+SHA256: 9a215445523b041198fb3291f403f2c54967007ceaae2c6ea54f15f43abac349
+SHA512: af23f6878ac45b57764737b89c2bc61e55a9e4b8dd3eeb3c28e33784addea0960ad0385d036c8a81ff66e8139e122493daa1a4fa2f114cbd4433e1c26fe77b38
+Description: Shared local waveform and spectrum feature service for jailbreak tweaks.
+Name: Banana Audio Service
+Author: Banana
+
+Package: iya.banana.audioservice
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Section: Development
+Maintainer: Banana
+Installed-Size: 724
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/iya.banana.audioservice_1.0.4_iphoneos-arm64e_afb6f1eae8746b9e715084a5dcac465b0bb6a3e753973247495e2f7042129846.deb
+Size: 53768
+MD5sum: 5dc8cec9af6ca9b0ea59a3326df80435
+SHA1: ddf9c79864309277e0388e1b4ee9dc83394d5edb
+SHA256: afb6f1eae8746b9e715084a5dcac465b0bb6a3e753973247495e2f7042129846
+SHA512: 7aa8ef104b4b32a5d1a42f54e57f21e31c2022bab1d498a4d3111df8ab2c9a2177c8c319ad0567e9d04a1cf301781ed5ff8a86f857eff91fd9194539909b212f
+Description: Shared local waveform and spectrum feature service for jailbreak tweaks.
+Name: Banana Audio Service
+Author: Banana
+
 Package: iya.banana.billie.ambientbadge
 Architecture: iphoneos-arm64
 Version: 0.1.15
@@ -13935,6 +14350,23 @@ MD5sum: 7316bda79770ca3c784c27134676ee25
 SHA1: 4a03e224505f7d9e9f427fa8e63cfd233872516a
 SHA256: 5c59a4786b3ed03b5f76b1f19abcbb4d03922bb9888c99b673e66edf6ef661f7
 SHA512: 6eb0b8c421a18ea7cc523cb0216dd48fce2ac0554ae529b646039def7fcce14849f77b9de1f97baff7de92359a4411234bd9669232d841355a0c7e730c50133c
+Description: Custom notification badge styles with adaptive ambient glow. For Billie.
+Name: AmbientBadge
+Author: Banana
+
+Package: iya.banana.billie.ambientbadge
+Architecture: iphoneos-arm64
+Version: 0.1.16
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 748
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/iya.banana.billie.ambientbadge_0.1.16_iphoneos-arm64_6c81b554db241579a6f19311f8504fd5470e8d21ac789bf65a30d9253e2b9e8f.deb
+Size: 115346
+MD5sum: c6e0b5d85a147269922c6cdc9ced955d
+SHA1: ac4b12f47199986801b1de7923bf8dfd5aecfa25
+SHA256: 6c81b554db241579a6f19311f8504fd5470e8d21ac789bf65a30d9253e2b9e8f
+SHA512: 19de41c33e55b995c230d14334864af2b227a62094bb380e80d40d6935d51802a7162424d932cdd8ef5da699121b52e461cc0a0264f155a6b7ce5c57cf8539ce
 Description: Custom notification badge styles with adaptive ambient glow. For Billie.
 Name: AmbientBadge
 Author: Banana
@@ -13956,6 +14388,159 @@ Description: Custom notification badge styles with adaptive ambient glow. For Bi
 Name: AmbientBadge
 Author: Banana
 
+Package: iya.banana.billie.ambientbadge
+Architecture: iphoneos-arm64e
+Version: 0.1.16
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 748
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/iya.banana.billie.ambientbadge_0.1.16_iphoneos-arm64e_394d808d7c0aefb12c729b0fa119c55ec10ddc54642411f96de902fcc780d466.deb
+Size: 115174
+MD5sum: 89fa8791e82ef6d645e26963dc6dc539
+SHA1: 790a8aaa05d2eb37bdd0d8db5ccc59d82616f311
+SHA256: 394d808d7c0aefb12c729b0fa119c55ec10ddc54642411f96de902fcc780d466
+SHA512: fa708f6b9585250c4bde667839095ccfa833eea5c18c3d51fcc7202aa55cc6ed83a1230afe1ffbc9aeb5076073c338a1a30c281ea462e9be04ad1a7e67e1d181
+Description: Custom notification badge styles with adaptive ambient glow. For Billie.
+Name: AmbientBadge
+Author: Banana
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64
+Version: 0.9.10
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1168
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64/iya.banana.dockicon_0.9.10_iphoneos-arm64_8a6bc3e0503e1af669bbf6e2036e732a26f2f3065671d234fd98a3970904756b.deb
+Size: 247862
+MD5sum: 161080ac4df3242e5968cda25b51c8f1
+SHA1: 32f58bbf0263a723bf55ff50e8a37b8c2cc6279e
+SHA256: 8a6bc3e0503e1af669bbf6e2036e732a26f2f3065671d234fd98a3970904756b
+SHA512: 24f8839ed3ffd2b3f8fc1283d498fb35632398e6e72b7ec8a1afd141eadde2d8ca423c0c1c026e2d503ccbe5fb46e2610b8c67c2d3ece2842e89db65f43a3c44
+Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64
+Version: 0.9.11
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1220
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64/iya.banana.dockicon_0.9.11_iphoneos-arm64_b9cdf8ef92521039d0e2c4354a346944462402b77a071939ccba0ce1bc7967d5.deb
+Size: 261340
+MD5sum: a36593602010fd1e9ecd73883b560b62
+SHA1: 48574ca77ce70d032470113f02326e7139513b2b
+SHA256: b9cdf8ef92521039d0e2c4354a346944462402b77a071939ccba0ce1bc7967d5
+SHA512: 789e0fe9000b19a7781af40d156cd4bb63558fb1dc9a9f061d9340cb013755c7a5415166df633b8aa84fb65766372a40ee8ceb3a32195d573c77b7a09db64c3e
+Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64
+Version: 0.9.12
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1220
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64/iya.banana.dockicon_0.9.12_iphoneos-arm64_af58d08508969d22bd8d3dbc396a41642b969801fb2eb9da521f44e32d901013.deb
+Size: 263404
+MD5sum: d9e684cb991432d0422ba824fb94e8a7
+SHA1: a346f6e7b4cb45ae9cb1a92a68eac81ec60dd481
+SHA256: af58d08508969d22bd8d3dbc396a41642b969801fb2eb9da521f44e32d901013
+SHA512: de9f43aee11280050732e52a021bbc699067b53b3fb06b57db4974e86797ecf5d15099b287993ca319e61d8d74a085aa359fe33317b646712d99bb9f0c148ac7
+Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64
+Version: 0.9.14
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1236
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64/iya.banana.dockicon_0.9.14_iphoneos-arm64_2ddb7498567a0226da50dd1d748477c111a841b23a9979b81c9a8c4186873545.deb
+Size: 268340
+MD5sum: 740a3133e6812c9b23f88c8277bd72f8
+SHA1: 8867e9b2dbff8ecdd59d3b7b1ba73af1678a26de
+SHA256: 2ddb7498567a0226da50dd1d748477c111a841b23a9979b81c9a8c4186873545
+SHA512: eead5463ba8af5bf5ab36536abea5092950065fff584207ace6b0fb5af07cd661431012ffa716accc2e9ae7d6e4a0accf625952abb46dc67b538b97c986e5a47
+Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64
+Version: 0.9.16
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1516
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64/iya.banana.dockicon_0.9.16_iphoneos-arm64_f37a2cab4e57557651c80222692b184d498b759f239dd1d21c6c8f35a5d51c0b.deb
+Size: 327146
+MD5sum: b76dbb73929be322f2fdddab812f30ca
+SHA1: a8c05b5c01533abd519d5257400dc70a02b8e63c
+SHA256: f37a2cab4e57557651c80222692b184d498b759f239dd1d21c6c8f35a5d51c0b
+SHA512: d017e00d8e0a9b4e03343dcc05f59048efbb06f193e35a91d87e8a63d6e0b9fb01f71ad0ad9ea0f9343a5477cc4580402b9212f206fec94f6b1adf46b9590788
+Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64
+Version: 0.9.17
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1860
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64/iya.banana.dockicon_0.9.17_iphoneos-arm64_9d95b5b85a080295c339c4d5b17cb330e477392a00ff1dbc88b27fdfd48cf487.deb
+Size: 395476
+MD5sum: e3bcaee65d59d082b9344b9b0aeeae9d
+SHA1: 2903ba9c64f13e41055cb0724176dc7afef5e2ac
+SHA256: 9d95b5b85a080295c339c4d5b17cb330e477392a00ff1dbc88b27fdfd48cf487
+SHA512: eca8000ebbc14caacc20740ad394b2b1ce9cfc6f3a36067ed2d62686005697ca9bb365f04aebe616eeabd8062f2db8e84db58503e6ff01211ccb27b34ae5b57f
+Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64
+Version: 0.9.18
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1896
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64/iya.banana.dockicon_0.9.18_iphoneos-arm64_eea10272dfa4d1351db46c5932a9b772a54372a631b3d971f5c2c559245abb2c.deb
+Size: 403922
+MD5sum: af48e205e0f1fdabf89b61e5f16215f5
+SHA1: 34a06f597b27273b35706c6780d7a60c10b325dc
+SHA256: eea10272dfa4d1351db46c5932a9b772a54372a631b3d971f5c2c559245abb2c
+SHA512: ca07f10d565212bd7f33672ea39540aa1b55a0190ff1d70d884d71ee8c13d7ada1bc5056f80a0f580dfec6c2533a3c0dc18fc9ffcd8eb8df656ea1dbd24bbd5c
+Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64
+Version: 0.9.19
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1896
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64/iya.banana.dockicon_0.9.19_iphoneos-arm64_a057c6457c44aeb76df1cfdd5d6e54bf55d5db58cc563f638fd20c34eed4dc69.deb
+Size: 403538
+MD5sum: 0dc207e17c33246a18f17c98188991c3
+SHA1: 66cbf8de534cbe3ce74792a6e6d4df0e77d46b2e
+SHA256: a057c6457c44aeb76df1cfdd5d6e54bf55d5db58cc563f638fd20c34eed4dc69
+SHA512: b593773cc04970f34a7d808428d9aeab1faef55499c141d6b6efeab184e9b96f69a6875d56237c500d09ffb6471333f351475fc65c70107925a17fc024f734a4
+Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+
 Package: iya.banana.dockicon
 Architecture: iphoneos-arm64
 Version: 0.9.20
@@ -13970,6 +14555,159 @@ SHA1: 3236f6b5762fdfac31c9ea68e08e5658baada153
 SHA256: bc4af65745016595c1ff84b7acfa5a25d5c54e8a248cad87841e4e7457f62ab5
 SHA512: 1cf13e28c4944f4609cda054fa14c0b97cc26a4c14a250d088a4786ec8dfd922b91adb58d608d609b799dfe592a9ce86047ec4d21b903b226f9dedbb32f13894
 Description: Icon styles and theme packs on iOS 15-18, 26 and 27; photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64
+Version: 0.9.9
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1056
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64/iya.banana.dockicon_0.9.9_iphoneos-arm64_287e788877c9bd2fa7a6e4cfba29f2e5c81f9b8e16da6834b077a9c647ef5f4c.deb
+Size: 222270
+MD5sum: b68e15b1f43dce407c60ec53b9e88c43
+SHA1: 511f2df1c8496923d386f262cb2d9540a8a78856
+SHA256: 287e788877c9bd2fa7a6e4cfba29f2e5c81f9b8e16da6834b077a9c647ef5f4c
+SHA512: 35e47d80a301428a686c5a717d8bd55e9b5c42166e5a0da9914cffa9eb78faff783b41188d20f0120f09a0dd21a52f498f9f842c15de2e7777a0331c9852f1cb
+Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64e
+Version: 0.9.10
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1168
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64e/iya.banana.dockicon_0.9.10_iphoneos-arm64e_ceffbd411f2decda9471e0e022e9270460694676f09adcb5a1029914161f6fe8.deb
+Size: 248150
+MD5sum: 42f977143f2e7e55f99a56f09ec7d18d
+SHA1: 99f15114e2d861d34196ed0e22d09aecc519a509
+SHA256: ceffbd411f2decda9471e0e022e9270460694676f09adcb5a1029914161f6fe8
+SHA512: 0669f0d8a9ea6d3188bf5970cdc2aa51ea2f6ab2908acba3f43fd0b1c09b90e34d1c7f8a30b2e3379141ab108278c983b9986a77224c0f04877a721b7b18d1d2
+Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64e
+Version: 0.9.11
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1220
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64e/iya.banana.dockicon_0.9.11_iphoneos-arm64e_56d0ba2ae8efc3bc86f51c13963dae6479ffd67aadf3acf0f25a4b11ebea2999.deb
+Size: 262042
+MD5sum: 213061d2ab683095012ba62af7b4ae24
+SHA1: 16693428fc790fb1b02cfa8c994f447e53ebca21
+SHA256: 56d0ba2ae8efc3bc86f51c13963dae6479ffd67aadf3acf0f25a4b11ebea2999
+SHA512: 560585cd4b59e429fc26fb70363221159eadd824b5984bc1790b3e4208aadd36343c5ca7e2f51718892e84784cc3466cd3d6bedc1a71ab704caf95098e0a1dbe
+Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64e
+Version: 0.9.12
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1220
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64e/iya.banana.dockicon_0.9.12_iphoneos-arm64e_6db39a0407be0fc32dd3114f0f24c5ef51e760fd5fd4fcd5732937930bb63755.deb
+Size: 264352
+MD5sum: fdd1ebfd1e83e7fa3878e62a542a03e8
+SHA1: 6b1aa5ed5d76e052d2c44feabb29354023da2cb2
+SHA256: 6db39a0407be0fc32dd3114f0f24c5ef51e760fd5fd4fcd5732937930bb63755
+SHA512: 0e1ffd1cc9f15c68dfcaca2b75beb996f3e317d5294ab41c4e56d3d01e0980ee389f9522a5756c99aaf00676b73c99e203365b4974438ca0389754b67b88eba2
+Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64e
+Version: 0.9.14
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1236
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64e/iya.banana.dockicon_0.9.14_iphoneos-arm64e_49565c838bd4bffeeb9ed111b8d63a144d361b3f770ef3f3abdd135ade6af579.deb
+Size: 269096
+MD5sum: f2296aef2600d273e99b9dfc85f14133
+SHA1: b3a6797e1b5c52b987306d32f3f12c33849033a5
+SHA256: 49565c838bd4bffeeb9ed111b8d63a144d361b3f770ef3f3abdd135ade6af579
+SHA512: edd5267630c955b86f2990d78cfecaac253e448fabbadd75f23b33a74ba636616f20d45aa81825d36fc94129681df4a6d7ae69b910feb1ba6939735e7e17336e
+Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64e
+Version: 0.9.16
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1516
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64e/iya.banana.dockicon_0.9.16_iphoneos-arm64e_a4384090535ae590f0af6afd45d7fb59d312f209cb71ac1fb8dffbb1c0c274be.deb
+Size: 326698
+MD5sum: 98d952aae9a43ada0e96bfe266887e77
+SHA1: bd608991142b853ed5dddff9fb7fc51db17c5d1a
+SHA256: a4384090535ae590f0af6afd45d7fb59d312f209cb71ac1fb8dffbb1c0c274be
+SHA512: 13810c5a18c47fdd973b25d801175196052c8be411900e62f2213f5c3b4b30f39ea9c2aaf396089cd0dce8b288f1dfef52a2b5d601cebb46a3afb8cf798455ba
+Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64e
+Version: 0.9.17
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1860
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64e/iya.banana.dockicon_0.9.17_iphoneos-arm64e_da46184292b912c7c4d9a293679584a6853239c6441cea0db280a1c2f45d8696.deb
+Size: 396152
+MD5sum: 3ca5fdb15bfddada05571ba03c599ba0
+SHA1: 85f7ec543f7c40080a8253b50f56a55141ec314c
+SHA256: da46184292b912c7c4d9a293679584a6853239c6441cea0db280a1c2f45d8696
+SHA512: 014ae16e3ee62e1cc640a040eaab914dfabe755dcef44b09fd2d861325f9d7d214f949beb1da4811d99945c6783e2f802abd327527e3d30476eeb26047e49c00
+Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64e
+Version: 0.9.18
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1896
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64e/iya.banana.dockicon_0.9.18_iphoneos-arm64e_967f1687bd7879a7c95523c0b65dabafb71e42e4642280c26043f154938293ad.deb
+Size: 403012
+MD5sum: a13c3961066514b2963239127c4ea930
+SHA1: 872b9c27dbf789594ac8cd375b67105543ad39db
+SHA256: 967f1687bd7879a7c95523c0b65dabafb71e42e4642280c26043f154938293ad
+SHA512: c697ae91844a1c8dfab135633e50caff9f140b4f8b1c8e9fef1ed492320f49c62ad31602a7da515634b0a798d2e35792272276072ca3ae814a507c84bbcd7a2e
+Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64e
+Version: 0.9.19
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1896
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64e/iya.banana.dockicon_0.9.19_iphoneos-arm64e_e71223c86ad53306e4e85b7d14f29d8cb1e6567a3e82893354309db80580bb32.deb
+Size: 404578
+MD5sum: 04b3785b77e9a5519ecdc1118a98fa0d
+SHA1: b1fc0803602c4c484bf099c7f4b231f8b3dae194
+SHA256: e71223c86ad53306e4e85b7d14f29d8cb1e6567a3e82893354309db80580bb32
+SHA512: 6bf17d05d5cff12160b61d9cda415d21a921072a1ba9ad09623228693b5234cf42ecd7e3980897d77bd8af8755e17deb27e0d671c47abaf0cd807dda61cc32ac
+Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
 Name: DarkIcon
 Author: hades
 
@@ -13990,6 +14728,91 @@ Description: Icon styles and theme packs on iOS 15-18, 26 and 27; photo wallpape
 Name: DarkIcon
 Author: hades
 
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64e
+Version: 0.9.9
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 1056
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64e/iya.banana.dockicon_0.9.9_iphoneos-arm64e_3c15379fb2493c53b8017437b26fd6f544d29cfe763046038852aba8edf5db53.deb
+Size: 222532
+MD5sum: ad3e8b172cbe35a78e4c13ac2ad98fa8
+SHA1: b7944e896f9a67e72c3345822948ef344807a1fc
+SHA256: 3c15379fb2493c53b8017437b26fd6f544d29cfe763046038852aba8edf5db53
+SHA512: 3793e24aa31c112a983854d509588a7f87e01f9203cc083d706a6fac20efa1fb66b2a5d088f0ff7b26d63d8daf9d5f0ab49aece05b4dfa39fe52950c5e9b66ae
+Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
+
+Package: iya.banana.dynamicmusicbg
+Architecture: iphoneos-arm64
+Version: 1.0.15
+Section: Tweaks
+Maintainer: banana
+Installed-Size: 500
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/iya.banana.dynamicmusicbg_1.0.15_iphoneos-arm64_abb8fbe8a4778c97c2c7132eeca43bd959f1bb5f5ae704ce7df4d529788191d3.deb
+Size: 59926
+MD5sum: f671720f4574ab1a0428d1738ea6141d
+SHA1: 4c47b4d577207220411c1b479f5e33cde37dd674
+SHA256: abb8fbe8a4778c97c2c7132eeca43bd959f1bb5f5ae704ce7df4d529788191d3
+SHA512: e0db73f25ef09c8ebd4dd1effacc1b27941631c8b213df67450818ae2ea0a8c973437618093e4767b6d02c6ab8a7b2d16e03ac34b967c528255ed5feb3ca707e
+Description: Album-art-driven animated color fields for Lock Screen Now Playing on iOS 15 through iOS 18.
+Name: DynamicMusicBG
+Author: banana
+
+Package: iya.banana.dynamicmusicbg
+Architecture: iphoneos-arm64e
+Version: 1.0.15
+Section: Tweaks
+Maintainer: banana
+Installed-Size: 500
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64e/iya.banana.dynamicmusicbg_1.0.15_iphoneos-arm64e_40bff018b291406f2765cf3ef34f933b3ef68da669427e8d91954f49de7740e1.deb
+Size: 59790
+MD5sum: a9a7eceacf9074db62096b877e2903f7
+SHA1: 42b4e924f06e2e56a6fd9aabb0d80bfb38725ef1
+SHA256: 40bff018b291406f2765cf3ef34f933b3ef68da669427e8d91954f49de7740e1
+SHA512: bf95ce8e6eee23732cc22859b0527150115ea0af5c8183fc2a472c66ee3a0056aac853e140c92d5408c1413f552e813069a4613204a839b160ebf7e2727e87c0
+Description: Album-art-driven animated color fields for Lock Screen Now Playing on iOS 15 through iOS 18.
+Name: DynamicMusicBG
+Author: banana
+
+Package: iya.banana.facetimeaudioenabler
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Section: Tweaks
+Maintainer: hxhlb
+Installed-Size: 832
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/iya.banana.facetimeaudioenabler_1.0.6_iphoneos-arm64_d07d509e4444fcd4c57078a919bd1e8d543c0aa0a920d0344df56407919f72aa.deb
+Size: 66930
+MD5sum: 2d5688f29e83ae7ae4dc4d84f801f6e7
+SHA1: 663d8124279a2045bbb5e39750f355776befe315
+SHA256: d07d509e4444fcd4c57078a919bd1e8d543c0aa0a920d0344df56407919f72aa
+SHA512: 43c7b45a054a198c635ec5f435e8b5ed441933882207e4124101cb4fc6454a18faf1bafa140d0d97969c8fe77b90f15ada8e1cba5961a6a54929ef874a30040c
+Description: Enables FaceTime Audio with a scoped runtime override on iOS 15-17 and a guarded MobileGestalt workflow on iOS 18+.
+Name: FaceTime Audio Enabler
+Author: hxhlb
+
+Package: iya.banana.facetimeaudioenabler
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Section: Tweaks
+Maintainer: hxhlb
+Installed-Size: 832
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/iya.banana.facetimeaudioenabler_1.0.6_iphoneos-arm64e_17d0d6c3a3e37004d5e01c207bbc13e9e5b980d9296498810faf1c12bbf7f67a.deb
+Size: 66836
+MD5sum: c9cc96fb48d20749bae57d80f4e18e12
+SHA1: 813ba6199387a570d0be913d82bbfd31febf6156
+SHA256: 17d0d6c3a3e37004d5e01c207bbc13e9e5b980d9296498810faf1c12bbf7f67a
+SHA512: 3668ea47449ed1b82f4157c926a00528796bc4af948a4a961d3ac5a41b5ff6554e33ef89a9750c4460be93422817a41dfc20552a51ffc2a74a40d2e7c5c48f33
+Description: Enables FaceTime Audio with a scoped runtime override on iOS 15-17 and a guarded MobileGestalt workflow on iOS 18+.
+Name: FaceTime Audio Enabler
+Author: hxhlb
+
 Package: iya.banana.iphoneduoflow
 Architecture: iphoneos-arm64
 Version: 0.1.0
@@ -14003,6 +14826,23 @@ MD5sum: 7a5e9f1b551e22f12b0de9523e232115
 SHA1: 5bb43c8db7ef05d4bec81ddbaafd1be42226075a
 SHA256: f6993a66e2d90609e5d2130715fdbf6758620d621feba47305486a0f0d71bdbd
 SHA512: 2089bf11ec612c04a843f23a82d75a9596c3b18c92691c86f6399701cc2bbd0db70429e1a15ea853bc3d8fe21e153aa68ae1c6520c58f56f8a5b37330cbee098
+Description: Tilt-driven scene shade, native landscape Dock, status ring and Control Center controls.
+Name: DuoFlow
+Author: Banana
+
+Package: iya.banana.iphoneduoflow
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1352
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoflow_0.1.1_iphoneos-arm64_bf8642f7418ee79ada4506d97ec1ca56faa5335820b2b265990afdf7dbeb8e71.deb
+Size: 137186
+MD5sum: 08847e9216b732ee70a4532fe1555bc3
+SHA1: 85273db8d7daed5374b67381625fcd1b06d14596
+SHA256: bf8642f7418ee79ada4506d97ec1ca56faa5335820b2b265990afdf7dbeb8e71
+SHA512: d3afe8f2a763a6d84d0d38802346b7c709054b82d5e2dfedbfdcc286af4038a88c24a44fb969f2814d32cc22fee84110c220d6d3c34400256a39bea34cf3047c
 Description: Tilt-driven scene shade, native landscape Dock, status ring and Control Center controls.
 Name: DuoFlow
 Author: Banana
@@ -14037,6 +14877,23 @@ MD5sum: 7c02b3e700f9546b92332945b4175ab6
 SHA1: 70581e67ebccb64565285b5dbc6821667616d832
 SHA256: 092aa43f71b0e31f29754ff76f05e95403c7ed169782f3c04188d4a83580d4fa
 SHA512: 87526f517f65dcc28091f8784d5307eb7e8e60ca8f0887658d405d6e8d8a89f1f392326c75de10683c981a116f0377f6838e863a11914493514ae29ce1d74f37
+Description: Tilt-driven scene shade, native landscape Dock, status ring and Control Center controls.
+Name: DuoFlow
+Author: Banana
+
+Package: iya.banana.iphoneduoflow
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1352
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/iya.banana.iphoneduoflow_0.1.1_iphoneos-arm64e_975e0324f0c24d52323b9a1ee130276c38154e1034c35dab4cf2aeccd566f36d.deb
+Size: 136318
+MD5sum: da774ff0309e2457fb768c1d4c7d0e00
+SHA1: 5ab901ddcff6e5d83706eddfcf12fd3ad15dcec0
+SHA256: 975e0324f0c24d52323b9a1ee130276c38154e1034c35dab4cf2aeccd566f36d
+SHA512: ecb8d679dc9bfcfd00230dcf617f771de7eb4953a3b5efa9592b827ac9e43e38c63de1a0acb25ffab4b027c5506d1d471ac1ce51453276ed7fa1095909617d3a
 Description: Tilt-driven scene shade, native landscape Dock, status ring and Control Center controls.
 Name: DuoFlow
 Author: Banana
@@ -14667,6 +15524,23 @@ Name: Lunora
 Author: Banana
 
 Package: iya.banana.jumpguard
+Architecture: iphoneos-arm64
+Version: 0.1.2
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 560
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Filename: debs/iphoneos-arm64/iya.banana.jumpguard_0.1.2_iphoneos-arm64_8c083eae79014b3ce5027dbb07b4a4ddb4b936855591f32b4f9605303105ae7e.deb
+Size: 66794
+MD5sum: 6ddf955e98f3702385a618b1cbf952c5
+SHA1: f7a8ace0da2088211d49941cca00013b82907916
+SHA256: 8c083eae79014b3ce5027dbb07b4a4ddb4b936855591f32b4f9605303105ae7e
+SHA512: 52311ccd0259d08a5a6dabf52a2d501716079c969b851dd7ff6e5f30aa4f3cbf85f30d3b5ee9a465e3eb87a91d8a7e6d560fde3ce2c46e7b821ff3dafbf8ba07
+Description: Confirm or block cross-app launch requests on RootHide iOS.
+Name: JumpGuard
+Author: hades
+
+Package: iya.banana.jumpguard
 Architecture: iphoneos-arm64e
 Version: 0.1.2
 Section: Tweaks
@@ -14682,6 +15556,40 @@ SHA512: 33d09e4cdab8b66c7c687e5ede15d76a234db79664544f1ddd22cdc144c68c3847842e82
 Description: Confirm or block cross-app launch requests on RootHide iOS.
 Name: JumpGuard
 Author: hades
+
+Package: iya.banana.lenticularwallpaper
+Architecture: iphoneos-arm64
+Version: 0.0.9
+Section: Tweaks
+Maintainer: banana
+Installed-Size: 616
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64/iya.banana.lenticularwallpaper_0.0.9_iphoneos-arm64_02dada89d5598e8ed42e511c6d7d674f9edf7132a04a2a6573c4b616f6c45879.deb
+Size: 78704
+MD5sum: b4d69fe7732e4c12a3301ad821cdc2e1
+SHA1: a74e02b451c7f87f86b5d81f24e913d49ad16269
+SHA256: 02dada89d5598e8ed42e511c6d7d674f9edf7132a04a2a6573c4b616f6c45879
+SHA512: 8f038ffb42a058f1968fb75035c31b89a7570aaa87d3ab3b2ef8cb02f648332cbf7f38d5441eaab22197bc54a8913450050a6755442498a0c4d37288d4b1199e
+Description: 趣味壁纸，为 SpringBoard 提供重力感应的多层、APNG、转场与光照壁纸效果。 / Fun Wallpaper with gravity-driven layered, APNG, transition, and lighting effects for SpringBoard.
+Name: Lenticular Wallpaper
+Author: banana
+
+Package: iya.banana.lenticularwallpaper
+Architecture: iphoneos-arm64e
+Version: 0.0.9
+Section: Tweaks
+Maintainer: banana
+Installed-Size: 616
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64e/iya.banana.lenticularwallpaper_0.0.9_iphoneos-arm64e_2321e8a91838f29da517560af9aba42a7fb5d753a6dedd3a0b075582a86e30ca.deb
+Size: 78502
+MD5sum: 86ca0d19dfd486213e9b036d3e29c35d
+SHA1: a0a0d14a2b946981a6e825212439a506287fdfe5
+SHA256: 2321e8a91838f29da517560af9aba42a7fb5d753a6dedd3a0b075582a86e30ca
+SHA512: 354a0b23273e384877e095d603cde1ea875c34747dfad8590842613474b588894661b03e59be44b05cf4c8e92702e2bf2c905533a44701b6875ad9d6d913183e
+Description: 趣味壁纸，为 SpringBoard 提供重力感应的多层、APNG、转场与光照壁纸效果。 / Fun Wallpaper with gravity-driven layered, APNG, transition, and lighting effects for SpringBoard.
+Name: Lenticular Wallpaper
+Author: banana
 
 Package: iya.banana.multitask
 Architecture: iphoneos-arm64
@@ -14701,6 +15609,23 @@ Name: 一芽分屏 (Iya Split)
 Author: Banana
 
 Package: iya.banana.multitask
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1940
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/iya.banana.multitask_0.1.1_iphoneos-arm64_d43b3071fc28e00d864e809e9d2930c1f80b89efe8bea00606a5743a0789683d.deb
+Size: 297608
+MD5sum: 3b62eb5da2354b8ce9b845499f37288d
+SHA1: 900ccfd3059de39ade056907ea86543df3ea381b
+SHA256: d43b3071fc28e00d864e809e9d2930c1f80b89efe8bea00606a5743a0789683d
+SHA512: 7726eee355871e1f10bf402081aa1c28349d396f7dcac3cdd412d26e997f5e45ae300dd501c7ed861601abdfe93a5e97234410e02014670fd9e1fdeb92042e5d
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Name: 一芽分屏 (Iya Split)
+Author: Banana
+
+Package: iya.banana.multitask
 Architecture: iphoneos-arm64e
 Version: 0.1.0
 Section: Tweaks
@@ -14715,6 +15640,231 @@ SHA256: b0a5edd5b714ec29f32c1fc055bb332da8ff9d8b5b4c19b3b08fe39a1234c9ac
 SHA512: e1383cebf023807f60d432b4ca0635567ed43db2a942fcbe90ee9d13f2d8307f1813418bf1ebb540d4ab95dc8379746da5f3246015d1fd7544f29423e8c74d93
 Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
 Name: 一芽分屏 (Iya Split)
+Author: Banana
+
+Package: iya.banana.multitask
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1924
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/iya.banana.multitask_0.1.1_iphoneos-arm64e_c30ae23dd3e2243caae3f1f84a9bacf566667252fdd43dcf401fea4b8664ad7d.deb
+Size: 297398
+MD5sum: 749d709609282f060cb5a102d0fcf864
+SHA1: c255b12a67b33cdcbbd4a8ea409eb027ebaef78f
+SHA256: c30ae23dd3e2243caae3f1f84a9bacf566667252fdd43dcf401fea4b8664ad7d
+SHA512: 1d7ddc3b5ef15162e5e021770aed5769bfb547f2f51200ea77a887a5096af6a3f15ebd00fcf91374da76f4a82e80c1ab97b50f22272a94d2765c8bc8c88856e8
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Name: 一芽分屏 (Iya Split)
+Author: Banana
+
+Package: iya.banana.musichaptics
+Architecture: iphoneos-arm64
+Version: 0.1.3
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 968
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/iya.banana.musichaptics_0.1.3_iphoneos-arm64_f42b0a88f546ec017fe441e520489d166ddda0bb4331772e5a76034c6465e73b.deb
+Size: 92502
+MD5sum: 9c3e390fd4898bf345e69ee5ae896f7b
+SHA1: 7dabc569403a27ea003aa4917ed0bfe747d05271
+SHA256: f42b0a88f546ec017fe441e520489d166ddda0bb4331772e5a76034c6465e73b
+SHA512: e39b248528438f97900fe1834c8c338f81cb1c8a42ea9ee10534f2673f27f60a6c84a11af9598ca72ff5474f3b35ea30e7b9f572a27697a3594e9b52af6f1263
+Description: Music haptic tracks, vocal mode and Control Center toggle for iOS 15 and later.
+Name: MusicHaptics
+Author: Banana
+
+Package: iya.banana.musichaptics
+Architecture: iphoneos-arm64
+Version: 0.2.0
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1056
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, iya.banana.audioservice (>= 1.0.2), firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/iya.banana.musichaptics_0.2.0_iphoneos-arm64_2ec42cefc72f824bddd2ff93518cd547154e0351d0f55b2becae4007213cb7e4.deb
+Size: 119450
+MD5sum: 3628decac53067c11bc68d707fac705e
+SHA1: 9477612755d5f9106a9a83504e3198a319c68208
+SHA256: 2ec42cefc72f824bddd2ff93518cd547154e0351d0f55b2becae4007213cb7e4
+SHA512: e8a9f1130571fca2346f15a34bd78346497a0025f49f88094226492c8b78dcf940fc37f718893a41899c8cea58fc1bf80153a810a70716eeea18d360042eab84
+Description: Native music haptics and four universal haptic modes for iOS 15 and later.
+Name: MusicHaptics
+Author: Banana
+
+Package: iya.banana.musichaptics
+Architecture: iphoneos-arm64e
+Version: 0.1.3
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 968
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/iya.banana.musichaptics_0.1.3_iphoneos-arm64e_1f41e076bd05b87e24ff8183722be039aab9f02ee53b4d7e5ec51369d4d3d5b3.deb
+Size: 92422
+MD5sum: 54cc8f068821ca15d33854279d87c474
+SHA1: 65e36856367bc540aaf0a35626d91df978c27543
+SHA256: 1f41e076bd05b87e24ff8183722be039aab9f02ee53b4d7e5ec51369d4d3d5b3
+SHA512: 678c33c99437e8946d242961fe3e8731d54e1e96b5b23d193dea07e6a7ad11483e04fddb90d9231f754dddef55bdbd74e9c2c9813d0b59f889550506d4318b8d
+Description: Music haptic tracks, vocal mode and Control Center toggle for iOS 15 and later.
+Name: MusicHaptics
+Author: Banana
+
+Package: iya.banana.musichaptics
+Architecture: iphoneos-arm64e
+Version: 0.2.0
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1056
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, iya.banana.audioservice (>= 1.0.2), firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/iya.banana.musichaptics_0.2.0_iphoneos-arm64e_20f6709624777a13101b9850d4f5247a968dbc68a859fb6ff550b937f6620f5d.deb
+Size: 119438
+MD5sum: 57c3fe3dece44c340f5facd2b8bc1325
+SHA1: f91404c322f5f23dc0344482342366e578b88652
+SHA256: 20f6709624777a13101b9850d4f5247a968dbc68a859fb6ff550b937f6620f5d
+SHA512: d78bf8ed51c1882322944b2e1a8bbbbaa09f0c96f50a30a6795449c5b2df69a807322c9d57a26de831f94798bf97c7ae7e29bcc9dc3a5754ca8be0fbf47cf981
+Description: Native music haptics and four universal haptic modes for iOS 15 and later.
+Name: MusicHaptics
+Author: Banana
+
+Package: iya.banana.openspace
+Architecture: iphoneos-arm64
+Version: 0.1.3
+Section: Tweaks
+Maintainer: banana
+Installed-Size: 1248
+Depends: firmware (>= 17.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: iya.banana.ios18sb
+Replaces: iya.banana.ios18sb
+Filename: debs/iphoneos-arm64/iya.banana.openspace_0.1.3_iphoneos-arm64_e99770dc5676175bb9eb3ca28f91f99ef1211a0657738a70bf1884eb6ff728f6.deb
+Size: 361510
+MD5sum: de90e5ac48e5016af081437145ee632f
+SHA1: 89bc01bb337a73a230a2a0d548afd172aec65f86
+SHA256: e99770dc5676175bb9eb3ca28f91f99ef1211a0657738a70bf1884eb6ff728f6
+SHA512: 735884c3fd7c8d4ba24fd51fd70c8604899eceb778a38b3d682ef20d771b12449815a4d8354eb6bce8d9197f268c5e4063d8df8df2caa5ccd7af151aab46246c
+Description: Bring free Home Screen placement and native widget resizing to iOS 17 while preserving the system layout.
+Name: OpenSpace
+Author: banana
+
+Package: iya.banana.openspace
+Architecture: iphoneos-arm64e
+Version: 0.1.3
+Section: Tweaks
+Maintainer: banana
+Installed-Size: 1248
+Depends: firmware (>= 17.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: iya.banana.ios18sb
+Replaces: iya.banana.ios18sb
+Filename: debs/iphoneos-arm64e/iya.banana.openspace_0.1.3_iphoneos-arm64e_6c995b2a937b6b6b8883fd3ce383d6f738fa96aa7e86e32656a25db256768971.deb
+Size: 358228
+MD5sum: 3ecda6e90edc79702bff177a6ef35f00
+SHA1: cd2df1471b1835269f278ea65f4c3a081daf67ed
+SHA256: 6c995b2a937b6b6b8883fd3ce383d6f738fa96aa7e86e32656a25db256768971
+SHA512: 2adfb21e2d45d1204d62d0250def28b6bfb6bb2b0ced172a5dcddab08127f69c54d0bab11217c5a4cccbf2ca243f469878f2680622bcccad6753357e9eb583ea
+Description: Bring free Home Screen placement and native widget resizing to iOS 17 while preserving the system layout.
+Name: OpenSpace
+Author: banana
+
+Package: iya.banana.replacedefapp
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 908
+Depends: firmware (>= 17.0), firmware (<< 18.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/iya.banana.replacedefapp_0.1.0_iphoneos-arm64_a7d12a628fc6693108518fab97dbc0cb285a6d6292949eca309a2fa3af44dccd.deb
+Size: 106620
+MD5sum: 3803850f1830f3da52bc7ed3a82c2baf
+SHA1: 5aba78cff650760c491bcbbcf32d0265e6c9e894
+SHA256: a7d12a628fc6693108518fab97dbc0cb285a6d6292949eca309a2fa3af44dccd
+SHA512: 6d809eb5ed13a847fac3f83ef0232da638128a51e99ef25976da6aa0f4be5f8f00d5a03a6229303b6f7ee072091bc5e4948c20c59e20f981acb6f48f9def8702
+Description: Unified default-app settings, URL routing and selected-text translation for iOS 17.
+Name: ReplaceDefApp
+Author: Banana
+
+Package: iya.banana.replacedefapp
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 908
+Depends: firmware (>= 17.0), firmware (<< 18.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64e/iya.banana.replacedefapp_0.1.0_iphoneos-arm64e_04ef69ae18cec1f1d4b1ef677fd9e636c07d111d5928d4749d03e8f653f124f2.deb
+Size: 106478
+MD5sum: e98069a6ee632fd3bab15041ad4455e2
+SHA1: 4799ee3738df1f04c009d3b6d8885f3f9ce8127d
+SHA256: 04ef69ae18cec1f1d4b1ef677fd9e636c07d111d5928d4749d03e8f653f124f2
+SHA512: d5afd8a924b8b02b7792c14a244247e186c0c28307b1c2633919da0c2f809ddae34abb8da1b772879b77471c9328316ce572cb6ebb4886bf46a32c371cfb2ed9
+Description: Unified default-app settings, URL routing and selected-text translation for iOS 17.
+Name: ReplaceDefApp
+Author: Banana
+
+Package: iya.banana.spatialscene
+Architecture: iphoneos-arm64
+Version: 1.1.16
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 13396
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64/iya.banana.spatialscene_1.1.16_iphoneos-arm64_ba83b821353ea780049a53542b35973692d4b1148bc52a268412982f794faa4c.deb
+Size: 6396054
+MD5sum: 4f779c55df242d4c0760cfb0b6a10fa9
+SHA1: c46f9beced6499b6b57a5afcde1d22ac324d0092
+SHA256: ba83b821353ea780049a53542b35973692d4b1148bc52a268412982f794faa4c
+SHA512: d5f1042a59f11e2c9d75031b5ede0c55702d44ed0f722a3698208cbbdb02d9cd70f267061dde68425f7e2e10443c0bfde3832b3d155fd53e0e113d4c6f6f7c7d
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Name: SpatialScene
+Author: Banana
+
+Package: iya.banana.spatialscene
+Architecture: iphoneos-arm64
+Version: 1.1.18
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 13644
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64/iya.banana.spatialscene_1.1.18_iphoneos-arm64_382c6ea3fcc1366b63df9dd98d00cb463ca033f2e4bd7b48c47e45171a9d25b2.deb
+Size: 6448010
+MD5sum: 78d34b9251842eec4946eceef4a2e11c
+SHA1: 8512b9f81cebead5c4c366a40666990512ce6bf1
+SHA256: 382c6ea3fcc1366b63df9dd98d00cb463ca033f2e4bd7b48c47e45171a9d25b2
+SHA512: 96da6b8efa66a62db92d49041970c1a8ce69f525b7c677d07ca7404bc96c8fd03a2a3870133bfa9aecc06ee51572b34ebc837a6733b4d6c962d8557e166144e9
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Name: SpatialScene
+Author: Banana
+
+Package: iya.banana.spatialscene
+Architecture: iphoneos-arm64e
+Version: 1.1.16
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 13396
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64e/iya.banana.spatialscene_1.1.16_iphoneos-arm64e_4b0d3f98da5d99abfed0ca0a128b6437eb1a1d54113a5996e3b549736f836eea.deb
+Size: 6396288
+MD5sum: 265ad32d9ae1c0b3780b3b5855cb271a
+SHA1: c0119b94b5e65444ed9846bb46a30e34b181e9a9
+SHA256: 4b0d3f98da5d99abfed0ca0a128b6437eb1a1d54113a5996e3b549736f836eea
+SHA512: 2ea1558b9aaad86197a48cf1870cc2e1cdbb65b3ed08e7aa35ffbdcf581ec2e31e7fd2e06f1a9289a6cd9d0c7dfe54da961cc2334a49fe61e9bb646bf6647f3c
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Name: SpatialScene
+Author: Banana
+
+Package: iya.banana.spatialscene
+Architecture: iphoneos-arm64e
+Version: 1.1.18
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 13644
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iphoneos-arm64e/iya.banana.spatialscene_1.1.18_iphoneos-arm64e_c0de4a00953c63fab10cb8a3eef109436efc4ecee0ac98ba316edd9e24f4a98b.deb
+Size: 6448290
+MD5sum: 5e6f0489b7eeecf8d2ea0d0342515d32
+SHA1: c841baf9f0c94d4f28df5670c64fe5d790948d02
+SHA256: c0de4a00953c63fab10cb8a3eef109436efc4ecee0ac98ba316edd9e24f4a98b
+SHA512: 859224920d7b281e9f5f664fe6405fef4fd90431f96185c53b834f723d41559e02e59453d41fee53d1589637b6a19db3d76fcb78a0f81201a2789089c72816e9
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Name: SpatialScene
 Author: Banana
 
 Package: iya.banana.springboardaction
@@ -14737,6 +15887,24 @@ Author: Banana
 icon: https://huayuarc.github.io/icon/springboardaction.png
 
 Package: iya.banana.springboardaction
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 608
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0), firmware (<< 19.0)
+Conflicts: com.cameronkatri.quickactions
+Filename: debs/iphoneos-arm64/iya.banana.springboardaction_1.0.0_iphoneos-arm64_9f05092e3504734b11e7d38090a93a26c8778877a861a802303015c9caba3191.deb
+Size: 80546
+MD5sum: d3e6f16e745440f667337e8fdbab23ba
+SHA1: 72bc72bb32329e9f4d6266b53c5ba4ef835de533
+SHA256: 9f05092e3504734b11e7d38090a93a26c8778877a861a802303015c9caba3191
+SHA512: 8e3b7ac3e3c5741ab36a20af0454035ae6bc7d82890f8d18ccdc00d8a6a28fc4d2569420363abdd71ebdb0e60af5b0ea6bcb33ec684163eea1a732f2a3991bd1
+Description: Custom lock screen quick actions, apps, and shortcuts for iOS 16-18.
+Name: SpringBoardAction
+Author: Banana
+
+Package: iya.banana.springboardaction
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Section: Tweaks
@@ -14755,6 +15923,374 @@ Name: SpringBoardAction
 Author: Banana
 icon: https://huayuarc.github.io/icon/springboardaction.png
 
+Package: iya.banana.springboardaction
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 588
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0), firmware (<< 19.0)
+Conflicts: com.cameronkatri.quickactions
+Filename: debs/iphoneos-arm64e/iya.banana.springboardaction_1.0.0_iphoneos-arm64e_d56b99b9f75d03129165f91dbf18b1a0bae94439b865acab080bc442b67d3c25.deb
+Size: 78098
+MD5sum: 29327298b7ef56783c5a8bd5906c029e
+SHA1: ddd65819b105b9c1f29c28fb24a2ba72cf5c9376
+SHA256: d56b99b9f75d03129165f91dbf18b1a0bae94439b865acab080bc442b67d3c25
+SHA512: 2ebf3e4296ca7cc68739e6fedb76caf290556a87d6bc3db9d9239c51585f48b7db193450ea406c817d12b21b0a2be73ef29ef786d98c8599c07bd0a82ffc155d
+Description: Custom lock screen quick actions, apps, and shortcuts for iOS 16-18.
+Name: SpringBoardAction
+Author: Banana
+
+Package: iya.banana.springboardgame
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: hxhlb
+Installed-Size: 716
+Depends: mobilesubstrate, preferenceloader
+Conflicts: iya.banana.iconsnake, iya.banana.icontetris
+Replaces: iya.banana.iconsnake, iya.banana.icontetris
+Filename: debs/iphoneos-arm64/iya.banana.springboardgame_0.0.2_iphoneos-arm64_6b6d3d394ed49b6cbd03a00f525170c9d34975b2835dc941cdb0e5488adcf9f6.deb
+Size: 118736
+MD5sum: 28d6ab2d5908945208323c8e5f5e641f
+SHA1: 6f70fcf7961b728ef416df8551936abbf45948e3
+SHA256: 6b6d3d394ed49b6cbd03a00f525170c9d34975b2835dc941cdb0e5488adcf9f6
+SHA512: 8f84e662e420a36c8632841bb1f304104d9000736c5747c1498371e74702d4eb69d055ae59c2021f23718a1df5dd5934dfde9d39e27292a7b1f6925acf7569fd
+Description: Play Snake, Tetris, Basketball, Breakout, Soccer, and Tank with installed app icons directly on the Home Screen. / 直接在主屏幕上使用已安装 App 图标游玩贪吃蛇、俄罗斯方块、篮球、打砖块、足球和坦克。
+Name: SpringBoardGame
+Author: hxhlb
+
+Package: iya.banana.springboardgame
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: hxhlb
+Installed-Size: 716
+Depends: mobilesubstrate, preferenceloader
+Conflicts: iya.banana.iconsnake, iya.banana.icontetris
+Replaces: iya.banana.iconsnake, iya.banana.icontetris
+Filename: debs/iphoneos-arm64e/iya.banana.springboardgame_0.0.2_iphoneos-arm64e_59e746006204f3551103a04670642bc42e18cc14e38c72ab9c71e64d20c75727.deb
+Size: 118614
+MD5sum: d2e80d0c0e89a4f0a1065354b149b410
+SHA1: 2a8478fb4eaccdb3fc0f09035e44f8503ef41797
+SHA256: 59e746006204f3551103a04670642bc42e18cc14e38c72ab9c71e64d20c75727
+SHA512: d4582b773e68af1db5c4dd13e74955d58f03b3876da613b478b9af93560c20ce8b1f782dc06220804a709c5db3892febc54c76395ed267e19260e47a69e76c8d
+Description: Play Snake, Tetris, Basketball, Breakout, Soccer, and Tank with installed app icons directly on the Home Screen. / 直接在主屏幕上使用已安装 App 图标游玩贪吃蛇、俄罗斯方块、篮球、打砖块、足球和坦克。
+Name: SpringBoardGame
+Author: hxhlb
+
+Package: iya.banana.trollisland
+Architecture: iphoneos-arm64
+Version: 1.1.7
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 460
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64/iya.banana.trollisland_1.1.7_iphoneos-arm64_ce63017e8329b30dbd00aabeed282fd696b82de25a4d7fd50d2e6612a29ef8a7.deb
+Size: 55004
+MD5sum: 4ff6e5113813bc11d6fdb81dcf21206f
+SHA1: d308f3b860ee7bc2a94aea27174ecc7ad6e8d5ac
+SHA256: ce63017e8329b30dbd00aabeed282fd696b82de25a4d7fd50d2e6612a29ef8a7
+SHA512: 5095eada2bfee63c13aea8b3239dbd80b3b930671a90b5497fa4e554235965b52f22cc8153d2ccbb39b746a88a0d2a900b322512f22e189779f7da5d56767302
+Description: Enable and reposition the native Dynamic Island without persistent MobileGestalt changes.
+Name: TrollIsland
+Author: Banana
+
+Package: iya.banana.trollisland
+Architecture: iphoneos-arm64e
+Version: 1.1.7
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 460
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0), firmware (<< 19.0)
+Filename: debs/iphoneos-arm64e/iya.banana.trollisland_1.1.7_iphoneos-arm64e_a6244f16b8fdef4acaf5321b45635d4ac93ec7b5113a8d0f908be93513621e9d.deb
+Size: 54860
+MD5sum: 942349161cb2bdb65c46b67cd3e871e8
+SHA1: 268b519733f9767684c818720d92b0a821178806
+SHA256: a6244f16b8fdef4acaf5321b45635d4ac93ec7b5113a8d0f908be93513621e9d
+SHA512: a371933e9abe49b05f87697dab8d3b63e957db0ffccfb509638f4a5eb05e6586991e834ed2a8afe33e45d3eecd6d5ce4bd134554b149f04d17b02df0f0810a2f
+Description: Enable and reposition the native Dynamic Island without persistent MobileGestalt changes.
+Name: TrollIsland
+Author: Banana
+
+Package: iya.banana.tweak.loader
+Architecture: iphoneos-arm64
+Version: 0.4.3
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 2340
+Depends: mobilesubstrate, firmware (>= 18.0)
+Filename: debs/iphoneos-arm64/iya.banana.tweak.loader_0.4.3_iphoneos-arm64_b537b211dbfb1216fdc1a8b3b42456c0b91e970e010417b81b4de3ecea30ce32.deb
+Size: 873526
+MD5sum: 211bccd54cae03e689327e1803dcc573
+SHA1: 2c6ce57e2498ca606d22693ef728fdd6cf4353bb
+SHA256: b537b211dbfb1216fdc1a8b3b42456c0b91e970e010417b81b4de3ecea30ce32
+SHA512: b050599d0bdbce53cdd95daf65ce5391c9feb647c03c48b0916933687978cadcd37b8f9cd566db49b4daf137ea3aa64dd5c4bcbcdba92caf1f02daa4a9457d49
+Description: iOS 18 Settings home — tweaks list, status group, password
+Name: Tweak Loader
+Author: Banana
+
+Package: iya.banana.tweak.loader
+Architecture: iphoneos-arm64e
+Version: 0.4.3
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 2356
+Depends: mobilesubstrate, firmware (>= 18.0)
+Filename: debs/iphoneos-arm64e/iya.banana.tweak.loader_0.4.3_iphoneos-arm64e_0f8950105960aaa6c1c2b5082bd978809e797f0a14a1d35c00be754b96d63a07.deb
+Size: 883416
+MD5sum: ce234ef24182ab5e20df855fc90cd7b7
+SHA1: fdb656ec7d1f43d47ae21008424b4b2d8c6688f0
+SHA256: 0f8950105960aaa6c1c2b5082bd978809e797f0a14a1d35c00be754b96d63a07
+SHA512: 36589aaefcc284ea438aeac1fa54b406ab354289b89612cea5fdf1864d8c3bdc5f4d5bb6470f479775ae02c2a0fd165983213965dcd04d841877d8f843822647
+Description: iOS 18 Settings home — tweaks list, status group, password
+Name: Tweak Loader
+Author: Banana
+
+Package: iya.banana.vehiclemotioncues
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 616
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport (>= 1.3.10)
+Filename: debs/iphoneos-arm64/iya.banana.vehiclemotioncues_0.0.2_iphoneos-arm64_730f2139a27a0692b88b3cca55519ca2688b17d9d9d63af07a97cf961204cf00.deb
+Size: 33122
+MD5sum: 1efbb08fed350f880041d2ce468a4e44
+SHA1: 468a17fea575ed7266902847c1e3b08928ff36bd
+SHA256: 730f2139a27a0692b88b3cca55519ca2688b17d9d9d63af07a97cf961204cf00
+SHA512: da361065782acb966e07fa16183e5b6be8cf5b43b055a186e3efdd272fb8e34bfa62b9743d8706fb93573d16a50e8b9cdbdf3382efc83540dc149aa45557d3bf
+Description: Reverse-derived Vehicle Motion Cues for iOS 17.
+Name: Vehicle Motion Cues
+Author: hades
+
+Package: iya.banana.vehiclemotioncues
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: hades
+Installed-Size: 616
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport (>= 1.3.10)
+Filename: debs/iphoneos-arm64e/iya.banana.vehiclemotioncues_0.0.2_iphoneos-arm64e_3f3abc844ca155ffc3981fd9d068943c43524cf64e1f370e72364451cee88502.deb
+Size: 32926
+MD5sum: 5e025b4fe93598fff95626e74c39ad90
+SHA1: 6a83e8b2d1fe58683bc4ac979fb8e3d2e4997eef
+SHA256: 3f3abc844ca155ffc3981fd9d068943c43524cf64e1f370e72364451cee88502
+SHA512: 9b842d004e58e2f8b451b6083e3ef61537a41ecb1e82f27c4739632d6aceb3e40163c52910fc8f05202ed23f3635d7321a7ffcf172f3286f9d92b65bfb28e09b
+Description: Reverse-derived Vehicle Motion Cues for iOS 17.
+Name: Vehicle Motion Cues
+Author: hades
+
+Package: iya.iapple.liquidass
+Architecture: iphoneos-arm64
+Version: 0.1.1b+banana33
+Section: Tweaks
+Maintainer: dylv & banana
+Installed-Size: 8720
+Provides: dylv.liquidass
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Conflicts: dylv.liquidass, dylv.liquidass.zh-hans
+Replaces: dylv.liquidass, dylv.liquidass.zh-hans
+Filename: debs/iphoneos-arm64/iya.iapple.liquidass_0.1.1b+banana33_iphoneos-arm64_7e990eec015313cddaa06b04257969d4a73b88a1167fe6dd2d95be62aaf39054.deb
+Size: 3736192
+MD5sum: 40824995690cfc5b05a9d34e2dd467ea
+SHA1: 1b44382245718bfb938cde7e2cf5f1c5dfcbe38e
+SHA256: 7e990eec015313cddaa06b04257969d4a73b88a1167fe6dd2d95be62aaf39054
+SHA512: bdc0b6c5d859a6d2b33da7d4916b3dc3b5672da8cc33b832daa571265f86afe0c32c908ea7fc9b68746304e8d376faa378e174918d5da51eca7006b70a677fd6
+Description: next level diarrhea
+Name: Liquid (Gl)ass
+Author: dylv & banana
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+
+Package: iya.iapple.liquidass
+Architecture: iphoneos-arm64
+Version: 0.1.1b+banana43
+Section: Tweaks
+Maintainer: dylv & banana
+Installed-Size: 9192
+Provides: dylv.liquidass
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.liquidass.zh-hans
+Replaces: dylv.liquidass, dylv.liquidass.zh-hans
+Filename: debs/iphoneos-arm64/iya.iapple.liquidass_0.1.1b+banana43_iphoneos-arm64_f82a8b4729d1b688510888033ab6bc2df13d4a2c2ea28e490b702cb91ad96496.deb
+Size: 3840818
+MD5sum: a4a2aef246262395160db6f01897ab45
+SHA1: 28b02e82266df670903944c5c56973cb49d24571
+SHA256: f82a8b4729d1b688510888033ab6bc2df13d4a2c2ea28e490b702cb91ad96496
+SHA512: 8950c27bccaa4ee98feb7c266d685f7f9c78efa9899996d630db5a7de6184640799386e9837b6a3dc1cd83028033e3e950c06e10e955654e3592d39ec05c14e9
+Description: next level diarrhea
+Name: Liquid (Gl)ass
+Author: dylv & banana
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+
+Package: iya.iapple.liquidass
+Architecture: iphoneos-arm64
+Version: 0.1.1b+banana45
+Section: Tweaks
+Maintainer: dylv & banana
+Installed-Size: 9232
+Provides: dylv.liquidass
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.liquidass.zh-hans
+Replaces: dylv.liquidass, dylv.liquidass.zh-hans
+Filename: debs/iphoneos-arm64/iya.iapple.liquidass_0.1.1b+banana45_iphoneos-arm64_4a7c87158a50dd7bc9a43f2e87f60304226ef7d28547d25c51def38257f01721.deb
+Size: 3849162
+MD5sum: f29008a25a5a83e6074d6d32bcab76b8
+SHA1: 30766fcb964349e67915af4d61a5ab85bb9c496a
+SHA256: 4a7c87158a50dd7bc9a43f2e87f60304226ef7d28547d25c51def38257f01721
+SHA512: c3712c7093699bdb5040ca04469599830fa3d3c9e1b36530b74b9a88e2e8c71fbd78a97960aa361cafcb3fcc5270d13b3bbcb07396e1e595979bca3363696a7a
+Description: next level diarrhea
+Name: Liquid (Gl)ass
+Author: dylv & banana
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+
+Package: iya.iapple.liquidass
+Architecture: iphoneos-arm64
+Version: 0.1.1b+banana47
+Section: Tweaks
+Maintainer: dylv & banana
+Installed-Size: 9240
+Provides: dylv.liquidass
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.liquidass.zh-hans
+Replaces: dylv.liquidass, dylv.liquidass.zh-hans
+Filename: debs/iphoneos-arm64/iya.iapple.liquidass_0.1.1b+banana47_iphoneos-arm64_317a3da8154e57682c00f2e3a149b1582d759b9a524eaebb3999b93745fbfcce.deb
+Size: 3846938
+MD5sum: 8182ec3200d8349028c3da7f2b9d71df
+SHA1: 64f0197acf98db4f63f8aa9264578a06890309d6
+SHA256: 317a3da8154e57682c00f2e3a149b1582d759b9a524eaebb3999b93745fbfcce
+SHA512: 96772c108259599bc80e82bc14e9b04dedf8af0dfe50253129962d6983b6c1b25020e0991e27aa0a49c06bf91658e46b488ae940ed7f5808d752e73063cdbb72
+Description: next level diarrhea
+Name: Liquid (Gl)ass
+Author: dylv & banana
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+
+Package: iya.iapple.liquidass
+Architecture: iphoneos-arm64
+Version: 0.1.1b+banana54
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 9336
+Provides: dylv.liquidass
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.liquidass.zh-hans
+Replaces: dylv.liquidass, dylv.liquidass.zh-hans
+Filename: debs/iphoneos-arm64/iya.iapple.liquidass_0.1.1b+banana54_iphoneos-arm64_7a943083966ebb3d93b8652f6f5afee639b8bd2b35df4ad64e0c49c26fb075b0.deb
+Size: 3863948
+MD5sum: 80aaa6d7cee0dc6883d9252089f3e8b5
+SHA1: e580292c8c370e1508c23e0d607bd2e0e6fca935
+SHA256: 7a943083966ebb3d93b8652f6f5afee639b8bd2b35df4ad64e0c49c26fb075b0
+SHA512: 42bdb6653a9f8396a1bf35a982dbe810e5ce0177ee86a07ed379ff03e0ec87e390afcf295204a0be4cc412ce45f399cd791d91f14a4f70115810e0ab8eb481f0
+Description: next level diarrhea
+Name: Liquid (Gl)ass
+Author: dylv & Banana
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+
+Package: iya.iapple.liquidass
+Architecture: iphoneos-arm64e
+Version: 0.1.1b+banana33
+Section: Tweaks
+Maintainer: dylv & banana
+Installed-Size: 8720
+Provides: dylv.liquidass
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Conflicts: dylv.liquidass, dylv.liquidass.zh-hans
+Replaces: dylv.liquidass, dylv.liquidass.zh-hans
+Filename: debs/iphoneos-arm64e/iya.iapple.liquidass_0.1.1b+banana33_iphoneos-arm64e_9651317d678b7bc95bb3b0af79327849bf4c061fb558059682069a8529b11f6e.deb
+Size: 3730748
+MD5sum: 221bf342d7f0d93b2f6f05bcc8375e35
+SHA1: 1e72c6fd05b7ec0244214b226b0369ded78e9318
+SHA256: 9651317d678b7bc95bb3b0af79327849bf4c061fb558059682069a8529b11f6e
+SHA512: 7db09aa8b7f2db8884d45c2ca20de5b79cba0ef89c6d1f3516f8a730f575a93ee5838881d2bfe90b3711d83dba52629e6ef9defabd2f2f7dd3c99d78828a9288
+Description: next level diarrhea
+Name: Liquid (Gl)ass
+Author: dylv & banana
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+
+Package: iya.iapple.liquidass
+Architecture: iphoneos-arm64e
+Version: 0.1.1b+banana43
+Section: Tweaks
+Maintainer: dylv & banana
+Installed-Size: 9176
+Provides: dylv.liquidass
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.liquidass.zh-hans
+Replaces: dylv.liquidass, dylv.liquidass.zh-hans
+Filename: debs/iphoneos-arm64e/iya.iapple.liquidass_0.1.1b+banana43_iphoneos-arm64e_0f245a527c093fbf02252e21e9787c7108a0613f799dd309fddbb19c4938c75b.deb
+Size: 3844268
+MD5sum: 012f17896d9a0598d83b868d80ed1ad8
+SHA1: 9dfd69b28d6f9755fd0749d823af1e8025f6bd34
+SHA256: 0f245a527c093fbf02252e21e9787c7108a0613f799dd309fddbb19c4938c75b
+SHA512: 4f001d5ae3c76240849e3333703eebbc030394124df83dfccea116c3f7f16ee4dec70bb92f262c7a8bdf8ad9e65d6d8d6c6c48a74153ffdd64e5d2a1da11ca8d
+Description: next level diarrhea
+Name: Liquid (Gl)ass
+Author: dylv & banana
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+
+Package: iya.iapple.liquidass
+Architecture: iphoneos-arm64e
+Version: 0.1.1b+banana45
+Section: Tweaks
+Maintainer: dylv & banana
+Installed-Size: 9200
+Provides: dylv.liquidass
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.liquidass.zh-hans
+Replaces: dylv.liquidass, dylv.liquidass.zh-hans
+Filename: debs/iphoneos-arm64e/iya.iapple.liquidass_0.1.1b+banana45_iphoneos-arm64e_bf7404d21a0bdda5d433adeb5ba31271fa9beb4929dc80b4b0a11eed415a6a02.deb
+Size: 3840738
+MD5sum: 4909878aacb48e8f1ac12a10e4ac4177
+SHA1: fb087094901a728151180f4b838e18ec7e50e5c2
+SHA256: bf7404d21a0bdda5d433adeb5ba31271fa9beb4929dc80b4b0a11eed415a6a02
+SHA512: 0a60b8e601297a77bf8db88ea8fb0b716b72ef1ecb323ba99716ffecc9a122b24ce2126fa27b68c22a04eafae93c06d752d1a1d2e8f0365fa6d8b320885cc408
+Description: next level diarrhea
+Name: Liquid (Gl)ass
+Author: dylv & banana
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+
+Package: iya.iapple.liquidass
+Architecture: iphoneos-arm64e
+Version: 0.1.1b+banana47
+Section: Tweaks
+Maintainer: dylv & banana
+Installed-Size: 9208
+Provides: dylv.liquidass
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.liquidass.zh-hans
+Replaces: dylv.liquidass, dylv.liquidass.zh-hans
+Filename: debs/iphoneos-arm64e/iya.iapple.liquidass_0.1.1b+banana47_iphoneos-arm64e_ea70a7d65a856687b67053783ed70ccf2d04a3d6ed1ddc788805e9df5c6a8a40.deb
+Size: 3840558
+MD5sum: 804027473309b0affce3b7af3c31aea6
+SHA1: 806605a3a1a30e1a5c32382e57083992c15025db
+SHA256: ea70a7d65a856687b67053783ed70ccf2d04a3d6ed1ddc788805e9df5c6a8a40
+SHA512: d7bba883ea36e3c41f49a5c6252203ba498e2bbd7c163e98b6ea07a4c2775a43cefde216458b4186ae9d2a328ee08cd809c64ba32bdbcc3edb5b6ca376307082
+Description: next level diarrhea
+Name: Liquid (Gl)ass
+Author: dylv & banana
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+
+Package: iya.iapple.liquidass
+Architecture: iphoneos-arm64e
+Version: 0.1.1b+banana54
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 9320
+Provides: dylv.liquidass
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.liquidass.zh-hans
+Replaces: dylv.liquidass, dylv.liquidass.zh-hans
+Filename: debs/iphoneos-arm64e/iya.iapple.liquidass_0.1.1b+banana54_iphoneos-arm64e_39d054769f57b7a55a90ea69b98631bbe730cc9dfbccc07413ac1427d2b02b5d.deb
+Size: 3863782
+MD5sum: e50acaa50c24669df4d60a739db27c6b
+SHA1: a43047d157503b1c00e2ea312f0b091d20a20839
+SHA256: 39d054769f57b7a55a90ea69b98631bbe730cc9dfbccc07413ac1427d2b02b5d
+SHA512: fc21eb71015318f21bc8a4ebbc38e6eaec7ef3bd1b649085d1c301d603fe9b13e3e6ac3c507746d98a2c5f2ac86facb21c325df2fb3abfafe93dd0fd5d0fb350
+Description: next level diarrhea
+Name: Liquid (Gl)ass
+Author: dylv & Banana
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+
 Package: iya.iapple.siri
 Architecture: iphoneos-arm64
 Version: 1.1.3
@@ -14770,6 +16306,25 @@ MD5sum: 558324492bde647dca1dc35ff31ea8ef
 SHA1: 8d51e6806565b7b57bf4b74458d352d8fc6efeea
 SHA256: 13fca93f398ddc4d26ea3a7131f44ecd5d2c1e4b7ed8c852207415b20aebe439
 SHA512: 3e99cdbbef8a4efdc039171145b456c648f72f31f3745e4475c77e1ac2d62e746e28bcc848f4f49febedeeeacfebabb1b3dd16ff8bed60dc99d4c43c6e6c0baf
+Description: Customize Siri with NewSiri edge lighting or the SiriAI glass interface.
+Name: LiquidSiri
+Author: Thijs mussig, Banana
+
+Package: iya.iapple.siri
+Architecture: iphoneos-arm64e
+Version: 1.1.3
+Section: Tweaks
+Maintainer: Thijs mussig
+Installed-Size: 2252
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourcompany.liquidsiri
+Replaces: com.yourcompany.liquidsiri
+Filename: debs/iphoneos-arm64e/iya.iapple.siri_1.1.3_iphoneos-arm64e_674bb58c9860cb643a96be1b6b0e365e29f7fb0d2c2276a0446576431d67645e.deb
+Size: 984154
+MD5sum: c5c0c24a2a3af84c274d4f707f9a1f2a
+SHA1: 9b3fefaddcef61ab124c2229dd62868af75fa184
+SHA256: 674bb58c9860cb643a96be1b6b0e365e29f7fb0d2c2276a0446576431d67645e
+SHA512: f856207a76138d9e2dc3a6923c3260d2b92cb644ce46fe20b634f65fe1b571cdc08b1aef3a9806e470a67bb4e2f0dd28734074468294133faf1e728c9081b4f0
 Description: Customize Siri with NewSiri edge lighting or the SiriAI glass interface.
 Name: LiquidSiri
 Author: Thijs mussig, Banana
