@@ -7444,6 +7444,24 @@ Name: Griddy
 Author: mikifp
 icon: https://TrollStoreX.Github.io/sileodepiction/Griddy/icon.png
 
+Package: com.milkway.apppro
+Architecture: iphoneos-arm64e
+Version: 0.0.35
+Section: Tweaks
+Maintainer: Milkway
+Installed-Size: 1100
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Filename: debs/iphoneos-arm64e/com.milkway.apppro_0.0.35_iphoneos-arm64e_01db29b7df6593319fdc659b85eb5061d311fd27093d6bd009d93e8e2c8e7e48.deb
+Size: 212122
+MD5sum: 18cea2e53a1cbce6acfe53e8329eddd0
+SHA1: 3341056f1037bf58c7af77209c28c25458923cb0
+SHA256: 01db29b7df6593319fdc659b85eb5061d311fd27093d6bd009d93e8e2c8e7e48
+SHA512: 8d23cb0eb286f877563f04389f992dc31852473fd390ffc85c6cb842c094f96a6009ada615c4a41162c8ff0ccdef32136dcb0b52aa2ff22a75add813a4b97b04
+Description: View & Manage Applications Data from your Home Screen (iOS 15-16 RootHide)
+Name: App Pro
+Author: Milkway
+
 Package: com.minis.lockscreengradientclock
 Architecture: iphoneos-arm64
 Version: 1.5.1
@@ -17608,6 +17626,23 @@ Name: 一芽分屏 (Iya Split)
 Author: Banana
 
 Package: iya.banana.multitask
+Architecture: iphoneos-arm64
+Version: 0.1.2
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 2348
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/iya.banana.multitask_0.1.2_iphoneos-arm64_a5f9dd04d717a7b5d449421cb5e22d3374bc5d890d917762f23075719c09cbca.deb
+Size: 389942
+MD5sum: a57017c9298f1f0791bb76ad8185fca9
+SHA1: a7d8363288a8ea258a260dae4bcc7cdaa4297bd9
+SHA256: a5f9dd04d717a7b5d449421cb5e22d3374bc5d890d917762f23075719c09cbca
+SHA512: 35d6445f347fa42d7899aa483e477ca441f616c17d8a21b40e7620f13858b11b49cc96a7a51ee4b7a8be4fa185e1e3a9982bab833e10dc03133ac6e8ffc0df3c
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Name: 一芽分屏 (Iya Split)
+Author: Banana
+
+Package: iya.banana.multitask
 Architecture: iphoneos-arm64e
 Version: 0.1.0
 Section: Tweaks
@@ -17637,6 +17672,23 @@ MD5sum: 749d709609282f060cb5a102d0fcf864
 SHA1: c255b12a67b33cdcbbd4a8ea409eb027ebaef78f
 SHA256: c30ae23dd3e2243caae3f1f84a9bacf566667252fdd43dcf401fea4b8664ad7d
 SHA512: 1d7ddc3b5ef15162e5e021770aed5769bfb547f2f51200ea77a887a5096af6a3f15ebd00fcf91374da76f4a82e80c1ab97b50f22272a94d2765c8bc8c88856e8
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Name: 一芽分屏 (Iya Split)
+Author: Banana
+
+Package: iya.banana.multitask
+Architecture: iphoneos-arm64e
+Version: 0.1.2
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 2348
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/iya.banana.multitask_0.1.2_iphoneos-arm64e_a916cc1d3820989915679024ab14d1f4dce4303b36ce54c49562d23729e00e53.deb
+Size: 388752
+MD5sum: ac6413deb297ec98d3b06e6c57717d3c
+SHA1: 4674f0fba1c929249c5a68106bb6441e7c7ae9d9
+SHA256: a916cc1d3820989915679024ab14d1f4dce4303b36ce54c49562d23729e00e53
+SHA512: 705df4443ab96304cf8b1983a92c0dd68248e3c54d6b4eee2ebc382da21583632627e39a94053282cd611de9fbf9445cebc2342573a32bd10a51bd92017f49a6
 Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
 Name: 一芽分屏 (Iya Split)
 Author: Banana
@@ -19171,6 +19223,33 @@ SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
 Author: OwnGoal Studio <no-reply@owngoal.dev>
 
 Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64
+Version: 4.7.3
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 17808
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/wiki.qaq.irisin_4.7.3_iphoneos-arm64_7debe12be4f815ad4f89fea8bb6898e6d26a4b21787cd0801e4fa0de88f98a7b.deb
+Size: 5125560
+MD5sum: 018cf27bf0ba0042883706c9f4ae6e6d
+SHA1: f4b3b08d5c0cb644cb08b82f9491785da7d6a138
+SHA256: 7debe12be4f815ad4f89fea8bb6898e6d26a4b21787cd0801e4fa0de88f98a7b
+SHA512: 0eed5a9d9786bd85b29f169c70cb0ef7b3928dc866b8af693dd45850f84bdead10ece3db1c95c842a31be46277dcb3ec16d3234f5d592a2b73f9cd677853121b
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
 Architecture: iphoneos-arm64e
 Version: 4.5.14
 Priority: optional
@@ -19535,6 +19614,33 @@ MD5sum: e6e289f57380a3c8e73850cccd827da0
 SHA1: 5dd09484bda51ea7d414df32fc4f83bd34185717
 SHA256: 5c2f4a38bd20ed1e0bc0c0c944682d731a88fd2579038de14d83988ff04cde50
 SHA512: f4185ad1ba7caff964949a1951f574bbecb8a6a230b5a30426b1ab4c5d19f49671961d36dae7c2f2ebad727a0948167c404cef713197a6e8937a9b68318ac65b
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64e
+Version: 4.7.3
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 17808
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/wiki.qaq.irisin_4.7.3_iphoneos-arm64e_c0291ccbc84b616bc97ac0ab73119aaf42fef91f582ef060ced1d782fea3931f.deb
+Size: 5126872
+MD5sum: d72bbd2f08efb8ad605706df83fd2e03
+SHA1: 82135b8ad45d2a02a1060fc0ed203a052abd0290
+SHA256: c0291ccbc84b616bc97ac0ab73119aaf42fef91f582ef060ced1d782fea3931f
+SHA512: f640d861d5dd87f00b9c813eb2da62622257a85373ea67857f796de2193f092a2377fb976efa1d3794685523a579510f08ed6e7274092ac495bca55830f18fcf
 Homepage: https://github.com/Lakr233/Irisin
 Description: Modern package manager for roothide custom firmware
  Browse your repositories, install and remove packages, keep tweaks updated
