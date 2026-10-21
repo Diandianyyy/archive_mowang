@@ -5742,6 +5742,25 @@ Name: 转转找机-Roothide
 Author: hang
 
 Package: com.hierarch.dykiller
+Architecture: iphoneos-arm
+Version: 0.6.6
+Priority: optional
+Section: Tweaks
+Maintainer: hierarch
+Installed-Size: 3820
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/iphoneos-arm/com.hierarch.dykiller_0.6.6_iphoneos-arm_45cf44c63091fbd61a6b63397827505093e4baebde16b8b4379171094d05b0aa.deb
+Size: 919168
+MD5sum: fd0381ffe100bc79b0037193f790c7cd
+SHA1: 31d878d08dbb55cfdf47f235ede8a4554fa315a1
+SHA256: 45cf44c63091fbd61a6b63397827505093e4baebde16b8b4379171094d05b0aa
+SHA512: 0f75ceed2e78cf8e21258bc25198d2032f6f3bac3604b376d73c55031e23ea5016c8cfe2507fc47a03385984d489bf7fd5edd1ad4eaf3adc2799776176249d91
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Name: DYKiller
+Author: hierarch
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.hierarch.dykiller
 Architecture: iphoneos-arm64
 Version: 0.6.2
 Priority: optional
@@ -5780,6 +5799,25 @@ Author: hierarch
 Icon: https://huayuarc.github.io/icon/douyin.jpg
 
 Package: com.hierarch.dykiller
+Architecture: iphoneos-arm64
+Version: 0.6.6
+Priority: optional
+Section: Tweaks
+Maintainer: hierarch
+Installed-Size: 3820
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.hierarch.dykiller_0.6.6_iphoneos-arm64_71ec23d014f4d49b50990aa9a726204edf173f2ab272a8895f908939c110d92d.deb
+Size: 922724
+MD5sum: 79c1462bac017e25bf4efe1821b94705
+SHA1: 102507c04bfd9b5e3f5db7a17ad07f1ee28ff23c
+SHA256: 71ec23d014f4d49b50990aa9a726204edf173f2ab272a8895f908939c110d92d
+SHA512: e5d0b7b1cdfb7bdcb587a6bbbd29e868deacdbeb14e4110bc7be1c15bf0e96df0c852490bb46a015a064001f58e2245694f293ae890779203287c19608fc2639
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Name: DYKiller
+Author: hierarch
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.hierarch.dykiller
 Architecture: iphoneos-arm64e
 Version: 0.6.2
 Priority: optional
@@ -5816,6 +5854,25 @@ Description: 抖音 UI 增强插件（模块化 hook 框架）
 Name: DYKiller
 Author: hierarch
 Icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.hierarch.dykiller
+Architecture: iphoneos-arm64e
+Version: 0.6.6
+Priority: optional
+Section: Tweaks
+Maintainer: hierarch
+Installed-Size: 3820
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.hierarch.dykiller_0.6.6_iphoneos-arm64e_567a56a5e61e73fdb995def5bba24ebe95d422af6740ad5074d60680dd7eca89.deb
+Size: 919036
+MD5sum: 248a8184dfb9f2b34ff6b8e83d9a55db
+SHA1: 4dcde34eeefe37db8a5165b1fc42280621001bb6
+SHA256: 567a56a5e61e73fdb995def5bba24ebe95d422af6740ad5074d60680dd7eca89
+SHA512: a40bf3930e1d481ec38fc2d6958958d24949d32e9eab93351fb11eb711cf0a282dc3b6aea6dae9a92f2412a885464cd6343c9ad8171a010d23089a213c13c658
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Name: DYKiller
+Author: hierarch
+icon: https://huayuarc.github.io/icon/douyin.jpg
 
 Package: com.huami.dyyy
 Architecture: iphoneos-arm64
@@ -7458,6 +7515,24 @@ MD5sum: 18cea2e53a1cbce6acfe53e8329eddd0
 SHA1: 3341056f1037bf58c7af77209c28c25458923cb0
 SHA256: 01db29b7df6593319fdc659b85eb5061d311fd27093d6bd009d93e8e2c8e7e48
 SHA512: 8d23cb0eb286f877563f04389f992dc31852473fd390ffc85c6cb842c094f96a6009ada615c4a41162c8ff0ccdef32136dcb0b52aa2ff22a75add813a4b97b04
+Description: View & Manage Applications Data from your Home Screen (iOS 15-16 RootHide)
+Name: App Pro
+Author: Milkway
+
+Package: com.milkway.apppro
+Architecture: iphoneos-arm64e
+Version: 0.0.38
+Section: Tweaks
+Maintainer: Milkway
+Installed-Size: 1052
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Filename: debs/iphoneos-arm64e/com.milkway.apppro_0.0.38_iphoneos-arm64e_9dc3cb743d8c602edb6722406ad36cf794c882539fd94a9ff298db11d2d50b73.deb
+Size: 195984
+MD5sum: 2a6ccfb451cc4062b955b63f17d70d54
+SHA1: 9c4afd302b1a3a0421917a01438a039f40a87244
+SHA256: 9dc3cb743d8c602edb6722406ad36cf794c882539fd94a9ff298db11d2d50b73
+SHA512: 00d2702912fdad1befbc4d2724a38de3240a14b6c90f5096cd2a660940b6b90b7f09c1d40c922cf54a7ba821a98d7d57b477573ad52f41adc6dcb86d831a6bb4
 Description: View & Manage Applications Data from your Home Screen (iOS 15-16 RootHide)
 Name: App Pro
 Author: Milkway
@@ -19250,6 +19325,33 @@ SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
 Author: OwnGoal Studio <no-reply@owngoal.dev>
 
 Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64
+Version: 4.7.4
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 22768
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/wiki.qaq.irisin_4.7.4_iphoneos-arm64_903c7181d0fbb33fa1a60e8fe74964fed858e1e22e8313cfc7c13a3de8be070a.deb
+Size: 6245876
+MD5sum: b6d88d6997e214650c17e22c5afb4072
+SHA1: b71c5f8f364d75b462d4566d3233cf32c1be7bfe
+SHA256: 903c7181d0fbb33fa1a60e8fe74964fed858e1e22e8313cfc7c13a3de8be070a
+SHA512: e9e64baab27743b88f846c0b6ee2ab88a44a6e543b994b9b626183a0a8f09811d46faa1ecbe7492d3a0882c835bcf739b1500eafe8007c4f2bffacf776ce4871
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
 Architecture: iphoneos-arm64e
 Version: 4.5.14
 Priority: optional
@@ -19641,6 +19743,33 @@ MD5sum: d72bbd2f08efb8ad605706df83fd2e03
 SHA1: 82135b8ad45d2a02a1060fc0ed203a052abd0290
 SHA256: c0291ccbc84b616bc97ac0ab73119aaf42fef91f582ef060ced1d782fea3931f
 SHA512: f640d861d5dd87f00b9c813eb2da62622257a85373ea67857f796de2193f092a2377fb976efa1d3794685523a579510f08ed6e7274092ac495bca55830f18fcf
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64e
+Version: 4.7.4
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 22768
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/wiki.qaq.irisin_4.7.4_iphoneos-arm64e_1e001e5ac832b1ce8ee134482a6798dd62485739fdddfb368a3985a1292a2ac8.deb
+Size: 6243032
+MD5sum: 5c9e59c72660719cafd66cf80844a6f1
+SHA1: 9db6c6d95c73eb7e338e429ae6967a66881d32a1
+SHA256: 1e001e5ac832b1ce8ee134482a6798dd62485739fdddfb368a3985a1292a2ac8
+SHA512: 981d3bece082c56216a374bb0e9d579fb11bd5a67172755a8a9a3b7cd93e161f38b8ea95ba1de07caa2258ed126be363f20c1fdebadcc07372d9ac4626a602ff
 Homepage: https://github.com/Lakr233/Irisin
 Description: Modern package manager for roothide custom firmware
  Browse your repositories, install and remove packages, keep tweaks updated
