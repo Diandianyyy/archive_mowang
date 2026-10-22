@@ -522,6 +522,74 @@ Author: A
 Icon: https://axs66.github.io/repo/icon/wechat.png
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/yuanjiao/js.json
 
+Package: com.MoWang.islanddigest
+Architecture: iphoneos-arm64
+Version: 0.3.2
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 1780
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.MoWang.islanddigest_0.3.2_iphoneos-arm64_1a37cf138b7db428c90fee3dac0ab5f1c28c8d4fdbc6b9a983e16253b6149719.deb
+Size: 1402636
+MD5sum: 0f928784b563c690a00efa94a3e71bf7
+SHA1: 59805fb9c654ab274b96475ab72ca5bb219855c4
+SHA256: 1a37cf138b7db428c90fee3dac0ab5f1c28c8d4fdbc6b9a983e16253b6149719
+SHA512: c1e99122a1d4fcd794e4d047668760051da2cd6d894189382c207a2ab6a0717f53def387d095507d5554bef4e3e8b2a61a4ec1cd7e0388ceecccc7ddcfcb4f34
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Name: 灵屿通知
+Author: MoWang
+
+Package: com.MoWang.islanddigest
+Architecture: iphoneos-arm64
+Version: 0.3.3
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 1784
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.MoWang.islanddigest_0.3.3_iphoneos-arm64_e2b57b0b65554dbc7f9b4b229886f96d35467336b54631a000eba4b2444d2715.deb
+Size: 1419228
+MD5sum: 579d229cec2b5a5f0153b48f2c74d4da
+SHA1: 651f62db9cabb476dbb5a724953425a3e7b8afcb
+SHA256: e2b57b0b65554dbc7f9b4b229886f96d35467336b54631a000eba4b2444d2715
+SHA512: bc11b0cdf724b2944d3d68acb2d5af3e0e59a78c7a24d53e9bf69cae568a7036782ae48de991ccd2d0e1ab99b683f5e12f85666739ef6fe8ca5e5997b55e9d64
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Name: 灵屿通知
+Author: MoWang
+
+Package: com.MoWang.islanddigest
+Architecture: iphoneos-arm64e
+Version: 0.3.2
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 1780
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.MoWang.islanddigest_0.3.2_iphoneos-arm64e_347c2414f565c477150c959ad88ee37acfd83342e68b60b52aaaccf1a85b8b2a.deb
+Size: 1402360
+MD5sum: 8dab17e24d22871e4f7aab1b053a5bdd
+SHA1: 719c046b72f96838b5a409005005f4f5664ca68d
+SHA256: 347c2414f565c477150c959ad88ee37acfd83342e68b60b52aaaccf1a85b8b2a
+SHA512: 1e5ac259958323cecc54fc46c3d60985d7d6e1ad59702528d28cdf12c20e2505e8d87f5b812fdffcbddf631f6951b4f3fe390d6e585b1c2a33c3de043f1589ac
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Name: 灵屿通知
+Author: MoWang
+
+Package: com.MoWang.islanddigest
+Architecture: iphoneos-arm64e
+Version: 0.3.3
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 1784
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.MoWang.islanddigest_0.3.3_iphoneos-arm64e_a78a9a5d9b4e304222de94925d9a906489a5c337af30bd19d28917bf20c67bbd.deb
+Size: 1418944
+MD5sum: c0d39f9c7c994ee246f7b01a274f0ad8
+SHA1: 91a6c57cb6dc3c8a9cb250a56ffe3aed28513545
+SHA256: a78a9a5d9b4e304222de94925d9a906489a5c337af30bd19d28917bf20c67bbd
+SHA512: d29b7cbed1ba11a0942969bc1f7f67e6cd5a64636fb83f69113e1ce6735459b86d5482186d5b6c4be758e0d4120e89b7bfd7dc681a57e166771b9f6929d2392a
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Name: 灵屿通知
+Author: MoWang
+
 Package: com.aa22qq.axiskey
 Architecture: iphoneos-arm64
 Version: 10.0.0
@@ -2995,6 +3063,456 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
 Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64
+Version: 6.94
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 2848
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64/com.colorblack.bottomx.floatingball_6.94_iphoneos-arm64_2bcad3ab2588a8568509c129220da5733922ff344c19ce1ad6449b23db47a594.deb
+Size: 1305872
+MD5sum: 34559ed5001b282afb9124eb01d14885
+SHA1: ab573446e4c965281842fbc31620659d976f5013
+SHA256: 2bcad3ab2588a8568509c129220da5733922ff344c19ce1ad6449b23db47a594
+SHA512: 92440cefa1d5b9699779c48daea5de0e49b7a917a8339f012d873453ab7283278bb5a706a306a8808af27e2107e633132aa62327ea0692bddbe40f954ee24538
+Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
+ 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
+ .
+ 【核心功能】
+ - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
+ - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
+ - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册或文件导入图片并编辑悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.94 独立宠物列表】
+ - 宠物列表独立为选择页面，主页面只保留列表入口和网址导入
+ - 列表支持编辑删除、左滑删除，删除当前宠物后自动回退噜噜
+ - 主页面同步当前宠物与数量，保留网址引导、导入和全部原有功能
+ .
+ 【6.93 手机本地宠物管理】
+ - 设置增加 Petdex 网址输入和提交，自动下载、校验、转换并保存为手机本地动画
+ - 导入后自动启用；支持取消、重复导入更新、左滑删除，离线播放无需联网
+ - 安装包只保留噜噜默认宠物，升级前迁移旧版内置素材，后续更新保留本地下载
+ - 保留图片导入编辑、九组动画、闲逛、横屏、键盘、手势和返回
+ .
+ 【6.92 宠物列表调整】
+ - 新增 17 款指定 Petdex 动画，删除指定的 14 款宠物，当前共 43 款
+ - 已选宠物不在新列表时自动显示第一只噜噜，设置预览和勾选同步回退
+ - 保留其余宠物选择、图片导入编辑、横屏、闲逛、键盘及返回手势
+ .
+ 【6.91 横屏位置与宠物扩展】
+ - 按 App 实际界面方向和窗口已有旋转补偿，修复侧边悬浮球重复旋转到顶部
+ - 新增 15 款指定 Petdex 动画宠物，共 40 款，保留原选择和离线动画
+ - 保留十一种打开方式、闲逛互动、键盘隐藏避让、四向手势和返回
+ .
+ 【6.90 补齐应用打开方式】
+ - 参照 QuickLaunch 新增 FV、SVP 及一芽的五种明确打开模式，共 11 项且无重复
+ - 一芽支持上下、左右、浮窗 1、浮窗 2 和 Stage，分别保存到四向应用动作
+ - 接口不可用时全屏回退；请求已提交或状态不确定时不重复启动
+ - 保留原有打开方式、宠物闲逛、返回、键盘及图片编辑
+ .
+ 【6.89 宠物闲逛与随机互动】
+ - 新增闲逛模式，松手停止操作 5 秒后随机走动或跑动
+ - 走跑之间随机穿插全部九组标准动作，每轮打乱顺序后依次播放
+ - 触碰立即暂停，键盘、隐藏和旋转时暂停，恢复后重新等待
+ - 自动移动不写入手动保存位置，保留返回、固定位置及四向动作
+ .
+ 【6.88 完整宠物列表】
+ - 加入用户指定的 25 款 Petdex 动画宠物，噜噜保留一份
+ - 内置离线素材，列表独立缩略图与单宠物动画预览，支持滚动选择并记忆
+ - 保留图片导入编辑、返回、固定位置、四向动作及键盘行为
+ .
+ 【6.87 宠物显示修复】
+ - 使用 libroot 解析素材目录，兼容 TweakInject 加载路径及 RootHide 动态根目录
+ - 素材首次读取失败可重试，不再将宠物模式静默变成图片模式
+ - 宠物模式清除原图片自转动画，保留宠物逐帧互动
+ .
+ 【6.86 动画桌面宠物】
+ - 图标与桌面宠物模式切换，加入用户指定的 Petdex 噜噜水豚动画
+ - 本地逐帧播放待机、跳跃、挥手和拖动跑步，隐藏时停止播放
+ - 保留相册和文件导入、图片编辑、返回、固定位置、四向动作与长按菜单
+ .
+ 【6.85 横屏手势实际方向修复】
+ - App 无界面客户端主动上报实际 UIKit 场景方向，避免私有方向接口缺失后卡在竖屏
+ - 四向滑动、悬浮球布局及区域截图共用实际方向，左右横屏与恢复竖屏同步
+ - 按应用和进程隔离方向，上报过期、后台或版本不匹配时不采用
+ - App 未旋转时手机横放仍保持竖屏；保留键盘隐藏、避让及原有功能
+ .
+ 【6.84 跟随 App 实际界面方向】
+ - 横屏依据前台 App 场景已确认的界面方向，不依据手机姿态或全局请求方向
+ - App 保持竖屏时，手机横放不改变悬浮球布局、位置及四向手势
+ - App 真正旋转后，悬浮球显示、拖动边界及手势统一跟随画面方向
+ - 同一 App 场景暂不可读时保留上次方向，切换到未确认的新 App 默认竖屏
+ - 保留快捷指令读取、图片编辑、分屏返回、工具及键盘行为
+ .
+ 【6.83 快捷指令列表读取修复】
+ - 修复仅支持旧数据库表结构导致无法获取本机快捷指令的问题
+ - 兼容 ZSHORTCUT / ZWORKFLOWID 与旧 ZWORKFLOW / ZIDENTIFIER
+ - 排除已删除及隐藏指令，使用实际运行标识，保留同名指令
+ - 数据库错误区分结构、访问、占用和解析失败，可复制读取详情
+ - 保留 6.82 图片编辑以及全部原有功能
+ .
+ 【6.82 图标文件导入与图片编辑】
+ - 从相册或文件导入，支持 PNG、JPEG、HEIC 等系统图片格式
+ - 拖动与双指缩放、10% 到 400% 缩放滑块，圆形透明预览
+ - 点击背景颜色去除相连区域，多次点选，容差、边缘平滑与羽化独立调节
+ - 支持撤销、重置和编辑当前图标，保存后生效，取消保留原图标
+ - 保留快捷指令、分屏返回、84 项工具、键盘和横屏功能
+ .
+ 【6.81 本机快捷指令与后台运行】
+ - 同步本机快捷指令列表，选择后加入指定 QuickLaunch 菜单
+ - 指令唯一标识保存，支持刷新、搜索、排序和删除
+ - 四向动作和菜单点击共用后台运行器，不再用 URL 跳转快捷指令 App
+ - 保留 Split View Pro 返回及 84 项系统工具
+ 【6.80 Split View Pro 联动】
+ - 全局球返回跟随普通浮窗及多屏主副窗口最近触摸的应用场景
+ - 精确校验进程、场景和宿主，切窗取消旧返回，不操作底层应用
+ - 应用首页保持窗口，关闭窗口可选择独立工具
+ - 新增 18 项 Split View Pro 工具，共 84 项，四方向独立配置
+ - 接入原生菜单、浮窗、应用搜索、分屏交换与关闭、截图录屏和系统开关
+ - 仅这些工具需要 Split View Pro 1.4.2，不依赖 QuickLaunch，保留全部原有功能
+ .
+ 【保留的 QuickLaunch 系统工具】
+ - 新增 25 个工具，共 66 项，可搜索并独立配置四个方向
+ - 新增系统录屏与开麦录屏、截图编辑、独立区域截图框选复制和分享
+ - 新增 Siri、搜索、资源库、摇一摇、语音控制等辅助功能及 iPad 工具
+ - 新增 8 项 Open 窗口操作，以及自动亮度、夜览、原彩切换
+ - 运行时校验接口及设备支持，录屏等待回执，失败提示具体原因
+ - 无 QuickLaunch 安装依赖；Open 工具需要对应插件，保留全部原有功能
+ .
+ 【保留的 Open 分屏窗口返回】
+ - 点击悬浮球返回当前活动 Open 窗口的上一层，精确匹配应用进程与托管场景
+ - 原生导航首页再次点击仅收起当前窗口，不让底层 App 回桌面
+ - 多窗口跟随 Open 焦点，目标不明、切换或场景未连接时不误操作底层应用
+ - 保留键盘隐藏与避让、横屏手势、双击固定及原有打开方式
+ .
+ 【保留的 Open 分屏窗口】
+ - 应用打开方式新增 Open 分屏窗口，四个方向分别保存
+ - 参考 QuickLaunch 的 TrollOpenJB 1.5.2 接口，运行时检查兼容性
+ - 插件缺失或接口不兼容时全屏打开，提交后不重复启动，不绕过窗口限制
+ - 仅应用动作显示打开方式；保留横屏手势、键盘避让及原有功能
+ .
+ 【保留的横屏四向手势坐标修复】
+ - 按屏幕实际坐标识别四向滑动，再转换到当前界面方向
+ - 完整计入窗口与根视图旋转，兼容前台横屏而桌面宿主竖屏
+ - 左右横屏及恢复竖屏按画面方向执行，固定模式滑动不移动位置
+ - 诊断增加最近一次手势的坐标、方向及窗口变换信息
+ .
+ 【保留的自动旋转显示与拖动修复】
+ - 全局球使用跟随前台方向的独立内容区域，覆盖桌面宿主仍竖屏的横屏 App
+ - 不再强制覆盖系统窗口及根视图尺寸，避免自动旋转后显示和触摸区域被裁切
+ - 拖动边界使用转换后的安全区域，横屏可上下左右调整位置
+ - 位置按可见区域比例保存与恢复，旋转后限制在屏幕内，普通切换不移动
+ .
+ 【保留的横屏滑动方向修复】
+ - 四向动作按当前界面方向识别，兼容左右横屏及返回竖屏
+ - 统一转换屏幕坐标，兼容前台横屏而全局窗口仍为竖屏，避免重复旋转
+ - 滑动中旋转取消当前手势，保留固定位置、自由拖动和键盘行为
+ - 修复 UIKit 提前更新窗口尺寸时漏掉旋转布局，避免悬浮球留在屏幕边缘外
+ .
+ 【保留的截图并复制】
+ - 四向滑动的工具选项新增“截图并复制（不保存）”，无需外部截图插件
+ - 截取屏幕图片后只写入系统剪贴板，不调用相册保存或系统截图编辑流程
+ - 截图前短暂隐藏悬浮球，完成或失败后恢复；切换界面或锁屏时取消待执行截图
+ .
+ 【保留的自定义键盘避让高度】
+ - 设置增加键盘避让高度，0.1 到 10 厘米，滑块、加减及数字输入，按 0.1 厘米调整
+ - 默认改为 1 厘米，保存后立即重新计算，保留原位置和双击固定模式
+ - 避让区域包含键盘上方缓冲带，空间不足时限制在顶部可见范围内
+ - 键盘收起恢复原位置，保留双击固定模式、四向动作、返回及长按菜单
+ .
+ 【保留的双击固定位置】
+ - 双击悬浮球切换固定位置，与设置开关同步保存，单击返回和长按菜单保留
+ - 未固定时立即暂停四向动作，直接拖动调整；再次双击固定并恢复已配置动作
+ - 双击不会返回，切换时取消待处理导航；键盘隐藏、避让及收起回位保留
+ .
+ 【保留的系统工具修复】
+ - 回到桌面接入三路 Home 后备并检查状态，多任务增加系统双击和新旧协调器兼容
+ - 修复音量单例、静音对象、蓝牙电源状态、低电量框架及显示亮度调用
+ - StayShot 改用实际分布式通知通道，失败提示具体工具名称
+ - 保留键盘隐藏和避让、位置稳定、固定模式、四向动作及全部应用打开方式
+ .
+ 【保留的 SHELLX 工具接入】
+ - 系统工具增加 SHELLX 11.3 原有的 12 个动作，支持搜索和四个方向独立选择
+ - 兼容已保存的 SHELLX prefs / App-prefs URL，改走插件拦截的桌面原生入口
+ - 未加载 SHELLX 或接口不可用时提示失败，不误打开系统设置
+ - 保留三种应用打开方式及无键盘切换位置修复，固定时四向动作保持原位
+ .
+ 【保留的应用打开方式与位置稳定】
+ - 仅打开应用新增全屏、PullOver-X 主卡、ScreenCore 小窗，四个方向分别保存
+ - 主卡或小窗需要对应插件，接口不可用时自动回退全屏，普通启动无需 QuickLaunch
+ - 未固定时拖动直接移动，已配置的四向动作暂停
+ - 无键盘时普通界面切换与定时刷新不再重新限制位置，键盘隐藏及避让保留
+ .
+ 【保留的固定位置与四向动作】
+ - 新增固定当前位置开关，禁止手动移动，保留键盘隐藏、自动避让和收起回位
+ - 上下左右滑动分别配置应用、系统工具、快捷指令或自定义 URL，默认不执行
+ - 自由模式仅调整位置；固定模式滑动只执行动作，不移动
+ - 应用和工具支持搜索，快捷指令支持列表和名称填写，URL 支持命名、编辑和删除
+ - 普通应用、系统工具、快捷指令与 URL 启动内置实现，无原 Bottom-x 依赖
+ .
+ 【保留的全局长按快捷菜单】
+ - 桌面、App 或小窗中长按悬浮球约 0.45 秒，单选呼出普通栏、胶囊或圆形菜单
+ - 单击保持原返回功能，桌面单击无动作；松开长按不返回，未固定时慢拖可移动
+ - 配合 QuickLaunch 0.1.62 支持键盘避让时长按呼出，胶囊可临时在竖屏显示
+ - 收起或打开 App 后恢复原隐藏规则，不修改各菜单独立配置；沿用旧版模式选择
+ - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
+ - 键盘收起恢复原位，自动避让不保存临时位置
+ - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
+ - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
+ - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
+ - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 点击按进程和场景转发；重复和过期请求不会再次返回
+ - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
+ - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
+ .
+ 【运行依赖】
+ - 越狱注入框架与 PreferenceLoader 设置加载器
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64
+Version: 6.96
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 2840
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64/com.colorblack.bottomx.floatingball_6.96_iphoneos-arm64_288e085199da3c0e433f12e8e86b9ee5d1c4fdd26a84267f131ad97b3a9621e1.deb
+Size: 1573590
+MD5sum: 5c9536a241b082037266301fdb05f2dc
+SHA1: d71697528ba30d6324200ac9405170eec4498186
+SHA256: 288e085199da3c0e433f12e8e86b9ee5d1c4fdd26a84267f131ad97b3a9621e1
+SHA512: 028ccb3753f83873004b9f840abf8717b42b86734b75fc8b44acf827234d7215623c34788ce2bc07d1903dfdecc0c74b9acbd1070216316790f5787f803888d2
+Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
+ 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
+ .
+ 【核心功能】
+ - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
+ - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
+ - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册或文件导入图片并编辑悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.96 解锁后轮换宠物】
+ - 宠物设置新增轮换模式，默认关闭；锁屏再解锁后按列表顺序切换，末尾循环
+ - 保留手动选择；图片模式或悬浮球关闭时不轮换，设置预览和列表勾选同步
+ - 重复状态通知不连跳，重启桌面不误切换；保留悬浮球位置和原有功能
+ .
+ 【6.95 设置入口图标尺寸】
+ - 设置列表入口改为 29 点图标，提供 1x、2x、3x 图片，修复图标过大
+ .
+ 【6.94 独立宠物列表】
+ - 宠物列表独立为选择页面，主页面只保留列表入口和网址导入
+ - 列表支持编辑删除、左滑删除，删除当前宠物后自动回退噜噜
+ - 主页面同步当前宠物与数量，保留网址引导、导入和全部原有功能
+ .
+ 【6.93 手机本地宠物管理】
+ - 设置增加 Petdex 网址输入和提交，自动下载、校验、转换并保存为手机本地动画
+ - 导入后自动启用；支持取消、重复导入更新、左滑删除，离线播放无需联网
+ - 安装包只保留噜噜默认宠物，升级前迁移旧版内置素材，后续更新保留本地下载
+ - 保留图片导入编辑、九组动画、闲逛、横屏、键盘、手势和返回
+ .
+ 【6.92 宠物列表调整】
+ - 新增 17 款指定 Petdex 动画，删除指定的 14 款宠物，当前共 43 款
+ - 已选宠物不在新列表时自动显示第一只噜噜，设置预览和勾选同步回退
+ - 保留其余宠物选择、图片导入编辑、横屏、闲逛、键盘及返回手势
+ .
+ 【6.91 横屏位置与宠物扩展】
+ - 按 App 实际界面方向和窗口已有旋转补偿，修复侧边悬浮球重复旋转到顶部
+ - 新增 15 款指定 Petdex 动画宠物，共 40 款，保留原选择和离线动画
+ - 保留十一种打开方式、闲逛互动、键盘隐藏避让、四向手势和返回
+ .
+ 【6.90 补齐应用打开方式】
+ - 参照 QuickLaunch 新增 FV、SVP 及一芽的五种明确打开模式，共 11 项且无重复
+ - 一芽支持上下、左右、浮窗 1、浮窗 2 和 Stage，分别保存到四向应用动作
+ - 接口不可用时全屏回退；请求已提交或状态不确定时不重复启动
+ - 保留原有打开方式、宠物闲逛、返回、键盘及图片编辑
+ .
+ 【6.89 宠物闲逛与随机互动】
+ - 新增闲逛模式，松手停止操作 5 秒后随机走动或跑动
+ - 走跑之间随机穿插全部九组标准动作，每轮打乱顺序后依次播放
+ - 触碰立即暂停，键盘、隐藏和旋转时暂停，恢复后重新等待
+ - 自动移动不写入手动保存位置，保留返回、固定位置及四向动作
+ .
+ 【6.88 完整宠物列表】
+ - 加入用户指定的 25 款 Petdex 动画宠物，噜噜保留一份
+ - 内置离线素材，列表独立缩略图与单宠物动画预览，支持滚动选择并记忆
+ - 保留图片导入编辑、返回、固定位置、四向动作及键盘行为
+ .
+ 【6.87 宠物显示修复】
+ - 使用 libroot 解析素材目录，兼容 TweakInject 加载路径及 RootHide 动态根目录
+ - 素材首次读取失败可重试，不再将宠物模式静默变成图片模式
+ - 宠物模式清除原图片自转动画，保留宠物逐帧互动
+ .
+ 【6.86 动画桌面宠物】
+ - 图标与桌面宠物模式切换，加入用户指定的 Petdex 噜噜水豚动画
+ - 本地逐帧播放待机、跳跃、挥手和拖动跑步，隐藏时停止播放
+ - 保留相册和文件导入、图片编辑、返回、固定位置、四向动作与长按菜单
+ .
+ 【6.85 横屏手势实际方向修复】
+ - App 无界面客户端主动上报实际 UIKit 场景方向，避免私有方向接口缺失后卡在竖屏
+ - 四向滑动、悬浮球布局及区域截图共用实际方向，左右横屏与恢复竖屏同步
+ - 按应用和进程隔离方向，上报过期、后台或版本不匹配时不采用
+ - App 未旋转时手机横放仍保持竖屏；保留键盘隐藏、避让及原有功能
+ .
+ 【6.84 跟随 App 实际界面方向】
+ - 横屏依据前台 App 场景已确认的界面方向，不依据手机姿态或全局请求方向
+ - App 保持竖屏时，手机横放不改变悬浮球布局、位置及四向手势
+ - App 真正旋转后，悬浮球显示、拖动边界及手势统一跟随画面方向
+ - 同一 App 场景暂不可读时保留上次方向，切换到未确认的新 App 默认竖屏
+ - 保留快捷指令读取、图片编辑、分屏返回、工具及键盘行为
+ .
+ 【6.83 快捷指令列表读取修复】
+ - 修复仅支持旧数据库表结构导致无法获取本机快捷指令的问题
+ - 兼容 ZSHORTCUT / ZWORKFLOWID 与旧 ZWORKFLOW / ZIDENTIFIER
+ - 排除已删除及隐藏指令，使用实际运行标识，保留同名指令
+ - 数据库错误区分结构、访问、占用和解析失败，可复制读取详情
+ - 保留 6.82 图片编辑以及全部原有功能
+ .
+ 【6.82 图标文件导入与图片编辑】
+ - 从相册或文件导入，支持 PNG、JPEG、HEIC 等系统图片格式
+ - 拖动与双指缩放、10% 到 400% 缩放滑块，圆形透明预览
+ - 点击背景颜色去除相连区域，多次点选，容差、边缘平滑与羽化独立调节
+ - 支持撤销、重置和编辑当前图标，保存后生效，取消保留原图标
+ - 保留快捷指令、分屏返回、84 项工具、键盘和横屏功能
+ .
+ 【6.81 本机快捷指令与后台运行】
+ - 同步本机快捷指令列表，选择后加入指定 QuickLaunch 菜单
+ - 指令唯一标识保存，支持刷新、搜索、排序和删除
+ - 四向动作和菜单点击共用后台运行器，不再用 URL 跳转快捷指令 App
+ - 保留 Split View Pro 返回及 84 项系统工具
+ 【6.80 Split View Pro 联动】
+ - 全局球返回跟随普通浮窗及多屏主副窗口最近触摸的应用场景
+ - 精确校验进程、场景和宿主，切窗取消旧返回，不操作底层应用
+ - 应用首页保持窗口，关闭窗口可选择独立工具
+ - 新增 18 项 Split View Pro 工具，共 84 项，四方向独立配置
+ - 接入原生菜单、浮窗、应用搜索、分屏交换与关闭、截图录屏和系统开关
+ - 仅这些工具需要 Split View Pro 1.4.2，不依赖 QuickLaunch，保留全部原有功能
+ .
+ 【保留的 QuickLaunch 系统工具】
+ - 新增 25 个工具，共 66 项，可搜索并独立配置四个方向
+ - 新增系统录屏与开麦录屏、截图编辑、独立区域截图框选复制和分享
+ - 新增 Siri、搜索、资源库、摇一摇、语音控制等辅助功能及 iPad 工具
+ - 新增 8 项 Open 窗口操作，以及自动亮度、夜览、原彩切换
+ - 运行时校验接口及设备支持，录屏等待回执，失败提示具体原因
+ - 无 QuickLaunch 安装依赖；Open 工具需要对应插件，保留全部原有功能
+ .
+ 【保留的 Open 分屏窗口返回】
+ - 点击悬浮球返回当前活动 Open 窗口的上一层，精确匹配应用进程与托管场景
+ - 原生导航首页再次点击仅收起当前窗口，不让底层 App 回桌面
+ - 多窗口跟随 Open 焦点，目标不明、切换或场景未连接时不误操作底层应用
+ - 保留键盘隐藏与避让、横屏手势、双击固定及原有打开方式
+ .
+ 【保留的 Open 分屏窗口】
+ - 应用打开方式新增 Open 分屏窗口，四个方向分别保存
+ - 参考 QuickLaunch 的 TrollOpenJB 1.5.2 接口，运行时检查兼容性
+ - 插件缺失或接口不兼容时全屏打开，提交后不重复启动，不绕过窗口限制
+ - 仅应用动作显示打开方式；保留横屏手势、键盘避让及原有功能
+ .
+ 【保留的横屏四向手势坐标修复】
+ - 按屏幕实际坐标识别四向滑动，再转换到当前界面方向
+ - 完整计入窗口与根视图旋转，兼容前台横屏而桌面宿主竖屏
+ - 左右横屏及恢复竖屏按画面方向执行，固定模式滑动不移动位置
+ - 诊断增加最近一次手势的坐标、方向及窗口变换信息
+ .
+ 【保留的自动旋转显示与拖动修复】
+ - 全局球使用跟随前台方向的独立内容区域，覆盖桌面宿主仍竖屏的横屏 App
+ - 不再强制覆盖系统窗口及根视图尺寸，避免自动旋转后显示和触摸区域被裁切
+ - 拖动边界使用转换后的安全区域，横屏可上下左右调整位置
+ - 位置按可见区域比例保存与恢复，旋转后限制在屏幕内，普通切换不移动
+ .
+ 【保留的横屏滑动方向修复】
+ - 四向动作按当前界面方向识别，兼容左右横屏及返回竖屏
+ - 统一转换屏幕坐标，兼容前台横屏而全局窗口仍为竖屏，避免重复旋转
+ - 滑动中旋转取消当前手势，保留固定位置、自由拖动和键盘行为
+ - 修复 UIKit 提前更新窗口尺寸时漏掉旋转布局，避免悬浮球留在屏幕边缘外
+ .
+ 【保留的截图并复制】
+ - 四向滑动的工具选项新增“截图并复制（不保存）”，无需外部截图插件
+ - 截取屏幕图片后只写入系统剪贴板，不调用相册保存或系统截图编辑流程
+ - 截图前短暂隐藏悬浮球，完成或失败后恢复；切换界面或锁屏时取消待执行截图
+ .
+ 【保留的自定义键盘避让高度】
+ - 设置增加键盘避让高度，0.1 到 10 厘米，滑块、加减及数字输入，按 0.1 厘米调整
+ - 默认改为 1 厘米，保存后立即重新计算，保留原位置和双击固定模式
+ - 避让区域包含键盘上方缓冲带，空间不足时限制在顶部可见范围内
+ - 键盘收起恢复原位置，保留双击固定模式、四向动作、返回及长按菜单
+ .
+ 【保留的双击固定位置】
+ - 双击悬浮球切换固定位置，与设置开关同步保存，单击返回和长按菜单保留
+ - 未固定时立即暂停四向动作，直接拖动调整；再次双击固定并恢复已配置动作
+ - 双击不会返回，切换时取消待处理导航；键盘隐藏、避让及收起回位保留
+ .
+ 【保留的系统工具修复】
+ - 回到桌面接入三路 Home 后备并检查状态，多任务增加系统双击和新旧协调器兼容
+ - 修复音量单例、静音对象、蓝牙电源状态、低电量框架及显示亮度调用
+ - StayShot 改用实际分布式通知通道，失败提示具体工具名称
+ - 保留键盘隐藏和避让、位置稳定、固定模式、四向动作及全部应用打开方式
+ .
+ 【保留的 SHELLX 工具接入】
+ - 系统工具增加 SHELLX 11.3 原有的 12 个动作，支持搜索和四个方向独立选择
+ - 兼容已保存的 SHELLX prefs / App-prefs URL，改走插件拦截的桌面原生入口
+ - 未加载 SHELLX 或接口不可用时提示失败，不误打开系统设置
+ - 保留三种应用打开方式及无键盘切换位置修复，固定时四向动作保持原位
+ .
+ 【保留的应用打开方式与位置稳定】
+ - 仅打开应用新增全屏、PullOver-X 主卡、ScreenCore 小窗，四个方向分别保存
+ - 主卡或小窗需要对应插件，接口不可用时自动回退全屏，普通启动无需 QuickLaunch
+ - 未固定时拖动直接移动，已配置的四向动作暂停
+ - 无键盘时普通界面切换与定时刷新不再重新限制位置，键盘隐藏及避让保留
+ .
+ 【保留的固定位置与四向动作】
+ - 新增固定当前位置开关，禁止手动移动，保留键盘隐藏、自动避让和收起回位
+ - 上下左右滑动分别配置应用、系统工具、快捷指令或自定义 URL，默认不执行
+ - 自由模式仅调整位置；固定模式滑动只执行动作，不移动
+ - 应用和工具支持搜索，快捷指令支持列表和名称填写，URL 支持命名、编辑和删除
+ - 普通应用、系统工具、快捷指令与 URL 启动内置实现，无原 Bottom-x 依赖
+ .
+ 【保留的全局长按快捷菜单】
+ - 桌面、App 或小窗中长按悬浮球约 0.45 秒，单选呼出普通栏、胶囊或圆形菜单
+ - 单击保持原返回功能，桌面单击无动作；松开长按不返回，未固定时慢拖可移动
+ - 配合 QuickLaunch 0.1.62 支持键盘避让时长按呼出，胶囊可临时在竖屏显示
+ - 收起或打开 App 后恢复原隐藏规则，不修改各菜单独立配置；沿用旧版模式选择
+ - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
+ - 键盘收起恢复原位，自动避让不保存临时位置
+ - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
+ - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
+ - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
+ - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 点击按进程和场景转发；重复和过期请求不会再次返回
+ - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
+ - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
+ .
+ 【运行依赖】
+ - 越狱注入框架与 PreferenceLoader 设置加载器
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.floatingball
 Architecture: iphoneos-arm64e
 Version: 6.53
 Section: Tweaks
@@ -4624,6 +5142,456 @@ Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64e
+Version: 6.94
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 2848
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx.floatingball_6.94_iphoneos-arm64e_bf58cbcc155a5eb3bec8b94738484db23e684eca89c693f70ca883a49b48985c.deb
+Size: 1305636
+MD5sum: e5a198e8b491a7e60482d899708230d2
+SHA1: 3b845a024086fc068d9ca53b16909a9861b811dc
+SHA256: bf58cbcc155a5eb3bec8b94738484db23e684eca89c693f70ca883a49b48985c
+SHA512: a81563e2794e0a57714dfa31988e096002a6adb217dfda9fcf7b347c2b8ef4fc62d56610899940065718c65e2c842bd148537c8af6e6250c1de08762be22a77a
+Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
+ 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
+ .
+ 【核心功能】
+ - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
+ - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
+ - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册或文件导入图片并编辑悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.94 独立宠物列表】
+ - 宠物列表独立为选择页面，主页面只保留列表入口和网址导入
+ - 列表支持编辑删除、左滑删除，删除当前宠物后自动回退噜噜
+ - 主页面同步当前宠物与数量，保留网址引导、导入和全部原有功能
+ .
+ 【6.93 手机本地宠物管理】
+ - 设置增加 Petdex 网址输入和提交，自动下载、校验、转换并保存为手机本地动画
+ - 导入后自动启用；支持取消、重复导入更新、左滑删除，离线播放无需联网
+ - 安装包只保留噜噜默认宠物，升级前迁移旧版内置素材，后续更新保留本地下载
+ - 保留图片导入编辑、九组动画、闲逛、横屏、键盘、手势和返回
+ .
+ 【6.92 宠物列表调整】
+ - 新增 17 款指定 Petdex 动画，删除指定的 14 款宠物，当前共 43 款
+ - 已选宠物不在新列表时自动显示第一只噜噜，设置预览和勾选同步回退
+ - 保留其余宠物选择、图片导入编辑、横屏、闲逛、键盘及返回手势
+ .
+ 【6.91 横屏位置与宠物扩展】
+ - 按 App 实际界面方向和窗口已有旋转补偿，修复侧边悬浮球重复旋转到顶部
+ - 新增 15 款指定 Petdex 动画宠物，共 40 款，保留原选择和离线动画
+ - 保留十一种打开方式、闲逛互动、键盘隐藏避让、四向手势和返回
+ .
+ 【6.90 补齐应用打开方式】
+ - 参照 QuickLaunch 新增 FV、SVP 及一芽的五种明确打开模式，共 11 项且无重复
+ - 一芽支持上下、左右、浮窗 1、浮窗 2 和 Stage，分别保存到四向应用动作
+ - 接口不可用时全屏回退；请求已提交或状态不确定时不重复启动
+ - 保留原有打开方式、宠物闲逛、返回、键盘及图片编辑
+ .
+ 【6.89 宠物闲逛与随机互动】
+ - 新增闲逛模式，松手停止操作 5 秒后随机走动或跑动
+ - 走跑之间随机穿插全部九组标准动作，每轮打乱顺序后依次播放
+ - 触碰立即暂停，键盘、隐藏和旋转时暂停，恢复后重新等待
+ - 自动移动不写入手动保存位置，保留返回、固定位置及四向动作
+ .
+ 【6.88 完整宠物列表】
+ - 加入用户指定的 25 款 Petdex 动画宠物，噜噜保留一份
+ - 内置离线素材，列表独立缩略图与单宠物动画预览，支持滚动选择并记忆
+ - 保留图片导入编辑、返回、固定位置、四向动作及键盘行为
+ .
+ 【6.87 宠物显示修复】
+ - 使用 libroot 解析素材目录，兼容 TweakInject 加载路径及 RootHide 动态根目录
+ - 素材首次读取失败可重试，不再将宠物模式静默变成图片模式
+ - 宠物模式清除原图片自转动画，保留宠物逐帧互动
+ .
+ 【6.86 动画桌面宠物】
+ - 图标与桌面宠物模式切换，加入用户指定的 Petdex 噜噜水豚动画
+ - 本地逐帧播放待机、跳跃、挥手和拖动跑步，隐藏时停止播放
+ - 保留相册和文件导入、图片编辑、返回、固定位置、四向动作与长按菜单
+ .
+ 【6.85 横屏手势实际方向修复】
+ - App 无界面客户端主动上报实际 UIKit 场景方向，避免私有方向接口缺失后卡在竖屏
+ - 四向滑动、悬浮球布局及区域截图共用实际方向，左右横屏与恢复竖屏同步
+ - 按应用和进程隔离方向，上报过期、后台或版本不匹配时不采用
+ - App 未旋转时手机横放仍保持竖屏；保留键盘隐藏、避让及原有功能
+ .
+ 【6.84 跟随 App 实际界面方向】
+ - 横屏依据前台 App 场景已确认的界面方向，不依据手机姿态或全局请求方向
+ - App 保持竖屏时，手机横放不改变悬浮球布局、位置及四向手势
+ - App 真正旋转后，悬浮球显示、拖动边界及手势统一跟随画面方向
+ - 同一 App 场景暂不可读时保留上次方向，切换到未确认的新 App 默认竖屏
+ - 保留快捷指令读取、图片编辑、分屏返回、工具及键盘行为
+ .
+ 【6.83 快捷指令列表读取修复】
+ - 修复仅支持旧数据库表结构导致无法获取本机快捷指令的问题
+ - 兼容 ZSHORTCUT / ZWORKFLOWID 与旧 ZWORKFLOW / ZIDENTIFIER
+ - 排除已删除及隐藏指令，使用实际运行标识，保留同名指令
+ - 数据库错误区分结构、访问、占用和解析失败，可复制读取详情
+ - 保留 6.82 图片编辑以及全部原有功能
+ .
+ 【6.82 图标文件导入与图片编辑】
+ - 从相册或文件导入，支持 PNG、JPEG、HEIC 等系统图片格式
+ - 拖动与双指缩放、10% 到 400% 缩放滑块，圆形透明预览
+ - 点击背景颜色去除相连区域，多次点选，容差、边缘平滑与羽化独立调节
+ - 支持撤销、重置和编辑当前图标，保存后生效，取消保留原图标
+ - 保留快捷指令、分屏返回、84 项工具、键盘和横屏功能
+ .
+ 【6.81 本机快捷指令与后台运行】
+ - 同步本机快捷指令列表，选择后加入指定 QuickLaunch 菜单
+ - 指令唯一标识保存，支持刷新、搜索、排序和删除
+ - 四向动作和菜单点击共用后台运行器，不再用 URL 跳转快捷指令 App
+ - 保留 Split View Pro 返回及 84 项系统工具
+ 【6.80 Split View Pro 联动】
+ - 全局球返回跟随普通浮窗及多屏主副窗口最近触摸的应用场景
+ - 精确校验进程、场景和宿主，切窗取消旧返回，不操作底层应用
+ - 应用首页保持窗口，关闭窗口可选择独立工具
+ - 新增 18 项 Split View Pro 工具，共 84 项，四方向独立配置
+ - 接入原生菜单、浮窗、应用搜索、分屏交换与关闭、截图录屏和系统开关
+ - 仅这些工具需要 Split View Pro 1.4.2，不依赖 QuickLaunch，保留全部原有功能
+ .
+ 【保留的 QuickLaunch 系统工具】
+ - 新增 25 个工具，共 66 项，可搜索并独立配置四个方向
+ - 新增系统录屏与开麦录屏、截图编辑、独立区域截图框选复制和分享
+ - 新增 Siri、搜索、资源库、摇一摇、语音控制等辅助功能及 iPad 工具
+ - 新增 8 项 Open 窗口操作，以及自动亮度、夜览、原彩切换
+ - 运行时校验接口及设备支持，录屏等待回执，失败提示具体原因
+ - 无 QuickLaunch 安装依赖；Open 工具需要对应插件，保留全部原有功能
+ .
+ 【保留的 Open 分屏窗口返回】
+ - 点击悬浮球返回当前活动 Open 窗口的上一层，精确匹配应用进程与托管场景
+ - 原生导航首页再次点击仅收起当前窗口，不让底层 App 回桌面
+ - 多窗口跟随 Open 焦点，目标不明、切换或场景未连接时不误操作底层应用
+ - 保留键盘隐藏与避让、横屏手势、双击固定及原有打开方式
+ .
+ 【保留的 Open 分屏窗口】
+ - 应用打开方式新增 Open 分屏窗口，四个方向分别保存
+ - 参考 QuickLaunch 的 TrollOpenJB 1.5.2 接口，运行时检查兼容性
+ - 插件缺失或接口不兼容时全屏打开，提交后不重复启动，不绕过窗口限制
+ - 仅应用动作显示打开方式；保留横屏手势、键盘避让及原有功能
+ .
+ 【保留的横屏四向手势坐标修复】
+ - 按屏幕实际坐标识别四向滑动，再转换到当前界面方向
+ - 完整计入窗口与根视图旋转，兼容前台横屏而桌面宿主竖屏
+ - 左右横屏及恢复竖屏按画面方向执行，固定模式滑动不移动位置
+ - 诊断增加最近一次手势的坐标、方向及窗口变换信息
+ .
+ 【保留的自动旋转显示与拖动修复】
+ - 全局球使用跟随前台方向的独立内容区域，覆盖桌面宿主仍竖屏的横屏 App
+ - 不再强制覆盖系统窗口及根视图尺寸，避免自动旋转后显示和触摸区域被裁切
+ - 拖动边界使用转换后的安全区域，横屏可上下左右调整位置
+ - 位置按可见区域比例保存与恢复，旋转后限制在屏幕内，普通切换不移动
+ .
+ 【保留的横屏滑动方向修复】
+ - 四向动作按当前界面方向识别，兼容左右横屏及返回竖屏
+ - 统一转换屏幕坐标，兼容前台横屏而全局窗口仍为竖屏，避免重复旋转
+ - 滑动中旋转取消当前手势，保留固定位置、自由拖动和键盘行为
+ - 修复 UIKit 提前更新窗口尺寸时漏掉旋转布局，避免悬浮球留在屏幕边缘外
+ .
+ 【保留的截图并复制】
+ - 四向滑动的工具选项新增“截图并复制（不保存）”，无需外部截图插件
+ - 截取屏幕图片后只写入系统剪贴板，不调用相册保存或系统截图编辑流程
+ - 截图前短暂隐藏悬浮球，完成或失败后恢复；切换界面或锁屏时取消待执行截图
+ .
+ 【保留的自定义键盘避让高度】
+ - 设置增加键盘避让高度，0.1 到 10 厘米，滑块、加减及数字输入，按 0.1 厘米调整
+ - 默认改为 1 厘米，保存后立即重新计算，保留原位置和双击固定模式
+ - 避让区域包含键盘上方缓冲带，空间不足时限制在顶部可见范围内
+ - 键盘收起恢复原位置，保留双击固定模式、四向动作、返回及长按菜单
+ .
+ 【保留的双击固定位置】
+ - 双击悬浮球切换固定位置，与设置开关同步保存，单击返回和长按菜单保留
+ - 未固定时立即暂停四向动作，直接拖动调整；再次双击固定并恢复已配置动作
+ - 双击不会返回，切换时取消待处理导航；键盘隐藏、避让及收起回位保留
+ .
+ 【保留的系统工具修复】
+ - 回到桌面接入三路 Home 后备并检查状态，多任务增加系统双击和新旧协调器兼容
+ - 修复音量单例、静音对象、蓝牙电源状态、低电量框架及显示亮度调用
+ - StayShot 改用实际分布式通知通道，失败提示具体工具名称
+ - 保留键盘隐藏和避让、位置稳定、固定模式、四向动作及全部应用打开方式
+ .
+ 【保留的 SHELLX 工具接入】
+ - 系统工具增加 SHELLX 11.3 原有的 12 个动作，支持搜索和四个方向独立选择
+ - 兼容已保存的 SHELLX prefs / App-prefs URL，改走插件拦截的桌面原生入口
+ - 未加载 SHELLX 或接口不可用时提示失败，不误打开系统设置
+ - 保留三种应用打开方式及无键盘切换位置修复，固定时四向动作保持原位
+ .
+ 【保留的应用打开方式与位置稳定】
+ - 仅打开应用新增全屏、PullOver-X 主卡、ScreenCore 小窗，四个方向分别保存
+ - 主卡或小窗需要对应插件，接口不可用时自动回退全屏，普通启动无需 QuickLaunch
+ - 未固定时拖动直接移动，已配置的四向动作暂停
+ - 无键盘时普通界面切换与定时刷新不再重新限制位置，键盘隐藏及避让保留
+ .
+ 【保留的固定位置与四向动作】
+ - 新增固定当前位置开关，禁止手动移动，保留键盘隐藏、自动避让和收起回位
+ - 上下左右滑动分别配置应用、系统工具、快捷指令或自定义 URL，默认不执行
+ - 自由模式仅调整位置；固定模式滑动只执行动作，不移动
+ - 应用和工具支持搜索，快捷指令支持列表和名称填写，URL 支持命名、编辑和删除
+ - 普通应用、系统工具、快捷指令与 URL 启动内置实现，无原 Bottom-x 依赖
+ .
+ 【保留的全局长按快捷菜单】
+ - 桌面、App 或小窗中长按悬浮球约 0.45 秒，单选呼出普通栏、胶囊或圆形菜单
+ - 单击保持原返回功能，桌面单击无动作；松开长按不返回，未固定时慢拖可移动
+ - 配合 QuickLaunch 0.1.62 支持键盘避让时长按呼出，胶囊可临时在竖屏显示
+ - 收起或打开 App 后恢复原隐藏规则，不修改各菜单独立配置；沿用旧版模式选择
+ - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
+ - 键盘收起恢复原位，自动避让不保存临时位置
+ - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
+ - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
+ - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
+ - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 点击按进程和场景转发；重复和过期请求不会再次返回
+ - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
+ - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
+ .
+ 【运行依赖】
+ - 越狱注入框架与 PreferenceLoader 设置加载器
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64e
+Version: 6.96
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 2840
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/iphoneos-arm64e/com.colorblack.bottomx.floatingball_6.96_iphoneos-arm64e_21833fc36c79c6888384a8ed94142add5962a2c3d01b18998a74847b674d74b9.deb
+Size: 1573700
+MD5sum: e639216acdc64de90ff70b48930b5c1d
+SHA1: 1c1c676afe20cbe63ee36ba18f2515691a7254bb
+SHA256: 21833fc36c79c6888384a8ed94142add5962a2c3d01b18998a74847b674d74b9
+SHA512: 4e9ee25b07152cd5b524a7746e39824b612fcc1eee6d770335766fab9085b04d71975ec329be977e09dca58f89a879ff0cae5372ce49166d722949d5965ba2af
+Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
+ 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
+ .
+ 【核心功能】
+ - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
+ - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
+ - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册或文件导入图片并编辑悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.96 解锁后轮换宠物】
+ - 宠物设置新增轮换模式，默认关闭；锁屏再解锁后按列表顺序切换，末尾循环
+ - 保留手动选择；图片模式或悬浮球关闭时不轮换，设置预览和列表勾选同步
+ - 重复状态通知不连跳，重启桌面不误切换；保留悬浮球位置和原有功能
+ .
+ 【6.95 设置入口图标尺寸】
+ - 设置列表入口改为 29 点图标，提供 1x、2x、3x 图片，修复图标过大
+ .
+ 【6.94 独立宠物列表】
+ - 宠物列表独立为选择页面，主页面只保留列表入口和网址导入
+ - 列表支持编辑删除、左滑删除，删除当前宠物后自动回退噜噜
+ - 主页面同步当前宠物与数量，保留网址引导、导入和全部原有功能
+ .
+ 【6.93 手机本地宠物管理】
+ - 设置增加 Petdex 网址输入和提交，自动下载、校验、转换并保存为手机本地动画
+ - 导入后自动启用；支持取消、重复导入更新、左滑删除，离线播放无需联网
+ - 安装包只保留噜噜默认宠物，升级前迁移旧版内置素材，后续更新保留本地下载
+ - 保留图片导入编辑、九组动画、闲逛、横屏、键盘、手势和返回
+ .
+ 【6.92 宠物列表调整】
+ - 新增 17 款指定 Petdex 动画，删除指定的 14 款宠物，当前共 43 款
+ - 已选宠物不在新列表时自动显示第一只噜噜，设置预览和勾选同步回退
+ - 保留其余宠物选择、图片导入编辑、横屏、闲逛、键盘及返回手势
+ .
+ 【6.91 横屏位置与宠物扩展】
+ - 按 App 实际界面方向和窗口已有旋转补偿，修复侧边悬浮球重复旋转到顶部
+ - 新增 15 款指定 Petdex 动画宠物，共 40 款，保留原选择和离线动画
+ - 保留十一种打开方式、闲逛互动、键盘隐藏避让、四向手势和返回
+ .
+ 【6.90 补齐应用打开方式】
+ - 参照 QuickLaunch 新增 FV、SVP 及一芽的五种明确打开模式，共 11 项且无重复
+ - 一芽支持上下、左右、浮窗 1、浮窗 2 和 Stage，分别保存到四向应用动作
+ - 接口不可用时全屏回退；请求已提交或状态不确定时不重复启动
+ - 保留原有打开方式、宠物闲逛、返回、键盘及图片编辑
+ .
+ 【6.89 宠物闲逛与随机互动】
+ - 新增闲逛模式，松手停止操作 5 秒后随机走动或跑动
+ - 走跑之间随机穿插全部九组标准动作，每轮打乱顺序后依次播放
+ - 触碰立即暂停，键盘、隐藏和旋转时暂停，恢复后重新等待
+ - 自动移动不写入手动保存位置，保留返回、固定位置及四向动作
+ .
+ 【6.88 完整宠物列表】
+ - 加入用户指定的 25 款 Petdex 动画宠物，噜噜保留一份
+ - 内置离线素材，列表独立缩略图与单宠物动画预览，支持滚动选择并记忆
+ - 保留图片导入编辑、返回、固定位置、四向动作及键盘行为
+ .
+ 【6.87 宠物显示修复】
+ - 使用 libroot 解析素材目录，兼容 TweakInject 加载路径及 RootHide 动态根目录
+ - 素材首次读取失败可重试，不再将宠物模式静默变成图片模式
+ - 宠物模式清除原图片自转动画，保留宠物逐帧互动
+ .
+ 【6.86 动画桌面宠物】
+ - 图标与桌面宠物模式切换，加入用户指定的 Petdex 噜噜水豚动画
+ - 本地逐帧播放待机、跳跃、挥手和拖动跑步，隐藏时停止播放
+ - 保留相册和文件导入、图片编辑、返回、固定位置、四向动作与长按菜单
+ .
+ 【6.85 横屏手势实际方向修复】
+ - App 无界面客户端主动上报实际 UIKit 场景方向，避免私有方向接口缺失后卡在竖屏
+ - 四向滑动、悬浮球布局及区域截图共用实际方向，左右横屏与恢复竖屏同步
+ - 按应用和进程隔离方向，上报过期、后台或版本不匹配时不采用
+ - App 未旋转时手机横放仍保持竖屏；保留键盘隐藏、避让及原有功能
+ .
+ 【6.84 跟随 App 实际界面方向】
+ - 横屏依据前台 App 场景已确认的界面方向，不依据手机姿态或全局请求方向
+ - App 保持竖屏时，手机横放不改变悬浮球布局、位置及四向手势
+ - App 真正旋转后，悬浮球显示、拖动边界及手势统一跟随画面方向
+ - 同一 App 场景暂不可读时保留上次方向，切换到未确认的新 App 默认竖屏
+ - 保留快捷指令读取、图片编辑、分屏返回、工具及键盘行为
+ .
+ 【6.83 快捷指令列表读取修复】
+ - 修复仅支持旧数据库表结构导致无法获取本机快捷指令的问题
+ - 兼容 ZSHORTCUT / ZWORKFLOWID 与旧 ZWORKFLOW / ZIDENTIFIER
+ - 排除已删除及隐藏指令，使用实际运行标识，保留同名指令
+ - 数据库错误区分结构、访问、占用和解析失败，可复制读取详情
+ - 保留 6.82 图片编辑以及全部原有功能
+ .
+ 【6.82 图标文件导入与图片编辑】
+ - 从相册或文件导入，支持 PNG、JPEG、HEIC 等系统图片格式
+ - 拖动与双指缩放、10% 到 400% 缩放滑块，圆形透明预览
+ - 点击背景颜色去除相连区域，多次点选，容差、边缘平滑与羽化独立调节
+ - 支持撤销、重置和编辑当前图标，保存后生效，取消保留原图标
+ - 保留快捷指令、分屏返回、84 项工具、键盘和横屏功能
+ .
+ 【6.81 本机快捷指令与后台运行】
+ - 同步本机快捷指令列表，选择后加入指定 QuickLaunch 菜单
+ - 指令唯一标识保存，支持刷新、搜索、排序和删除
+ - 四向动作和菜单点击共用后台运行器，不再用 URL 跳转快捷指令 App
+ - 保留 Split View Pro 返回及 84 项系统工具
+ 【6.80 Split View Pro 联动】
+ - 全局球返回跟随普通浮窗及多屏主副窗口最近触摸的应用场景
+ - 精确校验进程、场景和宿主，切窗取消旧返回，不操作底层应用
+ - 应用首页保持窗口，关闭窗口可选择独立工具
+ - 新增 18 项 Split View Pro 工具，共 84 项，四方向独立配置
+ - 接入原生菜单、浮窗、应用搜索、分屏交换与关闭、截图录屏和系统开关
+ - 仅这些工具需要 Split View Pro 1.4.2，不依赖 QuickLaunch，保留全部原有功能
+ .
+ 【保留的 QuickLaunch 系统工具】
+ - 新增 25 个工具，共 66 项，可搜索并独立配置四个方向
+ - 新增系统录屏与开麦录屏、截图编辑、独立区域截图框选复制和分享
+ - 新增 Siri、搜索、资源库、摇一摇、语音控制等辅助功能及 iPad 工具
+ - 新增 8 项 Open 窗口操作，以及自动亮度、夜览、原彩切换
+ - 运行时校验接口及设备支持，录屏等待回执，失败提示具体原因
+ - 无 QuickLaunch 安装依赖；Open 工具需要对应插件，保留全部原有功能
+ .
+ 【保留的 Open 分屏窗口返回】
+ - 点击悬浮球返回当前活动 Open 窗口的上一层，精确匹配应用进程与托管场景
+ - 原生导航首页再次点击仅收起当前窗口，不让底层 App 回桌面
+ - 多窗口跟随 Open 焦点，目标不明、切换或场景未连接时不误操作底层应用
+ - 保留键盘隐藏与避让、横屏手势、双击固定及原有打开方式
+ .
+ 【保留的 Open 分屏窗口】
+ - 应用打开方式新增 Open 分屏窗口，四个方向分别保存
+ - 参考 QuickLaunch 的 TrollOpenJB 1.5.2 接口，运行时检查兼容性
+ - 插件缺失或接口不兼容时全屏打开，提交后不重复启动，不绕过窗口限制
+ - 仅应用动作显示打开方式；保留横屏手势、键盘避让及原有功能
+ .
+ 【保留的横屏四向手势坐标修复】
+ - 按屏幕实际坐标识别四向滑动，再转换到当前界面方向
+ - 完整计入窗口与根视图旋转，兼容前台横屏而桌面宿主竖屏
+ - 左右横屏及恢复竖屏按画面方向执行，固定模式滑动不移动位置
+ - 诊断增加最近一次手势的坐标、方向及窗口变换信息
+ .
+ 【保留的自动旋转显示与拖动修复】
+ - 全局球使用跟随前台方向的独立内容区域，覆盖桌面宿主仍竖屏的横屏 App
+ - 不再强制覆盖系统窗口及根视图尺寸，避免自动旋转后显示和触摸区域被裁切
+ - 拖动边界使用转换后的安全区域，横屏可上下左右调整位置
+ - 位置按可见区域比例保存与恢复，旋转后限制在屏幕内，普通切换不移动
+ .
+ 【保留的横屏滑动方向修复】
+ - 四向动作按当前界面方向识别，兼容左右横屏及返回竖屏
+ - 统一转换屏幕坐标，兼容前台横屏而全局窗口仍为竖屏，避免重复旋转
+ - 滑动中旋转取消当前手势，保留固定位置、自由拖动和键盘行为
+ - 修复 UIKit 提前更新窗口尺寸时漏掉旋转布局，避免悬浮球留在屏幕边缘外
+ .
+ 【保留的截图并复制】
+ - 四向滑动的工具选项新增“截图并复制（不保存）”，无需外部截图插件
+ - 截取屏幕图片后只写入系统剪贴板，不调用相册保存或系统截图编辑流程
+ - 截图前短暂隐藏悬浮球，完成或失败后恢复；切换界面或锁屏时取消待执行截图
+ .
+ 【保留的自定义键盘避让高度】
+ - 设置增加键盘避让高度，0.1 到 10 厘米，滑块、加减及数字输入，按 0.1 厘米调整
+ - 默认改为 1 厘米，保存后立即重新计算，保留原位置和双击固定模式
+ - 避让区域包含键盘上方缓冲带，空间不足时限制在顶部可见范围内
+ - 键盘收起恢复原位置，保留双击固定模式、四向动作、返回及长按菜单
+ .
+ 【保留的双击固定位置】
+ - 双击悬浮球切换固定位置，与设置开关同步保存，单击返回和长按菜单保留
+ - 未固定时立即暂停四向动作，直接拖动调整；再次双击固定并恢复已配置动作
+ - 双击不会返回，切换时取消待处理导航；键盘隐藏、避让及收起回位保留
+ .
+ 【保留的系统工具修复】
+ - 回到桌面接入三路 Home 后备并检查状态，多任务增加系统双击和新旧协调器兼容
+ - 修复音量单例、静音对象、蓝牙电源状态、低电量框架及显示亮度调用
+ - StayShot 改用实际分布式通知通道，失败提示具体工具名称
+ - 保留键盘隐藏和避让、位置稳定、固定模式、四向动作及全部应用打开方式
+ .
+ 【保留的 SHELLX 工具接入】
+ - 系统工具增加 SHELLX 11.3 原有的 12 个动作，支持搜索和四个方向独立选择
+ - 兼容已保存的 SHELLX prefs / App-prefs URL，改走插件拦截的桌面原生入口
+ - 未加载 SHELLX 或接口不可用时提示失败，不误打开系统设置
+ - 保留三种应用打开方式及无键盘切换位置修复，固定时四向动作保持原位
+ .
+ 【保留的应用打开方式与位置稳定】
+ - 仅打开应用新增全屏、PullOver-X 主卡、ScreenCore 小窗，四个方向分别保存
+ - 主卡或小窗需要对应插件，接口不可用时自动回退全屏，普通启动无需 QuickLaunch
+ - 未固定时拖动直接移动，已配置的四向动作暂停
+ - 无键盘时普通界面切换与定时刷新不再重新限制位置，键盘隐藏及避让保留
+ .
+ 【保留的固定位置与四向动作】
+ - 新增固定当前位置开关，禁止手动移动，保留键盘隐藏、自动避让和收起回位
+ - 上下左右滑动分别配置应用、系统工具、快捷指令或自定义 URL，默认不执行
+ - 自由模式仅调整位置；固定模式滑动只执行动作，不移动
+ - 应用和工具支持搜索，快捷指令支持列表和名称填写，URL 支持命名、编辑和删除
+ - 普通应用、系统工具、快捷指令与 URL 启动内置实现，无原 Bottom-x 依赖
+ .
+ 【保留的全局长按快捷菜单】
+ - 桌面、App 或小窗中长按悬浮球约 0.45 秒，单选呼出普通栏、胶囊或圆形菜单
+ - 单击保持原返回功能，桌面单击无动作；松开长按不返回，未固定时慢拖可移动
+ - 配合 QuickLaunch 0.1.62 支持键盘避让时长按呼出，胶囊可临时在竖屏显示
+ - 收起或打开 App 后恢复原隐藏规则，不修改各菜单独立配置；沿用旧版模式选择
+ - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
+ - 键盘收起恢复原位，自动避让不保存临时位置
+ - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
+ - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
+ - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
+ - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 点击按进程和场景转发；重复和过期请求不会再次返回
+ - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
+ - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
+ .
+ 【运行依赖】
+ - 越狱注入框架与 PreferenceLoader 设置加载器
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
 Package: com.crctdd.choicy-whitelist
 Architecture: iphoneos-arm64e
 Version: 1.5.4-5
@@ -4799,6 +5767,50 @@ SHA256: 65d7edf17f07184e69dfb91e79fa14ec82afcbb4019955b319afd22ea4be9732
 SHA512: 59a602fed83acb4334cfad79f9e15588358dde7aa66a818bcc9a23d5749b56a767ae7b2cd41a56d22b47a6cc919014b58e8291fe98f5a721d678b65734437bac
 Description: 系统相册增加视频进度条 (支持iOS 15-17)
 Name: 系统相册视频进度条
+Author: crctdd
+
+Package: com.crctdd.pyvideo
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 5848
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.libsandy (>= 1.1.6)
+Filename: debs/iphoneos-arm64/com.crctdd.pyvideo_0.0.3_iphoneos-arm64_113e592b56142a9b4fad6840c546973683af4d6321f5cb345c7c79f0b07526f4.deb
+Size: 2625268
+MD5sum: 12593f2e3677e838fb3c1c704d415e12
+SHA1: 518a9c7db9988c32c6ca5c51290184d9c747c56b
+SHA256: 113e592b56142a9b4fad6840c546973683af4d6321f5cb345c7c79f0b07526f4
+SHA512: 0df1698aea13fee44a6db5d9080014f8f7add2c17727b34273504a0901cfaf44b83540fd7c71a7ba89af6b55d003ed896c4a1153b65dede6bc316ad324ccc9f7
+Description: 获取当前页面的视频并下载，仅Safari浏览器可用；无设置项。（支持iOS 15-17）\
+ \
+ 长按Safari右下角菜单键 或者\
+ ↓使用以下URL Scheme触发↓\
+ \
+ pyvideo://video-downloader
+Name: PyVideo
+Author: crctdd
+
+Package: com.crctdd.pyvideo
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 2968
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.libsandy (>= 1.1.6)
+Filename: debs/iphoneos-arm64e/com.crctdd.pyvideo_0.0.3_iphoneos-arm64e_8f2c65c584cf8a5113e6b59676e5782e0b4e4745c4458c8cc017f1f907abfa32.deb
+Size: 1325546
+MD5sum: c6540ed560da922cd5580eceda9dd984
+SHA1: fc7cb7d25aab0e9986a4cfd9930ce20477b5bc3b
+SHA256: 8f2c65c584cf8a5113e6b59676e5782e0b4e4745c4458c8cc017f1f907abfa32
+SHA512: c5873036d097705b0f77f5d23dcc9cac829331d43e0f1e4a72b777ce91775e30dd8a21cf8616ccaa6d2aedcf57e4097468598ccd6cb17ab8fa36482baddccb79
+Description: 获取当前页面的视频并下载，仅Safari浏览器可用；无设置项。（支持iOS 15-17）\
+ \
+ 长按Safari右下角菜单键 或者\
+ ↓使用以下URL Scheme触发↓\
+ \
+ pyvideo://video-downloader
+Name: PyVideo
 Author: crctdd
 
 Package: com.crctdd.sbtrim
@@ -6045,6 +7057,26 @@ Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 
 Package: com.huayuarc.cputhermal
 Architecture: iphoneos-arm64
+Version: 1.6.2-154+isolation.17
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1812
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/iphoneos-arm64/com.huayuarc.cputhermal_1.6.2-154+isolation.17_iphoneos-arm64_1d0648ba2b9513b0502316839733827320e10f6e9f1a13b409ff8040da3b1a11.deb
+Size: 156312
+MD5sum: 51d79594f2d189772df97fe55894ba2d
+SHA1: 4a71207392ea3e071adc3a37bc567e6b7a64a4ed
+SHA256: 1d0648ba2b9513b0502316839733827320e10f6e9f1a13b409ff8040da3b1a11
+SHA512: 33368b041c6af4b8d6e4c85164c395b6a55b3ec9e22cfd3dab2bd7b3269786890523264da5ac928ac7bcd456c224976df258ca7de7b706d5802bbaa6cf2914cc
+Description: CPUthermal temperature policy, smart charge and dynamic settings with full Hello 120Hz 3.3.3-3 port: preferred 10/30/60/80/120 FPS, global injection, application exclusions, debug HUD and system recording hooks. Requires AltList. Based on isolation.16 SpringBoard stability candidate.
+Name: CPU 解除温控
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64
 Version: 1.6.2-154+isolation.6
 Section: Tweaks
 Maintainer: Huayuarc
@@ -6285,6 +7317,26 @@ SHA1: 2e7d0f831157a2cd6e99fb5be1bf547e1abc055d
 SHA256: bff21d599bfb929266a40e237f8e93584b2462654664bf6f3abc166824f815c4
 SHA512: d297223d4a3022c7a5f83a998cd8ff5bffe180dd85d084e8f4ece16152e527546f81b3ee96a2c43971c906c7da9a8edb700066e8570060b67c4e36febba8666e
 Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Name: CPU 解除温控
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64e
+Version: 1.6.2-154+isolation.17
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 1812
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/iphoneos-arm64e/com.huayuarc.cputhermal_1.6.2-154+isolation.17_iphoneos-arm64e_169aff00a229ec1ab39301876a38a89e6b97f0856813e5a6fe7d10df4efa1ca7.deb
+Size: 153744
+MD5sum: 69a6a9795863a5c6fc277b5917cadcb6
+SHA1: 021653459576997c4aecd5cd9a4171080e46b6c8
+SHA256: 169aff00a229ec1ab39301876a38a89e6b97f0856813e5a6fe7d10df4efa1ca7
+SHA512: c93f7e3d20d4df7fb0a05f72cc9dab73fb57a1fe768e3171b8ef4d1482cfc78cfd84336b9405e725ec683d5063f2baaa8f5bc5a76f9093d7f85e877b19c4acf2
+Description: CPUthermal temperature policy, smart charge and dynamic settings with full Hello 120Hz 3.3.3-3 port: preferred 10/30/60/80/120 FPS, global injection, application exclusions, debug HUD and system recording hooks. Requires AltList. Based on isolation.16 SpringBoard stability candidate.
 Name: CPU 解除温控
 Author: Huayuarc
 Icon: https://huayuarc.github.io/icon/cputhermal.png
@@ -7816,6 +8868,23 @@ Author: MoWang
 
 Package: com.minis.lockscreengradientclock
 Architecture: iphoneos-arm64
+Version: 2.0.24
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 1060
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.minis.lockscreengradientclock_2.0.24_iphoneos-arm64_b048cdadb6675191b550e5771f48d5d69fcbabe716791ba22709b2b09772cf86.deb
+Size: 281688
+MD5sum: 8aaccd7469a6e71be0bba0e8a8ecfa1c
+SHA1: 59b518a4344c8516ee20538042babc49a3636b92
+SHA256: b048cdadb6675191b550e5771f48d5d69fcbabe716791ba22709b2b09772cf86
+SHA512: 8469817ee9436af11fb728a3867201229b756277b3cc71c0dbd10f3af8986b8fdc117a1f9902efe8965465b0e6c17f59f36cb5e8dbf556dc4119594330a9039e
+Description: Configurable Lock Screen clock gradient.
+Name: 独立锁屏时间渐变
+Author: MoWang
+
+Package: com.minis.lockscreengradientclock
+Architecture: iphoneos-arm64
 Version: 2.0.26
 Section: Tweaks
 Maintainer: MoWang
@@ -8024,6 +9093,23 @@ SHA1: 699d876291de68355eb4f231acb01742b0020fe7
 SHA256: c432dedfc5cbda1bd87784092555a42ba5128ee447b3bb374a2cd1d0b943fc52
 SHA512: fe3bb498fef77dc56b93715cb026f715799d3193c4eed686ec022bad76370a51c167b6bd0c80a3cbf090f655248acfdd1beb1a453b37a682510b4423170bfbc1
 Description: 新增隐藏原生日期和农历显示
+Name: 独立锁屏时间渐变
+Author: MoWang
+
+Package: com.minis.lockscreengradientclock
+Architecture: iphoneos-arm64e
+Version: 2.0.24
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 1060
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.minis.lockscreengradientclock_2.0.24_iphoneos-arm64e_03edd2d1ee4a3601ca5dd6ce8957ce31727765316c274846bff7edb9609f1aad.deb
+Size: 281920
+MD5sum: b193290be7448cc2556edd4ae70b8149
+SHA1: 5f674865f56da6c2bf2b814c6aaf66d6d1431972
+SHA256: 03edd2d1ee4a3601ca5dd6ce8957ce31727765316c274846bff7edb9609f1aad
+SHA512: 22dcfa305a0f9cfb95c766efc1f22e138b6e4148683f9ec09037c7180c20fa8fbe54a3e81675a380b1ab5f0fb16b045323287d55fc72641409c8d66ac227d859
+Description: Configurable Lock Screen clock gradient.
 Name: 独立锁屏时间渐变
 Author: MoWang
 
@@ -17679,6 +18765,25 @@ Name: Lunora
 Author: Banana
 
 Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.1.3-1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 5240
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoicon_1.1.3-1_iphoneos-arm64_d90bd577c4315e15f72de4dbbc0abf3edb1a36c0fabadbb65fd1983d3f0a041b.deb
+Size: 939332
+MD5sum: 1aac53f0c3da66f4fd114132c61bd34c
+SHA1: 159408b0af99ced186724ebb256d6a4df03ac8ea
+SHA256: d90bd577c4315e15f72de4dbbc0abf3edb1a36c0fabadbb65fd1983d3f0a041b
+SHA512: 3cc82139d564326e33a728106a953f0de238d887977e63ae5595c4abbfa1eff5ba648bfc747d527cae058429c21c9c830e72a1c33348cbf3a3a1e11826fb6515
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
 Architecture: iphoneos-arm64e
 Version: 0.1.16
 Section: Tweaks
@@ -17880,6 +18985,25 @@ SHA1: 494c7825ebfd9aaf8ae181225ce718da1275c4d2
 SHA256: 025991e3d606c8a6dd5d88c08f573c989088eff58960142d180d067aa7a4225f
 SHA512: ffa4888aba4f1d81b561877f0bd93b93aac3c2ec401c9813613bfe7538deecc0a8af443466e6b0aae532824e0766e5223b6f8bc51bb4b02d5cef3ab528832922
 Description: 测试版已支持 15 系统，修复左侧胶囊开启卡顿问题，测试了请反馈
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.1.3-1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 5240
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64e/iya.banana.iphoneduoicon_1.1.3-1_iphoneos-arm64e_756c9c6e1b6372f56ff9d7ea18e6bb93879b922b5ab1aec8478669f596c6bad0.deb
+Size: 940032
+MD5sum: aea3adf44a020bc893a842c0420690a3
+SHA1: 5d4adf57aea9b3e81191cdd3bd7e62fce9d75105
+SHA256: 756c9c6e1b6372f56ff9d7ea18e6bb93879b922b5ab1aec8478669f596c6bad0
+SHA512: 9968d683faf8b407bb8f7d72f807e9848324d274b2dd5a98571013f84a36fd4c65d5720c38ab43a41534ca6fc952cd12c82f65e7a11d3edf9641d80166fa2fbb
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
 Name: Lunora
 Author: Banana
 
@@ -18773,6 +19897,23 @@ SHA512: 5b0ce5d99891dbf551cf765559df8282b790c7e0463ae0faee2ab5f222a0408f21dc98f3
 Description: Notification bubbles for iOS 16 and Dopamine RootHide. Experimental first build.
 Name: 通知悬浮气泡
 Author: NotifyBubbles
+
+Package: me.ray.jev-chat
+Architecture: iphoneos-arm64
+Version: 1.1.1-2+debug
+Section: Tweaks
+Maintainer: ray
+Installed-Size: 1536
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/me.ray.jev-chat_1.1.1-2+debug_iphoneos-arm64_f1df39174da92457453de4c9a8356d481000eee83d2ebbcbbed83512d0aca7ed.deb
+Size: 314712
+MD5sum: ec3c912590aa69e37ea0a45223e2beae
+SHA1: a35bcffe9fe1eab6b1bc581c91ab50e21aa1d499
+SHA256: f1df39174da92457453de4c9a8356d481000eee83d2ebbcbbed83512d0aca7ed
+SHA512: 13898fdb33d122dc7a1c1eff3ed15aaaa9ca03cd32a93c1d763eb884558713d9560a1db8780dd68920f8b3ffb5efe1b6c082e35b59a7db294b1b83840d66e29b
+Description: 微信意图识别 + 人性化建议回复（判断层 SystemOne / 生成层 OpenAI 兼容；回复方式可多选）
+Name: Jev-Chat
+Author: ray
 
 Package: moe.waru.jikan
 Architecture: iphoneos-arm64
