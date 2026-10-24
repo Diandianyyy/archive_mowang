@@ -613,6 +613,23 @@ Author: MoWang
 
 Package: com.MoWang.islanddigest
 Architecture: iphoneos-arm64
+Version: 0.3.20
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 2108
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.MoWang.islanddigest_0.3.20_iphoneos-arm64_32bb98ee41d73367fb977e1f1ad529ce37fc45b081809779e577cd47fe5f83fa.deb
+Size: 1561324
+MD5sum: 98836494db7917b78597e061efe5527a
+SHA1: 1bebc29461ae19a5d121c99e45f0956d5917ff76
+SHA256: 32bb98ee41d73367fb977e1f1ad529ce37fc45b081809779e577cd47fe5f83fa
+SHA512: d567a9a0c9361a956b95712beada8df62467546db73b1ef47b9fc351bfc9c437fa031ead7f9f6159661a0b8e01a21b1784711496efe9903307c3c3ae9ca18950
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Name: 灵屿通知
+Author: MoWang
+
+Package: com.MoWang.islanddigest
+Architecture: iphoneos-arm64
 Version: 0.3.3
 Section: Tweaks
 Maintainer: MoWang
@@ -658,6 +675,23 @@ MD5sum: 8dab17e24d22871e4f7aab1b053a5bdd
 SHA1: 719c046b72f96838b5a409005005f4f5664ca68d
 SHA256: 347c2414f565c477150c959ad88ee37acfd83342e68b60b52aaaccf1a85b8b2a
 SHA512: 1e5ac259958323cecc54fc46c3d60985d7d6e1ad59702528d28cdf12c20e2505e8d87f5b812fdffcbddf631f6951b4f3fe390d6e585b1c2a33c3de043f1589ac
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Name: 灵屿通知
+Author: MoWang
+
+Package: com.MoWang.islanddigest
+Architecture: iphoneos-arm64e
+Version: 0.3.20
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 2108
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.MoWang.islanddigest_0.3.20_iphoneos-arm64e_8dc6c001b57b62f50554aa230a2cb5f80b786db4c07d1e24e82fa5b6f4a6f71a.deb
+Size: 1560968
+MD5sum: e4461d2d3d4a5cb18d3f423f2a5c90e2
+SHA1: afe3a1a71d703d12e0c501c0087c0140224c12e6
+SHA256: 8dc6c001b57b62f50554aa230a2cb5f80b786db4c07d1e24e82fa5b6f4a6f71a
+SHA512: 7a41ab965d9cb366f2fbcb8d6986f3d985664cb382679972eea6682b4cb13ef164f093e43de64daca95a9705bc1220cfe429fc34841e9772aa3ce6ebb2b793e6
 Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
 Name: 灵屿通知
 Author: MoWang
