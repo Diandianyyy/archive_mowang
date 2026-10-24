@@ -630,6 +630,40 @@ Author: MoWang
 
 Package: com.MoWang.islanddigest
 Architecture: iphoneos-arm64
+Version: 0.3.22
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 2108
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.MoWang.islanddigest_0.3.22_iphoneos-arm64_f9e07c0df05f9bd1e036a729e151cccf65aa0fb31cd2a88b637c1eab89f8ce80.deb
+Size: 1567442
+MD5sum: 480bbfcffc41702629bd9d78804f45f0
+SHA1: 61f844733f36d21f77393ddd8c46ca15c6b139a2
+SHA256: f9e07c0df05f9bd1e036a729e151cccf65aa0fb31cd2a88b637c1eab89f8ce80
+SHA512: 8b6cb62a893ac945c038a06522185aa29f65a7ae833e7a4a584d7aa97bfcc9fcdc54c9ea64a2c69929c8d46ff38f369c4324b7ef2a6d88ae7db71303d38f356d
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Name: 灵屿通知
+Author: MoWang
+
+Package: com.MoWang.islanddigest
+Architecture: iphoneos-arm64
+Version: 0.3.23
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 2108
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.MoWang.islanddigest_0.3.23_iphoneos-arm64_13c72ccdd373395e8ee68e65af1ffe080f9411c1bb29e7ed74dfe9a7f2f6234a.deb
+Size: 1566792
+MD5sum: f8abb7a1847c6abe7803d5270c344d12
+SHA1: 8389973e6b50a3e0add662ec3d248ea1535533a3
+SHA256: 13c72ccdd373395e8ee68e65af1ffe080f9411c1bb29e7ed74dfe9a7f2f6234a
+SHA512: 12e5717d800a3cec665a763043fa1e6c52b5f7db145ede764f81790ffb32ca1385f8b09cf579f044c6e0b81562167737d6aa4cddce407c7a73c7d7df1951cb0f
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Name: 灵屿通知
+Author: MoWang
+
+Package: com.MoWang.islanddigest
+Architecture: iphoneos-arm64
 Version: 0.3.3
 Section: Tweaks
 Maintainer: MoWang
@@ -692,6 +726,40 @@ MD5sum: e4461d2d3d4a5cb18d3f423f2a5c90e2
 SHA1: afe3a1a71d703d12e0c501c0087c0140224c12e6
 SHA256: 8dc6c001b57b62f50554aa230a2cb5f80b786db4c07d1e24e82fa5b6f4a6f71a
 SHA512: 7a41ab965d9cb366f2fbcb8d6986f3d985664cb382679972eea6682b4cb13ef164f093e43de64daca95a9705bc1220cfe429fc34841e9772aa3ce6ebb2b793e6
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Name: 灵屿通知
+Author: MoWang
+
+Package: com.MoWang.islanddigest
+Architecture: iphoneos-arm64e
+Version: 0.3.22
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 2108
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.MoWang.islanddigest_0.3.22_iphoneos-arm64e_bd59419862d4037fa34d402cd95536046eca11f66e40a73870ab83dabd6ff786.deb
+Size: 1567104
+MD5sum: 785a71399052f2baa1915141618069c8
+SHA1: f78013aff54f541fc6fc0385a13c5a1a4b4e0c8b
+SHA256: bd59419862d4037fa34d402cd95536046eca11f66e40a73870ab83dabd6ff786
+SHA512: f85840fe36391e2bc7a2433caea1c1765a66f24b07cc6a05a1576fa9dc738f292499b1576a97e5f2fa6bb46bd4d341742f9b62a30e49930fc4d6e24a51e7e395
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Name: 灵屿通知
+Author: MoWang
+
+Package: com.MoWang.islanddigest
+Architecture: iphoneos-arm64e
+Version: 0.3.23
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 2108
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.MoWang.islanddigest_0.3.23_iphoneos-arm64e_3810b41a53ab9592fdf9eae853212b97a7c0915249bf1582bba32e3d263d5afd.deb
+Size: 1566496
+MD5sum: 422918feb909f1dcba2c596a92d36b5c
+SHA1: 9e9500e9e4574a7bc250bf67e6c90ff188aae58c
+SHA256: 3810b41a53ab9592fdf9eae853212b97a7c0915249bf1582bba32e3d263d5afd
+SHA512: bc7bdebadedd251ae6c2ea590290f8ff46fb2f7d52cce677ba229e8ced60570d104ef3fe592db51240f1998c685cc86c1255bd25dbd20a0d027f73104ccccc0e
 Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
 Name: 灵屿通知
 Author: MoWang
@@ -7192,6 +7260,40 @@ SHA256: b280dbd7d0d521cc24d3c3a083f6f0fac71cf6d894534ae269fe0136c14e932c
 SHA512: 29132164a41628f075fd9a3fed636b970516d5b4c0c8092648fe266f6e8874cad09dc46051fb18c31913b3c55bb6b1cd499ae7d4f6106bc68e8f753697bf6ae0
 Description: 锁屏时保持 WiFi 连接；热点无客户端时不自动关闭。无开关，安装即生效；
 Name: Fiona
+Author: doimty
+
+Package: com.doimty.nrmanager
+Architecture: iphoneos-arm64
+Version: 1.7.5
+Section: Control Center (Modules)
+Maintainer: doimty
+Installed-Size: 1720
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.doimty.nrmanager_1.7.5_iphoneos-arm64_9327be9c33c4400a224537569fa632bd82ee42d412b89fbe41bc51b2b80455bf.deb
+Size: 258806
+MD5sum: 453d3bb503e9b6fb123c57f7ad49d943
+SHA1: 5687e5c610329e86989a260956f09f3b96ea3cc2
+SHA256: 9327be9c33c4400a224537569fa632bd82ee42d412b89fbe41bc51b2b80455bf
+SHA512: 9afd873857d54a0bf7b193813888386a790ad6631c43ff5a2984b94dc466dd16d183364df3df48154889ad1272e658a0294cb9861837b3c35b9c01c39f68c55a
+Description: Select NR bands and view live serving status in Control Center
+Name: NR Manager
+Author: doimty
+
+Package: com.doimty.nrmanager
+Architecture: iphoneos-arm64e
+Version: 1.7.5
+Section: Control Center (Modules)
+Maintainer: doimty
+Installed-Size: 1688
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.doimty.nrmanager_1.7.5_iphoneos-arm64e_44ef9c90d0230552eea222527348292e51ed2fc23f1119bcfbd58f672e919289.deb
+Size: 274710
+MD5sum: 617b20edf8006a62252444fa407bdd5a
+SHA1: 06cada6410345bbf2fb6658afe4c8d2399eca816
+SHA256: 44ef9c90d0230552eea222527348292e51ed2fc23f1119bcfbd58f672e919289
+SHA512: 35f9cd4e5dec8ac36b4f44971f3057a67ff43572775ae67b9c0a65d6724620b0dbc5027586ec975cc02c479d05c5ebb6b4dbee0bbb074c8d5969fb8ff556e28d
+Description: Select NR bands and view live serving status in Control Center
+Name: NR Manager
 Author: doimty
 
 Package: com.doimty.promotion
@@ -19815,6 +19917,42 @@ Description: Album-art-driven animated color fields for Lock Screen Now Playing 
 Name: DynamicMusicBG
 Author: banana
 
+Package: iya.banana.dynamicnotch
+Architecture: iphoneos-arm64
+Version: 0.1.0~beta1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1320
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-roothide
+Filename: debs/iphoneos-arm64/iya.banana.dynamicnotch_0.1.0~beta1_iphoneos-arm64_bba9d490e0c0f6dc3949d0856e12066f489f0b8d2add76c51ebcda80e5889c29.deb
+Size: 205272
+MD5sum: c93e57f79188ae2c7752b36626419425
+SHA1: 9dc3323212f056def71ad5a19df3b5cb74d2147d
+SHA256: bba9d490e0c0f6dc3949d0856e12066f489f0b8d2add76c51ebcda80e5889c29
+SHA512: 2ef0055f3882c60068ba9631e8074798d33729d2298925804d25e887cfa8b43bc252557fbd460b6de5afec4d6377445597a24084f593ff56a0003084de7936fe
+Description: Notch activities, notifications and adjustable glass for iOS 15–26. Beta release.
+Name: DynamicNotch · 动态刘海
+Author: Banana
+
+Package: iya.banana.dynamicnotch
+Architecture: iphoneos-arm64e
+Version: 0.1.0~beta1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1320
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-roothide
+Filename: debs/iphoneos-arm64e/iya.banana.dynamicnotch_0.1.0~beta1_iphoneos-arm64e_63804c826b8f697286c4b52397bf0cfdef51234e16716dbc62bebf24142975df.deb
+Size: 203024
+MD5sum: b20fced435bcdc779c016f784128e243
+SHA1: e45c4e5899ed1ddfa8eb95840be16c5901cae535
+SHA256: 63804c826b8f697286c4b52397bf0cfdef51234e16716dbc62bebf24142975df
+SHA512: 52632706d11ebfb325bdb8e8d5c82224c22fd8c1251dd562768aeb2a1bdb11ead4d92a8c6ddeccd9f43b82dcdf47047278da12fe71d30bf1ed087a467e6a55b4
+Description: Notch activities, notifications and adjustable glass for iOS 15–26. Beta release.
+Name: DynamicNotch · 动态刘海
+Author: Banana
+
 Package: iya.banana.facetimeaudioenabler
 Architecture: iphoneos-arm64
 Version: 1.0.6
@@ -19867,6 +20005,23 @@ Name: Hide2Less
 Author: Banana
 
 Package: iya.banana.hide2less
+Architecture: iphoneos-arm64
+Version: 0.1.2~beta10
+Section: Utilities
+Maintainer: Banana
+Installed-Size: 516
+Depends: firmware (>= 15.0), dpkg (>= 1.21.18), ldid
+Filename: debs/iphoneos-arm64/iya.banana.hide2less_0.1.2~beta10_iphoneos-arm64_89d6fccba055e4f74527c5c8a9539317dbeefc5cd0b084ae7c6e894db1ef9528.deb
+Size: 151904
+MD5sum: b8f04dc9b5596a79463173afe78f6c52
+SHA1: 82afdff719a0ff4bcc280d7d33363f11047cc63e
+SHA256: 89d6fccba055e4f74527c5c8a9539317dbeefc5cd0b084ae7c6e894db1ef9528
+SHA512: 0614471b7c9488b82dfa684784652d5abbe1b910404b8bb21f3b3c1afafb8c7be8f521318cefb09170e4daf103dddb494672a27856e6091e0b7a4691227b53ea
+Description: Convert supported RootHide tweak packages to Rootless on device.
+Name: Hide2Less
+Author: Banana
+
+Package: iya.banana.hide2less
 Architecture: iphoneos-arm64e
 Version: 0.1.1
 Section: Utilities
@@ -19879,6 +20034,23 @@ MD5sum: e4d7df657630b9fd7e47ed4c4ce79b17
 SHA1: 25c49f0befa47131254da1785ede88a059ba06b8
 SHA256: 9418750bc54d017c520d5bd0724a1673d6e61247a27fd23f8065a832e914e908
 SHA512: 6d7f4fbbcf9f74ca27cbf840ad8faaa92c3e210987e20b1420703c06546ee89559e94cbfd02bbf382adc41a59f83ce1e81d1a9dc9518c51732506da8c1031bc1
+Description: Convert supported RootHide tweak packages to Rootless on device.
+Name: Hide2Less
+Author: Banana
+
+Package: iya.banana.hide2less
+Architecture: iphoneos-arm64e
+Version: 0.1.2~beta10
+Section: Utilities
+Maintainer: Banana
+Installed-Size: 516
+Depends: firmware (>= 15.0), dpkg (>= 1.21.18), ldid
+Filename: debs/iphoneos-arm64e/iya.banana.hide2less_0.1.2~beta10_iphoneos-arm64e_e5e9eb66c6c9af3e4a2a371b4902a5f9c1b6493ca0c567f25f958962d6216de1.deb
+Size: 153018
+MD5sum: 0a85dd9bf0799a17ac576907b158c085
+SHA1: f93b27aa95aeec36163070c45f53713da968e9d4
+SHA256: e5e9eb66c6c9af3e4a2a371b4902a5f9c1b6493ca0c567f25f958962d6216de1
+SHA512: 50a83443446bfc74404f2da3ae05f5510a8d3a56e2452dab9c1b2c212b8ccc87a507de9c8adbf3c91ea3929f1440c58f0506ef258d9ef442312112218ecfe57f
 Description: Convert supported RootHide tweak packages to Rootless on device.
 Name: Hide2Less
 Author: Banana
@@ -20458,6 +20630,25 @@ Name: Lunora
 Author: Banana
 
 Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.1.4
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 5380
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64/iya.banana.iphoneduoicon_1.1.4_iphoneos-arm64_3126af75dda9c3bcd93dfa667a6aea0d0f144009d3b081d6da62da203357daa3.deb
+Size: 973106
+MD5sum: 91f2e63d439d9c8210e731eee55328a4
+SHA1: 1377f56a675fb63d870ae81899e06eb1228a1a23
+SHA256: 3126af75dda9c3bcd93dfa667a6aea0d0f144009d3b081d6da62da203357daa3
+SHA512: 28778427fff7f5f8218ce745469c6d19a67cee3a62a205be40e6409f3dc55bd19dfa2b37c13055f1431e2acb14f2594339369973908ac39b6f0a229e4372eb62
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
 Architecture: iphoneos-arm64e
 Version: 0.1.16
 Section: Tweaks
@@ -20677,6 +20868,25 @@ MD5sum: aea3adf44a020bc893a842c0420690a3
 SHA1: 5d4adf57aea9b3e81191cdd3bd7e62fce9d75105
 SHA256: 756c9c6e1b6372f56ff9d7ea18e6bb93879b922b5ab1aec8478669f596c6bad0
 SHA512: 9968d683faf8b407bb8f7d72f807e9848324d274b2dd5a98571013f84a36fd4c65d5720c38ab43a41534ca6fc952cd12c82f65e7a11d3edf9641d80166fa2fbb
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64e
+Version: 1.1.4
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 5364
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64e/iya.banana.iphoneduoicon_1.1.4_iphoneos-arm64e_4b399d4657516d69cbfaa496a37920e8f72ea298c9781eb3beffcbf760f9324e.deb
+Size: 972124
+MD5sum: 1e6e3b360998d2c5860932916dcd82a8
+SHA1: 22fbd30f414de51cd6d19c603075e13a2d889b97
+SHA256: 4b399d4657516d69cbfaa496a37920e8f72ea298c9781eb3beffcbf760f9324e
+SHA512: 6ffd6eb3e27f1b29bbdaa892ac00ddd761e41880cac793e406ed0bf058ac93b8db80764c0d49d51984dc07cb318c47ed9c9cf3888bdcbdf52d0437b2483d0039
 Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
 Name: Lunora
 Author: Banana
