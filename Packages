@@ -664,6 +664,23 @@ Author: MoWang
 
 Package: com.MoWang.islanddigest
 Architecture: iphoneos-arm64
+Version: 0.3.24
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 2108
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.MoWang.islanddigest_0.3.24_iphoneos-arm64_272b53694d009d83d58a3630abdef7353c510b4fd56c3b5a506c4086f66f6da9.deb
+Size: 1571336
+MD5sum: f4a34ec2fbdda40ba4f41be38c60a842
+SHA1: 91c5363cb31674d7a1939f324206580ece19e8dd
+SHA256: 272b53694d009d83d58a3630abdef7353c510b4fd56c3b5a506c4086f66f6da9
+SHA512: bd99af4d6e988301c73bc5e1042304d1d46b72b90923e307725818944ec245beb64904a8cdef06da925f96c4233972bee7c96611aa969696859b13ed37c2a575
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。（提升下拉通知流畅度）
+Name: 灵屿通知
+Author: MoWang
+
+Package: com.MoWang.islanddigest
+Architecture: iphoneos-arm64
 Version: 0.3.3
 Section: Tweaks
 Maintainer: MoWang
@@ -761,6 +778,23 @@ SHA1: 9e9500e9e4574a7bc250bf67e6c90ff188aae58c
 SHA256: 3810b41a53ab9592fdf9eae853212b97a7c0915249bf1582bba32e3d263d5afd
 SHA512: bc7bdebadedd251ae6c2ea590290f8ff46fb2f7d52cce677ba229e8ced60570d104ef3fe592db51240f1998c685cc86c1255bd25dbd20a0d027f73104ccccc0e
 Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Name: 灵屿通知
+Author: MoWang
+
+Package: com.MoWang.islanddigest
+Architecture: iphoneos-arm64e
+Version: 0.3.24
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 2108
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.MoWang.islanddigest_0.3.24_iphoneos-arm64e_c40980e846042f0a6b7c029087c3f1f356d5d8a207f3327563fe2fbb31c6dc83.deb
+Size: 1571004
+MD5sum: 74cf0761522f3d60ab355995a69726bc
+SHA1: 34c4d273e139d18a52f4368cc7a686dae023ae9c
+SHA256: c40980e846042f0a6b7c029087c3f1f356d5d8a207f3327563fe2fbb31c6dc83
+SHA512: 24ab87b3ccb5bf3346eba938ce839038314de011d2053a6265c8a9167d287ac3ef3fc5a084d1a2a9261731fd1d7f44f3d1ea3296d184a67ed7c909d1b090d7e8
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。（提升下拉通知流畅度）
 Name: 灵屿通知
 Author: MoWang
 
@@ -13095,6 +13129,25 @@ Name: TrollStore Lite (RootHide)
 Author: opa334&iosdump
 
 Package: com.qianuo.chatassist
+Architecture: iphoneos-arm64
+Version: 0.1.67
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 3228
+Depends: firmware (>= 15.0), preferenceloader, uikittools
+Filename: debs/iphoneos-arm64/com.qianuo.chatassist_0.1.67_iphoneos-arm64_0829d0b907d7184d1cca2effd94046eb39e9e5dc9d3585316ed0fec4a518798d.deb
+Size: 599512
+MD5sum: 49788016a7f4668eecb8e1977324a165
+SHA1: 29629f67d1ab6ca53f3da622d8a7ce90d3196fbf
+SHA256: 0829d0b907d7184d1cca2effd94046eb39e9e5dc9d3585316ed0fec4a518798d
+SHA512: 75ccea96776ae256efb27d11e293ffa272dee6019cd7cfb799635c64d41f57238bb6b40a8573b0bf9d3c92d32963684e71f43699ca56fad88b95e8eb5b6cef86
+Description: Region OCR and AI reply assistant. Experimental iOS 15+ roothide build.
+Name: ChatAssist
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/chatassist/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.chatassist.json
+
+Package: com.qianuo.chatassist
 Architecture: iphoneos-arm64e
 Version: 0.1.39
 Section: Tweaks
@@ -13123,6 +13176,25 @@ Description: 聊伴 ChatAssist：区域 OCR + AI 智能回复助手。悬浮窗�
   - 本包为 RootHide（arm64e）实验版
 Name: ChatAssist
 Author: kanuo
+
+Package: com.qianuo.chatassist
+Architecture: iphoneos-arm64e
+Version: 0.1.67
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 3228
+Depends: firmware (>= 15.0), preferenceloader, uikittools
+Filename: debs/iphoneos-arm64e/com.qianuo.chatassist_0.1.67_iphoneos-arm64e_41da18e9a76ac7c6da8deb0b4d17f0eff50ed173bc65b4d2a11b59b233a2a39c.deb
+Size: 599680
+MD5sum: b0bdc09aa4e1184c9d8eddbb11d8f4bb
+SHA1: de771ef357330ffaac3f0ddd43ea06d1bb7f0e3a
+SHA256: 41da18e9a76ac7c6da8deb0b4d17f0eff50ed173bc65b4d2a11b59b233a2a39c
+SHA512: 99ac00d5508b4317216d7f567b856d8d0061e0b4490261c0bb4b91e5823ae45d8c0aacadd1e4ed46180590282ff64a2e294991b02bc6c3d6909559de176a5221
+Description: Region OCR and AI reply assistant. Experimental iOS 15+ roothide build.
+Name: ChatAssist
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/chatassist/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.chatassist.json
 
 Package: com.qianuo.smartdeck.app
 Architecture: iphoneos-arm64e
@@ -13385,6 +13457,27 @@ MD5sum: 8573edf91f66493d80443c51328c1da1
 SHA1: 7ca6f585b5d302c0fd586dfb33233bd2d016638e
 SHA256: f51b77633d1fe393077316f5206b79c9dc4fc36ad32b240fb6b770b213f6c4e5
 SHA512: e7cc9805f7ed4c465bfe2d7ff991fc2843a3cd775e4d1d0b4793b3dd7ab36ea4550d4761291041d0f7b021698bf3eff389a722ceff40a6101ed52efea2193ed8
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64
+Version: 2.0.292
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4108
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64/com.qq391160.cpucore_2.0.292_iphoneos-arm64_f430c7d2dc3a39318a66754b66354bda3cb8523a52eeb49367398b8832c9591e.deb
+Size: 644838
+MD5sum: 387f5aca2406e4c769e22f750a6dbcc1
+SHA1: 2c13837334aa23915d79fe06295682cf339f46ae
+SHA256: f430c7d2dc3a39318a66754b66354bda3cb8523a52eeb49367398b8832c9591e
+SHA512: 9e715a833d2ecd2b33f5fc63aba6fefbce326416f9c4217cd2ef7d419b2c802c22d18b12d6f5239a9dd2ebb5c1c9c36b47ed1b0084a079a6a04614622357943a
 Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
 Name: CPU智能温控(iOS16/17)
 Author: qq391160
@@ -13658,6 +13751,27 @@ MD5sum: b542947a1c682cf682fa5d0c9abf161f
 SHA1: 68cbc3be356ab4f22203906f5a24d1986793b862
 SHA256: 2bfbe0894b60ae0581a3d5a4ad0d79004a06e15056e87075e79eb952fdf3d41e
 SHA512: 93efa452e9c055c8b0d39e68827fa7a0e18eb547ffe782bc3dfe1f11ae8d0a5598b43e4c1c10b78dc74300f21dd02c876ec85a0d641a65a1143fd475444737e3
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64e
+Version: 2.0.292
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4408
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64e/com.qq391160.cpucore_2.0.292_iphoneos-arm64e_6c3c41eba07f90bb0feba154c449a36875dff546e51a500036d9bd7bba594316.deb
+Size: 711922
+MD5sum: 758ba33715e6f66d9769ec73fd6de05f
+SHA1: acbcc011961822100eb1514a56b905b9a11c2846
+SHA256: 6c3c41eba07f90bb0feba154c449a36875dff546e51a500036d9bd7bba594316
+SHA512: 63171dd5a955059dd28122cacc6f6cf689974560c71e20cc6b84464924e5fb6997e4faeb746d6478f555d0f1121e255ddb529c2b307d945a19c9a6ea8ea8adf8
 Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
 Name: CPU智能温控(iOS16/17)
 Author: qq391160
