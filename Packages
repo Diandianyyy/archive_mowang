@@ -681,6 +681,23 @@ Author: MoWang
 
 Package: com.MoWang.islanddigest
 Architecture: iphoneos-arm64
+Version: 0.3.25
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 2108
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.MoWang.islanddigest_0.3.25_iphoneos-arm64_e7c66d52bdc66903278917eb2ed0cc5914c3f404682f40ae90fbfd9ed643cf95.deb
+Size: 1571446
+MD5sum: 9862a2a9fe09f9aaf0de681fcb2afe06
+SHA1: 9ed24cfa7859b1f3315ec82fe43173dbff9cb06c
+SHA256: e7c66d52bdc66903278917eb2ed0cc5914c3f404682f40ae90fbfd9ed643cf95
+SHA512: 688c814f007c2f5cf88e58913dad96299a12c763de5c7915127d343b8b12640ac7e616c11e74b5dc7c2c90603ae7dfcac75b8c0ce526e04b7efc92d7a90441b9
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Name: 灵屿通知
+Author: MoWang
+
+Package: com.MoWang.islanddigest
+Architecture: iphoneos-arm64
 Version: 0.3.3
 Section: Tweaks
 Maintainer: MoWang
@@ -795,6 +812,23 @@ SHA1: 34c4d273e139d18a52f4368cc7a686dae023ae9c
 SHA256: c40980e846042f0a6b7c029087c3f1f356d5d8a207f3327563fe2fbb31c6dc83
 SHA512: 24ab87b3ccb5bf3346eba938ce839038314de011d2053a6265c8a9167d287ac3ef3fc5a084d1a2a9261731fd1d7f44f3d1ea3296d184a67ed7c909d1b090d7e8
 Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。（提升下拉通知流畅度）
+Name: 灵屿通知
+Author: MoWang
+
+Package: com.MoWang.islanddigest
+Architecture: iphoneos-arm64e
+Version: 0.3.25
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 2108
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.MoWang.islanddigest_0.3.25_iphoneos-arm64e_d3606a0e592e7a867a9864e1dc290fc280897e673706d3c220a68b4f01d151fa.deb
+Size: 1571098
+MD5sum: 9beaf4e540af86d0060a11edd409fb84
+SHA1: 3a2a839e3cc51cf9e4562afe3c659bb332c0d66a
+SHA256: d3606a0e592e7a867a9864e1dc290fc280897e673706d3c220a68b4f01d151fa
+SHA512: eb894c49d057e0ddeac443696c6b15613dc28a2f4789aeb15af53c601ea1812238ce0015de771ffba159e5a9fe8bbd24e0840a26176f1b1534f2072fe473a844
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
 Name: 灵屿通知
 Author: MoWang
 
@@ -7079,6 +7113,24 @@ Author: crctdd
 icon: https://huayuarc.github.io/icon/surgeactive.jpg
 
 Package: com.crctdd.surgeactive
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 236
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.crctdd.surgeactive_0.0.5_iphoneos-arm64_6d65056663050dfe9e96a68b06a1287f9029656c2116b89c34203155ae79ab7a.deb
+Size: 16128
+MD5sum: f47291b7b8026579dc398e9ca988b88c
+SHA1: b07695bac97356e5f49141bebfb60310c1aaf728
+SHA256: 6d65056663050dfe9e96a68b06a1287f9029656c2116b89c34203155ae79ab7a
+SHA512: 59a748cb90e558028f19cd7d9051408b8df32ef824ee358697c9bdf2ecba38039fe6376848c6845558a0cf17085b2e4f138a277ea5aba8e5c61ae3dcc84097fd
+Description: 锁屏时保持 Surge-iOS-NE 的活跃性。(支持iOS 15-17)
+Name: SurgeActive
+Author: crctdd
+icon: https://huayuarc.github.io/icon/surgeactive.jpg
+
+Package: com.crctdd.surgeactive
 Architecture: iphoneos-arm64e
 Version: 0.0.3
 Section: Tweaks
@@ -7091,6 +7143,24 @@ MD5sum: 4e3faff8f499ebbfc1e0259d6334d729
 SHA1: 12c1ffc424536e904aaecbe00c5e2baceec88c65
 SHA256: b245fe90bd714180557f05ada70488ed992227ab75491b9a96d8ac67f9cf2387
 SHA512: 1484880cbba83ffee6082a7a3e25031094c361e4c8d31881b8cee5d688da7a5237528fe3ed5e3c389851c266d4f1b36df2dd5b4a62fe0d9fba763d151fc0642b
+Description: 锁屏时保持 Surge-iOS-NE 的活跃性。(支持iOS 15-17)
+Name: SurgeActive
+Author: crctdd
+icon: https://huayuarc.github.io/icon/surgeactive.jpg
+
+Package: com.crctdd.surgeactive
+Architecture: iphoneos-arm64e
+Version: 0.0.5
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 108
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.crctdd.surgeactive_0.0.5_iphoneos-arm64e_90a4c6761264a2cae181e77fea59e72edfae7dc003b1d1f979f984013cf1bb74.deb
+Size: 11632
+MD5sum: 72ec5e3291bcba9ca73f44aa628a5f45
+SHA1: 7febe1e25d99df8c212777e39176e6c3b739fd34
+SHA256: 90a4c6761264a2cae181e77fea59e72edfae7dc003b1d1f979f984013cf1bb74
+SHA512: 1acaefb3ce8fbce976581c252c95653d4949005a6151884b6934af9f4e7339197c6cead5913ebda9b2e8efd372282ba6e4a28ca91eb518b0e51675ae4b67e9df
 Description: 锁屏时保持 Surge-iOS-NE 的活跃性。(支持iOS 15-17)
 Name: SurgeActive
 Author: crctdd
@@ -7955,6 +8025,25 @@ Author: hierarch
 icon: https://huayuarc.github.io/icon/douyin.jpg
 
 Package: com.hierarch.dykiller
+Architecture: iphoneos-arm
+Version: 0.6.8
+Priority: optional
+Section: Tweaks
+Maintainer: hierarch
+Installed-Size: 4148
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/iphoneos-arm/com.hierarch.dykiller_0.6.8_iphoneos-arm_83c692f2da2cdcff4559a48684cca2fc3fa34a5e8fc1818917b04239cb614601.deb
+Size: 1005380
+MD5sum: c1ada263982517da788b2b1fc765996d
+SHA1: ee1c4151c97cf72868d711c069049e5f9d0a3bc5
+SHA256: 83c692f2da2cdcff4559a48684cca2fc3fa34a5e8fc1818917b04239cb614601
+SHA512: 636e045c0af49bc74f05b78d7633a2d1bd8b1fdfe807c990b2e0ecb392dd9c778db1d4629214a6a46abfcfe82885e9ae3b6a32ef55f80c289092e063e3f40159
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Name: DYKiller
+Author: hierarch
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.hierarch.dykiller
 Architecture: iphoneos-arm64
 Version: 0.6.2
 Priority: optional
@@ -8050,6 +8139,25 @@ Author: hierarch
 icon: https://huayuarc.github.io/icon/douyin.jpg
 
 Package: com.hierarch.dykiller
+Architecture: iphoneos-arm64
+Version: 0.6.8
+Priority: optional
+Section: Tweaks
+Maintainer: hierarch
+Installed-Size: 4148
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.hierarch.dykiller_0.6.8_iphoneos-arm64_5b082c5bfbeb115955f9bada6066ca1acc0d7120fec25ba58f3fb2455e9e27c7.deb
+Size: 1007668
+MD5sum: ae4996f3305d67e5a6cff10774ce08ae
+SHA1: ca0214d6bfd7ab25305d0a578e3935b1071acb68
+SHA256: 5b082c5bfbeb115955f9bada6066ca1acc0d7120fec25ba58f3fb2455e9e27c7
+SHA512: 8b1bb168ff67166909a6003e1f97805416995807cf55cb0425b2a6ecd29348ad02976627789d946c3424da7b84feebd2e9d5281ffa8b8f408f3daa569d20b247
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Name: DYKiller
+Author: hierarch
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.hierarch.dykiller
 Architecture: iphoneos-arm64e
 Version: 0.6.2
 Priority: optional
@@ -8141,6 +8249,25 @@ SHA256: ba8e63c5d2eb6442ad47d3c55e65b67c1c22f4509a042b0d4a26dbbfa54af247
 SHA512: 98b547e59996b78d12b825e4d9ec2ace06f81f9daa4dfbbd8da7e47400c2ec1f34d217a9feb4263f5f5aeefd25848b21bca3d57943d4db9ceb6a974cd6eb7bc2
 Description: 抖音 UI 增强插件（模块化 hook 框架）
 Name: 抖音 UI 增强插件 DYKiller
+Author: hierarch
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.hierarch.dykiller
+Architecture: iphoneos-arm64e
+Version: 0.6.8
+Priority: optional
+Section: Tweaks
+Maintainer: hierarch
+Installed-Size: 4148
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.hierarch.dykiller_0.6.8_iphoneos-arm64e_2d8c34ab1daa8da50190a65905c4acf008f8ef332b70a4da6d8358d6c5c9b81b.deb
+Size: 1007576
+MD5sum: c170ecd56bcca21faace3a107ede5e85
+SHA1: b1353912eea51f757b1d5b078036d61b63ca1606
+SHA256: 2d8c34ab1daa8da50190a65905c4acf008f8ef332b70a4da6d8358d6c5c9b81b
+SHA512: 391dbb2f463ec8659781e83f8d05a14f1d7acb7fead4615ec9bf3776266a7ceb97fb7eb500aa94cc5dff5123a7da7835d5cb1043d98940b4fccd67b70ac941f4
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Name: DYKiller
 Author: hierarch
 icon: https://huayuarc.github.io/icon/douyin.jpg
 
@@ -18479,6 +18606,61 @@ Author: TIGI Software
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Filza/js.json
 Icon: https://TrollStoreX.Github.io/sileodepiction/Filza/icon.png
 
+Package: com.touchWorld.doubanTweak
+Architecture: iphoneos-arm
+Version: 1.2.0
+Priority: optional
+Section: Tweaks
+Maintainer: TouchWorld
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm/com.touchWorld.doubanTweak_1.2.0_iphoneos-arm_21a9dd6817991ad803a6dd6799494c197feac00ecb73fb817c108d18f531137d.deb
+Size: 19884
+MD5sum: 3b49087f7bcb0caaad8981b2e9b0b5c6
+SHA1: acdeae2531d6b1bd570b80dd5e1d3826bc8c7413
+SHA256: 21a9dd6817991ad803a6dd6799494c197feac00ecb73fb817c108d18f531137d
+SHA512: 9803734174d8af67adc7f71d3f9d9a76b66fc1b7f0875c9c6c03128f05e877d204d249252be5d7c9d1620bc069ae2a256945cc99e8f12be0c39e54dd028ef124
+Description: 去除豆瓣广告插件
+Name: DoubanTweak
+Author: TouchWorld
+Icon: https://touchfriend.github.io/depictions/com.touchWorld.doubanTweak/icon.png
+
+Package: com.touchWorld.doubanTweak
+Architecture: iphoneos-arm64
+Version: 1.2.0
+Priority: optional
+Section: Tweaks
+Maintainer: TouchWorld
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.touchWorld.doubanTweak_1.2.0_iphoneos-arm64_4d1eaa664955d4ab384a2c6e491379a4146f6c94ecaee4e72736788fe5fe2be1.deb
+Size: 19948
+MD5sum: 03e6857902dcd055b0842c82e1b8e0ef
+SHA1: e0a72c0f0a4858837b3e40c1295ecad674f57180
+SHA256: 4d1eaa664955d4ab384a2c6e491379a4146f6c94ecaee4e72736788fe5fe2be1
+SHA512: e34106acbe7322556c47b462fccb6b1f935ceaf70e2b04e40fe80106a9928bbc1426971d33a8fe536493c28aea0edaa387c5998ff685eefb91e903a46e06f731
+Description: 去除豆瓣广告插件
+Name: DoubanTweak
+Author: TouchWorld
+Icon: https://touchfriend.github.io/depictions/com.touchWorld.doubanTweak/icon.png
+
+Package: com.touchWorld.doubanTweak
+Architecture: iphoneos-arm64e
+Version: 1.2.0
+Priority: optional
+Section: Tweaks
+Maintainer: TouchWorld
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.touchWorld.doubanTweak_1.2.0_iphoneos-arm64e_e42a9b9773957a8350e90fc586187ae48bfcdc7cfff5a3fdf271e64a6f5c16d9.deb
+Size: 19540
+MD5sum: 82954d6c467a3b8addea0d4fa5511592
+SHA1: 8a3fe6022c57c8855caf7070f9fc4a005e74c5a7
+SHA256: e42a9b9773957a8350e90fc586187ae48bfcdc7cfff5a3fdf271e64a6f5c16d9
+SHA512: 907c7bb6e3603fd143238a6c48ec42e87a7c65c25f7ec6e682867fe423b841a7570ffba11bd5561b646dad848482b8e46eaf939557c398f5dda4a0ad787a12b9
+Description: 去除豆瓣广告插件
+Name: DoubanTweak
+Author: TouchWorld
+Icon: https://touchfriend.github.io/depictions/com.touchWorld.doubanTweak/icon.png
+
 Package: com.tsangbaby.autoscroll
 Architecture: iphoneos-arm64e
 Version: 0.0.1
@@ -18531,6 +18713,63 @@ SHA512: 071550642e5cdcabb0283bb1cd4ba628b8941af92aece40dec8df87246508064bd7ffb94
 Description: 鱿鱼三件套通杀插件
  下载鱿鱼三件套再安装这个插件即可本地激活授权。
 Name: 鱿鱼三件套通杀（免授权）
+
+Package: com.vita.yuki
+Architecture: iphoneos-arm
+Version: 0.1-2
+Priority: optional
+Section: Tweaks
+Maintainer: vita
+Installed-Size: 748
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/iphoneos-arm/com.vita.yuki_0.1-2_iphoneos-arm_9b227a0c8fc2cd926ef8605a263402cff44f77d662978e75a71963fc6427fcdc.deb
+Size: 143340
+MD5sum: 75918966f2a8566a705f8c104da45cfb
+SHA1: ba52e9987f2b2de577fb233817977c330082a5fd
+SHA256: 9b227a0c8fc2cd926ef8605a263402cff44f77d662978e75a71963fc6427fcdc
+SHA512: feb95af91ee67e8d3e0662b97d64d2924cfbd6eeb1f0e2261d24a8bf9e57b9a974e5db880689500eccc1e35a2f6bbadbb064811fd491407b3a313c0ed222806c
+Description: 抖音防撤回等，优化性能，免费插件，随缘更新。
+Name: Yuki
+Author: vita
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.vita.yuki
+Architecture: iphoneos-arm64
+Version: 0.1-2
+Priority: optional
+Section: Tweaks
+Maintainer: vita
+Installed-Size: 748
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.vita.yuki_0.1-2_iphoneos-arm64_cf55adb1432e107ade63de56c9069a74ba17a583e4c017195d2ad04d4f3a62aa.deb
+Size: 142788
+MD5sum: acdad4d7d303335395da651788c8ed74
+SHA1: 2e6ef9349d387be7a3c2e63a25e394250fe8c2e4
+SHA256: cf55adb1432e107ade63de56c9069a74ba17a583e4c017195d2ad04d4f3a62aa
+SHA512: 7765b9684be897138731e4a3886d82a1a9f4f210cead22dca32cdb884213b8b57d39c3c74fd5b059ff8ba574eefb609cacfa9f586b9280f6f5daf4ce17a5ad25
+Description: 抖音防撤回等，优化性能，免费插件，随缘更新。
+Name: Yuki
+Author: vita
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.vita.yuki
+Architecture: iphoneos-arm64e
+Version: 0.1-2
+Priority: optional
+Section: Tweaks
+Maintainer: vita
+Installed-Size: 748
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.vita.yuki_0.1-2_iphoneos-arm64e_78d2a478f606f658f272a93cd151940bf2e0ae6cfe3525a1d3ff02a94ab41367.deb
+Size: 142912
+MD5sum: 3b510b2bac8cb5a59dcb99333a374480
+SHA1: bef1e39ef6c365b9ef4cc2fd852de72585263149
+SHA256: 78d2a478f606f658f272a93cd151940bf2e0ae6cfe3525a1d3ff02a94ab41367
+SHA512: 817e2058955152131829fd7a1c86f441f86b452e4480612374e124e6fb293b7feb8e7819aecd88c85b7c8f399bab7ba486cb0cb5fcbac9358938d1fcd2c12928
+Description: 抖音防撤回等，优化性能，免费插件，随缘更新。
+Name: Yuki
+Author: vita
+icon: https://huayuarc.github.io/icon/douyin.jpg
 
 Package: com.wcglass.free
 Architecture: iphoneos-arm64e
@@ -22772,6 +23011,24 @@ Name: 三页 Dock
 Author: MoWang
 
 Package: org.shallowdream.dockpages
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 521
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Replaces: local.apelin.dockpages
+Filename: debs/iphoneos-arm64/org.shallowdream.dockpages_1.0.3_iphoneos-arm64_3a355bc56a7e5eceb6875b5abcec615ae07728bba7b62813ffafab250b60203f.deb
+Size: 88634
+MD5sum: a5df6fe90808c8c7e18a1ee9fe9a2b9b
+SHA1: 3a2b04b3e5ecd12cfe7c8c67d1b1286b4dfd9547
+SHA256: 3a355bc56a7e5eceb6875b5abcec615ae07728bba7b62813ffafab250b60203f
+SHA512: 0cdcb8d0c8254dca41ae363050b06f3060c7589306ae43f2c9b828bcb46c2056f39c3a98bdf1c936498ae8ca0901afee8ebcf7dd7bbb66f89d48dde9ecda5598
+Description: Dock 左右各增加一页，每页四个图标，支持左右滑动切换。
+Name: 三页 Dock
+Author: MoWang
+
+Package: org.shallowdream.dockpages
 Architecture: iphoneos-arm64e
 Version: 1.0.1
 Section: Tweaks
@@ -22785,6 +23042,24 @@ MD5sum: 1510a9e4db3caec37e697b25976cea1e
 SHA1: 815c704885a74a8ae18aa7c9bcf5ffdc6b47b392
 SHA256: 42f45eaf66243152adf9a6ae03004eceee4d0e8d2873830343ebbe08dc5625bf
 SHA512: 1f831fe0b7b665a7f0277cf243487aa548fcebc117fbe129ac3a31aa21821a272e2fb4135b0ab6949d516617ae4746978ac4762bf3a9cbbc4d55842788e08dd4
+Description: Dock 左右各增加一页，每页四个图标，支持左右滑动切换。
+Name: 三页 Dock
+Author: MoWang
+
+Package: org.shallowdream.dockpages
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 263
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Replaces: local.apelin.dockpages
+Filename: debs/iphoneos-arm64e/org.shallowdream.dockpages_1.0.3_iphoneos-arm64e_e8b5e7fece008b25128407069a81da494ff0c144b379e7946cb4d847b7f72264.deb
+Size: 71082
+MD5sum: e673b486d8cc59c7c5f560e37d8790c4
+SHA1: 609766dfd0d85d85adaacceff59a6202ae50b75a
+SHA256: e8b5e7fece008b25128407069a81da494ff0c144b379e7946cb4d847b7f72264
+SHA512: 00a4906fbe1e9334a92519bb069ab8a9ac7ed0bc0b6eb82cd8b3a05167ce020dad355f9aa51e2053322469ce6656d4cf30934638f38a5576d31f3c4a0422d47c
 Description: Dock 左右各增加一页，每页四个图标，支持左右滑动切换。
 Name: 三页 Dock
 Author: MoWang
@@ -22936,6 +23211,29 @@ SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64
+Version: 0.2.2
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 91964
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.9.2)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64/wiki.qaq.apelin_0.2.2_iphoneos-arm64_b3e6ac4f20bec09650f9ef30a3294e77ad1e41e5e14085c85d909fdc852cf8c4.deb
+Size: 31786108
+MD5sum: 9d23aa4f7a016240272fde6b52deb7de
+SHA1: 0dc0e1acb8847d4b6d37fca680ad74760d1f30c2
+SHA256: b3e6ac4f20bec09650f9ef30a3294e77ad1e41e5e14085c85d909fdc852cf8c4
+SHA512: ba7ddcd23e5479cc47edf32fe39cc1a2692c4b0ec412251ffea6a9dc68bf35d467c617a2d400e030aa389da030b6b793a4e2ae6679961937ef939c52716d7dcd
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
 Architecture: iphoneos-arm64e
 Version: 0.1.5
 Priority: optional
@@ -23019,6 +23317,29 @@ MD5sum: 3494c422cbd5e41fb6418953330ffe05
 SHA1: f484aea050fd3e64d8b1d4131f6190977c25cbd3
 SHA256: 19d1d6f7361dbee4432ea0d76131328c7de28557eceaade726a536ad42fd22ec
 SHA512: b0418970d9dc80b6cdc4df27a3f9a09296ab069b29db923bc8973aa955296c739c21af1045316f10af0d7bcd9d682502c646384d2ac110ba24c7a343bf0d4640
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64e
+Version: 0.2.2
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 91964
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.9.2)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64e/wiki.qaq.apelin_0.2.2_iphoneos-arm64e_2ce11d4d891c08cb62d4551b16ee119db951678a199be2ca1b98b60819072472.deb
+Size: 31783980
+MD5sum: e43f2d9cb123927968d2827646f97990
+SHA1: 48070bebcca1956195bba85816370c7aa272201c
+SHA256: 2ce11d4d891c08cb62d4551b16ee119db951678a199be2ca1b98b60819072472
+SHA512: ec06c9b480c3ac2288c42cea5fc6f6539b52c1778ab028f334d804eb238744816f52f2e7a520b05bf68c179f16411b007949bb192c36a3cceaac3aa88781b40b
 Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
  Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
 Name: Apelin
