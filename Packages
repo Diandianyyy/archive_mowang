@@ -6465,6 +6465,44 @@ Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
+Package: com.cracklock.7513
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: 7513
+Installed-Size: 1788
+Provides: com.cracklock.shatter
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.cracklock.shatter
+Filename: debs/iphoneos-arm64/com.cracklock.7513_1.0.1_iphoneos-arm64_55c645c49215fdec3af9fb41f20c5cf9d1b726a37a06f0eca7854241bb20c740.deb
+Size: 1228108
+MD5sum: c7d9a1b5c040f29c25627ba34ca995d4
+SHA1: dca3cdafb82d66585a2087b2bc245525508532a2
+SHA256: 55c645c49215fdec3af9fb41f20c5cf9d1b726a37a06f0eca7854241bb20c740
+SHA512: aabad36ab3ed902f2b19891f6e9df9881fb2b7f7c9bb5abbcbf125c028e3a3e941406081abe1f37e6da6f025069a8af7a2dcad23251503528b3f6a7bb5c6bb27
+Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素溶解 / 百叶窗 / 故障闪烁 / CRT 关机 / 3D 翻转 / 旋涡内爆 / 灰烬上升 / 沙化 / 融化坠落 / 波纹扭曲 / 拼图崩落 / 旋卷飞散 / 剥落坠落 / 闪烁熄灭 / 墨色飘散），每种可单独调参。
+Name: 熄屏幻术
+Author: 7513
+
+Package: com.cracklock.7513
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: 7513
+Installed-Size: 1741
+Provides: com.cracklock.shatter
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.cracklock.shatter
+Filename: debs/iphoneos-arm64e/com.cracklock.7513_1.0.1_iphoneos-arm64e_208d32afc2b1cba9920b5afa4705dd7f51916e566034cbba9ad2718f226d8e04.deb
+Size: 1227952
+MD5sum: d5bd9d3fb17af491ddd4dcb7381a2ecf
+SHA1: 43858f273ad6c7161cacbb30b5ce9f1f0d9aa965
+SHA256: 208d32afc2b1cba9920b5afa4705dd7f51916e566034cbba9ad2718f226d8e04
+SHA512: bb317f012b36a95aa44d34d12588e512aa4bf2fe7e670c122ca6b79c25db1cf1e8be9d8c2bed5703341b0433f07243755521d979a0b9a709417b60fd48a260c3
+Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素溶解 / 百叶窗 / 故障闪烁 / CRT 关机 / 3D 翻转 / 旋涡内爆 / 灰烬上升 / 沙化 / 融化坠落 / 波纹扭曲 / 拼图崩落 / 旋卷飞散 / 剥落坠落 / 闪烁熄灭 / 墨色飘散），每种可单独调参。
+Name: 熄屏幻术
+Author: 7513
+
 Package: com.crctdd.choicy-whitelist
 Architecture: iphoneos-arm64e
 Version: 1.5.4-5
@@ -12318,6 +12356,78 @@ dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
 
+Package: com.mlgm.taploom
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 1120
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.mlgm.taploom_1.1_iphoneos-arm64_32739d0974e212395844b75b753a11b85beb9f3aef25129e9f3bc3fd03c7803a.deb
+Size: 166400
+MD5sum: 1468a4d55fa2cac643d3f97eb144cdb0
+SHA1: da69fa2481fde56d320f17e2fa23eb5e51b46959
+SHA256: 32739d0974e212395844b75b753a11b85beb9f3aef25129e9f3bc3fd03c7803a
+SHA512: 688f171d0dc5cc6827f25dd01bef4c1546f203bf91d5bf18d18c678502b802287d0c0c4e11e68ed79d8ce929f191c4c0cd83241fac3c401a7835870d089096ee
+Description: 触摸轨迹可视化
+Name: Taploom
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/taploom.png
+
+Package: com.mlgm.taploom
+Architecture: iphoneos-arm64
+Version: 1.1.3
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 1120
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.mlgm.taploom_1.1.3_iphoneos-arm64_5dd318e9a6107a2494252f0917ca991f010ba6aefd03287bb0a36c6395ceebc8.deb
+Size: 168000
+MD5sum: c109afc49fa88056ea658da6eded0ac4
+SHA1: ce1f63fbc44eb5904200fdac67f141d3d3c9acdb
+SHA256: 5dd318e9a6107a2494252f0917ca991f010ba6aefd03287bb0a36c6395ceebc8
+SHA512: ad9fa03648339ff34cd9c54d4e0be5ee8a25afdaa6a5eb5ff7d1434f8e2b43f86323abcd34463ff283f0006c9dc48da53b810e1663d7bcb2893929cbf4574a0a
+Description: 触摸轨迹可视化
+Name: Taploom
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/taploom.png
+
+Package: com.mlgm.taploom
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 1120
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.mlgm.taploom_1.1_iphoneos-arm64e_81679fce83169fef99e71c21305d04f88f3a1f5e004b8c0f7842ad060c03c6d8.deb
+Size: 166580
+MD5sum: 692a0e2dd8783c80ee06966875d00d52
+SHA1: 18efb8fe69de8796404a539bae1e01e7bc648021
+SHA256: 81679fce83169fef99e71c21305d04f88f3a1f5e004b8c0f7842ad060c03c6d8
+SHA512: 3306db2d4a30dff9456e6dfed63b28dc859a3500b3daac274f5354fde7ee18c3fb34f758a090668bf976eea391a42f46d78827ca78cc638d132cfdcd76115f63
+Description: 触摸轨迹可视化
+Name: Taploom
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/taploom.png
+
+Package: com.mlgm.taploom
+Architecture: iphoneos-arm64e
+Version: 1.1.3
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 1120
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.mlgm.taploom_1.1.3_iphoneos-arm64e_a0f03648cfe5e9270377fe93df85748cb1af10778ae9e7ccfd744df96df9c963.deb
+Size: 167756
+MD5sum: 8289f272fe347492be5dadd15c412d97
+SHA1: 3b9758ef789390aa70248d60e340ef16ed29df13
+SHA256: a0f03648cfe5e9270377fe93df85748cb1af10778ae9e7ccfd744df96df9c963
+SHA512: da213405008f1c5829cbb01839dcd0865d70bddc919707862220c177591e4f49ec6b501596178adfc39c594ccfa4a458fafde808feae6da1303210456f3168f8
+Description: 触摸轨迹可视化
+Name: Taploom
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/taploom.png
+
 Package: com.monian.b612patch
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -14055,6 +14165,27 @@ Icon: https://qq391160.github.io/repo/icons/thermal.png
 
 Package: com.qq391160.cpucore
 Architecture: iphoneos-arm64
+Version: 2.0.298
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4340
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64/com.qq391160.cpucore_2.0.298_iphoneos-arm64_e105f85edea06b0a9353c4c903550a76b01b9cacdcbfb415b45556bfddb8b69a.deb
+Size: 660056
+MD5sum: 45ca291ec5e416e64944e24db816c988
+SHA1: 3e03042ef4dcdef2e50ed0e9277b37a17a3d7a98
+SHA256: e105f85edea06b0a9353c4c903550a76b01b9cacdcbfb415b45556bfddb8b69a
+SHA512: 11631da2b09fcf8165b0cd80bac18e5975b1aadc1623946ed5a24402217174de632152f3942067292a82867e5182da10a40473a0aa86814b650696d3dec4e394
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64
 Version: 2.0.45
 Priority: optional
 Section: Tweaks
@@ -14342,6 +14473,27 @@ MD5sum: 758ba33715e6f66d9769ec73fd6de05f
 SHA1: acbcc011961822100eb1514a56b905b9a11c2846
 SHA256: 6c3c41eba07f90bb0feba154c449a36875dff546e51a500036d9bd7bba594316
 SHA512: 63171dd5a955059dd28122cacc6f6cf689974560c71e20cc6b84464924e5fb6997e4faeb746d6478f555d0f1121e255ddb529c2b307d945a19c9a6ea8ea8adf8
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64e
+Version: 2.0.298
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4624
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64e/com.qq391160.cpucore_2.0.298_iphoneos-arm64e_94b6c8b847d1f704a4392b7ab2eb1a9c5bc1db872c75c2c814f8147e75043f60.deb
+Size: 727088
+MD5sum: 389ece9a1768c647fbe3873aed5c5f3c
+SHA1: 6a6f8e2eccb6525299de3b2020e07ed83584ae67
+SHA256: 94b6c8b847d1f704a4392b7ab2eb1a9c5bc1db872c75c2c814f8147e75043f60
+SHA512: 07cc9b32c2f9f9cda0f5f45631b5ebbba1457e677bfc8085b264ecea68a54406f6ce03b14e9079206419a37f15d92b2e36da23c1178436c449e24eb994fb8e08
 Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
 Name: CPU智能温控(iOS16/17)
 Author: qq391160
@@ -17072,6 +17224,70 @@ Description: 微信美化插件
 Name: AmpLify
 Author: SHTM
 Icon: file:///Library/PreferenceBundles/AmpLifySettings.bundle/icon.png
+
+Package: com.sileowallpaper.tweak
+Architecture: iphoneos-arm64
+Version: 0.1.3
+Section: Tweaks
+Maintainer: MoWang
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/iphoneos-arm64/com.sileowallpaper.tweak_0.1.3_iphoneos-arm64_43adc386509ace7dc3446f70f0a41795fa53cd47bd7b0205740f733be1b8ff09.deb
+Size: 20300
+MD5sum: e0c4063e5f257574b09bfae63cddf4c4
+SHA1: c6ae3cb9a8186a14aae7d05e6549513be5f5bc6d
+SHA256: 43adc386509ace7dc3446f70f0a41795fa53cd47bd7b0205740f733be1b8ff09
+SHA512: 881b64d46f6fe1b8aa29f454a464fe38266eddc32d41c2c96e17aeaffe308a35b02786faca087288575380d85bceb6d6b0cffef29f83cb8bb6088c7daf0b3e20
+Description: 为 Sileo 设置自定义背景壁纸，支持相册选图、文字颜色、背景柔化和列表底色调节。
+Name: sileo 壁纸
+Author: MoWang
+
+Package: com.sileowallpaper.tweak
+Architecture: iphoneos-arm64
+Version: 0.1.8
+Section: Tweaks
+Maintainer: MoWang
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/iphoneos-arm64/com.sileowallpaper.tweak_0.1.8_iphoneos-arm64_c19a91364e1eb7bc071f78279f868ef2edd11987dba818319f6c7297e90c23e8.deb
+Size: 26100
+MD5sum: a771650ed74549e5ab65bdbfcd4a4e0c
+SHA1: df26878e827843cb8d59a581754767705056fa5e
+SHA256: c19a91364e1eb7bc071f78279f868ef2edd11987dba818319f6c7297e90c23e8
+SHA512: 00eb03a91c628c0f5afe22c029df1b5eb50a22828d91c7cc8d7d6ee247838a83b86a4a3dacd5544f0b87b34641239f29f3f69a7aebe3657929b3dd874dc956c5
+Description: 为 Sileo 设置自定义背景壁纸，支持相册选图、文字颜色、背景柔化和列表底色调节。
+Name: sileo 壁纸
+Author: MoWang
+
+Package: com.sileowallpaper.tweak
+Architecture: iphoneos-arm64e
+Version: 0.1.3
+Section: Tweaks
+Maintainer: MoWang
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/iphoneos-arm64e/com.sileowallpaper.tweak_0.1.3_iphoneos-arm64e_68c45f02573f9ab868095861f5a2e43df8d2e013cc2a916f4e279e426edc940d.deb
+Size: 15372
+MD5sum: 563d39912eef21abbb1f84ceafb5c8b7
+SHA1: 4c063ddfd076a114baaa552389e2ee6fafad500a
+SHA256: 68c45f02573f9ab868095861f5a2e43df8d2e013cc2a916f4e279e426edc940d
+SHA512: 51fbde6d93ed073364be0ef9a474c6a157f2ccdb07b74816929c9ec2f94d4273259278cfb3a2dcf6e6819bd254320f5f7a45d8ae2c60cb74ec4dcb3bd5679689
+Description: 为 Sileo 设置自定义背景壁纸，支持相册选图、文字颜色、背景柔化和列表底色调节。
+Name: sileo 壁纸
+Author: MoWang
+
+Package: com.sileowallpaper.tweak
+Architecture: iphoneos-arm64e
+Version: 0.1.8
+Section: Tweaks
+Maintainer: MoWang
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/iphoneos-arm64e/com.sileowallpaper.tweak_0.1.8_iphoneos-arm64e_02eaad73e38f3de18b1adebac0db352e382f4d893cdab3e7b0c800d418214bd2.deb
+Size: 18560
+MD5sum: 4fc2b35f367c7f5d8ae10c4f0c83b994
+SHA1: 00fbdcc64acc8b5b77c2c4adf37600d381064087
+SHA256: 02eaad73e38f3de18b1adebac0db352e382f4d893cdab3e7b0c800d418214bd2
+SHA512: 724e8a6d5cafa12986643eee90a6ac24dbd7c1f95501d22d1508491ee17ad27dc77aa21c85777b370ae991b887141c5a7d112c9167a42c3bbb9af396c832ee4c
+Description: 为 Sileo 设置自定义背景壁纸，支持相册选图、文字颜色、背景柔化和列表底色调节。
+Name: sileo 壁纸
+Author: MoWang
 
 Package: com.sini.filzaswipeselect
 Architecture: iphoneos-arm64
@@ -20429,6 +20645,25 @@ Name: Liquid (Gl)ass 27
 Author: dylv&泽哥
 Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
 
+Package: com.zuner.lunanoad
+Architecture: iphoneos-arm64e
+Version: 1.5
+Section: Tweaks
+Maintainer: liwhs
+Installed-Size: 2856
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.zuner.lunanoad_1.5_iphoneos-arm64e_6b6fa6b49d33378b6fad4de54495c01fcd52d603219ee1e670bfad9c26c29ff4.deb
+Size: 1041424
+MD5sum: f8ea90c1d5e7cd7962538c8c95873c33
+SHA1: 9f74d928e5d39d6417d62a60c08e0d6e3e621422
+SHA256: 6b6fa6b49d33378b6fad4de54495c01fcd52d603219ee1e670bfad9c26c29ff4
+SHA512: 9f4be39b718854d2e9573d8bebd6b7b0d152e535809e1f086d511698b1dc0d9f8414e7d453dd7d4b7a4954c1dcdf06367a9d604cc8c4dd322c32d7c2ef00f680
+Description: 禁止开屏广告、秒过激励广告，如注入提示：汽水当前版本不安全请在正规应用市场下载，请随意改名LunaNoAd.dylib，再重新注入即可解决。
+Name: LunaNoAd 汽水音乐
+Author: Zuner
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+
 Package: danmutool
 Architecture: iphoneos-arm64
 Version: 2.0.0
@@ -20464,6 +20699,40 @@ Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
 Name: 弹幕助手
 Author: Junhong
 icon: https://huayuarc.github.io/icon/danmutool.jpg
+
+Package: dev.owngoal.settingsorganizer
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 473
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/dev.owngoal.settingsorganizer_0.0.1_iphoneos-arm64_26b26d70362ef48a674c9c7ace381b1976abb8cddef1a200febcae42b2b7d463.deb
+Size: 77568
+MD5sum: 162cb8b4a90be3f0bf3a3558ff94118a
+SHA1: 1185d4592b8c35491ca2d378b0caf70b0be81409
+SHA256: 26b26d70362ef48a674c9c7ace381b1976abb8cddef1a200febcae42b2b7d463
+SHA512: 2ef4674b4c4f7ed43111162fc231a48d1d0ed1613b6b364fa219d8e81446d2d45460bf616e19fce2f4ef5c028b01a295ee488a91778514564e7314d191f59dcb
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Name: 设置插件收纳
+Author: MoWang
+
+Package: dev.owngoal.settingsorganizer
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 231
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/dev.owngoal.settingsorganizer_0.0.1_iphoneos-arm64e_d270c79dda577c9afdb4e808149153be02a2345cd04041d80d55510ad5d08f29.deb
+Size: 63890
+MD5sum: 68bdd52940d9565cd8945e11a9756675
+SHA1: ad98993013ca67238e170e8ee796d92974e80853
+SHA256: d270c79dda577c9afdb4e808149153be02a2345cd04041d80d55510ad5d08f29
+SHA512: cc0c195ad8ea4b96d3e49bd6d0745b93c35198327d66ddd66c76b1c8ab3fefac520717126374759e2d83bc221a5fde217f9a46f32914f7c45681fac1862ad5c3
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Name: 设置插件收纳
+Author: MoWang
 
 Package: dylv.deepliquid
 Architecture: iphoneos-arm64e
@@ -21391,6 +21660,25 @@ Name: Lunora DuoIcon
 Author: Banana
 
 Package: iya.banana.duoicon
+Architecture: iphoneos-arm64
+Version: 0.1.6
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1692
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64/iya.banana.duoicon_0.1.6_iphoneos-arm64_dde1def91ad39130f5f1a90c03cf3c71266f5c682a6bf8add5d385b94093af53.deb
+Size: 291740
+MD5sum: ccebf9598f931014e72d61c141929a88
+SHA1: 1289b022dce24eaf7435a99db266f42c59b03513
+SHA256: dde1def91ad39130f5f1a90c03cf3c71266f5c682a6bf8add5d385b94093af53
+SHA512: c3d6e1f49c3f5d465b989ae0e6269439f8201ec71b363946863ad2d54b13eb502b23d4db0db95385e8919db4bfc13a9826bc8288a31e73f00dc3ef01ed9a08f9
+Description: Lunora 的精简版本，仅包含右侧星环功能。Right-side Orbit and Capsule status icons with native reveal animations.
+Name: Lunora DuoIcon
+Author: Banana
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+
+Package: iya.banana.duoicon
 Architecture: iphoneos-arm64e
 Version: 0.1.1
 Section: Tweaks
@@ -21425,6 +21713,25 @@ SHA512: dc76011f65d3f4a25127241977e4118405171694797f2099e6932e2d74387e0811e43268
 Description: Right-side Orbit and Capsule status icons with native reveal animations.
 Name: Lunora DuoIcon
 Author: Banana
+
+Package: iya.banana.duoicon
+Architecture: iphoneos-arm64e
+Version: 0.1.6
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1692
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iphoneos-arm64e/iya.banana.duoicon_0.1.6_iphoneos-arm64e_8f022ca8d667ae5062e347df05333a7590d1cdaca8dd96e8187315df1d14f418.deb
+Size: 290996
+MD5sum: 73f3b51067888eda664881a9f2bbb164
+SHA1: a509a0cd5ac3238eda03703bb2f89f62093b86db
+SHA256: 8f022ca8d667ae5062e347df05333a7590d1cdaca8dd96e8187315df1d14f418
+SHA512: c6b41767fb67db1224d30043b660721d0c2ad8b68d15f4b71aa9d8695a89887d12e99f1f2854d3da1d7075c057063282a86ed303a75adc48088d6c12637871b5
+Description: Lunora 的精简版本，仅包含右侧星环功能。Right-side Orbit and Capsule status icons with native reveal animations.
+Name: Lunora DuoIcon
+Author: Banana
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
 
 Package: iya.banana.dynamicmusicbg
 Architecture: iphoneos-arm64
@@ -24209,6 +24516,36 @@ SileoDepiction: https://owngoal-dev.github.io/Inspector/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.inspector
+Architecture: iphoneos-arm64
+Version: 0.6.7
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 3980
+Depends: firmware (>= 13.0), uikittools, launchctl
+Filename: debs/iphoneos-arm64/wiki.qaq.inspector_0.6.7_iphoneos-arm64_0f44a7c9df0a21264ab5e3fb98dbdf03c6a4655dc341a5912b5ffcbcbbb913d7.deb
+Size: 1403562
+MD5sum: e0b3282ee8d63859348ceccab2d56d39
+SHA1: 43bdb25b457169c77cc51168b2f87dc05606eb26
+SHA256: 0f44a7c9df0a21264ab5e3fb98dbdf03c6a4655dc341a5912b5ffcbcbbb913d7
+SHA512: 6d1bdf1357b8ff197444aa86ecc730f3717f5877d3c9138bdafe4c85d1370bd5b43c228f91ce0513a86d5dccbbd090215d4b95ec1d04adf02334f71751b3f709
+Description: Live process inspector for iOS on custom firmware (rootless)
+ See what your device is actually doing. Every running process, refreshed once a
+ second, with its CPU share, memory, thread count and owner. Search by name or
+ PID, sort by any column, filter down to system, user or app processes, and
+ pause the list to hold a moment still. Open a process for its threads, open
+ files and sockets, Mach ports, loaded modules, sandbox status and disk and
+ network use, then quit it, force quit it, or export the whole report. The
+ `inspector` command answers the same questions from a terminal. Available
+ in English, Simplified Chinese, Japanese, Russian, German, French, Spanish and
+ Arabic.
+Name: Inspector
+Icon: https://owngoal-dev.github.io/Inspector/icon.png
+Depiction: https://owngoal-dev.github.io/Inspector/
+SileoDepiction: https://owngoal-dev.github.io/Inspector/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.inspector
 Architecture: iphoneos-arm64e
 Version: 0.6.3
 Priority: optional
@@ -24297,6 +24634,62 @@ Icon: https://owngoal-dev.github.io/Inspector/icon.png
 Depiction: https://owngoal-dev.github.io/Inspector/
 SileoDepiction: https://owngoal-dev.github.io/Inspector/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.inspector
+Architecture: iphoneos-arm64e
+Version: 0.6.7
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 3980
+Depends: firmware (>= 13.0), uikittools, launchctl
+Filename: debs/iphoneos-arm64e/wiki.qaq.inspector_0.6.7_iphoneos-arm64e_79e5691acd1f0aa43f36a6e558f385a550e4b58cb86b4a348eab81867f326dca.deb
+Size: 1403190
+MD5sum: b115ae873af60db6595ffa6fed9d7316
+SHA1: caf12d5aa190b3661c9b9c96d86f8d5a16183cbe
+SHA256: 79e5691acd1f0aa43f36a6e558f385a550e4b58cb86b4a348eab81867f326dca
+SHA512: e9beec313e88e20ab0f27879d3f3cc8bdc8f439f5deee87058c91d94fa683caf9ffa1142d8d65088600e6537eba52ec08d5946920496d750284196e5867fd08c
+Description: Live process inspector for iOS on custom firmware (roothide)
+ See what your device is actually doing. Every running process, refreshed once a
+ second, with its CPU share, memory, thread count and owner. Search by name or
+ PID, sort by any column, filter down to system, user or app processes, and
+ pause the list to hold a moment still. Open a process for its threads, open
+ files and sockets, Mach ports, loaded modules, sandbox status and disk and
+ network use, then quit it, force quit it, or export the whole report. The
+ `inspector` command answers the same questions from a terminal. Available
+ in English, Simplified Chinese, Japanese, Russian, German, French, Spanish and
+ Arabic.
+Name: Inspector
+Icon: https://owngoal-dev.github.io/Inspector/icon.png
+Depiction: https://owngoal-dev.github.io/Inspector/
+SileoDepiction: https://owngoal-dev.github.io/Inspector/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: appletvos-arm64e
+Version: 5.0.2
+Priority: optional
+Section: System
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 11092
+Depends: firmware (>= 17.0)
+Filename: debs/appletvos-arm64e/wiki.qaq.irisin_5.0.2_appletvos-arm64e_aa19fb0449b4fdbdce9b2be07cbba797f3b169ea9b554265e1d5398ee30174cd.deb
+Size: 3261792
+MD5sum: d78d9af338b88e5c175faa0f93ab2409
+SHA1: e2b36659cc5369b8ec48b5305cd895e5153a2ef5
+SHA256: aa19fb0449b4fdbdce9b2be07cbba797f3b169ea9b554265e1d5398ee30174cd
+SHA512: 33b9a8ecb102239128544d71c2fb0406ade05286dab2308629dd31b20ca57cfef1baac2f2a82d1d6fba4ed0e165aadef04b4af9f36145da4a057a7bc88af0124
+Homepage: https://github.com/Lakr233/Irisin
+Description: Package management services for Apple TV on RootHide custom firmware
+ The on-demand root daemon and the installer Irisin uses on Apple TV:
+ packages are installed natively and apps are registered with the system,
+ without dpkg. Draft: the Apple TV is managed over the network in a later
+ release.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
 
 Package: wiki.qaq.irisin
 Architecture: iphoneos-arm64
@@ -24785,6 +25178,33 @@ SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
 Author: OwnGoal Studio <no-reply@owngoal.dev>
 
 Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64
+Version: 5.0.2
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 21088
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/wiki.qaq.irisin_5.0.2_iphoneos-arm64_b5ce55d8a3ae76718bd5f5657d0e68016e33c8e7e9c38d65551f6c927dbac40d.deb
+Size: 5406468
+MD5sum: bc2f4288e215b52ef61e1fecdb7a0c56
+SHA1: 6ac1321df71117c55d08a1ec230d37bf2bbc2781
+SHA256: b5ce55d8a3ae76718bd5f5657d0e68016e33c8e7e9c38d65551f6c927dbac40d
+SHA512: b28b953c928161285ce49ddc57dd525ff375b5abe84c516ee7af628ef8c93d81495cb3c21c3e1d85b03efe51a23b2b6e14dcb3e767a846451d4ba1bb47fc2e9d
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
 Architecture: iphoneos-arm64e
 Version: 4.5.14
 Priority: optional
@@ -25257,6 +25677,33 @@ MD5sum: 0bcd75d28c4039a3b15366dd2b26b6ee
 SHA1: 512cc17680455255c933210e632a8fffac8430f2
 SHA256: 9017aaf96e931fd7db75b31d4be08886817a540084c06b4706be7f5e2c2128a3
 SHA512: 560a02c248bc36f7cd5b5d1704dfa7ae799aeb843c6b22db5c91ef2f3a810d1ef2634e0748bf73f1af08aaccce03f9f3617203f2869f4755afcb2e2cc879cff0
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64e
+Version: 5.0.2
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 21088
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/wiki.qaq.irisin_5.0.2_iphoneos-arm64e_644fa5bf7d739b16b45bdade180bf03103e268bf8fee4fb845f95f26a684e156.deb
+Size: 5402912
+MD5sum: 79fd469d161e7eacb4444bc1b966b6fa
+SHA1: 0ff5fa5f28dad22ea72bfb9c6ceeb5f05655c9d2
+SHA256: 644fa5bf7d739b16b45bdade180bf03103e268bf8fee4fb845f95f26a684e156
+SHA512: cc1857db46e8b345ae7d1964b9d1c5fcddf1ce98cc4fbd53a6655668040e642d7a6577e9004e900721a478658deb77dc81f31defdb495fed5957475833be08b9
 Homepage: https://github.com/Lakr233/Irisin
 Description: Modern package manager for roothide custom firmware
  Browse your repositories, install and remove packages, keep tweaks updated
