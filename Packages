@@ -6485,6 +6485,25 @@ Name: 熄屏幻术
 Author: 7513
 
 Package: com.cracklock.7513
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: 7513
+Installed-Size: 1788
+Provides: com.cracklock.shatter
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.cracklock.shatter
+Filename: debs/iphoneos-arm64/com.cracklock.7513_1.0.2_iphoneos-arm64_0f29b31ebd70a7c468426910aeb07fdd769db0bde02f18a8a19d202cfd55b790.deb
+Size: 1230404
+MD5sum: 3acb40581025c1233c806f4293d4f0e4
+SHA1: 60ae9eb06f324ec550cc69c659bc6bb941d083e5
+SHA256: 0f29b31ebd70a7c468426910aeb07fdd769db0bde02f18a8a19d202cfd55b790
+SHA512: 1def9d612f31e7713285131c5b5aa6b06f2c136b9790b3c2d195b1444cc5ca166300c2cfcbf06cd6bc576f60935602449e5056100cc53b4d3ebbe64dc69c3e1b
+Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素消散 / 百叶窗 / 信号故障 / CRT 关机 / 竖条翻牌 / 旋涡吸入 / 灰烬升腾 / 风沙吹散 / 条带垂落 / 波纹扭曲 / 方块散开 / 螺旋甩出 / 漆皮剥落 / 灯管熄灭 / 烟尘飘散），每种可单独调参。
+Name: 熄屏幻术
+Author: 7513
+
+Package: com.cracklock.7513
 Architecture: iphoneos-arm64e
 Version: 1.0.1
 Section: Tweaks
@@ -6500,6 +6519,25 @@ SHA1: 43858f273ad6c7161cacbb30b5ce9f1f0d9aa965
 SHA256: 208d32afc2b1cba9920b5afa4705dd7f51916e566034cbba9ad2718f226d8e04
 SHA512: bb317f012b36a95aa44d34d12588e512aa4bf2fe7e670c122ca6b79c25db1cf1e8be9d8c2bed5703341b0433f07243755521d979a0b9a709417b60fd48a260c3
 Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素溶解 / 百叶窗 / 故障闪烁 / CRT 关机 / 3D 翻转 / 旋涡内爆 / 灰烬上升 / 沙化 / 融化坠落 / 波纹扭曲 / 拼图崩落 / 旋卷飞散 / 剥落坠落 / 闪烁熄灭 / 墨色飘散），每种可单独调参。
+Name: 熄屏幻术
+Author: 7513
+
+Package: com.cracklock.7513
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: 7513
+Installed-Size: 1741
+Provides: com.cracklock.shatter
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.cracklock.shatter
+Filename: debs/iphoneos-arm64e/com.cracklock.7513_1.0.2_iphoneos-arm64e_e6b619feda0df64d8f116de83a891cc7c426bab76c5f747b304d4b8ce9656ea9.deb
+Size: 1230252
+MD5sum: 4a945ce893cec2992a40871af19e86a7
+SHA1: 5d88e6d6fba5bda3ddd430468ba84c6f4a18ba07
+SHA256: e6b619feda0df64d8f116de83a891cc7c426bab76c5f747b304d4b8ce9656ea9
+SHA512: f4f0eb33f711690ae849f2b48030b6c18bd13e349bc718aae74a8e01dd8d76566bdc7b8416c724bb43af9bfe8d545e3fed3d6cc9b9a53975bf60dfb6ed36061d
+Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素消散 / 百叶窗 / 信号故障 / CRT 关机 / 竖条翻牌 / 旋涡吸入 / 灰烬升腾 / 风沙吹散 / 条带垂落 / 波纹扭曲 / 方块散开 / 螺旋甩出 / 漆皮剥落 / 灯管熄灭 / 烟尘飘散），每种可单独调参。
 Name: 熄屏幻术
 Author: 7513
 
@@ -10569,6 +10607,24 @@ SHA1: 9c4afd302b1a3a0421917a01438a039f40a87244
 SHA256: 9dc3cb743d8c602edb6722406ad36cf794c882539fd94a9ff298db11d2d50b73
 SHA512: 00d2702912fdad1befbc4d2724a38de3240a14b6c90f5096cd2a660940b6b90b7f09c1d40c922cf54a7ba821a98d7d57b477573ad52f41adc6dcb86d831a6bb4
 Description: View & Manage Applications Data from your Home Screen (iOS 15-16 RootHide)
+Name: App Pro
+Author: Milkway
+
+Package: com.milkway.apppro
+Architecture: iphoneos-arm64e
+Version: 0.0.39
+Section: Tweaks
+Maintainer: Milkway
+Installed-Size: 560
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Filename: debs/iphoneos-arm64e/com.milkway.apppro_0.0.39_iphoneos-arm64e_2a86414307e57f25b6c9dec2b684b76defd55174a468c12d8a577b9ffa0636c6.deb
+Size: 148460
+MD5sum: 73468dd4ae2b6132350f8c42e3802630
+SHA1: 28946685b85ff779ed0456112289a814a50c6ef3
+SHA256: 2a86414307e57f25b6c9dec2b684b76defd55174a468c12d8a577b9ffa0636c6
+SHA512: 2e055b367e8c738a5f6f67baa0c8eaa1f08412c158ea183dcb144abcd0ed1186ceaf65c683f4a7072b58679857223cc3b6b2be9bf0e53aa36e053280104d4a61
+Description: 在主屏幕直接查看与管理 App 数据（仅支持 iOS 15–16 越狱，RootHide 环境专用）
 Name: App Pro
 Author: Milkway
 
@@ -19807,6 +19863,44 @@ Name: 键盘下方状态
 Author: yzdmm
 icon: https://huayuarc.github.io/icon/kb.jpg
 
+Package: com.zege.27safari
+Architecture: iphoneos-arm64
+Version: 3.5.52
+Section: Tweaks
+Maintainer: 泽哥
+Installed-Size: 648
+Depends: mobilesubstrate
+Conflicts: com.sekoandlionel.26safari, com.rein.26safari
+Replaces: com.sekoandlionel.26safari, com.rein.26safari
+Filename: debs/iphoneos-arm64/com.zege.27safari_3.5.52_iphoneos-arm64_f18f0586eb2bd1b618568f6c97357ea65df564fc0b8c71e4b32ab4ed00570608.deb
+Size: 64060
+MD5sum: ccd720cc8d4752851d3b7e212ca11af0
+SHA1: 77a0ed59acaa7250f7ceb8c022f7b72228aac3b6
+SHA256: f18f0586eb2bd1b618568f6c97357ea65df564fc0b8c71e4b32ab4ed00570608
+SHA512: 66a97e72880927b74b2d1fbd550d11fa725b43108f34760356606d5e3ace1fc2cf3b59651af55473967af6b51b89cdbe0d90105491cc0eddd6ec0f9d53287916
+Description: 给Safari添加iOS27液态玻璃效果。
+Name: 27Safari
+Author: 泽哥
+
+Package: com.zege.27safari
+Architecture: iphoneos-arm64e
+Version: 3.5.52
+Section: Tweaks
+Maintainer: 泽哥
+Installed-Size: 648
+Depends: mobilesubstrate
+Conflicts: com.sekoandlionel.26safari, com.rein.26safari
+Replaces: com.sekoandlionel.26safari, com.rein.26safari
+Filename: debs/iphoneos-arm64e/com.zege.27safari_3.5.52_iphoneos-arm64e_0ad2b0c1796c26e5b3ec6ef8e89b50823ec866dd56576a89f01478f90ce749a8.deb
+Size: 64044
+MD5sum: 7b7bc3867f2a0256e9ff0a78e0247ac1
+SHA1: ff6c5d42455341cd4d7c0c624c6536c4a9eca68e
+SHA256: 0ad2b0c1796c26e5b3ec6ef8e89b50823ec866dd56576a89f01478f90ce749a8
+SHA512: a097deaa8427ce567ab6fa3f692f8f2bac0a6cccfbad4baba0390d83c683e172c5e337173b05773c1c4978bdd62c97a5531afc12a17bd0b06994cb3d692ba6f3
+Description: 给Safari添加iOS27液态玻璃效果。
+Name: 27Safari
+Author: 泽哥
+
 Package: com.zege.sileobackground
 Architecture: iphoneos-arm64
 Version: 1.1.6
@@ -20718,6 +20812,23 @@ Name: 设置插件收纳
 Author: MoWang
 
 Package: dev.owngoal.settingsorganizer
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 505
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/dev.owngoal.settingsorganizer_0.0.2_iphoneos-arm64_90565cc4dd0938cbc64537136b520492ad46473edf11dda74be3c63cf76d47b5.deb
+Size: 81046
+MD5sum: 50bf5988f15147c4ccb0fa939e3657c5
+SHA1: facf8bb601acbd2a40ddacfa8390daeb6ce2a050
+SHA256: 90565cc4dd0938cbc64537136b520492ad46473edf11dda74be3c63cf76d47b5
+SHA512: 3f4085b7cc5ef97b43253bf4937dfb772acc94221124cf7a67b17a2f8acde0c2e005f4ca86a816961728690efb706c33bddb7791790649665b86618db85ec515
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Name: 设置插件收纳
+Author: MoWang
+
+Package: dev.owngoal.settingsorganizer
 Architecture: iphoneos-arm64e
 Version: 0.0.1
 Section: Tweaks
@@ -20730,6 +20841,23 @@ MD5sum: 68bdd52940d9565cd8945e11a9756675
 SHA1: ad98993013ca67238e170e8ee796d92974e80853
 SHA256: d270c79dda577c9afdb4e808149153be02a2345cd04041d80d55510ad5d08f29
 SHA512: cc0c195ad8ea4b96d3e49bd6d0745b93c35198327d66ddd66c76b1c8ab3fefac520717126374759e2d83bc221a5fde217f9a46f32914f7c45681fac1862ad5c3
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Name: 设置插件收纳
+Author: MoWang
+
+Package: dev.owngoal.settingsorganizer
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 247
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/dev.owngoal.settingsorganizer_0.0.2_iphoneos-arm64e_7bc381349856fa779ca6b759a88b57d79bbf2c521b3b2390d3f3aef978598cb8.deb
+Size: 66072
+MD5sum: 55934a037a2339d6ddd4744804a72467
+SHA1: e38a0c0310c2e28d86e2dca402107d7224667834
+SHA256: 7bc381349856fa779ca6b759a88b57d79bbf2c521b3b2390d3f3aef978598cb8
+SHA512: 720c607dbd6534c6f1eac399956efb2c11921724a8b9526ee81d10404f88a941b0b4ccb9222185951fab52a4f7ffba622932b35cf3f8d0cd06ef59d9c856f2b6
 Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
 Name: 设置插件收纳
 Author: MoWang
