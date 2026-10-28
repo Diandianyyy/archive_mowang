@@ -12086,6 +12086,25 @@ Icon: https://mlgm66.github.io/icon/actra.png
 Author: mlgm
 
 Package: com.mlgm.actra
+Architecture: iphoneos-arm64
+Version: 1.3.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 4080
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/iphoneos-arm64/com.mlgm.actra_1.3.2_iphoneos-arm64_b253e9a7446051de4e36fcc569fc29e67669daffbf5291f5518b6cc998a8320c.deb
+Size: 813036
+MD5sum: 1b20a57aa17d166f13632bd7ecb423c0
+SHA1: 746e1d9ecbb0932ac0025cdb72b4faf89d858e29
+SHA256: b253e9a7446051de4e36fcc569fc29e67669daffbf5291f5518b6cc998a8320c
+SHA512: 4758887001e16e25e8fbe2eb53f90c8ab29d5c42a7d24ddf86ec893db39152e31935184cca91e52c3f07c4da7543f6b2ab99cd36c4476fc8992708d56fad55c7
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
+Package: com.mlgm.actra
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
@@ -12256,6 +12275,25 @@ Name: Actra
 Icon: https://mlgm66.github.io/icon/actra.png
 Author: mlgm
 
+Package: com.mlgm.actra
+Architecture: iphoneos-arm64e
+Version: 1.3.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 4084
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/iphoneos-arm64e/com.mlgm.actra_1.3.2_iphoneos-arm64e_2c8cc1d1a61a3b5514cbb98bc2be846e05242c5e430e06ef424ed4437b2876fe.deb
+Size: 816796
+MD5sum: 8e660c3db388321adfa083afbbe0f7de
+SHA1: cd4331ace0b17ab861b166f4533068b299b9d37e
+SHA256: 2c8cc1d1a61a3b5514cbb98bc2be846e05242c5e430e06ef424ed4437b2876fe
+SHA512: 5c90d889f274f7cc6040dccb33ced3233ea94b9946f7b077d10aa09a14f9bace6a81fa631b29bebcfe2b8b77f51055993162b7547937f6e90a72b6d7a6f4504a
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
 Package: com.mlgm.idata
 Architecture: iphoneos-arm64
 Version: 1.2.1
@@ -12381,6 +12419,69 @@ Description: 更换微信输入法 Logo，自定义动作快捷呼出剪贴板�
 Name: iWxkb
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/iwxkb.png
+
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm
+Version: 5.0.4
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3516
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm/com.mlgm.kayoko_5.0.4_iphoneos-arm_12df409165e11beb589b9798b22e7abdc08b1a10440595d73a582fcb32f57c2d.deb
+Size: 751872
+MD5sum: f6bf348b5d62d086c5b1235035057ebe
+SHA1: 21ecdc8b1eeab1f3062063478b5951cb65518ecc
+SHA256: 12df409165e11beb589b9798b22e7abdc08b1a10440595d73a582fcb32f57c2d
+SHA512: 3ee2ff72bd0a2ec10acc60405d7397fc57688470841be8d5f1d9e4f002bb4d0ed4b8e08221f4b43cad10790f52e13ab3d657d4e1114d819b01a369d7916dc06b
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64
+Version: 5.0.4
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3516
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64/com.mlgm.kayoko_5.0.4_iphoneos-arm64_1735696ce923f71ba45d3181fa2af5fb53f1417194a7bf59a925194f3f56a558.deb
+Size: 747404
+MD5sum: 816c815aed66e73524723c7bc899f973
+SHA1: 35386acc2eed541e972b20f3b40d66883e2c781c
+SHA256: 1735696ce923f71ba45d3181fa2af5fb53f1417194a7bf59a925194f3f56a558
+SHA512: a3149387fabacdceca7cd2cc4f6db33e05fb6d37fa563d23b8349b3e25c21e5df172d6bd00cc5fb3e8cd2e2cc5c340a1c94738133e0f20eb3005eb0279fc3404
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64e
+Version: 5.0.4
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3500
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64e/com.mlgm.kayoko_5.0.4_iphoneos-arm64e_09f50320f945a8096fd71283add60cbfe74017539bce69514ba7ffab00b8eec1.deb
+Size: 746664
+MD5sum: c667b7d9f6376685eddc750cce46bd02
+SHA1: 805f06aff1fe4a11ede36c878e42373204d655ce
+SHA256: 09f50320f945a8096fd71283add60cbfe74017539bce69514ba7ffab00b8eec1
+SHA512: 6093031a42d651dda72e4d08674cd79bce8ffd3fa86ea674ad081dfd5cf7d68e4a505410c06980cd8a5b722c188ecd4495ccd2518eb679a925756103cba03a58
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
 
 Package: com.mlgm.prefnest
 Architecture: iphoneos-arm64e
@@ -20431,6 +20532,53 @@ Author: dylv&泽哥
 Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
 
 Package: com.zegeyoudaoli.liquidass27
+Architecture: iphoneos-arm64
+Version: 1.0.0-78+rootless
+Section: Tweaks
+Maintainer: dylv&泽哥
+Installed-Size: 10384
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Filename: debs/iphoneos-arm64/com.zegeyoudaoli.liquidass27_1.0.0-78+rootless_iphoneos-arm64_45649a848caab5597b14823d3944506a7e7a99f0c64dc519060c7ba814c3cc71.deb
+Size: 3647222
+MD5sum: 664885719cc27622d02cde7b61176469
+SHA1: af7adc9a9afe9c4e25f87e746bb30fa25994f74c
+SHA256: 45649a848caab5597b14823d3944506a7e7a99f0c64dc519060c7ba814c3cc71
+SHA512: e25b4b91edf4eaa5c1e2769960c06b5bece72103d9d175b9018a4b737a978ffb4e7c350d53e0b6efca6ea2c0ed0ecd6add00488402bfb02685437aabe8ba570f
+Description: 本版是基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
+ 【本版的改动】
+ • 重构液态玻璃渲染引擎 / 对标 iOS 27 系统
+ • 重构锁屏大时钟减少卡顿增强观感
+ • 新增锁屏时钟/日期/通知/横幅/灵动岛/上下文菜单/警报渐变引擎并设置可调参数
+ • 新增小组件去背景及相应设置项
+ • 新增更多可调参数
+ • 新增全界面导航栏液态玻璃
+ • 新增底部弹窗 / App 弹窗液态玻璃
+ • 新增灵动岛液态玻璃（上岛全元素液态）
+ • 新增「灵动岛」设置页面
+ • 新增锁屏日期 / 农历行液态玻璃（跟随时钟效果）
+ • 新增锁屏“通知清除按钮”透明化
+ • 新增锁屏“通知中心”文字直接隐藏
+ • 新增音量 HUD 液态玻璃
+ • 修复锁屏时钟景深效果
+ • 修复锁屏场景下灵动岛取不到子视图的问题
+ • 修复 iOS 16 设备标签栏透镜渲染错位问题
+ • 修复灵动岛实时活动远端渲染黑块问题
+ • 修复标签栏文字闪烁的 bug
+ • 修复调试日志开关被诊断包硬编码为常开、导致渲染路径每帧同步写盘（卡顿/掉帧/发热）
+ • 修复总开关关闭后，仍然保持液态的问题（需多次注销）
+ 【兼容性】
+ 已验证：iOS 17.0（roothide / Relaxin 越狱）
+ 支持系统：iOS 16.0–17.3.1；部分 iOS 16 设备存在兼容问题，那些设备请改装「Liquid (Gl)ass · 泽哥维护兼容版」（包名 dylv.liquidass）
+ 本插件包名已由 dylv.liquidass 改为 com.zegeyoudaoli.liquidass27，与旧版本是两个独立插件：装了旧线不会自动收到本线更新，需要重新安装本包（安装时会提示替换旧包）。
+Name: Liquid (Gl)ass 27（rootless 测试）
+Author: dylv&泽哥
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json
+
+Package: com.zegeyoudaoli.liquidass27
 Architecture: iphoneos-arm64e
 Version: 1.0.0-34
 Section: Tweaks
@@ -20776,6 +20924,53 @@ Description: 基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
 Name: Liquid (Gl)ass 27
 Author: dylv&泽哥
 Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
+
+Package: com.zegeyoudaoli.liquidass27
+Architecture: iphoneos-arm64e
+Version: 1.0.0-78
+Section: Tweaks
+Maintainer: dylv&泽哥
+Installed-Size: 10368
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Filename: debs/iphoneos-arm64e/com.zegeyoudaoli.liquidass27_1.0.0-78_iphoneos-arm64e_71690220272b271e84dfbea6f1fe44caafea338563b8a2c468b10d31b8de6e80.deb
+Size: 3652422
+MD5sum: 9783e4dabd32fea6bb5134698b622c51
+SHA1: 952c11b2d7520f516a6f990af604f86046483178
+SHA256: 71690220272b271e84dfbea6f1fe44caafea338563b8a2c468b10d31b8de6e80
+SHA512: 0d3f698871830a4ba03812975d29d20dd7ec72d0c6eac368027adef0e9d6c4eabb816d37b06575116539fd2d958d14321098baf2306ac60a15697843d060c640
+Description: 本版是基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
+ 【本版的改动】
+ • 重构液态玻璃渲染引擎 / 对标 iOS 27 系统
+ • 重构锁屏大时钟减少卡顿增强观感
+ • 新增锁屏时钟/日期/通知/横幅/灵动岛/上下文菜单/警报渐变引擎并设置可调参数
+ • 新增小组件去背景及相应设置项
+ • 新增更多可调参数
+ • 新增全界面导航栏液态玻璃
+ • 新增底部弹窗 / App 弹窗液态玻璃
+ • 新增灵动岛液态玻璃（上岛全元素液态）
+ • 新增「灵动岛」设置页面
+ • 新增锁屏日期 / 农历行液态玻璃（跟随时钟效果）
+ • 新增锁屏“通知清除按钮”透明化
+ • 新增锁屏“通知中心”文字直接隐藏
+ • 新增音量 HUD 液态玻璃
+ • 修复锁屏时钟景深效果
+ • 修复锁屏场景下灵动岛取不到子视图的问题
+ • 修复 iOS 16 设备标签栏透镜渲染错位问题
+ • 修复灵动岛实时活动远端渲染黑块问题
+ • 修复标签栏文字闪烁的 bug
+ • 修复调试日志开关被诊断包硬编码为常开、导致渲染路径每帧同步写盘（卡顿/掉帧/发热）
+ • 修复总开关关闭后，仍然保持液态的问题（需多次注销）
+ 【兼容性】
+ 已验证：iOS 17.0（roothide / Relaxin 越狱）
+ 支持系统：iOS 16.0–17.3.1；部分 iOS 16 设备存在兼容问题，那些设备请改装「Liquid (Gl)ass · 泽哥维护兼容版」（包名 dylv.liquidass）
+ 本插件包名已由 dylv.liquidass 改为 com.zegeyoudaoli.liquidass27，与旧版本是两个独立插件：装了旧线不会自动收到本线更新，需要重新安装本包（安装时会提示替换旧包）。
+Name: Liquid (Gl)ass 27
+Author: dylv&泽哥
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json
 
 Package: com.zuner.lunanoad
 Architecture: iphoneos-arm64e
