@@ -12763,6 +12763,23 @@ Name: AI 日志分析
 Author: MoWang
 
 Package: com.mowang.crashanalyzer
+Architecture: iphoneos-arm64
+Version: 1.4.2
+Section: Utilities
+Maintainer: MoWang
+Installed-Size: 292
+Depends: preferenceloader
+Filename: debs/iphoneos-arm64/com.mowang.crashanalyzer_1.4.2_iphoneos-arm64_3c8906daff02b7a829b597477af6e1962eabdb7f7bbdcfeaa9b11964b232bc5b.deb
+Size: 137008
+MD5sum: 12f0d687883f30faffce3b20861023dd
+SHA1: e38dd0bc4e6179a8402316ae8c535dfd0b35f9ce
+SHA256: 3c8906daff02b7a829b597477af6e1962eabdb7f7bbdcfeaa9b11964b232bc5b
+SHA512: 7aea6db4018bf8f14fc013f3362e116e73887d9dee11a78b275ed4a3539f53070b4c3f2a1a56f05e4eefb32201dbc0b9df4caabb0e8c5fcb5bca3bd4b5be9e34
+Description: iOS IPS 日志搜索、进程分组与证据分析
+Name: AI 日志分析
+Author: MoWang
+
+Package: com.mowang.crashanalyzer
 Architecture: iphoneos-arm64e
 Version: 1.1.5
 Section: Utilities
@@ -12861,6 +12878,23 @@ SHA1: af3c9a89250314a1877f807062fe492c59923150
 SHA256: 8c907a1fcb1ffefc206e4f7126adf0031147570bb4f0cfcb30d499f50a74be1a
 SHA512: 3de66515b68f74618851da8401fd22c40752abd0b622cce64cc64fa3f81601fb8de502682f0c0fa3eba77bf1ecd81bd8d063a5c2d3e283f4159b96e186642fa9
 Description: iOS IPS 日志搜索、进程分组与证据分析（1.4.0 体验版）
+Name: AI 日志分析
+Author: MoWang
+
+Package: com.mowang.crashanalyzer
+Architecture: iphoneos-arm64e
+Version: 1.4.2
+Section: Utilities
+Maintainer: MoWang
+Installed-Size: 292
+Depends: preferenceloader
+Filename: debs/iphoneos-arm64e/com.mowang.crashanalyzer_1.4.2_iphoneos-arm64e_b4d35e8f586d41ce24e45047a7b0107a98b2dcd23910275e5ca04eecd24fbc04.deb
+Size: 136898
+MD5sum: 3311b7fb74bfde48068cc5905b0de65f
+SHA1: 662a5ab8a00672276153585beb098060b6d78d64
+SHA256: b4d35e8f586d41ce24e45047a7b0107a98b2dcd23910275e5ca04eecd24fbc04
+SHA512: 487c89918f349ee07fd1258a513cb80a650669ce17c0aeccc529e97ca10958809a63620a661c4b172dfc4a4aa024a3cf3d785d69a8f85c7eda57e57c85bace00
+Description: iOS IPS 日志搜索、进程分组与证据分析
 Name: AI 日志分析
 Author: MoWang
 
@@ -22147,6 +22181,24 @@ Name: DynamicNotch · 动态刘海
 Author: Banana
 
 Package: iya.banana.dynamicnotch
+Architecture: iphoneos-arm64
+Version: 0.1.2
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1452
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-roothide
+Filename: debs/iphoneos-arm64/iya.banana.dynamicnotch_0.1.2_iphoneos-arm64_a2589c0238b6a8d5d00b5f550b6231bb11b61f92ab96dfff423984bbf3954944.deb
+Size: 242594
+MD5sum: f052c87c6dab4352ead4acc4d02f8ebd
+SHA1: 88ee79a197ba5465777ed5c6685962799659f9fe
+SHA256: a2589c0238b6a8d5d00b5f550b6231bb11b61f92ab96dfff423984bbf3954944
+SHA512: 46e1e72415482121f03053819ce3a3e5c38083ef03a79cddbfbae091b859645f52dbcaf2264fd5e7c5c555c7d9000a63cfe3691edc324f16124f2feb8b09feb3
+Description: Notch activities, notifications and adjustable glass for iOS 15–26.
+Name: DynamicNotch · 动态刘海
+Author: Banana
+
+Package: iya.banana.dynamicnotch
 Architecture: iphoneos-arm64e
 Version: 0.1.0~beta1
 Section: Tweaks
@@ -22161,6 +22213,24 @@ SHA1: e45c4e5899ed1ddfa8eb95840be16c5901cae535
 SHA256: 63804c826b8f697286c4b52397bf0cfdef51234e16716dbc62bebf24142975df
 SHA512: 52632706d11ebfb325bdb8e8d5c82224c22fd8c1251dd562768aeb2a1bdb11ead4d92a8c6ddeccd9f43b82dcdf47047278da12fe71d30bf1ed087a467e6a55b4
 Description: Notch activities, notifications and adjustable glass for iOS 15–26. Beta release.
+Name: DynamicNotch · 动态刘海
+Author: Banana
+
+Package: iya.banana.dynamicnotch
+Architecture: iphoneos-arm64e
+Version: 0.1.2
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 1452
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-roothide
+Filename: debs/iphoneos-arm64e/iya.banana.dynamicnotch_0.1.2_iphoneos-arm64e_2808c7be40725643590e2a365b2cc06ee18f4f195581b4cab2b0471ec401eabb.deb
+Size: 240314
+MD5sum: 00a948af1cf9b428c798fa9d08c43122
+SHA1: ea9a6214a4396fd9271dbe303e88edb72f934483
+SHA256: 2808c7be40725643590e2a365b2cc06ee18f4f195581b4cab2b0471ec401eabb
+SHA512: a6c7beb073ebff2237f404c14ece334542e65239a0b0b690acce2afeddb6ef15cabac590e5a8a8b2ceca2f08c6639f3aba2ffddd8c3ae624903024065710b32b
+Description: Notch activities, notifications and adjustable glass for iOS 15–26.
 Name: DynamicNotch · 动态刘海
 Author: Banana
 
@@ -23485,6 +23555,40 @@ SHA512: 2adfb21e2d45d1204d62d0250def28b6bfb6bb2b0ced172a5dcddab08127f69c54d0bab1
 Description: Bring free Home Screen placement and native widget resizing to iOS 17 while preserving the system layout.
 Name: OpenSpace
 Author: banana
+
+Package: iya.banana.pickerwheeldock
+Architecture: iphoneos-arm64
+Version: 0.1.0-1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 556
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/iya.banana.pickerwheeldock_0.1.0-1_iphoneos-arm64_8a3518a8d3a88699a884e0a568b894251e77e57c9cb7e50d163749d48e94e73d.deb
+Size: 64982
+MD5sum: 0db02e3ead2da8aea59bc56dc24aebef
+SHA1: d56c7a1706ad9a7148148e65d4e994e2d14644d3
+SHA256: 8a3518a8d3a88699a884e0a568b894251e77e57c9cb7e50d163749d48e94e73d
+SHA512: bf716750dcfdb3d31d811bde701a40c2a7591535143263dd603d7de8dcf30aa17bf4ac2a734d1633d626b0495b2c41a2d28a76a706c300b509a655f14eb376db
+Description: A magnifying and scrolling Dock for iOS 15, 16 and 17.
+Name: KineticDock
+Author: Banana
+
+Package: iya.banana.pickerwheeldock
+Architecture: iphoneos-arm64e
+Version: 0.1.0-1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 556
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/iya.banana.pickerwheeldock_0.1.0-1_iphoneos-arm64e_9d33dca4e96e14a7b5ec01dc44b0e83aeb8bb5ef5ab7e22770f22391893387d3.deb
+Size: 64830
+MD5sum: aa95e54db9e0847e91d4d7afe621a04c
+SHA1: f5590184fa431244a00a6765931fa65e3ca8131a
+SHA256: 9d33dca4e96e14a7b5ec01dc44b0e83aeb8bb5ef5ab7e22770f22391893387d3
+SHA512: d3204cae1dfcc7a3286aa243e9f9109b5c57317d56e9d8aa7114cfef61ef279241c48f894ef8cd7ce3ce4e9fc4b90ac7907890de4a272ca0bf81a0e3be2b6988
+Description: A magnifying and scrolling Dock for iOS 15, 16 and 17.
+Name: KineticDock
+Author: Banana
 
 Package: iya.banana.replacedefapp
 Architecture: iphoneos-arm64
