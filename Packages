@@ -11101,6 +11101,23 @@ Description: 自动关闭卡贴机“需要激活”提示，定向跳过“软�
 Name: 激活弹窗屏蔽
 Author: MoWang
 
+Package: com.local.mygestures
+Architecture: iphoneos-arm64
+Version: 0.11.13
+Section: Tweaks
+Maintainer: yzdmm2024
+Installed-Size: 488
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.local.mygestures_0.11.13_iphoneos-arm64_9046b7062437581af74a7b26f30477aeb52f8429e0a6edc0b2a9bdde28ed63b2.deb
+Size: 63888
+MD5sum: d60ca8a91d58c2ea356b9026ca4775cd
+SHA1: 00eaefce95aa6f1903c6995e157da5b651eec61b
+SHA256: 9046b7062437581af74a7b26f30477aeb52f8429e0a6edc0b2a9bdde28ed63b2
+SHA512: 6cadb051f00dd1dfc77c434ab6b45c3926e23aab4eed37eb30763dbd8ec97ba698cada7fdd4b0cd7257d6204eb077455a28d2c84e04fa8ab64300933ebb09577
+Description: 状态栏左右耳朵手势：单击/双击/左滑，刘海灵动岛触摸忽略，下滑透传兼容控制中心插件，分区独立配置+黑名单。rootless 适配。
+Name: 我的手势
+Author: yzdmm2024
+
 Package: com.mathelord.infobar
 Architecture: iphoneos-arm64
 Version: 1.2.0
@@ -14553,6 +14570,298 @@ Description: 去除广告。
 Name: NoAdsX
 Author: 半生年华
 icon: https://huayuarc.github.io/icon/NoAds@2x.png
+
+Package: com.ntm.batteryanalyzer
+Architecture: iphoneos-arm64
+Version: 1.6.10
+Section: Tweaks
+Maintainer: yzdmm2024
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/com.ntm.batteryanalyzer_1.6.10_iphoneos-arm64_c612f656b25e0d4b9c49ac9be971534bb6d9ce6c21173190b1a6f04edd7b1659.deb
+Size: 94104
+MD5sum: 54b469dfe8f70b7e6ceab9e59d5599a6
+SHA1: 63481dbe8eb8e07e6ad8178324f9d43a3a20ea93
+SHA256: c612f656b25e0d4b9c49ac9be971534bb6d9ce6c21173190b1a6f04edd7b1659
+SHA512: 81aa619f93b4155a4c85055bf43d15836d33cd686deb47865e0a7099f1b8f8c62b4d32d5610dcfca3b15f793bca7ba28edc813ed9c4d5e803afe69bc632b6feb
+Description: 电池耗电分析：注入SpringBoard监控每App前台/后台运行时间与电量变化，估算每App耗电，显示电量历史与本次耗电统计
+Name: 电池耗电分析
+Author: yzdmm2024
+
+Package: com.ntm.notifymanager
+Architecture: iphoneos-arm
+Version: 2.3.50
+Section: Tweaks
+Maintainer: yzdmm2024
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm/com.ntm.notifymanager_2.3.50_iphoneos-arm_3b25ddf4a426bab2a7568e882dd88557eda29e7632e4fcf5286d7356e541d04f.deb
+Size: 197848
+MD5sum: 3567c46c11e864e6c8c08f1ddacdcb48
+SHA1: 77eafa35ba877f5780fee19bfa69be2a6cdd1984
+SHA256: 3b25ddf4a426bab2a7568e882dd88557eda29e7632e4fcf5286d7356e541d04f
+SHA512: bb0e52e2770bbfb05ede5231057173bfb5ccf281b26030cbd05c26a1816bbb1a7e64feb90238943195a553c90f4b46ebbe2669d98f6a007141771d8030a0d0da
+Description: 通知管理 - 按 App 管理通知与网络，同步系统「蜂窝网络」设置
+ 轻量级 SpringBoard 通知 / 网络管理工具：无定时器、无轮询，通知到达只做内存查表，
+ 空闲时不耗电；不在后台常驻任何进程。
+ .
+ 【通知管理】按「用户应用 / 巨魔应用 / 系统应用」列出手机上所有真实 App
+ （自动过滤隐藏的系统辅助服务，无图标的系统组件不显示），逐个 App 控制：
+ - 总开关：关闭后该 App 的通知不再显示
+ - 分项开关：锁定屏幕 / 通知中心 / 横幅 / 声音 / 标记，各自独立
+ - 隐藏预览：只显示 App 名称，不显示具体内容
+ - 仅隐藏角标：保留通知，只去掉数字角标
+ - 关键词过滤：命中关键词的通知自动丢弃
+ .
+ 【网络管理】与「设置 - 蜂窝网络 - 某 App 的蜂窝数据」同源：
+ - 每个 App 可选：Wi-Fi + 蜂窝 / 仅 Wi-Fi / 仅蜂窝 / 完全断网
+ - 后台自动断网：App 进后台即切断已建立连接并拒绝新建连接，回前台自动恢复
+ - 新装 App 首次联网不再弹「允许使用无线数据」，按面板配置静默放行
+ - 不需要拦截时可一键关闭，恢复系统原生选择框
+ .
+ 【其他】
+ - 批量控制、搜索、单应用重置、配置导入导出
+ - 自动授权通知权限：抹除或还原设置后，打开 App 不再弹「想给您发送通知」
+ - 面板内置诊断日志，可查看弹窗拦截的命中情况
+ .
+ 支持系统：iOS 14 / 15 / 16 / 17（arm64、arm64e）
+ iOS 14 请安装 rootful 版；iOS 15 及以上安装 rootless 版。
+ 有问题请在「设置 - 通知管理」右上角点「反馈」，附上机型与系统版本。
+Name: 通知管理
+Author: yzdmm2024
+Firmware: >= 14.0
+
+Package: com.ntm.notifymanager
+Architecture: iphoneos-arm64
+Version: 2.3.14
+Section: Tweaks
+Maintainer: yzdmm2024
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/com.ntm.notifymanager_2.3.14_iphoneos-arm64_b4c048401bb5a5495fb601f4f298167b207d80db6ec3f32d6f283db7b5a936f6.deb
+Size: 88360
+MD5sum: 81ad32fe8cf9b5cd3f67c8335ee5244b
+SHA1: 868eb2795812daf36849567500a7ef85b45e96e8
+SHA256: b4c048401bb5a5495fb601f4f298167b207d80db6ec3f32d6f283db7b5a936f6
+SHA512: a95fafd49cfe1aecf29b2e0061729e0053451ac04ec325b7e5f1b1f81839560c82f9d1c759a9b6e23189ddedbcc01c3ad0ab89ffef7ce789da9a40fd8b5375fe
+Description: 通知管理：注入SpringBoard拦截通知展示，按分类(用户/巨魔/系统)管理每个App通知与网络。总开关+锁定屏幕/通知中心/横幅/声音/标记子开关，增强功能：仅隐藏角标、隐藏预览、后台自动断网、关键词过滤、应用分组、模式快照、筛选；网络策略(打开wifi/流量/wifi+流量/断网)同步系统蜂窝设置，支持搜索、批量控制、单应用重置、配置导入导出、邮件反馈；新增自动授权通知权限（抹除/还原设置后，按插件配置静默授权，打开App不再弹"想给你发送通知"）
+Name: 通知管理
+Author: yzdmm2024
+
+Package: com.ntm.notifymanager
+Architecture: iphoneos-arm64
+Version: 2.3.15
+Section: Tweaks
+Maintainer: yzdmm2024
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/com.ntm.notifymanager_2.3.15_iphoneos-arm64_132720706af0742d309d5ba80314895ae90bf45f0004bd89b4666ebc2c1f3dd1.deb
+Size: 90344
+MD5sum: 6d99bbdbecbb9e39a1f92ba85bcc3de0
+SHA1: 5e7d1f7a1bea56f4286ddf49f77459ebd5843caf
+SHA256: 132720706af0742d309d5ba80314895ae90bf45f0004bd89b4666ebc2c1f3dd1
+SHA512: 4ffe91becdc7cbcebba39881e5a750c3a1491ac808040bd2b9d9921baa8855067e4b9cdb272815884fe334bb7ca32bc25db2f06211375837eadbce7fe087d9c5
+Description: 通知管理：注入SpringBoard拦截通知展示，按分类(用户/巨魔/系统)管理每个App通知与网络。总开关+锁定屏幕/通知中心/横幅/声音/标记子开关，增强功能：仅隐藏角标、隐藏预览、后台自动断网、关键词过滤、应用分组、模式快照、筛选；网络策略(打开wifi/流量/wifi+流量/断网)同步系统蜂窝设置，支持搜索、批量控制、单应用重置、配置导入导出、邮件反馈；新增自动授权通知权限（抹除/还原设置后，按插件配置静默授权，打开App不再弹"想给你发送通知"）；2.3.15 断网增强：新增进程级拦截(connectx/connect/sendto/sendmsg)，断网后 WiFi 与蜂窝流量同时切断，iOS 15/16/17 通用
+Name: 通知管理
+Author: yzdmm2024
+
+Package: com.ntm.notifymanager
+Architecture: iphoneos-arm64
+Version: 2.3.16
+Section: Tweaks
+Maintainer: yzdmm2024
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/com.ntm.notifymanager_2.3.16_iphoneos-arm64_a11fec663333d6c4f8f025647075ae30e78f0b6dbd98610a613f36f5e2e20e94.deb
+Size: 90744
+MD5sum: dd89e0a756758409e3a897a817b95b99
+SHA1: 7375d1dbc6e3b48788de8e6383d7ec05cf42b303
+SHA256: a11fec663333d6c4f8f025647075ae30e78f0b6dbd98610a613f36f5e2e20e94
+SHA512: 6554e49e94ee2803cdfbb1ceac7ba2e3b096c6680321eb1b41ca4ec062c89dac5b954208674385d672755d7c1f5dc31f4fc5a405464269137f95984620e88f14
+Description: 通知管理：注入SpringBoard拦截通知展示，按分类(用户/巨魔/系统)管理每个App通知与网络。总开关+锁定屏幕/通知中心/横幅/声音/标记子开关，增强功能：仅隐藏角标、隐藏预览、后台自动断网、关键词过滤、应用分组、模式快照、筛选；网络策略(打开wifi/流量/wifi+流量/断网)同步系统蜂窝设置，支持搜索、批量控制、单应用重置、配置导入导出、邮件反馈；新增自动授权通知权限（抹除/还原设置后，按插件配置静默授权，打开App不再弹"想给你发送通知"）；2.3.15 断网增强：新增进程级拦截(connectx/connect/sendto/sendmsg)，断网后 WiFi 与蜂窝流量同时切断，iOS 15/16/17 通用；2.3.16 断网修复：注入范围扩到所有 App 进程(UIApplication)，解决第三方 App 未注入导致断网不生效的问题（隐根环境需在 Bootstrap 的 App List 里为目标 App 开启注入）
+Name: 通知管理
+Author: yzdmm2024
+
+Package: com.ntm.notifymanager
+Architecture: iphoneos-arm64
+Version: 2.3.17
+Section: Tweaks
+Maintainer: yzdmm2024
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/com.ntm.notifymanager_2.3.17_iphoneos-arm64_db7b3a7ea4f2484bcd72d7112ddeca0c41d580e20a52a1a11882317a9087ca40.deb
+Size: 91084
+MD5sum: 5fe289e3ebe326710dcd763898497539
+SHA1: 46b9004d64abaf6197ffc60ef324f3edaeb3a9e7
+SHA256: db7b3a7ea4f2484bcd72d7112ddeca0c41d580e20a52a1a11882317a9087ca40
+SHA512: 18dbfcb02f78b0bb37fa3238fd8a89d813b8492df9f88fd5fa37d4a94dcdbdf76a6ea92e8938a8b8332bd84deb3dd759ff5db4b7ed9cbc52481d3ea50531fa7e
+Description: 通知管理：注入SpringBoard拦截通知展示，按分类(用户/巨魔/系统)管理每个App通知与网络。总开关+锁定屏幕/通知中心/横幅/声音/标记子开关，增强功能：仅隐藏角标、隐藏预览、后台自动断网、关键词过滤、应用分组、模式快照、筛选；网络策略(打开wifi/流量/wifi+流量/断网)同步系统蜂窝设置，支持搜索、批量控制、单应用重置、配置导入导出、邮件反馈；新增自动授权通知权限（抹除/还原设置后，按插件配置静默授权，打开App不再弹"想给你发送通知"）；2.3.15 断网增强：新增进程级拦截(connectx/connect/sendto/sendmsg)，断网后 WiFi 与蜂窝流量同时切断，iOS 15/16/17 通用；2.3.16 断网修复：注入范围扩到所有 App 进程(UIApplication)，解决第三方 App 未注入导致断网不生效的问题（隐根环境需在 Bootstrap 的 App List 里为目标 App 开启注入）；2.3.17 断网修复：修正 PSAppDataUsagePolicyCache 在新系统的框架路径(SettingsCellular.framework)，并补上 CommCenter 写入签名权限，面板「断网」现在能真正把系统「允许App使用数据」设为「关闭」(WiFi+蜂窝同时切断)
+Name: 通知管理
+Author: yzdmm2024
+
+Package: com.ntm.notifymanager
+Architecture: iphoneos-arm64
+Version: 2.3.18
+Section: Tweaks
+Maintainer: yzdmm2024
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/com.ntm.notifymanager_2.3.18_iphoneos-arm64_b7022ae41ffffb9f5797be03d34829e85cb7012e1893a834d89c298000563b7d.deb
+Size: 91116
+MD5sum: 36de07d729487996c20eec29b1820899
+SHA1: bf5e8282673baf951120b730cdc47898e93fcd05
+SHA256: b7022ae41ffffb9f5797be03d34829e85cb7012e1893a834d89c298000563b7d
+SHA512: 5e6cd9280ad1463cf98c508b57f1191975fcee0af49d17a46b52415989c1e5082237d5102e92eee75d20686558fbdb96eb60ddd17f58bdafef4817dcef4449cc
+Description: 通知管理：注入SpringBoard拦截通知展示，按分类(用户/巨魔/系统)管理每个App通知与网络。总开关+锁定屏幕/通知中心/横幅/声音/标记子开关，增强功能：仅隐藏角标、隐藏预览、后台自动断网、关键词过滤、应用分组、模式快照、筛选；网络策略(打开wifi/流量/wifi+流量/断网)同步系统蜂窝设置，支持搜索、批量控制、单应用重置、配置导入导出、邮件反馈；新增自动授权通知权限（抹除/还原设置后，按插件配置静默授权，打开App不再弹"想给你发送通知"）；2.3.15 断网增强：新增进程级拦截(connectx/connect/sendto/sendmsg)，断网后 WiFi 与蜂窝流量同时切断，iOS 15/16/17 通用；2.3.16 断网修复：注入范围扩到所有 App 进程(UIApplication)，解决第三方 App 未注入导致断网不生效的问题（隐根环境需在 Bootstrap 的 App List 里为目标 App 开启注入）；2.3.17 断网修复：修正 PSAppDataUsagePolicyCache 在新系统的框架路径(SettingsCellular.framework)，并补上 CommCenter 写入签名权限，面板「断网」现在能真正把系统「允许App使用数据」设为「关闭」(WiFi+蜂窝同时切断)；2.3.18 断网修复：改用系统设置页的真实写入路径(policiesFor: → setCellular:/setWifi: → setPolicies:completion:)，此前调用的 setUsagePoliciesForBundle:cellular:wifi: 与 CoreTelephony 写入接口在 iOS 15/16/17 上均不存在，导致策略写入一直是空操作、系统设置里看不到「关闭」
+Name: 通知管理
+Author: yzdmm2024
+
+Package: com.ntm.notifymanager
+Architecture: iphoneos-arm64
+Version: 2.3.19
+Section: Tweaks
+Maintainer: yzdmm2024
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/com.ntm.notifymanager_2.3.19_iphoneos-arm64_603c58c49eb369d6bdcf293871685a68e9ff7ba6d9524ebac030b349cfec2718.deb
+Size: 91916
+MD5sum: 53c6f32b8524173d4376d8b2d6634437
+SHA1: e5c5a786e8488b30c76a0682ba9c04dc6a76f55b
+SHA256: 603c58c49eb369d6bdcf293871685a68e9ff7ba6d9524ebac030b349cfec2718
+SHA512: 78457d130ba7d9fb207ca4124bc00425fadfd795d6dfe939260df30da8ae5b6173e66ac179de129ed6bb1637b42ac5427a1a94fa7bc025a75e3b57263ea778c6
+Description: 通知管理：注入SpringBoard拦截通知展示，按分类(用户/巨魔/系统)管理每个App通知与网络。总开关+锁定屏幕/通知中心/横幅/声音/标记子开关，增强功能：仅隐藏角标、隐藏预览、后台自动断网、关键词过滤、应用分组、模式快照、筛选；网络策略(打开wifi/流量/wifi+流量/断网)同步系统蜂窝设置，支持搜索、批量控制、单应用重置、配置导入导出、邮件反馈；新增自动授权通知权限（抹除/还原设置后，按插件配置静默授权，打开App不再弹"想给你发送通知"）；2.3.15 断网增强：新增进程级拦截(connectx/connect/sendto/sendmsg)，断网后 WiFi 与蜂窝流量同时切断，iOS 15/16/17 通用；2.3.16 断网修复：注入范围扩到所有 App 进程(UIApplication)，解决第三方 App 未注入导致断网不生效的问题（隐根环境需在 Bootstrap 的 App List 里为目标 App 开启注入）；2.3.17 断网修复：修正 PSAppDataUsagePolicyCache 在新系统的框架路径(SettingsCellular.framework)，并补上 CommCenter 写入签名权限，面板「断网」现在能真正把系统「允许App使用数据」设为「关闭」(WiFi+蜂窝同时切断)；2.3.18 断网修复：改用系统设置页的真实写入路径(policiesFor: → setCellular:/setWifi: → setPolicies:completion:)，此前调用的 setUsagePoliciesForBundle:cellular:wifi: 与 CoreTelephony 写入接口在 iOS 15/16/17 上均不存在，导致策略写入一直是空操作、系统设置里看不到「关闭」；2.3.19 弹窗修复：面板设为「断网」的 App，启动时不再弹国行机「允许"XX"使用无线数据」选择框——hook SpringBoard 的网络类启动弹窗评估器(SBApplicationLaunchAlertEvaluatorForNetworkBasedAlertItems -shouldShowLaunchAlertForApplication:)与展示入口(SBApplicationLaunchAlertService -showLaunchAlertOfType:forApplication:)，对断网 App 直接不展示，避免用户误点弹窗把权限改回允许导致与面板设置不一致
+Name: 通知管理
+Author: yzdmm2024
+
+Package: com.ntm.notifymanager
+Architecture: iphoneos-arm64
+Version: 2.3.20
+Section: Tweaks
+Maintainer: yzdmm2024
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/com.ntm.notifymanager_2.3.20_iphoneos-arm64_158e40b81c8e8068c4ea4dcd544f0acb601b664fdc79fa4c0e4bfdb335b8c6f5.deb
+Size: 92072
+MD5sum: 96f2c1a0428a94da9342a727e40deaad
+SHA1: 5c9f003d7b7396fe6a1eba355f26f942be6375f4
+SHA256: 158e40b81c8e8068c4ea4dcd544f0acb601b664fdc79fa4c0e4bfdb335b8c6f5
+SHA512: 407c3e628162d72cb4f861c416f203d4276905489d5a07239ecfc5370947263c8212829e892d2c9e623016907a8c2139f5316d5339673085d6fb10dfc3573a28
+Description: 通知管理：注入SpringBoard拦截通知展示，按分类(用户/巨魔/系统)管理每个App通知与网络。总开关+锁定屏幕/通知中心/横幅/声音/标记子开关，增强功能：仅隐藏角标、隐藏预览、后台自动断网、关键词过滤、应用分组、模式快照、筛选；网络策略(打开wifi/流量/wifi+流量/断网)同步系统蜂窝设置，支持搜索、批量控制、单应用重置、配置导入导出、邮件反馈；新增自动授权通知权限（抹除/还原设置后，按插件配置静默授权，打开App不再弹"想给你发送通知"）；2.3.15 断网增强：新增进程级拦截(connectx/connect/sendto/sendmsg)，断网后 WiFi 与蜂窝流量同时切断，iOS 15/16/17 通用；2.3.16 断网修复：注入范围扩到所有 App 进程(UIApplication)，解决第三方 App 未注入导致断网不生效的问题（隐根环境需在 Bootstrap 的 App List 里为目标 App 开启注入）；2.3.17 断网修复：修正 PSAppDataUsagePolicyCache 在新系统的框架路径(SettingsCellular.framework)，并补上 CommCenter 写入签名权限，面板「断网」现在能真正把系统「允许App使用数据」设为「关闭」(WiFi+蜂窝同时切断)；2.3.18 断网修复：改用系统设置页的真实写入路径(policiesFor: → setCellular:/setWifi: → setPolicies:completion:)，此前调用的 setUsagePoliciesForBundle:cellular:wifi: 与 CoreTelephony 写入接口在 iOS 15/16/17 上均不存在，导致策略写入一直是空操作、系统设置里看不到「关闭」；2.3.19 弹窗修复：面板设为「断网」的 App，启动时不再弹国行机「允许"XX"使用无线数据」选择框——hook SpringBoard 的网络类启动弹窗评估器(SBApplicationLaunchAlertEvaluatorForNetworkBasedAlertItems -shouldShowLaunchAlertForApplication:)与展示入口(SBApplicationLaunchAlertService -showLaunchAlertOfType:forApplication:)，对断网 App 直接不展示，避免用户误点弹窗把权限改回允许导致与面板设置不一致；2.3.20 弹窗修复：开启「后台断网」的 App 回前台时也不再弹国行机「允许"XX"使用无线数据」选择框——弹窗拦截条件补上后台断网判断（NTM_netRead==1 或 NTM_bgNetOn 均拦截），并把回前台时的网络策略恢复提前到系统弹窗评估之前（hook_fg 先恢复策略再调用原函数），解决只要断网或后台断网就必弹弹窗的问题
+Name: 通知管理
+Author: yzdmm2024
+
+Package: com.ntm.notifymanager
+Architecture: iphoneos-arm64
+Version: 2.3.21
+Section: Tweaks
+Maintainer: yzdmm2024
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/com.ntm.notifymanager_2.3.21_iphoneos-arm64_d8a6c49a2f27851b261f3c15da16b4c98193e02ac914b69e9e6347cd77bc0fe7.deb
+Size: 94400
+MD5sum: 8bf8f7c340d966e482dc50df83b4d091
+SHA1: 6f669fd73d77db5a8477d320c4a892214d3ecb69
+SHA256: d8a6c49a2f27851b261f3c15da16b4c98193e02ac914b69e9e6347cd77bc0fe7
+SHA512: 94b659730da2839bfba5d9aa8f51f3a61aa510331278c83bdc280ad72e51650e1a800f0afd45678070d95455986f2032a182073bfeed756d436fa5b8e19dfd54
+Description: 通知管理：注入SpringBoard拦截通知展示，按分类(用户/巨魔/系统)管理每个App通知与网络。总开关+锁定屏幕/通知中心/横幅/声音/标记子开关，增强功能：仅隐藏角标、隐藏预览、后台自动断网、关键词过滤、应用分组、模式快照、筛选；网络策略(打开wifi/流量/wifi+流量/断网)同步系统蜂窝设置，支持搜索、批量控制、单应用重置、配置导入导出、邮件反馈；新增自动授权通知权限（抹除/还原设置后，按插件配置静默授权，打开App不再弹"想给你发送通知"）；2.3.15 断网增强：新增进程级拦截(connectx/connect/sendto/sendmsg)，断网后 WiFi 与蜂窝流量同时切断，iOS 15/16/17 通用；2.3.16 断网修复：注入范围扩到所有 App 进程(UIApplication)，解决第三方 App 未注入导致断网不生效的问题（隐根环境需在 Bootstrap 的 App List 里为目标 App 开启注入）；2.3.17 断网修复：修正 PSAppDataUsagePolicyCache 在新系统的框架路径(SettingsCellular.framework)，并补上 CommCenter 写入签名权限，面板「断网」现在能真正把系统「允许App使用数据」设为「关闭」(WiFi+蜂窝同时切断)；2.3.18 断网修复：改用系统设置页的真实写入路径(policiesFor: → setCellular:/setWifi: → setPolicies:completion:)，此前调用的 setUsagePoliciesForBundle:cellular:wifi: 与 CoreTelephony 写入接口在 iOS 15/16/17 上均不存在，导致策略写入一直是空操作、系统设置里看不到「关闭」；2.3.19 弹窗修复：面板设为「断网」的 App，启动时不再弹国行机「允许"XX"使用无线数据」选择框——hook SpringBoard 的网络类启动弹窗评估器(SBApplicationLaunchAlertEvaluatorForNetworkBasedAlertItems -shouldShowLaunchAlertForApplication:)与展示入口(SBApplicationLaunchAlertService -showLaunchAlertOfType:forApplication:)，对断网 App 直接不展示，避免用户误点弹窗把权限改回允许导致与面板设置不一致；2.3.20 弹窗修复：开启「后台断网」的 App 回前台时也不再弹国行机「允许"XX"使用无线数据」选择框——弹窗拦截条件补上后台断网判断（NTM_netRead==1 或 NTM_bgNetOn 均拦截），并把回前台时的网络策略恢复提前到系统弹窗评估之前（hook_fg 先恢复策略再调用原函数），解决只要断网或后台断网就必弹弹窗的问题；2.3.21 弹窗修复：彻底屏蔽 CommCenter 直发的「允许"XX"使用无线数据」——实测该弹窗由 CommCenter 直接给 SpringBoard 发请求经 +[SBUserNotificationCenter dispatchUserNotification:flags:replyPort:auditToken:] 创建，并不经过 2.3.19/2.3.20 hook 的启动弹窗评估器，所以仍会漏弹；现对面板里设为「断网」或「后台断网」的 App，识别消息里的 App 名解析出 bundle id 后，直接按实测格式回一条「不允许」报文给 CommCenter，弹窗不再出现，且系统数据策略与面板保持同源、解除断网后自动恢复
+Name: 通知管理
+Author: yzdmm2024
+
+Package: com.ntm.notifymanager
+Architecture: iphoneos-arm64
+Version: 2.3.22
+Section: Tweaks
+Maintainer: yzdmm2024
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/com.ntm.notifymanager_2.3.22_iphoneos-arm64_cde57f8f7c98a6c752b06097c0b880769df82203f638f61b9ab1bf0750ffde5f.deb
+Size: 94380
+MD5sum: 52eadfa35213c3dce6c3a3398a070d76
+SHA1: c327a97b6bb1c1a12fbd3ae58e7679233848eb12
+SHA256: cde57f8f7c98a6c752b06097c0b880769df82203f638f61b9ab1bf0750ffde5f
+SHA512: ae0f94478c868215c46153ebee21487426df065e2a33694539703931e2677221ce67dc82cca064cdf26d49ac942998752d33bb9ec704b927f11f93f853e94254
+Description: 通知管理：注入SpringBoard拦截通知展示，按分类(用户/巨魔/系统)管理每个App通知与网络。总开关+锁定屏幕/通知中心/横幅/声音/标记子开关，增强功能：仅隐藏角标、隐藏预览、后台自动断网、关键词过滤、应用分组、模式快照、筛选；网络策略(打开wifi/流量/wifi+流量/断网)同步系统蜂窝设置，支持搜索、批量控制、单应用重置、配置导入导出、邮件反馈；新增自动授权通知权限（抹除/还原设置后，按插件配置静默授权，打开App不再弹"想给你发送通知"）；2.3.15 断网增强：新增进程级拦截(connectx/connect/sendto/sendmsg)，断网后 WiFi 与蜂窝流量同时切断，iOS 15/16/17 通用；2.3.16 断网修复：注入范围扩到所有 App 进程(UIApplication)，解决第三方 App 未注入导致断网不生效的问题（隐根环境需在 Bootstrap 的 App List 里为目标 App 开启注入）；2.3.17 断网修复：修正 PSAppDataUsagePolicyCache 在新系统的框架路径(SettingsCellular.framework)，并补上 CommCenter 写入签名权限，面板「断网」现在能真正把系统「允许App使用数据」设为「关闭」(WiFi+蜂窝同时切断)；2.3.18 断网修复：改用系统设置页的真实写入路径(policiesFor: → setCellular:/setWifi: → setPolicies:completion:)，此前调用的 setUsagePoliciesForBundle:cellular:wifi: 与 CoreTelephony 写入接口在 iOS 15/16/17 上均不存在，导致策略写入一直是空操作、系统设置里看不到「关闭」；2.3.19 弹窗修复：面板设为「断网」的 App，启动时不再弹国行机「允许"XX"使用无线数据」选择框——hook SpringBoard 的网络类启动弹窗评估器(SBApplicationLaunchAlertEvaluatorForNetworkBasedAlertItems -shouldShowLaunchAlertForApplication:)与展示入口(SBApplicationLaunchAlertService -showLaunchAlertOfType:forApplication:)，对断网 App 直接不展示，避免用户误点弹窗把权限改回允许导致与面板设置不一致；2.3.20 弹窗修复：开启「后台断网」的 App 回前台时也不再弹国行机「允许"XX"使用无线数据」选择框——弹窗拦截条件补上后台断网判断（NTM_netRead==1 或 NTM_bgNetOn 均拦截），并把回前台时的网络策略恢复提前到系统弹窗评估之前（hook_fg 先恢复策略再调用原函数），解决只要断网或后台断网就必弹弹窗的问题；2.3.21 弹窗修复：彻底屏蔽 CommCenter 直发的「允许"XX"使用无线数据」——实测该弹窗由 CommCenter 直接给 SpringBoard 发请求经 +[SBUserNotificationCenter dispatchUserNotification:flags:replyPort:auditToken:] 创建，并不经过 2.3.19/2.3.20 hook 的启动弹窗评估器，所以仍会漏弹；现对面板里设为「断网」或「后台断网」的 App，识别消息里的 App 名解析出 bundle id 后，直接按实测格式回一条「不允许」报文给 CommCenter，弹窗不再出现，且系统数据策略与面板保持同源、解除断网后自动恢复；2.3.22 后台断网修复：iOS 16 已移除 FBSceneManager 的 _noteSceneMovedToBackground:/_noteSceneMovedToForeground:，旧 hook 静默失败、KVC identity.bundleIdentifier 也取不到 bundle id，且 SpringBoard 进程没有 CommCenter 的 data-allowed-write 权限（实测只有 spi/voice/phone 等）、即便 hook 生效也写不了系统数据策略，这就是「后台断网」一直没效果的根因；现改为在 App 自己进程内实现：监听 UIApplication 进后台/回前台通知，进后台时 shutdown 本进程所有指向远端的已建立连接并拒绝新建连接(connectx/connect/sendto/sendmsg)，回前台自动恢复放行，面板里显式设为「断网」的 App 仍照常拦截
+Name: 通知管理
+Author: yzdmm2024
+
+Package: com.ntm.notifymanager
+Architecture: iphoneos-arm64
+Version: 2.3.23
+Section: Tweaks
+Maintainer: yzdmm2024
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/com.ntm.notifymanager_2.3.23_iphoneos-arm64_781d44a47b25d324177f9bc417f50761d7c509fbe1e4fd93a16e84d3f07e98b7.deb
+Size: 97564
+MD5sum: 52cd754ddeafbeac7b95f237f62ec60a
+SHA1: 0152bda61cb5bbc921a1a0310f19f672a6481906
+SHA256: 781d44a47b25d324177f9bc417f50761d7c509fbe1e4fd93a16e84d3f07e98b7
+SHA512: 7fe89b3124f4a4d834f0bf15fdee291f46a9b7c905cab8af821b7b582121db72fdc6e3f4511fd57022163e08ada545d0b2d0768971cd70690b41505748b1b338
+Description: 通知管理：注入SpringBoard拦截通知展示，按分类(用户/巨魔/系统)管理每个App通知与网络。总开关+锁定屏幕/通知中心/横幅/声音/标记子开关，增强功能：仅隐藏角标、隐藏预览、后台自动断网、关键词过滤、应用分组、模式快照、筛选；网络策略(打开wifi/流量/wifi+流量/断网)同步系统蜂窝设置，支持搜索、批量控制、单应用重置、配置导入导出、邮件反馈；新增自动授权通知权限（抹除/还原设置后，按插件配置静默授权，打开App不再弹"想给你发送通知"）；2.3.15 断网增强：新增进程级拦截(connectx/connect/sendto/sendmsg)，断网后 WiFi 与蜂窝流量同时切断，iOS 15/16/17 通用；2.3.16 断网修复：注入范围扩到所有 App 进程(UIApplication)，解决第三方 App 未注入导致断网不生效的问题（隐根环境需在 Bootstrap 的 App List 里为目标 App 开启注入）；2.3.17 断网修复：修正 PSAppDataUsagePolicyCache 在新系统的框架路径(SettingsCellular.framework)，并补上 CommCenter 写入签名权限，面板「断网」现在能真正把系统「允许App使用数据」设为「关闭」(WiFi+蜂窝同时切断)；2.3.18 断网修复：改用系统设置页的真实写入路径(policiesFor: → setCellular:/setWifi: → setPolicies:completion:)，此前调用的 setUsagePoliciesForBundle:cellular:wifi: 与 CoreTelephony 写入接口在 iOS 15/16/17 上均不存在，导致策略写入一直是空操作、系统设置里看不到「关闭」；2.3.19 弹窗修复：面板设为「断网」的 App，启动时不再弹国行机「允许"XX"使用无线数据」选择框——hook SpringBoard 的网络类启动弹窗评估器(SBApplicationLaunchAlertEvaluatorForNetworkBasedAlertItems -shouldShowLaunchAlertForApplication:)与展示入口(SBApplicationLaunchAlertService -showLaunchAlertOfType:forApplication:)，对断网 App 直接不展示，避免用户误点弹窗把权限改回允许导致与面板设置不一致；2.3.20 弹窗修复：开启「后台断网」的 App 回前台时也不再弹国行机「允许"XX"使用无线数据」选择框——弹窗拦截条件补上后台断网判断（NTM_netRead==1 或 NTM_bgNetOn 均拦截），并把回前台时的网络策略恢复提前到系统弹窗评估之前（hook_fg 先恢复策略再调用原函数），解决只要断网或后台断网就必弹弹窗的问题；2.3.21 弹窗修复：彻底屏蔽 CommCenter 直发的「允许"XX"使用无线数据」——实测该弹窗由 CommCenter 直接给 SpringBoard 发请求经 +[SBUserNotificationCenter dispatchUserNotification:flags:replyPort:auditToken:] 创建，并不经过 2.3.19/2.3.20 hook 的启动弹窗评估器，所以仍会漏弹；现对面板里设为「断网」或「后台断网」的 App，识别消息里的 App 名解析出 bundle id 后，直接按实测格式回一条「不允许」报文给 CommCenter，弹窗不再出现，且系统数据策略与面板保持同源、解除断网后自动恢复；2.3.22 后台断网修复：iOS 16 已移除 FBSceneManager 的 _noteSceneMovedToBackground:/_noteSceneMovedToForeground:，旧 hook 静默失败、KVC identity.bundleIdentifier 也取不到 bundle id，且 SpringBoard 进程没有 CommCenter 的 data-allowed-write 权限（实测只有 spi/voice/phone 等）、即便 hook 生效也写不了系统数据策略，这就是「后台断网」一直没效果的根因；现改为在 App 自己进程内实现：监听 UIApplication 进后台/回前台通知，进后台时 shutdown 本进程所有指向远端的已建立连接并拒绝新建连接(connectx/connect/sendto/sendmsg)，回前台自动恢复放行，面板里显式设为「断网」的 App 仍照常拦截；2.3.23 断网根因修复：实测第三方 App 沙盒完全读不到面板配置（cfprefsd 隔离，NSUserDefaults/CFPreferences/直读 plist 三条路全失败），「后台断网」与进程级「断网」在 App 内一直读到默认值、从未真正生效——现由 SpringBoard（能读面板配置）把每个 App 的配置按 bundle id 转写到其容器 Library/ntm_config.plist 并广播更新，App 端读不到面板配置时改读该镜像（镜像优先、suite 兜底），配置变更约 0.3 秒内自动同步，SpringBoard 开机 10 秒后全量补写一次；同时补上面板「断网」按钮与「后台断网」全局标记保存后遗漏的配置变更广播，后台断网与断网拦截自此在 App 进程内真正生效
+Name: 通知管理
+Author: yzdmm2024
+
+Package: com.ntm.notifymanager
+Architecture: iphoneos-arm64
+Version: 2.3.24
+Section: Tweaks
+Maintainer: yzdmm2024
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/com.ntm.notifymanager_2.3.24_iphoneos-arm64_d97cae0bb1cc1af542ad059b572f1c3fb0c8e6e3b8b264794bac33c41ef2a984.deb
+Size: 99032
+MD5sum: 6650a1a22d7fa28b8856018269019702
+SHA1: 3ebbccb986089d8901aff3f224912b557a583b23
+SHA256: d97cae0bb1cc1af542ad059b572f1c3fb0c8e6e3b8b264794bac33c41ef2a984
+SHA512: 6383e42b6d2844ac2c8b4b1b6d0aa3a0df15ab96be4af409ce01d92e91693d596df9610ba38a9f150741403b60d92d71749b96b0a22e664754273909b101618b
+Description: 通知管理：注入SpringBoard拦截通知展示，按分类(用户/巨魔/系统)管理每个App通知与网络。总开关+锁定屏幕/通知中心/横幅/声音/标记子开关，增强功能：仅隐藏角标、隐藏预览、后台自动断网、关键词过滤、应用分组、模式快照、筛选；网络策略(打开wifi/流量/wifi+流量/断网)同步系统蜂窝设置，支持搜索、批量控制、单应用重置、配置导入导出、邮件反馈；新增自动授权通知权限（抹除/还原设置后，按插件配置静默授权，打开App不再弹"想给你发送通知"）；2.3.15 断网增强：新增进程级拦截(connectx/connect/sendto/sendmsg)，断网后 WiFi 与蜂窝流量同时切断，iOS 15/16/17 通用；2.3.16 断网修复：注入范围扩到所有 App 进程(UIApplication)，解决第三方 App 未注入导致断网不生效的问题（隐根环境需在 Bootstrap 的 App List 里为目标 App 开启注入）；2.3.17 断网修复：修正 PSAppDataUsagePolicyCache 在新系统的框架路径(SettingsCellular.framework)，并补上 CommCenter 写入签名权限，面板「断网」现在能真正把系统「允许App使用数据」设为「关闭」(WiFi+蜂窝同时切断)；2.3.18 断网修复：改用系统设置页的真实写入路径(policiesFor: → setCellular:/setWifi: → setPolicies:completion:)，此前调用的 setUsagePoliciesForBundle:cellular:wifi: 与 CoreTelephony 写入接口在 iOS 15/16/17 上均不存在，导致策略写入一直是空操作、系统设置里看不到「关闭」；2.3.19 弹窗修复：面板设为「断网」的 App，启动时不再弹国行机「允许"XX"使用无线数据」选择框——hook SpringBoard 的网络类启动弹窗评估器(SBApplicationLaunchAlertEvaluatorForNetworkBasedAlertItems -shouldShowLaunchAlertForApplication:)与展示入口(SBApplicationLaunchAlertService -showLaunchAlertOfType:forApplication:)，对断网 App 直接不展示，避免用户误点弹窗把权限改回允许导致与面板设置不一致；2.3.20 弹窗修复：开启「后台断网」的 App 回前台时也不再弹国行机「允许"XX"使用无线数据」选择框——弹窗拦截条件补上后台断网判断（NTM_netRead==1 或 NTM_bgNetOn 均拦截），并把回前台时的网络策略恢复提前到系统弹窗评估之前（hook_fg 先恢复策略再调用原函数），解决只要断网或后台断网就必弹弹窗的问题；2.3.21 弹窗修复：彻底屏蔽 CommCenter 直发的「允许"XX"使用无线数据」——实测该弹窗由 CommCenter 直接给 SpringBoard 发请求经 +[SBUserNotificationCenter dispatchUserNotification:flags:replyPort:auditToken:] 创建，并不经过 2.3.19/2.3.20 hook 的启动弹窗评估器，所以仍会漏弹；现对面板里设为「断网」或「后台断网」的 App，识别消息里的 App 名解析出 bundle id 后，直接按实测格式回一条「不允许」报文给 CommCenter，弹窗不再出现，且系统数据策略与面板保持同源、解除断网后自动恢复；2.3.22 后台断网修复：iOS 16 已移除 FBSceneManager 的 _noteSceneMovedToBackground:/_noteSceneMovedToForeground:，旧 hook 静默失败、KVC identity.bundleIdentifier 也取不到 bundle id，且 SpringBoard 进程没有 CommCenter 的 data-allowed-write 权限（实测只有 spi/voice/phone 等）、即便 hook 生效也写不了系统数据策略，这就是「后台断网」一直没效果的根因；现改为在 App 自己进程内实现：监听 UIApplication 进后台/回前台通知，进后台时 shutdown 本进程所有指向远端的已建立连接并拒绝新建连接(connectx/connect/sendto/sendmsg)，回前台自动恢复放行，面板里显式设为「断网」的 App 仍照常拦截；2.3.23 断网根因修复：实测第三方 App 沙盒完全读不到面板配置（cfprefsd 隔离，NSUserDefaults/CFPreferences/直读 plist 三条路全失败）；2.3.24 修复注销后网络重置+新App自动授权WiFi蜂窝：SpringBoard启动10s后遍历面板配置重新应用系统蜂窝策略(NTM_applyAllPolicies)，新安装App面板未配置时默认允许WiFi+蜂窝不弹系统选择框，「后台断网」与进程级「断网」在 App 内一直读到默认值、从未真正生效——现由 SpringBoard（能读面板配置）把每个 App 的配置按 bundle id 转写到其容器 Library/ntm_config.plist 并广播更新，App 端读不到面板配置时改读该镜像（镜像优先、suite 兜底），配置变更约 0.3 秒内自动同步，SpringBoard 开机 10 秒后全量补写一次；同时补上面板「断网」按钮与「后台断网」全局标记保存后遗漏的配置变更广播，后台断网与断网拦截自此在 App 进程内真正生效
+Name: 通知管理
+Author: yzdmm2024
+
+Package: com.ntm.notifymanager
+Architecture: iphoneos-arm64
+Version: 2.3.50
+Section: Tweaks
+Maintainer: yzdmm2024
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/com.ntm.notifymanager_2.3.50_iphoneos-arm64_d4feffde3ebc00c7b93076ab5db9397d4f1dec104597e5f27437757d729fcc75.deb
+Size: 197908
+MD5sum: 4ed38065323f833663efa7caae1240fc
+SHA1: d958e396cdff7b0cdcad80b13bb247e301553e75
+SHA256: d4feffde3ebc00c7b93076ab5db9397d4f1dec104597e5f27437757d729fcc75
+SHA512: 9a3fb90335807648702683bb8bf55b5e273bdba54b8a4475e11d0cc97ce21f06087116532a218a73ed9843e356a0ced9b86afc766e6eba00b37b3a8bffaada07
+Description: 通知管理 - 按 App 管理通知与网络，同步系统「蜂窝网络」设置
+ 轻量级 SpringBoard 通知 / 网络管理工具：无定时器、无轮询，通知到达只做内存查表，
+ 空闲时不耗电；不在后台常驻任何进程。
+ .
+ 【通知管理】按「用户应用 / 巨魔应用 / 系统应用」列出手机上所有真实 App
+ （自动过滤隐藏的系统辅助服务，无图标的系统组件不显示），逐个 App 控制：
+ - 总开关：关闭后该 App 的通知不再显示
+ - 分项开关：锁定屏幕 / 通知中心 / 横幅 / 声音 / 标记，各自独立
+ - 隐藏预览：只显示 App 名称，不显示具体内容
+ - 仅隐藏角标：保留通知，只去掉数字角标
+ - 关键词过滤：命中关键词的通知自动丢弃
+ .
+ 【网络管理】与「设置 - 蜂窝网络 - 某 App 的蜂窝数据」同源：
+ - 每个 App 可选：Wi-Fi + 蜂窝 / 仅 Wi-Fi / 仅蜂窝 / 完全断网
+ - 后台自动断网：App 进后台即切断已建立连接并拒绝新建连接，回前台自动恢复
+ - 新装 App 首次联网不再弹「允许使用无线数据」，按面板配置静默放行
+ - 不需要拦截时可一键关闭，恢复系统原生选择框
+ .
+ 【其他】
+ - 批量控制、搜索、单应用重置、配置导入导出
+ - 自动授权通知权限：抹除或还原设置后，打开 App 不再弹「想给您发送通知」
+ - 面板内置诊断日志，可查看弹窗拦截的命中情况
+ .
+ 支持系统：iOS 14 / 15 / 16 / 17（arm64、arm64e）
+ iOS 14 请安装 rootful 版；iOS 15 及以上安装 rootless 版。
+ 有问题请在「设置 - 通知管理」右上角点「反馈」，附上机型与系统版本。
+Name: 通知管理
+Author: yzdmm2024
+Firmware: >= 14.0
+
+Package: com.ntm.privacymanager
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Section: Tweaks
+Maintainer: yzdmm2024
+Depends: preferenceloader
+Filename: debs/iphoneos-arm64/com.ntm.privacymanager_1.1.0_iphoneos-arm64_6fe34672eb9e99609c1276e84eb2489372286200cea1d2d94385cbf098030e0e.deb
+Size: 58816
+MD5sum: 8df26ee0b5fc585309f78c6cf5232d98
+SHA1: 6be984cc8f755903a066fd6dade3eeb4f721742e
+SHA256: 6fe34672eb9e99609c1276e84eb2489372286200cea1d2d94385cbf098030e0e
+SHA512: a0eaa654ec64f14eb440552937840dc866749e8fcf763029855472fbde44f6b77a42e58d845c008aef3cc14ed4ce09276524e58e12451462250dbd1d98c40b94
+Description: 隐私总开关：系统「设置→隐私与安全性」的实时镜像。App 列表直接取自系统 TCC 数据库（与系统面板完全一致），七个权限开关实时读写同一 TCC.db——你在此开/关，系统设置立刻同步（双向）。顶部「按功能一键开关」可一次性对某权限（照片/本地网络/麦克风/相机/定位/跟踪/通讯录）对全部应用开启或关闭；每个 App 卡片支持独立开关与重置。本地网络为尽力项。支持配置导入导出。跟踪权限为双重管控：面板写 TCC 授权状态，同时 App 侧 hook（PMHook）静默应答 ATT「允许跟踪」弹窗——抹除/还原设置后打开 App 不再弹出跟踪询问（未配置的 App 默认拒绝跟踪）。 定位支持三态：使用app期间 / 始终 / 下次询问或在我共享时（长按定位开关选择）。
+Name: 隐私总开关
+Author: yzdmm2024
 
 Package: com.nx.stheno
 Architecture: iphoneos-arm64
@@ -20446,6 +20755,71 @@ Name: Yuki
 Author: vita
 icon: https://huayuarc.github.io/icon/douyin.jpg
 
+Package: com.wacljcr.floatingurl
+Architecture: iphoneos-arm64
+Version: 1.4.3-1+debug
+Section: Tweaks
+Maintainer: wacljcr
+Installed-Size: 1296
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.wacljcr.floatingurl_1.4.3-1+debug_iphoneos-arm64_f6488963807ec0d9b6dd140cbc91b4dabd9d820cbcbd39f60bf2e48fb1d86df2.deb
+Size: 446882
+MD5sum: 887c16645146344d5b08451e982c4747
+SHA1: 43e4c40c081aefbeb06459b8351ae7ea28e11d4b
+SHA256: f6488963807ec0d9b6dd140cbc91b4dabd9d820cbcbd39f60bf2e48fb1d86df2
+SHA512: ddd99af2485dce2ecc8d296e420a4c0994fc477a52f536383a3adb1cf84af5f4111dd2380ce8378dec27ab3ca3eb188b8a96b83322da5f09a67683902443af92
+Description: 解锁URL玩法！
+Name: 悬浮URL
+Author: wacljcr
+
+Package: com.wacljcr.hideglobe
+Architecture: iphoneos-arm64
+Version: 1.0.6-1+debug
+Section: Tweaks
+Maintainer: wacljcr
+Installed-Size: 364
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.wacljcr.hideglobe_1.0.6-1+debug_iphoneos-arm64_10d68156d243d84ff7c34e4924cabd163485283aec17b29fd292f6f089493379.deb
+Size: 35936
+MD5sum: ca4c588cf8bf169f1bb8999ddec7fcb6
+SHA1: 2811e093804f51c3f27cbe6a73710681d5fecda6
+SHA256: 10d68156d243d84ff7c34e4924cabd163485283aec17b29fd292f6f089493379
+SHA512: 44e919adde81fd8530b3d5d2fead674ee85f86f3d318e225be4fdfccccc7b3fe5ac536389ac4e11816bb551e1592cdf5f89c498bc833a54e9ddb135ee3c929ba
+Description: 隐藏系统键盘地球（输入法切换）键，设置里可开关。rootless 适配，逐 App 生效。
+Name: 隐藏地球图标
+Author: wacljcr
+
+Package: com.wacljcr.keyboardstatus
+Architecture: iphoneos-arm64
+Version: 1.4.44
+Section: Tweaks
+Maintainer: wacljcr
+Installed-Size: 792
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Filename: debs/iphoneos-arm64/com.wacljcr.keyboardstatus_1.4.44_iphoneos-arm64_60d8b12c5c5d9906ff7344bd069ff609c846515eb001cb62ef8cb54858155a44.deb
+Size: 243290
+MD5sum: b05d335f756511978416c0d01fcd1dd6
+SHA1: ca8420b2bfab1b8487c05cd1af7c07a855e5ff3a
+SHA256: 60d8b12c5c5d9906ff7344bd069ff609c846515eb001cb62ef8cb54858155a44
+SHA512: 33410b74e8826436717b574687ac7cdf96e05bd14b9dee5df365777bb3c5a292147ce3ce312081326203613cbcf999adeb9213a95e990586409c2427c1d2f742
+Description: 给系统键盘底栏加一排常用按钮，打字不用再长按选字
+ 在系统键盘下方加一排按钮：全选、剪切、复制、粘贴、剪贴板历史、短语、光标左右移、短删、全删、撤销、收起键盘、快捷启动、文言文、切换输入法，共 16 个。每个都能单独开关，也能拖动排序；工具栏支持单排／双排、图标版／文字版，字号、间距、左右偏移与上下抬高都可调。
+ .
+ 【隐藏地球键】（合并自 HideGlobe，默认开启）：把系统键盘最左下角那个输入法切换键整个藏起来、同时禁用点击，底栏更干净也少误触；需要切输入法时用工具栏上的「切换」按钮代替，功能一样。开关随时可关，关掉后地球键原样回来。
+ .
+ 其他细节：
+ - 验证码 / 密码等纯数字、密码框场景自动隐藏工具栏；Flutter / React Native 应用不会被误判成「假输入框」
+ - 「全选」选中网址时，再点一下 = 复制 + 跳转
+ - 四种光标样式：系统默认 / 细竖线 / 横线 / Mac 拼音横线
+ - 复制网址三档：关闭 / 浮出「跳转网页」按钮（默认）/ 直接用指定浏览器打开，浏览器可自选
+ - 文言文转换与剪贴板历史均为本地实现，不联网
+ - 一键备份与恢复设置、诊断信息、设置内反馈入口
+ - 不注入 SpringBoard，空闲不轮询、不驻留，逐功能可关
+ .
+ 支持 iOS 15.0 – 16.6 的 rootless 越狱（Dopamine / Relaxin / RootHide）。设置入口：设置 → 键盘下方状态。遇到问题点右上角「反馈」，会自动带上机型与系统版本。
+Name: 键盘下方状态
+Author: wacljcr
+
 Package: com.wacljcr.qqmixtxtimg
 Architecture: iphoneos-arm64
 Version: 1.0.6
@@ -20488,6 +20862,85 @@ Description: 让移动端 QQ 像电脑端一样把「图片 + 文字」合并成
 Name: QQ图文同发
 Author: wacljcr
 icon: https://huayuarc.github.io/icon/qq.png
+
+Package: com.wacljcr.restartcc
+Architecture: iphoneos-arm64
+Version: 2.3.4
+Section: Tweaks
+Maintainer: wacljcr
+Depends: mobilesubstrate (>= 0.9.7000) | ellekit, preferenceloader, com.opa334.ccsupport, firmware (>= 14.0)
+Filename: debs/iphoneos-arm64/com.wacljcr.restartcc_2.3.4_iphoneos-arm64_fbf2420f290abb5c249b4708502e390e571bd2a13f4438c8410ca896414b8936.deb
+Size: 72564
+MD5sum: d5ad842d7b70f8b0e707c492075cbb67
+SHA1: f26c6848e20982f9b0005048df1700c0f242f1ef
+SHA256: fbf2420f290abb5c249b4708502e390e571bd2a13f4438c8410ca896414b8936
+SHA512: 3311517b33a0c5af967d25c5f42fd73688d31a7371ac7a024e2eb1e6279827cabd8ddcd3e1047bee87cb880ebcc1588710aac38fea4436c0c1d648d602c89714
+Description: 控制中心「重启 / 注销」模块 + 设置面板。点按控制中心模块弹出选择框执行；设置内也有对应按钮。
+Name: 重启/注销
+Author: wacljcr
+
+Package: com.wacljcr.superscreenshot
+Architecture: iphoneos-arm64
+Version: 8.0.19
+Section: Tweaks
+Maintainer: yzdmm2024
+Installed-Size: 2044
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.wacljcr.superscreenshot_8.0.19_iphoneos-arm64_9df0dde73efb9b88e54d7221f5f1eeff6621d93cf33630cee7dcd2e067a36380.deb
+Size: 637882
+MD5sum: 55b186303987b227d1e2740f93acbb70
+SHA1: d41b503b8b8580f2142ab09972c8aa95a029fd34
+SHA256: 9df0dde73efb9b88e54d7221f5f1eeff6621d93cf33630cee7dcd2e067a36380
+SHA512: 65461844f7003538866a1984353df1e98499c756a8fad7c5e854a1e93c659a717a3a83e6e41b7b6df83b13f21206662420a1a5f21278e26ca66d493d3d26a001
+Description: 本项目仅限个人学习使用，仅针对 Relaxin 越狱环境、iOS 16.6.1 进行适配，其他越狱 / 系统版本均未测试。使用产生的各类报错、异常问题，请使用者自行排查解决。功能说明：截图与裁剪（控制中心按钮或手势呼出浮层，拖框选区可拖动 / 缩放微调，支持正常截图与长截图）；长截图提供 2 种采集方式（长截图界面左上角按钮循环切换）：① 自动滚动——注入驱动任意 App 的 UIScrollView 逐屏自动滚动并精确拼接整页长图，可随时点「停止」；② 手动——框好后滑动页面、点「下一屏 ▼」逐屏采集；自动滚动已放开为全 App 注入（不再仅限微信/QQ）；图片拼接编辑器（复刻 Picsew：多张截图缝线式拼接，单张照片可旋转 / 翻转 / 裁剪 / 删除 / 前后移动，裁剪界面内直接带标注工具（小马赛克 / 大马赛克 / 模糊 / 画笔 / 矩形 / 文字 / 撤销 / 完成），支持马赛克（大 / 小）/ 模糊 / 画笔 / 矩形 / 文字标注，结果可保存 / 复制到剪贴板 / 分享，可选机型套壳且套壳更真实）；OCR 文字识别（视觉大模型引擎与百度 PaddleOCR 两种识别源，结果按阅读顺序上→下、同行左→右重排，可复制全文）；翻译（大模型或百度翻译对选中文字翻译，原文 / 译文可分别复制）；画图标注（画笔实线 / 马克笔半透明粗线 / 橡皮，可选颜色与透明度、撤销）；识码（识别二维码 / 条码，结果可复制或用 Safari 打开）；打开豆包（把当前截图带进豆包 App 直接对话提问，图片同时存入剪贴板可长按粘贴，替代原问 AI / 去状态栏按钮）；图像打码（方块像素马赛克 / 高斯模糊两种涂抹脱敏，可手动涂抹或智能识别手机号、身份证自动打码）；取色（吸管点取图中任意颜色并复制 HEX 值）；旋转（90° / 180° 旋转当前图）；图片压缩（一键压缩并提示前后体积）；贴图（把图片作为浮动窗贴到屏幕，可拖动、双指缩放、关闭）；复制 / 保存 / 分享（复制图片或文字到剪贴板；保存到专属相册「超级截图」；系统分享）；导出 PDF（把截图导出为 PDF）；还原（一键还原为编辑前原图）；启动（工具栏「启动」弹层选要秒开的 App，微信 / QQ / 闲鱼 预设或自定义 URL Scheme，秒开并把截图存入剪贴板）；截图历史记录（回看历次截图）；手机壳库（设置开启后正常截图自动套入手机外壳模板，含中框与刘海，套壳渲染更真实）；常驻悬浮球（设置「启用常驻悬浮球」开关：屏幕常驻可拖动悬浮球，点它直接呼出超级截图，替代控制中心按钮；关闭则回到控制中心方式）；URL 指令（cjt://jb 局部截图 / cjt://zc 正常截图 / cjt://ct 长截图 / cjt://pf 拼接，可在 Safari 地址栏或快捷指令「打开 URL」里触发，设置里多选启用）；设置丰富（工具栏自由排序 / 显隐 / 改名 / 换图标 SF Symbol；控制中心图标五选一相机 / 剪刀 / 闪电 / 文档 / 星星；大模型库识别引擎 / 问 AI / 翻译 分别选模型、一键导入预设、连接测试；百度 PaddleOCR 与百度翻译密钥配置；本插件已彻底放开，无需设备授权或解锁码）。
+Name: 超级截图
+Author: yzdmm2024
+
+Package: com.wacljcr.wxkbtoolbar10
+Architecture: iphoneos-arm64
+Version: 4.0
+Section: Tweaks
+Maintainer: wacljcr
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.wacljcr.nativekb
+Replaces: com.wacljcr.nativekb
+Filename: debs/iphoneos-arm64/com.wacljcr.wxkbtoolbar10_4.0_iphoneos-arm64_d46b6fdd67d7fb7cabe04c035a9b293b532015119f59cc4fc1a9d5133066b9ad.deb
+Size: 729850
+MD5sum: d42099987f9b0745fa6857448634901f
+SHA1: 06d5ba091817ea2223ecc357869e37587e56c27c
+SHA256: d46b6fdd67d7fb7cabe04c035a9b293b532015119f59cc4fc1a9d5133066b9ad
+SHA512: 27934d7852c6bc10e4ba94bc48f8abcb9392c0d9373a5bf9d254202fa9b5c4de8f4afc0efe03c7b68973cad8032ed1ec67f3dedb1d116af69453afa13d0290f9
+Description: 输入法自定义优化 —— 微信键盘与系统原生键盘的一站式外观定制
+ 一份 dylib 双引擎，同时管两套键盘：微信输入法键盘扩展（com.tencent.wetype.keyboard）与 iOS 系统原生键盘。v4.0 起把原来的「WxkbToolbar10」与「NativeKB」合并为一个插件，系统里少映射一份库、键盘扩展少一套 hook 表，设置里也只有一个入口。
+ .
+ **微信键盘 · 外观**
+ - 整键盘透明：递归清掉键盘自带的背景层（含毛玻璃与铺满型背景图），透出后面的内容；按键底色与文字色不受影响，仍是清晰黑字
+ - 键盘背景：纯色 / 相册图片（按键盘比例自动裁剪）/ 背景透明度
+ - 按键配色：字母、数字符号、左侧功能键、右侧功能键、空格分组取色，另有按键文字色与按下高亮色
+ - 主题色板 32 套（原图、彩虹、马卡龙、蜜桃、薄荷、森系、蒸汽波…），另有 4 套一键套用的配色预设：极光 / 莫兰迪 / 暗夜 / 清新，套用后仍可逐项微调
+ - 字母键进阶：A→Z 双色渐变，12 种变色方向（横 / 竖 / 斜 + 9 个角度），26 个字母也能逐个单独上色
+ - 彩虹键帽：用真实键帽图渲染，比程序生成的彩虹色更立体
+ - 我的主题：把当前整套外观存档，随时一键套用，不用每次重配
+ - 按键形状：圆角 0–22 pt，另有圆形 / 椭圆 / 半圆 / 五边形 / 六边形 / 星形 / 心形 / 水珠 / 描边
+ - 键盘上下位移；工具栏紧贴左侧 logo 铺满整行、图标保持原生尺寸不缩小、放不下时横向滑动
+ .
+ **系统原生键盘 · 增强**
+ - 字号：候选字大小倍率、键帽字号倍率，想让字大一点不用换系统字号
+ - 按键：按键圆角、隐藏系统灰底（默认开）、保留按键阴影、按键边框（颜色与宽度）、按键背景色、发送键单独配色
+ - 键盘底板：隐藏分割线、键盘整体背景色、底座背景色、保留毛玻璃
+ - 候选词栏配色：箭头按钮背景、网格背景、高亮背景与高亮文字、分隔线、预测栏背景
+ - 每组都有「恢复本组默认」，随时退回系统原生外观
+ .
+ **使用与说明**
+ - 改动后收起键盘再弹出即生效；批量调整完建议 respring 一次
+ - 微信键盘部分只改外观，不动布局与按键位置 —— 强改布局会被微信布局引擎反噬并触发键盘扩展崩溃
+ - 原生键盘增强在所有 App 内生效；微信键盘增强只在键盘扩展进程激活，普通 App 不加载，不额外占用内存
+ - 安装 v4.0 会自动移除旧的 NativeKB，原有设置继续沿用
+ - 设置入口：设置 → 输入法自定义优化；问题反馈可邮件联系 wacljcr@qq.com
+ .
+ 支持 iOS 15 – 16 的 rootless 越狱（Relaxin / Dopamine / RootHide），依赖 mobilesubstrate 或 ellekit、preferenceloader。
+Name: 输入法自定义优化
+Author: wacljcr
 
 Package: com.wcglass.free
 Architecture: iphoneos-arm64e
@@ -20937,6 +21390,23 @@ Description: 系统键盘底栏加功能按钮（全选/剪切/粘贴/光标移�
 Name: 键盘下方状态
 Author: yzdmm
 icon: https://huayuarc.github.io/icon/kb.jpg
+
+Package: com.yzdmm2024.myvoice
+Architecture: iphoneos-arm64
+Version: 2.8.83
+Section: Tweaks
+Maintainer: yzdmm2024
+Installed-Size: 2020
+Depends: firmware (>=14.0), mobilesubstrate (>= 0.9.7100) | com.rpetrich.ellekit
+Filename: debs/iphoneos-arm64/com.yzdmm2024.myvoice_2.8.83_iphoneos-arm64_e0005542efa472ca94670ea04f35c43377d6cba2cfcc1bad96f90979bf730ced.deb
+Size: 411982
+MD5sum: f0545ffa47551fade3760da35c6ac161
+SHA1: 137477f539cbe96ab4d3a459c16830c49612641b
+SHA256: e0005542efa472ca94670ea04f35c43377d6cba2cfcc1bad96f90979bf730ced
+SHA512: 806cabd4bf6c649106e036e17e41c78275cae9d478cda022f34a0ed06f491f67e7f702b6ab8f5f7392fe1ffc9b4a9b9ca6bd1173fee39ebb545a5360b68976c5
+Description: 不想说话 只想打字（验证系统升级为 license_kit 时效授权：解锁码带到期+签名、防回拨；旧码失效需重新发码；设置面板图标修正；修复微信载入期闪退）
+Name: 我的语音
+Author: yzdmm2024
 
 Package: com.zege.27safari
 Architecture: iphoneos-arm64
@@ -24405,6 +24875,23 @@ Name: 一芽分屏 (Iya Split)
 Author: Banana
 
 Package: iya.banana.multitask
+Architecture: iphoneos-arm64
+Version: 0.1.5
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 2692
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/iya.banana.multitask_0.1.5_iphoneos-arm64_c00ec8c7b38d81c588f64709798075352299c93567ff808dadbf3861cd2482d3.deb
+Size: 470422
+MD5sum: 95cd02ec66e2ac5205ddb1b4edf3251c
+SHA1: d0c45d7cd65ffe2848941e04c03211032eb86b66
+SHA256: c00ec8c7b38d81c588f64709798075352299c93567ff808dadbf3861cd2482d3
+SHA512: 9bfd31e09c7c7b355390c89742fc4eda46aab90c5f91f95b154edafd236fcc2f9e1a17a2a6f3d87be779235e88595de467cb7ec11ca8cacefe374c7506af133f
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Name: 一芽分屏 (Iya Split)
+Author: Banana
+
+Package: iya.banana.multitask
 Architecture: iphoneos-arm64e
 Version: 0.1.0
 Section: Tweaks
@@ -24486,6 +24973,23 @@ MD5sum: 7b763538fd7e5e9e7033fe1c1cf70cae
 SHA1: 7ef65f9cae26b795d3c02167757b010fee52f917
 SHA256: 953e8995c91bcdfab1d3d1a94104ef3df7a805dd8eef4889fb97c1b9031007ef
 SHA512: d047d38f225f43387c573797cb1fa27d7b33f73ffefd01bfd0324409a02b4e21fdc2713f553c54ba855f2870386b4fa6caccf28424ebc682f514bf35d524eaa4
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Name: 一芽分屏 (Iya Split)
+Author: Banana
+
+Package: iya.banana.multitask
+Architecture: iphoneos-arm64e
+Version: 0.1.5
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 2676
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/iya.banana.multitask_0.1.5_iphoneos-arm64e_e981f0aa459a6c38dcdc82483ff1b771f0130063d496d9219c6aa1549e369ec3.deb
+Size: 469050
+MD5sum: 6876dd78117837616e318ab72b46a6f4
+SHA1: 57619c7f752f59e76e580d6b03d1f999b9bf1906
+SHA256: e981f0aa459a6c38dcdc82483ff1b771f0130063d496d9219c6aa1549e369ec3
+SHA512: c5301ab1116a04f845e95f7f6b7d84d5c81e5641faeb85e6608f9b33c339a064691601f034eb63d553867900b8e6962adc31550735aef7f72560fec0a3d339f7
 Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
 Name: 一芽分屏 (Iya Split)
 Author: Banana
@@ -24631,6 +25135,23 @@ Name: KineticDock
 Author: Banana
 
 Package: iya.banana.pickerwheeldock
+Architecture: iphoneos-arm64
+Version: 0.1.2-1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 556
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/iya.banana.pickerwheeldock_0.1.2-1_iphoneos-arm64_e8c891b55514b7a4aa7ff02e7bf7caf45275b5516692b77ba7400dbb37fb4f2d.deb
+Size: 68030
+MD5sum: a412b34e1831c4cb63c9e84f729d76f5
+SHA1: 8e6e9d574abd4ce8561f3587529f420e50f9b8b9
+SHA256: e8c891b55514b7a4aa7ff02e7bf7caf45275b5516692b77ba7400dbb37fb4f2d
+SHA512: 04f522816d821e98d6fb8a3614fb2d2af338de6ca5fdec8a181a62279d64effb8a685a913e260ebd6182b819abd80d421e824d5b01e452231ebb0028f76e097c
+Description: A magnifying and scrolling Dock for iOS 15, 16 and 17.
+Name: KineticDock
+Author: Banana
+
+Package: iya.banana.pickerwheeldock
 Architecture: iphoneos-arm64e
 Version: 0.1.0-1
 Section: Tweaks
@@ -24660,6 +25181,23 @@ MD5sum: 5fc489fc5026dd66cea6d303be2fe98b
 SHA1: 935b428e7075694e9eec392bc668614207c8bca5
 SHA256: 9982944b05a302b9da0e8718114a6f0a6ea9a0c948ad0e4fbcdb787366854b79
 SHA512: 56d80abae0595d5d10cac7e858517c1bf5d117b91a9902e94694be175ecf701728b670827d1fb9d4b2ec1b8a2a6d992acd44f882a620faf44718d2cdf8cf8950
+Description: A magnifying and scrolling Dock for iOS 15, 16 and 17.
+Name: KineticDock
+Author: Banana
+
+Package: iya.banana.pickerwheeldock
+Architecture: iphoneos-arm64e
+Version: 0.1.2-1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 556
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/iya.banana.pickerwheeldock_0.1.2-1_iphoneos-arm64e_7953033639f5fb308b2f0164754e0107d03c03c98ebca8d2b7dd74dfdfff9196.deb
+Size: 67838
+MD5sum: db3dffdcf8a94ec1a335dccfb7ff45ff
+SHA1: 38847b87f2f6910f8d455e07e805c70ac296d682
+SHA256: 7953033639f5fb308b2f0164754e0107d03c03c98ebca8d2b7dd74dfdfff9196
+SHA512: 13e07ed965615b37fd3e5483cd8429c322eb4c8413d968d32c5148b5b9fde42d8c1701531803578267ff22fd992a967cc8615b212109e39767ae00c8c75e6490
 Description: A magnifying and scrolling Dock for iOS 15, 16 and 17.
 Name: KineticDock
 Author: Banana
@@ -25850,6 +26388,29 @@ SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64
+Version: 0.3.2
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 93872
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64/wiki.qaq.apelin_0.3.2_iphoneos-arm64_1b98f66dd7056dc871dd755b94167b26d787d790695f1572b8c74569d4ae521d.deb
+Size: 32254978
+MD5sum: 25ff673d9f702863f1627f6c580ea35e
+SHA1: 93a727629f86bd847aeb452d2be8e3f675d0ea6d
+SHA256: 1b98f66dd7056dc871dd755b94167b26d787d790695f1572b8c74569d4ae521d
+SHA512: 053de586800fa65fa9cdc45c4d97d37ee6eed739d7bbead786c087b9b038d79e88c4acb167807675cee0aa9503d7ebd9b8aa37b9716f8abe348400976a0ce0c9
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
 Architecture: iphoneos-arm64e
 Version: 0.1.5
 Priority: optional
@@ -26148,6 +26709,29 @@ Depiction: https://owngoal-dev.github.io/Apelin/
 SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
+Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64e
+Version: 0.3.2
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 93872
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64e/wiki.qaq.apelin_0.3.2_iphoneos-arm64e_e8cf2e816cd0c160a94a140b9731d13cd769682f42e13c01c86d6866f1eaad75.deb
+Size: 32264808
+MD5sum: f0da4df4a84c87e7dd04b53e19d3b317
+SHA1: ad704c7f45449acf3416da5874be6472c44ec210
+SHA256: e8cf2e816cd0c160a94a140b9731d13cd769682f42e13c01c86d6866f1eaad75
+SHA512: 23bea28763afc4a83b69001cbe465e0442e986771effe30cd9be41a28b609c91c376fc0f77004880780beef3632105e235781c2b0f66ca65950d9a208b704e23
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
 Package: wiki.qaq.apelin.dev.cli
 Architecture: iphoneos-arm64
 Version: 0.1.1
@@ -26221,6 +26805,32 @@ Depiction: https://owngoal-dev.github.io/Apelin/
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.apelin.dev.preferences
+Architecture: iphoneos-arm64
+Version: 0.1.3
+Priority: optional
+Section: Development
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 60
+Depends: wiki.qaq.apelin (>= 0.1.0), preferenceloader
+Enhances: wiki.qaq.apelin
+Filename: debs/iphoneos-arm64/wiki.qaq.apelin.dev.preferences_0.1.3_iphoneos-arm64_84e90a799e51598c931cb5ab1861bc823989e6895b991e36539435e8afbd3d5e.deb
+Size: 21462
+MD5sum: 04704f17f8933283259830e00c05fdc5
+SHA1: e4d3c75a5fbf4b0bcd38df42114ccee0a70c7e57
+SHA256: 84e90a799e51598c931cb5ab1861bc823989e6895b991e36539435e8afbd3d5e
+SHA512: 343dbeca1b8b1140599428f40053d14cd1376fd0f319b73b56dc94a4e9e1ce78ef30a1f588f28271e24643d77179bca155fd6b51b7deb6449a54b39a627d41e4
+Description: Settings pane templates for Apelin, for rootless jailbreaks
+ Lets Apelin create, build and package preference bundles on the device: a
+ template with a switch and a text field, the PreferenceLoader entry that
+ shows it in Settings, and declarations for the private Preferences
+ framework. Needs PreferenceLoader, which your preferred package manager
+ installs with it.
+Name: Apelin Preference Bundle Development
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.preferences.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin.dev.preferences
 Architecture: iphoneos-arm64e
 Version: 0.1.1
 Priority: optional
@@ -26235,6 +26845,32 @@ MD5sum: a51f4c4c82f71431db3109a3593056cc
 SHA1: 2e040691e78de8ec48b5f177fa5e97c8a7e7ed27
 SHA256: b5af9ad498b9293ce76384515f611979bd8aca124a1fe907852f0c3c182fe720
 SHA512: 110f8f1b0f6800f2669e2b77edd46805919bebf7b1f2825fe63499e28e0ff92578d99771b9c4e32a819da8abe93841b58d00312143cb685ff68abf2d6a2b2c8f
+Description: Settings pane templates for Apelin, for roothide jailbreaks
+ Lets Apelin create, build and package preference bundles on the device: a
+ template with a switch and a text field, the PreferenceLoader entry that
+ shows it in Settings, and declarations for the private Preferences
+ framework. Needs PreferenceLoader, which your preferred package manager
+ installs with it.
+Name: Apelin Preference Bundle Development
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.preferences.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin.dev.preferences
+Architecture: iphoneos-arm64e
+Version: 0.1.3
+Priority: optional
+Section: Development
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 60
+Depends: wiki.qaq.apelin (>= 0.1.0), preferenceloader
+Enhances: wiki.qaq.apelin
+Filename: debs/iphoneos-arm64e/wiki.qaq.apelin.dev.preferences_0.1.3_iphoneos-arm64e_3a230cc4e57df152d5ac87abb840866db06bdf7665c01677feebceabbb9d15ed.deb
+Size: 21440
+MD5sum: d1fa9a3665b94e157b5fffd6f0006be6
+SHA1: 75d647831509b2d157c13576aa7f9edb81026c4c
+SHA256: 3a230cc4e57df152d5ac87abb840866db06bdf7665c01677feebceabbb9d15ed
+SHA512: 9ce7c6b8957706ac4913cb92352384797c8b9f5f2370eb81e54bd33a8b2bb53c140db572f401c23c22444ce8c73ca7f26a11a08e640f637f0ed37425b1423adc
 Description: Settings pane templates for Apelin, for roothide jailbreaks
  Lets Apelin create, build and package preference bundles on the device: a
  template with a switch and a text field, the PreferenceLoader entry that
