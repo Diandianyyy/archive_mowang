@@ -25059,6 +25059,29 @@ SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64
+Version: 0.3.1
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 93872
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64/wiki.qaq.apelin_0.3.1_iphoneos-arm64_fffd9a91718ac48c008191bb2a3b8d24a902c67479778d3ab281c6dd32b8b6e8.deb
+Size: 32249876
+MD5sum: b3572f41a8bfa3e9fc81097345c12c2d
+SHA1: 252d448ebad2cb120e0ff00ed3ab517684ea766c
+SHA256: fffd9a91718ac48c008191bb2a3b8d24a902c67479778d3ab281c6dd32b8b6e8
+SHA512: e83f8af5a0c09c68369f03e935ead492a2b975c617b3870b686b6ac2e7bd5e26ed6d5c6f8896a50a26eee3f1b667884b22350c42083d1ab4f34a3debeeb84944
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
 Architecture: iphoneos-arm64e
 Version: 0.1.5
 Priority: optional
@@ -25326,6 +25349,29 @@ MD5sum: 5a81cd6700611dc2c4e70d026d694d6c
 SHA1: ad99b0abb15550efb597bec3f0708d2ebb55d59e
 SHA256: c6dcbe222a97f5ffbf8213d2a5194cebff4c8e681dd0c2d4480d144ed55b846b
 SHA512: 40d5b5c102a391cb65d207cb0b958d99b129655e5c3aa601ee407fcf974c16921659b51d0571e258d504bcebdb7e57535f6c8c4219329f2faa0ba15c6829b9c8
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64e
+Version: 0.3.1
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 93872
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64e/wiki.qaq.apelin_0.3.1_iphoneos-arm64e_598fc176b24574a6dd9015e4fe66fe12cfc255ee2fb665aa1d0612ccb3d8b3b4.deb
+Size: 32260040
+MD5sum: 885961a63e077a6ddc0414913623a0f0
+SHA1: a6a6e809ba0d735086cab62e5492a82136e7c32c
+SHA256: 598fc176b24574a6dd9015e4fe66fe12cfc255ee2fb665aa1d0612ccb3d8b3b4
+SHA512: 0eef0712af0be5f64804fd42c468e5bbddd22fba5f9b2e45efe76fef443b271faf51b301211500b32c8f19c2a5f157455ae71fafb21f8aa90bdafbfa154086e7
 Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
  Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
 Name: Apelin
@@ -25625,6 +25671,31 @@ SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.ighostvt
+Architecture: iphoneos-arm64
+Version: 1.6.23
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 16512
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Filename: debs/iphoneos-arm64/wiki.qaq.ighostvt_1.6.23_iphoneos-arm64_acab954ead7c58d4afe4224d9ed4ed0d5a3ffce42a65755d3fb3217795ab803c.deb
+Size: 6450886
+MD5sum: 1b2a480a01c95512f8d427dab29ab591
+SHA1: 98a0f3a641a8098fd96d93cec7c7bf87137e2ba6
+SHA256: acab954ead7c58d4afe4224d9ed4ed0d5a3ffce42a65755d3fb3217795ab803c
+SHA512: 217487e6c06532a8143a365cdb5911b650729d9d3659e05a0551dc79b9d78649cf02d95083874136527432535da8d091daeb45a17920e5e00eeb3fdc4541faf0
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Name: iGhostVT
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.ighostvt
 Architecture: iphoneos-arm64e
 Version: 1.6.16
 Priority: optional
@@ -25663,6 +25734,31 @@ MD5sum: e8ae4b51cb64dd1198977a4ba177c8c6
 SHA1: 3587a582c0cd092ff010f3dbf15c40f8ecbff8c1
 SHA256: f15386a45bdab17103f3dc6534f049717004628044acf0c93a3a00e28d7affb6
 SHA512: 2ca082dbae8a4070ca22b82c1d5bd0d527ad5dc355779075f7dfcd52347faeaf961f501809c7d0644d22a1a13247e0d11180b00e13b18a968b50135dcb44f795
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Name: iGhostVT
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.ighostvt
+Architecture: iphoneos-arm64e
+Version: 1.6.23
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 16512
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Filename: debs/iphoneos-arm64e/wiki.qaq.ighostvt_1.6.23_iphoneos-arm64e_e8a99d92448ad3932eb67b741d57139256e8bb934fbc4590d7325f61746de202.deb
+Size: 6451124
+MD5sum: 4e2f3eac1e864d1ed8b02389371f9b7e
+SHA1: 7abd51a4bf7a6a92bcd8518c4f5bfdff021edeb0
+SHA256: e8a99d92448ad3932eb67b741d57139256e8bb934fbc4590d7325f61746de202
+SHA512: 1b63b099c6b659df784237521e5aa46175559b4b4d5c4faf9b3e1b53dc0cf4a6d75100f52e48f30719e2c0b1ff3ef0bcc7f6f3620bb5de82e7be3d268ba66758
 Description: Ghostty-powered terminal for iOS
  A real terminal on your device, drawn by the same engine as Ghostty on the
  desktop. Your shell keeps running in the background, so a build you started
@@ -26592,6 +26688,33 @@ SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
 Author: OwnGoal Studio <no-reply@owngoal.dev>
 
 Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64
+Version: 5.1.2
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 20808
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/wiki.qaq.irisin_5.1.2_iphoneos-arm64_6b19c21cfcfecb6ce6720f15951267cb19c7bc6d808fda1de625132e2dc76005.deb
+Size: 5313140
+MD5sum: f95e8623729b29c99fd56b397711afed
+SHA1: 29a7a2108d5819dd0b758bf31876662c80ea06d4
+SHA256: 6b19c21cfcfecb6ce6720f15951267cb19c7bc6d808fda1de625132e2dc76005
+SHA512: 4a15511d7fe8b3fefe880b2accc7c5da98a5dd8634707e93713dfbbcb4798cbeb2d7d99003edea3308b013f7db9bcf58aabd52f598d67d90c91cda476acd819b
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
 Architecture: iphoneos-arm64e
 Version: 4.5.14
 Priority: optional
@@ -27199,6 +27322,33 @@ MD5sum: f515230bbc7321356b836b59ad1f0a14
 SHA1: e7576bfd0513d7109be30b9c25ab7bbe7b62ef06
 SHA256: 3e57f442269261396c7080f84f37bab713fbce37fb4a41c0e897c76a5db68c50
 SHA512: c5a1277835d42c99e6a6812409ac7b94bec3291c4ef2d24ab254e0b1486a6c11ea43717eabc1a53b20cba6591588d641d7fe0e723e1fa6d0907f2c3f9d17b666
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64e
+Version: 5.1.2
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 20808
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/wiki.qaq.irisin_5.1.2_iphoneos-arm64e_0962183e302477e827c879c30feb8b05aeb3a72f6d7f0005cf108cfdf8fb7759.deb
+Size: 5311724
+MD5sum: 34e4081295ae8bd45e07371f2ff6d0bf
+SHA1: e4f71475b7c2b08742fefeb6acb4ae66a61e7e98
+SHA256: 0962183e302477e827c879c30feb8b05aeb3a72f6d7f0005cf108cfdf8fb7759
+SHA512: ea983c1e522ce8791b527a6f1c2fea9857105422b3a69cbd6af7092d9bc80211899a046436e301c210b1cf54aa86622a6f1e31f782b7172f557e459fdb1849f0
 Homepage: https://github.com/Lakr233/Irisin
 Description: Modern package manager for roothide custom firmware
  Browse your repositories, install and remove packages, keep tweaks updated
