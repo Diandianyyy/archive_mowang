@@ -219,6 +219,24 @@ Section: 手势键盘
 Maintainer: SquidForce, Backup
 Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
 Conflicts: com.squidforce.squidextender
+Filename: debs/iphoneos-arm64/cn.octoforce.squidextender_3.7.4-2_iphoneos-arm64_ad31b7863fa82d6242e9a80e6152f0d7d0f97895c6a037b6d5b8a5dd201c18f5.deb
+Size: 2622882
+MD5sum: d3d90f0f5c02d12ddcc543078c938052
+SHA1: f180ee25221ab2dd944763769a33d3ccb2a60dca
+SHA256: ad31b7863fa82d6242e9a80e6152f0d7d0f97895c6a037b6d5b8a5dd201c18f5
+SHA512: 4a23ba0569cbbb33bbee7847f3353de7b5a5e914967cecaa7e32e8050b8c6eacda6d0878db413ceba247085ed203809370ba88bc34e43d5eb140ae7a9230cd6f
+Description: SquidExtender + PCrack 离线授权（本地生成合法授权，不改二进制）
+Name: 乌贼键盘无根（免授权）
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+
+Package: cn.octoforce.squidextender
+Architecture: iphoneos-arm64
+Version: 3.7.4-2
+Section: 手势键盘
+Maintainer: SquidForce, Backup
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
 Filename: debs/iphoneos-arm64/cn.octoforce.squidextender_3.7.4-2_iphoneos-arm64_b2f5c878719d0a4510e05928156abd9bc61537ef48a123d671b3961f72cf76cb.deb
 Size: 2622882
 MD5sum: 25db1858d08741917e52d5a5edf06bf7
@@ -244,6 +262,25 @@ MD5sum: d3f1116347f1ab664626eba4cf192776
 SHA1: cdd532c77946b7587f41852fd2835822d8d46a49
 SHA256: 244b0395bfb31aecbb2e69f775f0c758c0cbeea839620b67c14deeba3240b14f
 SHA512: 112b857bc04e2b6c37bdfa66a1915fcca11c206ef26d597f9b2de81a2f50ef290dbaa82dee367b5ee57fcba2da1622b3892b492237e1aa5fd4fac2897910335b
+Description: Local device-bound license recovery for SquidExtender 3.7.4. No activation server required. Device validation pending.
+Name: 乌贼键盘隐根（免授权）
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+
+Package: cn.octoforce.squidextender.roothide
+Architecture: iphoneos-arm64e
+Version: 3.7.4+offline.1
+Section: 手势键盘
+Maintainer: SquidForce, Backup
+Installed-Size: 10254
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy, firmware (>= 15.0)
+Conflicts: cn.octoforce.squidextender, com.squidforce.squidextender
+Filename: debs/iphoneos-arm64e/cn.octoforce.squidextender.roothide_3.7.4+offline.1_iphoneos-arm64e_3d050e2f28fc3a12a73fd4afebaf87bf2aa8de364cd1db1b130837f011016000.deb
+Size: 2306812
+MD5sum: 7d747e3ce2949d6b7a816f0e77e30cba
+SHA1: cc69232a64e2c745c444ff1c9498c08d8e177b99
+SHA256: 3d050e2f28fc3a12a73fd4afebaf87bf2aa8de364cd1db1b130837f011016000
+SHA512: da614e50e64a64dc5e071d86f1a573210fa763acb8bf7fad12b1fc62fa7986392df3e3c8bbb0626a7af30752ca21195f797ad2b61dc61daa4471fd616f695d6b
 Description: Local device-bound license recovery for SquidExtender 3.7.4. No activation server required. Device validation pending.
 Name: 乌贼键盘隐根（免授权）
 Author: SquidForce, Backup
@@ -285,6 +322,44 @@ SHA512: 5e05900857cdfe6f1574cd084615579500289d866b6b6e91b6e68dd9d89605606c87a134
 Description: 内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）。
 Name: 乌贼手势无根（免授权）
 Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+
+Package: cn.octoforce.squidgesturepro
+Architecture: iphoneos-arm64
+Version: 2.7.6-2
+Section: 手势键盘
+Maintainer: SquidForce, Backup
+Installed-Size: 7347
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: debs/iphoneos-arm64/cn.octoforce.squidgesturepro_2.7.6-2_iphoneos-arm64_bc49d6922570480db01b5268b0e7d69f2bb33dde063ec74aab791e38974db5b7.deb
+Size: 1930346
+MD5sum: b42a4acac3daed4565a1f33b70f70859
+SHA1: c294ebb2142683dda602af77d8b3a62488384948
+SHA256: bc49d6922570480db01b5268b0e7d69f2bb33dde063ec74aab791e38974db5b7
+SHA512: 81af7b593b210ace0d2146e6c015fe5ca285e2068b0b4b4689cedfec2abb3cf55edcf86d88424dd2e2813ab1a408210b4556ea2570e9220d73d1dbe8e212370a
+Description: 内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）。
+Name: 乌贼手势无根（免授权）
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+
+Package: cn.octoforce.squidgesturepro.roothide
+Architecture: iphoneos-arm64e
+Version: 2.7.6-1
+Section: 手势键盘
+Maintainer: 刀哥
+Installed-Size: 6762
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: cn.octoforce.squidgesturepro, com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: debs/iphoneos-arm64e/cn.octoforce.squidgesturepro.roothide_2.7.6-1_iphoneos-arm64e_afe573b128383fec96a154beb400b37b88a97170e180f4bb2fb916f5ba463e2f.deb
+Size: 1795550
+MD5sum: e94fcc07b85be198b37e07666fb623be
+SHA1: cb345e7e1d533273595c4446acf7402bee2cde26
+SHA256: afe573b128383fec96a154beb400b37b88a97170e180f4bb2fb916f5ba463e2f
+SHA512: 209e952583cc60f4258f7e41c48d1864a15a7b83004230d231d99089523d228dff94eef07eee739781a7dc0a6d3da94e455011a3cc46cfb66f4c5d7bd44d5000
+Description: Local device-bound license recovery for SquidGesturePro 2.7.6-1. No activation server required. Device validation pending.
+Name: 乌贼手势隐根（免授权）
+Author: 刀哥
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
 
 Package: cn.octoforce.squidgesturepro.roothide
@@ -533,6 +608,30 @@ Author: be-huge
 Icon: https://axs66.github.io/pro/icon/svp.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/floating-view/js.json
 
+Package: com.Axs.floating-view
+Architecture: iphoneos-arm64
+Version: 1.6.0-6
+Section: 分屏插件
+Maintainer: Axs
+Installed-Size: 2700
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/iphoneos-arm64/com.Axs.floating-view_1.6.0-6_iphoneos-arm64_b1607a1dc635f30616b1a138a0975299bf779758029331b35765fdd9ef6fd8a0.deb
+Size: 652840
+MD5sum: 0d2d5aac852ff4378c2166ba65a1f5ab
+SHA1: 8cee066216cf72b1fdf8062d8c995570271c0782
+SHA256: b1607a1dc635f30616b1a138a0975299bf779758029331b35765fdd9ef6fd8a0
+SHA512: cf87c049b04685ad6d59664719081b8da2e9709b76e380e700da946eaddc6954a4050590e203b703930091a5bfd70a4017afc9b2033182684dd7e5fd0ed07c3e
+Description: 温馨提示:
+  * 1、仅供个人备份与学习研究使用。
+  * 2、本插件未经过大量设备测试，仅在 iPhone 14 Pro iOS 16.2、iPhone 14 Pro Max iOS 16.5 无根越狱环境下测试正常可用。
+  * 3、本版本仅处理授权验证逻辑，插件其他原有逻辑未作修改。若安装后无效、冲突或导致设备/应用异常，请自行卸载。
+  * 4、免责声明：安装和使用本插件所产生的一切风险由使用者自行承担。如因插件本身兼容性、原始代码逻辑或其他未知问题导致设备、系统、应用出现异常，请联系原插件作者处理。本人不承担因此产生的任何责任。
+  * 5、安全预警：鉴于越狱圈内部分特定人员（如Fv作者、苏苏、Wkk等）存在发布恶意格机代码、恶意抹黑及录制栽赃嫁祸视频的前科，需要用户自行甄别，从正确渠道下载插件。
+Name: FV分屏（免授权）
+Author: be-huge
+Icon: https://axs66.github.io/pro/icon/svp.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/floating-view/js.json
+
 Package: com.Axs.kongzhidiy
 Architecture: iphoneos-arm64
 Version: 2.3.3-end
@@ -546,6 +645,25 @@ MD5sum: e7807c63d35c8436fd53168ceb8558bd
 SHA1: 120b96eb94f8a3524c37fa1b9cc7c76f1292c57b
 SHA256: 48d68ed09941988e4ff622cb855f3924db7d74fa871e82bce7fb9a57eb62159c
 SHA512: 3366da3238d3ecdf779e4d3c881aea228f91c68c41a8c1615264ead977e5a2ad1b1fe5e1bbecd49965d950b20a0bacbf75c39f310f859fa306d6b849bafc3e6f
+Description: 这是一个简单的控制中心美化插件。
+Name: 冰蓝控制中心2.3.3-end（免授权）
+Author: binglan
+Icon: https://axs66.github.io/pro/icon/kongzhidiy.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/kongzhidiy/js.json
+
+Package: com.Axs.kongzhidiy
+Architecture: iphoneos-arm64
+Version: 2.3.3-end
+Section: 控制中心
+Maintainer: binglan
+Installed-Size: 3028
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.Axs.kongzhidiy_2.3.3-end_iphoneos-arm64_6586461cacda4d16afbe9a5fbbcd4ff3ad95bc92bf1aec96d633cf5fd3c5489b.deb
+Size: 674340
+MD5sum: 666e7676fdc00eb84385165fde65a776
+SHA1: f9aa43f3a24de302530bd4c9884e117f4216fa25
+SHA256: 6586461cacda4d16afbe9a5fbbcd4ff3ad95bc92bf1aec96d633cf5fd3c5489b
+SHA512: 430ab544d1c31eeeab66ede8db6c127fec690da696cabf04f0f2f24d40ec3eef75013abede72f3f5bfa584d0b3f92681e680d151b51476395b757d459c5b55d4
 Description: 这是一个简单的控制中心美化插件。
 Name: 冰蓝控制中心2.3.3-end（免授权）
 Author: binglan
@@ -2204,6 +2322,23 @@ Section: 系统美化
 Maintainer: 冰蓝
 Installed-Size: 772
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.binglan.dynamicfx_1.0.7_iphoneos-arm64_61b88f7b7a80a55d778a4fda6ad72d169a9234180531d0d1bc4bc2b0b5d0adb1.deb
+Size: 115776
+MD5sum: 0da67c62ffd42d0b476436f7415b419a
+SHA1: 5ebb648d4dd7e0f49e5de4139b97c74268cdd8d2
+SHA256: 61b88f7b7a80a55d778a4fda6ad72d169a9234180531d0d1bc4bc2b0b5d0adb1
+SHA512: 8badedbdce50d358d8ad73dcd08122fbb2749d41d6858fe8041c2ad4784b7f31f9dacc3cd10ac63c4c6e4c992705089341c9e59dff8935d73b6067c85c9fe0b0
+Description: 灵动岛背景？
+Name: 冰蓝灵动岛背景（免授权）
+author: 冰蓝
+
+Package: com.binglan.dynamicfx
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Section: 系统美化
+Maintainer: 冰蓝
+Installed-Size: 772
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Filename: debs/iphoneos-arm64/com.binglan.dynamicfx_1.0.7_iphoneos-arm64_672995f5094fb955f96f8a3bf3ef6c79c23f83b27086c02c97ded81eab05525c.deb
 Size: 115776
 MD5sum: f49a3dcb658723b8f3dfe0e82727ccac
@@ -2248,6 +2383,24 @@ Name: 冰蓝控制中心2.3.6-end（免授权）
 Author: binglan
 Icon: https://i.imgs.ovh/2026/06/10/dfb8c206be141bb3c7d070b29d0d9d56.jpg
 
+Package: com.binglan.kongzhidiy
+Architecture: iphoneos-arm64
+Version: 2.3.6-end
+Section: 控制中心
+Maintainer: binglan
+Installed-Size: 8024
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.binglan.kongzhidiy_2.3.6-end_iphoneos-arm64_d2fdd79450b8f96f086278ab45a825d8dc355b5703fd17c7a24a5eaa05f9fd0f.deb
+Size: 3740156
+MD5sum: b7acb36b2c798319762bf291dfce377d
+SHA1: 51f6e3883a1f18200e3c375bf6372da2a2a9e16e
+SHA256: d2fdd79450b8f96f086278ab45a825d8dc355b5703fd17c7a24a5eaa05f9fd0f
+SHA512: 3e5a1fc29069483878b732155e9835320d3a8b6862c5d5ea7ffba9b5d26ef8ea6cc8807ca2674033edea9d383d90d37f8811b76ed4e40ff7fa4c55c804f3ec73
+Description: 控制中心中心美化？
+Name: 冰蓝控制中心2.3.6-end（免授权）
+Author: binglan
+Icon: https://i.imgs.ovh/2026/06/10/dfb8c206be141bb3c7d070b29d0d9d56.jpg
+
 Package: com.binglanqjsy.deb
 Architecture: iphoneos-arm64
 Version: 3.0.0
@@ -2261,6 +2414,23 @@ MD5sum: f3ff4347f4cec716294d6a175d730e16
 SHA1: dc1f8b704d5ff72f3f38800e92d1662c5f90b33e
 SHA256: 895584d802b95ac9759d77b017201138afac2c74f9617ec7aea259db75533a0d
 SHA512: ac7c60aa5bb28a44db8a0c67aa487b12dfc513d53c61baac21fa20657b65fe930eaedab74f32d1aeb2ed84c08bc751a59d765e8456d8b08abd486e7d81fb5efa
+Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
+Name: 冰蓝全局水印套壳（免授权）
+Author: 冰蓝
+
+Package: com.binglanqjsy.deb
+Architecture: iphoneos-arm64
+Version: 3.0.0
+Section: 系统美化
+Maintainer: 冰蓝
+Installed-Size: 908
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
+Filename: debs/iphoneos-arm64/com.binglanqjsy.deb_3.0.0_iphoneos-arm64_c57f554ec6d687d2214fc9b39d52a20aa7be8d9ae2adc58c2f2be6645f6e16ce.deb
+Size: 164700
+MD5sum: 7b8c58cb8a72be2619d24206150ec195
+SHA1: 906f4452fecc7b97c088a4dab5badde54635ae75
+SHA256: c57f554ec6d687d2214fc9b39d52a20aa7be8d9ae2adc58c2f2be6645f6e16ce
+SHA512: c74236393ef3602b1d6b5f32e59007b5140eae3304a61d3d18c2d358c951d8dd5e8fd0c52258796750cf5e6bada229dc207b0605e595e2211dc058667c6b207c
 Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
 Name: 冰蓝全局水印套壳（免授权）
 Author: 冰蓝
@@ -2375,6 +2545,23 @@ SHA512: 51f69c05a81046570f2936735ef65ab267b825e0cf726a3e23a082e1d8ab4c785b07dcdc
 Description: DuoStatus 启动保护器：拦截 SpringBoard 启动早期的 setBatteryMonitoringEnabled: 调用，解决 iOS 17 上 respring 安全模式（EXC_BREAKPOINT）。需与 DuoStatus 同时安装。
 author: CallAssist
 name: DuoStatusGuard
+
+Package: com.charlieleung.liquidify
+Architecture: iphoneos-arm64
+Version: 1.3.7-4+dao88.1
+Section: 系统美化
+Maintainer: 一刀
+Installed-Size: 40597
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.charlieleung.liquidify_1.3.7-4+dao88.1_iphoneos-arm64_2ab474fedfcb2679e5cb462542ab1748baa9b1510a036a17a6aa801ce71838a1.deb
+Size: 10756068
+MD5sum: 769b8ceb9288a65ecd20cdf9f0a414d4
+SHA1: 054dbdb602497a258b83a68183151a494a8f7fda
+SHA256: 2ab474fedfcb2679e5cb462542ab1748baa9b1510a036a17a6aa801ce71838a1
+SHA512: 6262fda7c63b07613aa253d057b72e857946472f628c61ecb2e2991d7a509bdf5ef8d2e13258af947fe37cf194fe4b9a96381774b51827141a0486bbec70810f
+Description: 液态玻璃
+Name: 88液态玻璃（免授权）
+Author: 一刀
 
 Package: com.charlieleung.liquidify
 Architecture: iphoneos-arm64
@@ -7270,6 +7457,92 @@ Author: crctdd
 
 Package: com.crctdd.mobileslideshowhook
 Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/com.crctdd.mobileslideshowhook_0.0.1_iphoneos-arm64_20e4b9719382a31f1e5107aa4f67a1dbe37e81471a4bd2be05b10dbe99c16a7d.deb
+Size: 22318
+MD5sum: 9fdae7069b340dceeb3fe2898a748f82
+SHA1: 081d2dd544fe5c34f6ca773d6d2eb84e12d37b91
+SHA256: 20e4b9719382a31f1e5107aa4f67a1dbe37e81471a4bd2be05b10dbe99c16a7d
+SHA512: 3696546a2329c284da03692c67bb6f0647842f9c6eea16875d27d7cb9e61e155c036a71f9d1204658674efd101b90bcfbaa03bd506061eff8a8ff30830fb6393
+Description: 为系统相册的视频播放界面添加进度条的插件。具体系统版本及设备兼容性尚未核实。
+Name: 系统相册视频进度条
+Author: crctdd
+
+Package: com.crctdd.mobileslideshowhook
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/com.crctdd.mobileslideshowhook_0.0.2_iphoneos-arm64_c9fdb1744a5f50f2245d5a4aeb4f5b17ad6f23f2b55ba22cc3736b331486b92d.deb
+Size: 23252
+MD5sum: 412cd1c3e9206c1f658eacea31fef2eb
+SHA1: 4e64d2bcd8bca29fdfc2dfb39ee53579c67c3afb
+SHA256: c9fdb1744a5f50f2245d5a4aeb4f5b17ad6f23f2b55ba22cc3736b331486b92d
+SHA512: 3ffd1bc5cc80af921cc4a5904909176427ea6468be905f2574a02a42e2dfd5c2636ac7fe2894f98ba7db391da61494d85e3ca62864941303311a46d1bb5af00d
+Description: 为系统相册的视频播放界面增加视频进度条。具体系统版本及设备兼容性尚未验证。
+Name: 系统相册视频进度条
+Author: crctdd
+
+Package: com.crctdd.mobileslideshowhook
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/com.crctdd.mobileslideshowhook_0.0.3_iphoneos-arm64_a758cf637b1ac844b78da290834b21943fa62534254781a7b45e08bb57ac3a25.deb
+Size: 31832
+MD5sum: f0384a9d99d116e9744475f85c2304a0
+SHA1: fff4ad68ade9980ae180b87f7f30eb05b51c8051
+SHA256: a758cf637b1ac844b78da290834b21943fa62534254781a7b45e08bb57ac3a25
+SHA512: e318e931cb4536114a1f2b010cf750713a72576b952c61757f2e10fc15a74423719b23525b81ffd92aa5f1f33e65c6acac5710ec9362ae186f222109ea80fcb9
+Description: 为系统相册添加视频进度条的插件。
+ 依赖 mobilesubstrate。元数据声明固件版本范围为 15.0 至低于 18.0，实际系统及设备兼容性尚未验证。
+Name: 系统相册视频进度条
+Author: crctdd
+
+Package: com.crctdd.mobileslideshowhook
+Architecture: iphoneos-arm64
+Version: 0.0.4
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 256
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/com.crctdd.mobileslideshowhook_0.0.4_iphoneos-arm64_25ca0e3f63585f44c2a3671f4574755623e2de973082d55b5df8360bd4c2d212.deb
+Size: 32952
+MD5sum: eeb9e1d0dade309a4e6527260393332f
+SHA1: f1c8c826f0e33a6f8fb77fc980a8990298b6c893
+SHA256: 25ca0e3f63585f44c2a3671f4574755623e2de973082d55b5df8360bd4c2d212
+SHA512: 8bee644d98761bd2a093f329897ad08a93c84610da65c2a3c8400b435e8bdceeff5442c2b1ea7f2c3872ae492cd2fd8dd4fb8526fcf27aef0520e8b35d1720c9
+Description: 为系统相册添加视频进度条的插件，依赖 mobilesubstrate。具体系统版本及设备兼容性尚未验证。
+Name: 系统相册视频进度条
+Author: crctdd
+
+Package: com.crctdd.mobileslideshowhook
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64/com.crctdd.mobileslideshowhook_0.0.5_iphoneos-arm64_0e4b452c894287f2c230a0f94cd63f6678d554616bec1f9901411e7b9332867a.deb
+Size: 32026
+MD5sum: 69da7f95a02b56f19af71995e107c9cb
+SHA1: ad1733ea8b17126291e320bcc9b718d88deb53f6
+SHA256: 0e4b452c894287f2c230a0f94cd63f6678d554616bec1f9901411e7b9332867a
+SHA512: 77ddee35e1e765c4cce571247340778cf21380a0c43869aff5350e242579dc1c5dbc5d8bddd53e20750db4798295d6acd3d5d977a48534e13dc487ada255c61c
+Description: 为系统相册添加视频进度条的插件，依赖 mobilesubstrate。具体系统版本及设备兼容性尚未核实。
+Name: 系统相册视频进度条
+Author: crctdd
+
+Package: com.crctdd.mobileslideshowhook
+Architecture: iphoneos-arm64
 Version: 0.0.5
 Section: Tweaks
 Maintainer: crctdd
@@ -7282,6 +7555,91 @@ SHA1: 10232b15eb7eb151db4edc00e68b21824f123e39
 SHA256: 667d5cbd95e85af20b743c3ef9d14f0d2db42f1b79734e9ce518d9cd76a16436
 SHA512: d479ca05a909d4a6e1a5cbad0ba17190f2b35794e7b31fb1468dca7f86137a326ffb1350381c18cfea60e80884727fa44fcf746fc3767beef1aea6f714c51c24
 Description: 系统相册增加视频进度条 (支持iOS 15-17)
+Name: 系统相册视频进度条
+Author: crctdd
+
+Package: com.crctdd.mobileslideshowhook
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/com.crctdd.mobileslideshowhook_0.0.1_iphoneos-arm64e_f05e24e403ade590869a1c07492edd1774610a6a4e800b36bdb02ac62cf906ab.deb
+Size: 22180
+MD5sum: 658a3278acf86d96d953b4d73eaa12b7
+SHA1: bae38f9ed179dedba190df66156d00780079ddd5
+SHA256: f05e24e403ade590869a1c07492edd1774610a6a4e800b36bdb02ac62cf906ab
+SHA512: d2499958c75c98699030cf7b55aeb451ded77fd9ddf3528d11ff580814538872680e333dfce4330a818be7652c5ca8d250e10c82403aba1f26aa371629dd93f4
+Description: 为系统相册的视频播放界面添加视频进度条。具体系统版本及设备兼容性尚未验证。
+Name: 系统相册视频进度条
+Author: crctdd
+
+Package: com.crctdd.mobileslideshowhook
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/com.crctdd.mobileslideshowhook_0.0.2_iphoneos-arm64e_1f73494cbec1b607db652323d069ae1e2c2d8b9ca06c48512d6ccc90957d13a2.deb
+Size: 23182
+MD5sum: 5d843a91ffb8637b306092d5570a8a6c
+SHA1: ba9f88fe9103982394a813d0e629e10107a7676a
+SHA256: 1f73494cbec1b607db652323d069ae1e2c2d8b9ca06c48512d6ccc90957d13a2
+SHA512: e2634e61d33df3d6bf933cc1099e5a61b615c4dcc6866fe9cd43aa8467b92afb0020c29ff93fcda51d68b1d1778b912636ef48f2d3bb22cb3edf18b19bdc1a07
+Description: 为系统相册的视频播放界面添加视频进度条的插件。依赖 mobilesubstrate；具体系统版本及设备兼容性尚未核实。
+Name: 系统相册视频进度条
+Author: crctdd
+
+Package: com.crctdd.mobileslideshowhook
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/com.crctdd.mobileslideshowhook_0.0.3_iphoneos-arm64e_213d0891b01acfaf60e7bb8a21b58a43c29ed069698f34042cc894fd19093463.deb
+Size: 31846
+MD5sum: d130ca675d2e1e5632fa7eb47d4da8af
+SHA1: 89fd88baaf3ffa27f27a7c180cc4e7b4b47976c6
+SHA256: 213d0891b01acfaf60e7bb8a21b58a43c29ed069698f34042cc894fd19093463
+SHA512: e8910f00199ace66d12200d1986bde1291d937cfbe67510ae84832ac303deaba978eafac765123a5cc632fa41e2684989bd9b455d45bf74f0b3d7801eeaaced7
+Description: 为系统相册添加视频进度条的插件，依赖 mobilesubstrate。具体系统版本及设备兼容性尚未验证。
+Name: 系统相册视频进度条
+Author: crctdd
+
+Package: com.crctdd.mobileslideshowhook
+Architecture: iphoneos-arm64e
+Version: 0.0.4
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 256
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/com.crctdd.mobileslideshowhook_0.0.4_iphoneos-arm64e_5516d8f7ac86c50f620a64f4a958930002d0f0ba9d9fcbb6b8628522d4929331.deb
+Size: 32956
+MD5sum: 5adb97fafdd6408a77fb24fba633cf6e
+SHA1: c7b1f9ba07912bf8f92863395f6ad37085f24999
+SHA256: 5516d8f7ac86c50f620a64f4a958930002d0f0ba9d9fcbb6b8628522d4929331
+SHA512: f1e32dace2c07e84bc0290247d93138dd016381e6e78d3962e31bc70618b4ab27b2066d24da928ddec9aa1846887126a765cb31a689bb6d9a545c4db32293ea2
+Description: 为系统相册添加视频播放进度条的插件，依赖 mobilesubstrate。元数据声明支持 iOS 15–17，但实际系统版本及设备兼容性尚未验证。
+Name: 系统相册视频进度条
+Author: crctdd
+
+Package: com.crctdd.mobileslideshowhook
+Architecture: iphoneos-arm64e
+Version: 0.0.5
+Section: Tweaks
+Maintainer: crctdd
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iphoneos-arm64e/com.crctdd.mobileslideshowhook_0.0.5_iphoneos-arm64e_37706cc40ed73a4f3fc7e31d3438b889597d81e7230b4e57a6359fb2167b53b0.deb
+Size: 32018
+MD5sum: ea44365cd2fbb846fe7642006cc19eec
+SHA1: 044014b0252296a4b1920ac4d8456b1d3e54bea5
+SHA256: 37706cc40ed73a4f3fc7e31d3438b889597d81e7230b4e57a6359fb2167b53b0
+SHA512: df87e22c39f76af5398d59027013b128b9ebc53bf108432a22ae474889b1c938d0cf81ea608a481c1456bc34a2520de4fd135aab1a747d724a12d4e073ef86b8
+Description: 为系统相册添加视频进度条的插件。依赖 mobilesubstrate；具体系统版本及设备兼容性尚未核实。
 Name: 系统相册视频进度条
 Author: crctdd
 
@@ -8763,6 +9121,41 @@ Description: 原生键盘圆角与沿圆角轮廓的彩色发光点击特效
 Name: 键盘特效
 Author: 航
 icon: https://huayuarc.github.io/icon/keyboardeffects.png
+
+Package: com.hang.noti
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: 航
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.hang.noti_1.0_iphoneos-arm64_aef85576c31bec423d4ba83daf4e4cddfd407fc98d62d6a8627119d5cfcbdec9.deb
+Size: 14264
+MD5sum: f510c12fcf6a66b9d42b9827018db91c
+SHA1: 97969505b8598cade3dbfe84206edb8acb7e3792
+SHA256: aef85576c31bec423d4ba83daf4e4cddfd407fc98d62d6a8627119d5cfcbdec9
+SHA512: a3ce7a13a9a997361868dd294e4f9e2b15162ff5d8262c3ef3a1893e84f9a07269a9d02af2b3c84b8b144d07cd7a2bcd9a1288626f2b917341ac297374281899
+Description: 从通知中提取验证码的工具
+ 通过双指长按通知提取其中的验证码。具体系统版本和设备兼容性尚不明确。
+Name: 通知验证码复制
+Author: 航
+
+Package: com.hang.noti
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: 航
+Installed-Size: 92
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.hang.noti_1.0_iphoneos-arm64e_4a1ede72983ad8f665952ebbfcf0de1fbefb7f5f2ce4ae882a4d1bcb23577bdb.deb
+Size: 10734
+MD5sum: 8aabb3b88ec7e78720d82dc94288908d
+SHA1: 0ab580bcf360e04234a6069ac858c7a55ebdc921
+SHA256: 4a1ede72983ad8f665952ebbfcf0de1fbefb7f5f2ce4ae882a4d1bcb23577bdb
+SHA512: 1403df5eba8e765ed8b59aeab7fd630b024ab43d0c50a71ee2bb1b7f39f6face388245f1736dc9470ce85c283a031b5a96c81774645582408415bb1e0b1d43bb
+Description: 通过双指长按通知提取其中的验证码。是否支持自动复制、具体系统版本及设备兼容性尚不明确。
+Name: 通知验证码复制
+Author: 航
 
 Package: com.hang.zzzj
 Architecture: iphoneos-arm64e
@@ -10458,6 +10851,22 @@ SHA512: e1610826852edfe44241ded7548795d679c9c7458cadf8dc95ed130b7c5917ecbb4e716b
 Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
 Name: Zone
 Author: iosdump
+
+Package: com.ioskuka.kukatoolbox
+Architecture: iphoneos-arm
+Version: 1.3.3
+Section: Tweaks
+Maintainer: ioskuka
+Installed-Size: 4284
+Filename: debs/iphoneos-arm/com.ioskuka.kukatoolbox_1.3.3_iphoneos-arm_5567db4ca6d749353b84aeb7910164ca0c65ec7fb3aafe3c016ca454041d0986.deb
+Size: 1009770
+MD5sum: 2b271f0636215b67ae577736c500bc55
+SHA1: de44899961089c13570a92c1233e2e792db220db
+SHA256: 5567db4ca6d749353b84aeb7910164ca0c65ec7fb3aafe3c016ca454041d0986
+SHA512: eb7e37d38129a5bcab98233dca2e746cc4c8944dfb9685e95dc25d3fa8dfa1571da28ffb8794e477a91750ef498bed5495d7477d1a657be386ec89b891639436
+Description: KAlert 5.7.0 based KUKA toolbox with compact adaptive UI, full-screen touch recorder, device tools and integrated GameSave submenu
+Name: KUKA工具箱
+Author: ioskuka
 
 Package: com.iosrxwy.vvebofix
 Architecture: iphoneos-arm64
@@ -12874,6 +13283,44 @@ Name: Actra
 Icon: https://mlgm66.github.io/icon/actra.png
 Author: mlgm
 
+Package: com.mlgm.clippa
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Priority: optional
+Section: System
+Maintainer: mlgm
+Installed-Size: 36728
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.mlgm.clippa_1.0.3_iphoneos-arm64_764890d4851f79a85c993a24ccea12cc38112d6f07f1c38ebfe2467301b76936.deb
+Size: 31185028
+MD5sum: 9d3d8f112d7b07119f6079072d4a5732
+SHA1: 41143ac2ad56bd68a45892e4fbdb1f7a15fb7c9a
+SHA256: 764890d4851f79a85c993a24ccea12cc38112d6f07f1c38ebfe2467301b76936
+SHA512: c631f6afd9eedd7bacee4b38378cafd49a7880f26c56f37bc0ce8097bff3dc4ae522dfbc00da140048bfd26c03dbb3744c9856b2014aaeb58cf1770d6dc8b268
+Description: 截图与悬浮贴图工具。
+Name: Clippa
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+
+Package: com.mlgm.clippa
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Priority: optional
+Section: System
+Maintainer: mlgm
+Installed-Size: 36724
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.mlgm.clippa_1.0.3_iphoneos-arm64e_754460b87dbee120a2937191aeec6a9955d1acc50dce229466bf15128c6f75e5.deb
+Size: 31185072
+MD5sum: 99dbd3cf0136577103c04b0543a717ba
+SHA1: 0d0a0dcc8cdf80b9b58b98eabbf3fbd1c4a65e8e
+SHA256: 754460b87dbee120a2937191aeec6a9955d1acc50dce229466bf15128c6f75e5
+SHA512: 6e34c9780ca0429a4021a474150d81e6b76143013dbfaa08287980756d90b7079d1ce4ecc967d9dc47f24c6f8895b7aef26b575802b21f74a6bcd88aef19f05f
+Description: 截图与悬浮贴图工具。
+Name: Clippa
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+
 Package: com.mlgm.idata
 Architecture: iphoneos-arm64
 Version: 1.2.1
@@ -15183,6 +15630,25 @@ MD5sum: 707ae0dab77f536abe8116282fac0081
 SHA1: 7d7a873a10d1b7d14a1b4abe9483f4ba8d71cd99
 SHA256: 175368bd12cc68b2f8b66ade87f9e5a0f712168f17bdd7dc291951c905e5494b
 SHA512: e583bb12351fa1c6c5db22bc608ad8a6502fb2a6ecb99c9501483d20b3c9b287ab5a1ea6ab7141597fc1cacb065d05b2ec48a38fcd5f0178a4720403f9bf55e2
+Description: 微信优化的重制版，基于微信8.0.64+版本制作。
+Name: WCRefine内部2.1-5beta1（免授权）
+Author: 热心网友
+dev: 君临
+Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
+
+Package: com.qimiao.WCRefine
+Architecture: iphoneos-arm64
+Version: 2.1-5beta1
+Priority: optional
+Section: 微信插件
+Maintainer: 热心网友
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.qimiao.WCRefine_2.1-5beta1_iphoneos-arm64_67152ee850fc4fdf609b84adfdc53187f9d7e1e60137c37a3200f3ab34f37e65.deb
+Size: 9312472
+MD5sum: 9b93b43f3ead7c8ac1fde8597141c4f1
+SHA1: e8c920da029f630a8b65ad4ce33bd8377922f727
+SHA256: 67152ee850fc4fdf609b84adfdc53187f9d7e1e60137c37a3200f3ab34f37e65
+SHA512: ca8b87f4a5288c2069f2a0daccfa21096de80a6b0ef16ab89f815a7a3e6af6b3b649723c3291287c43dd9dbdfd4cda43317cba77f21b3418ba2f1dc4ebf97124
 Description: 微信优化的重制版，基于微信8.0.64+版本制作。
 Name: WCRefine内部2.1-5beta1（免授权）
 Author: 热心网友
@@ -20549,6 +21015,22 @@ Description: 微信主题盒子
 Name: 主题盒子（免授权）
 Author: Mao
 
+Package: com.tencent.themebox
+Architecture: iphoneos-arm64
+Version: 2.3.6
+Section: 微信插件
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.tencent.themebox_2.3.6_iphoneos-arm64_3e63b8ba5bc6de88b42046e460adca809c2dfd550ea7060315fc7b5ae33179ed.deb
+Size: 7803502
+MD5sum: dd10703bc1456e0653112e7522823546
+SHA1: 15a6d32a75f3e2d76d179024f6c43f63b4ffe931
+SHA256: 3e63b8ba5bc6de88b42046e460adca809c2dfd550ea7060315fc7b5ae33179ed
+SHA512: 520b1c45e20d6201829099ceac489999ddb77795563bf3931c838df3bb76e9613ef53d2b3ebb47ebb243f567a9e3fefca6069be7b24530d37fa0c323aecd01a4
+Description: 微信主题盒子
+Name: 主题盒子（免授权）
+Author: Mao
+
 Package: com.tigisoftware.filza64bits
 Architecture: iphoneos-arm64e
 Version: 4.0.1-4~roothide
@@ -20837,6 +21319,25 @@ Description: 给系统键盘底栏加一排常用按钮，打字不用再长按�
 Name: 键盘下方状态
 Author: wacljcr
 
+Package: com.wacljcr.keyboardstatus
+Architecture: iphoneos-arm64
+Version: 1.4.46
+Section: Tweaks
+Maintainer: wacljcr
+Installed-Size: 928
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Filename: debs/iphoneos-arm64/com.wacljcr.keyboardstatus_1.4.46_iphoneos-arm64_f442ff68c5f372166a5e01e063ba0ca26c1670fb793061f046784c923be2a74a.deb
+Size: 298980
+MD5sum: c6836089806fa0a7d5d91a8955e15151
+SHA1: afef55b34492cff0d5ab65a4e4378abd6569f42f
+SHA256: f442ff68c5f372166a5e01e063ba0ca26c1670fb793061f046784c923be2a74a
+SHA512: 99cf790da48346dccd91323e1ef6b1770c42ce4c0ad8bd799c279916ff515b6ad3025efa611ebf36062683e4f601c460d4a274928ce06c2d44083b1a97305812
+Description: 为系统键盘底栏添加可配置的快捷工具栏。
+ 据包内说明，提供全选、剪切、复制、粘贴、剪贴板历史、短语、光标移动、删除、撤销和输入法切换等功能。按钮可单独开关及排序，工具栏支持单排或双排、图标或文字显示，并可调整字号、间距和位置；另提供隐藏地球键、光标样式调整及设置备份与恢复功能。
+ 依赖 mobilesubstrate 或 ellekit，以及 preferenceloader。具体功能表现、系统版本及设备兼容性尚未验证。
+Name: 键盘下方状态
+Author: wacljcr
+
 Package: com.wacljcr.qqmixtxtimg
 Architecture: iphoneos-arm64
 Version: 1.0.6
@@ -20910,6 +21411,23 @@ SHA1: d41b503b8b8580f2142ab09972c8aa95a029fd34
 SHA256: 9df0dde73efb9b88e54d7221f5f1eeff6621d93cf33630cee7dcd2e067a36380
 SHA512: 65461844f7003538866a1984353df1e98499c756a8fad7c5e854a1e93c659a717a3a83e6e41b7b6df83b13f21206662420a1a5f21278e26ca66d493d3d26a001
 Description: 本项目仅限个人学习使用，仅针对 Relaxin 越狱环境、iOS 16.6.1 进行适配，其他越狱 / 系统版本均未测试。使用产生的各类报错、异常问题，请使用者自行排查解决。功能说明：截图与裁剪（控制中心按钮或手势呼出浮层，拖框选区可拖动 / 缩放微调，支持正常截图与长截图）；长截图提供 2 种采集方式（长截图界面左上角按钮循环切换）：① 自动滚动——注入驱动任意 App 的 UIScrollView 逐屏自动滚动并精确拼接整页长图，可随时点「停止」；② 手动——框好后滑动页面、点「下一屏 ▼」逐屏采集；自动滚动已放开为全 App 注入（不再仅限微信/QQ）；图片拼接编辑器（复刻 Picsew：多张截图缝线式拼接，单张照片可旋转 / 翻转 / 裁剪 / 删除 / 前后移动，裁剪界面内直接带标注工具（小马赛克 / 大马赛克 / 模糊 / 画笔 / 矩形 / 文字 / 撤销 / 完成），支持马赛克（大 / 小）/ 模糊 / 画笔 / 矩形 / 文字标注，结果可保存 / 复制到剪贴板 / 分享，可选机型套壳且套壳更真实）；OCR 文字识别（视觉大模型引擎与百度 PaddleOCR 两种识别源，结果按阅读顺序上→下、同行左→右重排，可复制全文）；翻译（大模型或百度翻译对选中文字翻译，原文 / 译文可分别复制）；画图标注（画笔实线 / 马克笔半透明粗线 / 橡皮，可选颜色与透明度、撤销）；识码（识别二维码 / 条码，结果可复制或用 Safari 打开）；打开豆包（把当前截图带进豆包 App 直接对话提问，图片同时存入剪贴板可长按粘贴，替代原问 AI / 去状态栏按钮）；图像打码（方块像素马赛克 / 高斯模糊两种涂抹脱敏，可手动涂抹或智能识别手机号、身份证自动打码）；取色（吸管点取图中任意颜色并复制 HEX 值）；旋转（90° / 180° 旋转当前图）；图片压缩（一键压缩并提示前后体积）；贴图（把图片作为浮动窗贴到屏幕，可拖动、双指缩放、关闭）；复制 / 保存 / 分享（复制图片或文字到剪贴板；保存到专属相册「超级截图」；系统分享）；导出 PDF（把截图导出为 PDF）；还原（一键还原为编辑前原图）；启动（工具栏「启动」弹层选要秒开的 App，微信 / QQ / 闲鱼 预设或自定义 URL Scheme，秒开并把截图存入剪贴板）；截图历史记录（回看历次截图）；手机壳库（设置开启后正常截图自动套入手机外壳模板，含中框与刘海，套壳渲染更真实）；常驻悬浮球（设置「启用常驻悬浮球」开关：屏幕常驻可拖动悬浮球，点它直接呼出超级截图，替代控制中心按钮；关闭则回到控制中心方式）；URL 指令（cjt://jb 局部截图 / cjt://zc 正常截图 / cjt://ct 长截图 / cjt://pf 拼接，可在 Safari 地址栏或快捷指令「打开 URL」里触发，设置里多选启用）；设置丰富（工具栏自由排序 / 显隐 / 改名 / 换图标 SF Symbol；控制中心图标五选一相机 / 剪刀 / 闪电 / 文档 / 星星；大模型库识别引擎 / 问 AI / 翻译 分别选模型、一键导入预设、连接测试；百度 PaddleOCR 与百度翻译密钥配置；本插件已彻底放开，无需设备授权或解锁码）。
+Name: 超级截图
+Author: yzdmm2024
+
+Package: com.wacljcr.superscreenshot
+Architecture: iphoneos-arm64
+Version: 8.0.20
+Section: Tweaks
+Maintainer: yzdmm2024
+Installed-Size: 2200
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.wacljcr.superscreenshot_8.0.20_iphoneos-arm64_81cea69aea4078ea051bd45f0526e7afafd1fd42ba22b71cbdcdbd0a8478d721.deb
+Size: 712950
+MD5sum: 951e17528a0f459a9d2cb7efb1f4325d
+SHA1: 3dc359898b86ff12be18215276d7ef0800ff6462
+SHA256: 81cea69aea4078ea051bd45f0526e7afafd1fd42ba22b71cbdcdbd0a8478d721
+SHA512: 8f739320be770db997c7947160d8d19d762a418436bfb2703ba26c9806260dd4e3ddb545de157d1135f83532c686b2ca7ede0a79558ee5c25891c8f340ac222b
+Description: 本项目仅限个人学习使用，仅针对 Relaxin 越狱环境、iOS 16.6.1 进行适配，其他越狱 / 系统版本均未测试。使用产生的各类报错、异常问题，请使用者自行排查解决。功能说明：截图与裁剪（控制中心按钮或手势呼出浮层，拖框选区可拖动 / 缩放微调，支持正常截图与长截图；触发方式支持双指上滑与「自定义手势」——录制一笔专属形状（圆圈 / 对勾 / Z 等），以后只有画出同样的形状才触发，避免打游戏误碰）；长截图提供 2 种采集方式（长截图界面左上角按钮循环切换）：① 自动滚动——注入驱动任意 App 的 UIScrollView 逐屏自动滚动并精确拼接整页长图，可随时点「停止」；② 手动——框好后滑动页面、点「下一屏 ▼」逐屏采集；自动滚动已放开为全 App 注入（不再仅限微信/QQ）；图片拼接编辑器（复刻 Picsew：多张截图缝线式拼接，单张照片可旋转 / 翻转 / 裁剪 / 删除 / 前后移动，裁剪界面内直接带标注工具（小马赛克 / 大马赛克 / 模糊 / 画笔 / 矩形 / 文字 / 撤销 / 完成），支持马赛克（大 / 小）/ 模糊 / 画笔 / 矩形 / 文字标注，结果可保存 / 复制到剪贴板 / 分享，可选机型套壳且套壳更真实）；OCR 文字识别（视觉大模型引擎与百度 PaddleOCR 两种识别源，结果按阅读顺序上→下、同行左→右重排，可复制全文）；翻译（大模型或百度翻译对选中文字翻译，原文 / 译文可分别复制）；画图标注（画笔实线 / 马克笔半透明粗线 / 橡皮，可选颜色与透明度、撤销）；识码（识别二维码 / 条码，结果可复制或用 Safari 打开）；打开豆包（把当前截图带进豆包 App 直接对话提问，图片同时存入剪贴板可长按粘贴，替代原问 AI / 去状态栏按钮）；图像打码（方块像素马赛克 / 高斯模糊两种涂抹脱敏，可手动涂抹或智能识别手机号、身份证自动打码）；取色（吸管点取图中任意颜色并复制 HEX 值）；旋转（90° / 180° 旋转当前图）；图片压缩（一键压缩并提示前后体积）；贴图（把图片作为浮动窗贴到屏幕，可拖动、双指缩放、关闭）；复制 / 保存 / 分享（复制图片或文字到剪贴板；保存到专属相册「超级截图」；系统分享）；导出 PDF（把截图导出为 PDF）；还原（一键还原为编辑前原图）；启动（工具栏「启动」弹层选要秒开的 App，微信 / QQ / 闲鱼 预设或自定义 URL Scheme，秒开并把截图存入剪贴板）；截图历史记录（回看历次截图）；手机壳库（设置开启后正常截图自动套入手机外壳模板，含中框与刘海，套壳渲染更真实）；常驻悬浮球（设置「启用常驻悬浮球」开关：屏幕常驻可拖动悬浮球，点它直接呼出超级截图，替代控制中心按钮；关闭则回到控制中心方式）；URL 指令（cjt://jb 局部截图 / cjt://zc 正常截图 / cjt://ct 长截图 / cjt://pf 拼接，可在 Safari 地址栏或快捷指令「打开 URL」里触发，设置里多选启用）；设置丰富（工具栏自由排序 / 显隐 / 改名 / 换图标 SF Symbol；控制中心图标五选一相机 / 剪刀 / 闪电 / 文档 / 星星；大模型库识别引擎 / 问 AI / 翻译 分别选模型、一键导入预设、连接测试；百度 PaddleOCR 与百度翻译密钥配置；本插件已彻底放开，无需设备授权或解锁码）。
 Name: 超级截图
 Author: yzdmm2024
 
@@ -21106,6 +21624,24 @@ Section: 手势键盘
 Maintainer: wkk
 Installed-Size: 516
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64/com.wkk.keyboardx_1.0-6_iphoneos-arm64_6df3b0fadb914ae7a89f2e4bbb275ce8163fbdaed20c7c0e0b12f859e5eb2ac4.deb
+Size: 64140
+MD5sum: 084f96a4782ebf20af5c8626305dc668
+SHA1: 1d5d27542fbb85243d027cca91a76f67b8a42814
+SHA256: 6df3b0fadb914ae7a89f2e4bbb275ce8163fbdaed20c7c0e0b12f859e5eb2ac4
+SHA512: 1399561f87642a8fed6b629814c74a8da13fc5ac2d551933077e20058a1edca2730e807e0391bcdbbce4046b1d9561f0dac97b9bbed9450e963b56c52fa1226e
+Description: 键盘调整。
+Name: keyboardX（wkk）
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+
+Package: com.wkk.keyboardx
+Architecture: iphoneos-arm64
+Version: 1.0-6
+Section: 手势键盘
+Maintainer: wkk
+Installed-Size: 516
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Filename: debs/iphoneos-arm64/com.wkk.keyboardx_1.0-6_iphoneos-arm64_815cd97ed2472352e486e7aaf211d90a6558e10219c59cc033dd3080beb9da7f.deb
 Size: 64140
 MD5sum: 0e5eb8009b0fe227712648f91f8dc935
@@ -21275,6 +21811,23 @@ MD5sum: 56642de3ee9db576e9edd8901d636003
 SHA1: a15b8c146b7aa7a5a59f946526450afc7e5ce00d
 SHA256: 73e07737f7de25ff5c52407138e7e52d13a614e2b99640dd9de3108d1868a6a4
 SHA512: 5f3e1dd387759ba4931331e51f676cf2ad899a3cc7da8aacedada665d1102871dc2bff13eaa2a434020e09f9db2d9e9d99bfa83f705ef588a17091f8dfe74fbd
+Description: WeChatOrbit
+Name: WeChatOrbit（免授权）
+Author: ylr
+
+Package: com.ylr.wcfloatsplit
+Architecture: iphoneos-arm64
+Version: 3.0-5
+Section: 微信插件
+Maintainer: ylr
+Installed-Size: 6236
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.ylr.wcfloatsplit_3.0-5_iphoneos-arm64_7a9967f0b94ba77bb67a94fc4ffe890da901560c99395b80bade24237b01f563.deb
+Size: 2346244
+MD5sum: a3fba771a5e939dd7b07e692fb9ca49e
+SHA1: 4f6037bdde48a5e6fce2b5bea9cc701642e933bc
+SHA256: 7a9967f0b94ba77bb67a94fc4ffe890da901560c99395b80bade24237b01f563
+SHA512: f6a690ae5adb4706c84df83b96a100c10f43cfb168f786ecf6c748376a6638e27c7ac678ad98302697603c7b786884437331976ea71193f6ef86335cf3a52e3e
 Description: WeChatOrbit
 Name: WeChatOrbit（免授权）
 Author: ylr
@@ -22779,6 +23332,28 @@ Author: junhong
 ﻿ • 新增屏蔽内容小组件添加提醒
 Section: Tweaks
 
+Package: fanqiefn
+Architecture: iphoneos-arm64
+Version: 3.3.0
+Section: Tweaks
+Maintainer: junhong
+Installed-Size: 3412
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/fanqiefn_3.3.0_iphoneos-arm64_2e7282ab709c00338824dcf920891e413aa10448e489f5b85e11730b088f20f4.deb
+Size: 2663734
+MD5sum: 65cdefd55c5bae44f3c869889af16003
+SHA1: 06bee00dea70b8693cb3949f4ec9179151de2de8
+SHA256: 2e7282ab709c00338824dcf920891e413aa10448e489f5b85e11730b088f20f4
+SHA512: 37122f7391e7c821e2a56f9ca0e86900d0c6a87b75e9267387f69e36da75b1253d130b6fc72c617127cf7c8b286603b9117fb1a5e79baa6f521c1840764dddc3
+Homepage: https://fanqie.goforit.si
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史 • 新增书城顶部列表自定义隐藏
+ • ﻿优化短篇去广告
+ ﻿ • 优化短篇自动解锁并展开全文
+ • ﻿新增屏蔽系统通知红点提醒
+ ﻿ • 新增屏蔽内容小组件添加提醒
+Name: 番茄净化
+Author: junhong
+
 Package: hongguofn
 Architecture: iphoneos-arm64
 Version: 2.0.0
@@ -22826,6 +23401,54 @@ Author: junhong
 • 修复爆剧标志异常隐藏和残留空位
 • 修复视频暂停后返回前台自动播放
 Section: Tweaks
+
+Package: hongguofn
+Architecture: iphoneos-arm64
+Version: 2.0.0
+Section: Tweaks
+Maintainer: junhong
+Installed-Size: 4456
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/hongguofn_2.0.0_iphoneos-arm64_14e91371c90f2562880166013301295cf40a50b9c5aac427a7dcc563414bae2f.deb
+Size: 3484938
+MD5sum: 27182fbb98c80312f3edc1a91f7fda6c
+SHA1: cc4a2c5ff16b491fa361f78569cc90bad6a2c994
+SHA256: 14e91371c90f2562880166013301295cf40a50b9c5aac427a7dcc563414bae2f
+SHA512: 08b7aaf1acec5c6cb215b6e9c22ad053ab6c8038193989061562679389c4acc95d92f25510b90fec75145f960e0be2a3ca8fd934ad0c79e6a88e4dea95d213bc
+Homepage: https://hongguo.goforit.si
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载• 适配红果 7.4.1
+ • 新增本地视频保存到相册
+ • 新增保存到相册的进度提示
+ • 新增下载完成后自动保存到相册
+ • 新增整剧播放量显示
+ • 新增左右侧长按倍速独立设置
+ • 新增播放时完整清屏，暂停后恢复显示
+ • 新增播放时隐藏手机状态栏独立开关
+ • 新增播放页用户头像隐藏开关
+ • 新增播放页收藏按钮隐藏开关
+ • 新增播放页分享按钮隐藏开关
+ • 新增播放页评论按钮隐藏开关
+ • 新增播放页爱心按钮隐藏开关
+ • 新增小说阅读奖励挂件隐藏开关
+ • 新增小说双击自动阅读
+ • 新增解除小说自动阅读广告限时
+ • 新增截图识同款挂件隐藏开关
+ • 新增福利引导气泡隐藏开关
+ • 新增自动签到
+ • 新增宝奖励自动领取
+ • 新增红包任务自动领取
+ • 新增存钱罐奖励自动领取
+ • 新增自动完成预约任务
+ • 新增横屏长按倍速提示背景透明化
+ • 新增双击视频打开评论区
+ • 新增双指长按底部导航打开插件设置
+ • 优化切换视频卡顿问题
+ • 优化顶部、底部导航隐藏与恢复，即时生效
+ • 修复仅保留一个底部导航项时的位置偏移
+ • 修复爆剧标志异常隐藏和残留空位
+ • 修复视频暂停后返回前台自动播放
+Name: 红果净化
+Author: junhong
 
 Package: im.mjh.doleo
 Architecture: iphoneos-arm64
