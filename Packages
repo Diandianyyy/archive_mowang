@@ -18431,6 +18431,23 @@ Author: MoWang
 
 Package: com.sbcpu.floating
 Architecture: iphoneos-arm64
+Version: 6.6.6
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3560
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/com.sbcpu.floating_6.6.6_iphoneos-arm64_77162f85f883fc72d25e27fe84f0ce793ed0252c2d174249fdda1e2c21840ae9.deb
+Size: 1240872
+MD5sum: 3d6ac0b84630b08ff346124c3ada7081
+SHA1: 0e9b67c64f9d54e57385f24bb1c104aaa1b08c97
+SHA256: 77162f85f883fc72d25e27fe84f0ce793ed0252c2d174249fdda1e2c21840ae9
+SHA512: 2e748132d3219622685be85feb75b8df4a8ff999c0cc65fd3e9cec378b51b079dc48179131ac2e819d9c56c5f9cd81477224f0935f1fea05e1d6474d2d3823a7
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
+Name: 灵动监测
+Author: MoWang
+
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64
 Version: 6.61
 Section: Tweaks
 Maintainer: MoWang
@@ -19236,6 +19253,23 @@ SHA1: 4d578dad33f1c1fdd9f120d12b092ac9071cdb0e
 SHA256: 01090182ae2a890c5f2987a5257a2793b1801f33c99a52f711b616295a3eab69
 SHA512: 2b499cbfd0205cf66995960773a2220f023f2e21a7013abb5b82068771ebb46ddbd7df862a5b45a384c32ee8ba42ed0bc02dacf5c2eaf11a52a5c70bbf158d1c
 Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（新增文字浮窗剩余内存显示）
+Name: 灵动监测
+Author: MoWang
+
+Package: com.sbcpu.floating
+Architecture: iphoneos-arm64e
+Version: 6.6.6
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 3560
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.sbcpu.floating_6.6.6_iphoneos-arm64e_093093d59c40f8b06f22d3bd4426a540a0d85292532ea52388d8533d6fd1ee0d.deb
+Size: 1232862
+MD5sum: 9305f19951b6bd469177f27fe3cb2c73
+SHA1: 9771d993c15204ee7fbfdb73bff3898701138d8d
+SHA256: 093093d59c40f8b06f22d3bd4426a540a0d85292532ea52388d8533d6fd1ee0d
+SHA512: 82aaab2345a3d53f3d386f9abc0728ff23a5b7379797e3040fd813db8e33d143b13f8df6a31e7fa38d0a2da9c9f47cc9c26212b5352417b71e09fe18e322287a
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
 Name: 灵动监测
 Author: MoWang
 
