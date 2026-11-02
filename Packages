@@ -1979,6 +1979,31 @@ Sileodepiction: https://axs66.github.io/pro/sileodepiction/keyboardtools/js.json
 
 Package: com.axs.keyboardtools
 Architecture: iphoneos-arm64
+Version: 5.2.0-195
+Section: Axs-Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 1348
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.axs.colorfulkeyboard
+Filename: debs/iphoneos-arm64/com.axs.keyboardtools_5.2.0-195_iphoneos-arm64_7ce35082a4b39a554312aad0efb41878070ddaf297c8a5aee5d9b6ead177c934.deb
+Size: 238082
+MD5sum: 7d7c4fab0f865244459334c77ab3e220
+SHA1: 11546c225760d3ca198b96632f6623c15335272d
+SHA256: 7ce35082a4b39a554312aad0efb41878070ddaf297c8a5aee5d9b6ead177c934
+SHA512: ffd66309c68fd4ebf0e73fed997f056295d27e10bc5c41a039800020f50f88c4867271ee2e0af96b92619a1cee9dbd1ba0ab2df06f37a9d9097e8a04dc570ed9
+Description: 键盘文本编辑工具栏（可置于键盘上方或键盘下方，复制/粘贴/剪切/撤销/全选等快捷操作）+ 炫彩键盘（点击光效、键盘背景配色、候选词变色）。
+ * 1. 工具栏动作：全选、复制、粘贴、剪贴板、剪切、撤销、清空、光标左移、光标右移、换行、收起键盘
+ * 2. 工具栏位置：键盘上方或键盘下方
+ * 3. 每个按钮的点击与四个滑动方向可各自绑定动作，动作显示名可自定义，改动立即生效、无需注销
+ * 4. 键盘外观：点击光效、候选词变色；键盘背景色分浅色/深色设置，点行用系统取色器选色（可调透明度）
+ * 5. 剪贴板需要安装 Clipboard 插件，才能调出面板
+Name: KeyboardTools
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/keyboardtools.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/keyboardtools/js.json
+
+Package: com.axs.keyboardtools
+Architecture: iphoneos-arm64
 Version: 5.2.0-85
 Section: Axs-Tweaks
 Maintainer: Axs <qiaozhani000@163.com>
@@ -8508,6 +8533,23 @@ Name: Velvet2 中文版(RootHide)
 Author: NoisyFlake
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/velvet2/js.json
 
+Package: com.dd.adblock
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: DD
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.dd.adblock_1.0.0_iphoneos-arm64_0ca7465b76008d1124fa01d42df3ac66d937b6fe10812f665ac45d1961c0667e.deb
+Size: 28264
+MD5sum: fb1fe85454204379b38d78bd99a2373c
+SHA1: 67f01a860ec4bc317a0d6a2f6cb4b4bbb9a500db
+SHA256: 0ca7465b76008d1124fa01d42df3ac66d937b6fe10812f665ac45d1961c0667e
+SHA512: 87f9435d8d8653248a19c6ada82bd3d3b88512a23e8662119cebf290eea4d9f37853c7ad2be579c922feecc183f94778739cc82723d2b20ad291d1a2becc413f
+Description: DD微信广告屏蔽（提取 dyilb 用巨魔注入器注入到微信即可）
+Name: DD广告助手
+Author: DD
+
 Package: com.doimty.fiona
 Architecture: iphoneos-arm64
 Version: 0.3
@@ -11622,6 +11664,23 @@ Author: Mallin
 Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
 
 Package: com.mallin.tunnelsharevpn
+Architecture: iphoneos-arm64
+Version: 1.2.6
+Section: Tweaks
+Maintainer: Mallin
+Depends: firmware (>= 15.0), mobilesubstrate | substitute | libhooker | ellekit, com.opa334.ccsupport, preferenceloader
+Filename: debs/iphoneos-arm64/com.mallin.tunnelsharevpn_1.2.6_iphoneos-arm64_078faf30537a81d46b36f1781b1258b0e68a52e9f6cff8a86b8c0a8fc129fb7a.deb
+Size: 166128
+MD5sum: 5f5917b1e0994ba050727d91700f0dde
+SHA1: d305dc1952b14141f4c8c88e6e507f56ed741530
+SHA256: 078faf30537a81d46b36f1781b1258b0e68a52e9f6cff8a86b8c0a8fc129fb7a
+SHA512: 7070064b2028127d7ea308a3cb1310c68468c8c9d7b941841cccb63e739637864985185bbf7293151232735e13976db44f6f132a25d6ea7d49ad2ef20e7ccc43
+Description: 该插件能够实现该手机的科学上网功能直接通过热点形式分享给其他设备，在“设置-控制中心”添加快捷键，即可实现一键操作，目前测试使用Shadowrocket科学上网，只用于科研与查阅外网资料！
+Name: TunnelShareVPN
+Author: Mallin
+Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
+
+Package: com.mallin.tunnelsharevpn
 Architecture: iphoneos-arm64e
 Version: 1.2.4
 Section: Tweaks
@@ -11634,6 +11693,24 @@ MD5sum: 0e8c8d21ff3eec3ae533b1e5db1377ba
 SHA1: 7efacd9efb83cedf2165ef960ea9bdcac4a3f0f1
 SHA256: 605835b7adb970d98cf784874cbaeda40d2c3ceb8ba0cb71386cd59f90aa9171
 SHA512: ce24c21f807174250619b6ad7239436c9ec7e219febf406fea5a93eaabc8b4973744d576d130226bd9bc90d4f1abc7e62e8dc209717acb900fdabb003948630c
+Description: 该插件能够实现该手机的科学上网功能直接通过热点形式分享给其他设备，在“设置-控制中心”添加快捷键，即可实现一键操作，目前测试使用Shadowrocket科学上网，只用于科研与查阅外网资料！
+Name: TunnelShareVPN
+Author: Mallin
+Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
+
+Package: com.mallin.tunnelsharevpn
+Architecture: iphoneos-arm64e
+Version: 1.2.6
+Section: Tweaks
+Maintainer: Mallin
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate | substitute | libhooker | ellekit, com.opa334.ccsupport, preferenceloader
+Filename: debs/iphoneos-arm64e/com.mallin.tunnelsharevpn_1.2.6_iphoneos-arm64e_a60f6c7d0a0175529452257682c450ec5d1410e9ed339ee311ded0eae8598aa9.deb
+Size: 166312
+MD5sum: 9b4f31514cd2ca6e7d41b74bccb3d471
+SHA1: be1329928e83f1c05cd2f20b4240e457ee163484
+SHA256: a60f6c7d0a0175529452257682c450ec5d1410e9ed339ee311ded0eae8598aa9
+SHA512: 9207bbf5a1682f03d94b3d9d61189ffeb4c70d45e32ab405a53cf6e7c9aacf02f9c73ef3e8d707d44ed4becde9dcf7595e8ad1264d7ce5aa03ccf78087e6e586
 Description: 该插件能够实现该手机的科学上网功能直接通过热点形式分享给其他设备，在“设置-控制中心”添加快捷键，即可实现一键操作，目前测试使用Shadowrocket科学上网，只用于科研与查阅外网资料！
 Name: TunnelShareVPN
 Author: Mallin
@@ -13206,6 +13283,25 @@ Icon: https://mlgm66.github.io/icon/actra.png
 Author: mlgm
 
 Package: com.mlgm.actra
+Architecture: iphoneos-arm64
+Version: 1.3.3
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 4112
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/iphoneos-arm64/com.mlgm.actra_1.3.3_iphoneos-arm64_dcd8b699e2314f13670399d19a283b92f5416f28b876dbadf9cb5be737fde0c6.deb
+Size: 817588
+MD5sum: 7815859103be3dbb5dcc30ea0936563d
+SHA1: e215d3f5fe57fb66954ee2f6332130bb92d08055
+SHA256: dcd8b699e2314f13670399d19a283b92f5416f28b876dbadf9cb5be737fde0c6
+SHA512: 351361a103f9472be86c8562193603665e6cdebe72938f3f3bf456f977df60bb0aa8dd3fbc7a380a78e95a45424dccd937d6033585634a7314a7b1e5205f2d5d
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
+Package: com.mlgm.actra
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
@@ -13390,6 +13486,25 @@ MD5sum: 8e660c3db388321adfa083afbbe0f7de
 SHA1: cd4331ace0b17ab861b166f4533068b299b9d37e
 SHA256: 2c8cc1d1a61a3b5514cbb98bc2be846e05242c5e430e06ef424ed4437b2876fe
 SHA512: 5c90d889f274f7cc6040dccb33ced3233ea94b9946f7b077d10aa09a14f9bace6a81fa631b29bebcfe2b8b77f51055993162b7547937f6e90a72b6d7a6f4504a
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
+Package: com.mlgm.actra
+Architecture: iphoneos-arm64e
+Version: 1.3.3
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 4116
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/iphoneos-arm64e/com.mlgm.actra_1.3.3_iphoneos-arm64e_639762752bcc3227a0cec04445e57743bea287863b623a4b587132338d3f905e.deb
+Size: 817962
+MD5sum: 192a073f50142090de149be41ea70c7f
+SHA1: 3ac9e347fbcbf040cf7ff215356c3bb0069dbeaf
+SHA256: 639762752bcc3227a0cec04445e57743bea287863b623a4b587132338d3f905e
+SHA512: 4423c9b5fc2abe50ad8189a1af70ceae31faf11f344fb7c98bd99dd0accae4d0c02be990722bd8d1c1f00c1754d77d9f1ab60ab3d526b917a656b8f22d820f12
 Description: 手势与事件自动化工具
 Name: Actra
 Icon: https://mlgm66.github.io/icon/actra.png
@@ -13581,6 +13696,27 @@ Icon: https://mlgm66.github.io/icon/kayoko.png
 SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
 
 Package: com.mlgm.kayoko
+Architecture: iphoneos-arm
+Version: 5.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3896
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm/com.mlgm.kayoko_5.1_iphoneos-arm_a9a7696c99f1accb780ae566e081a00d244c94973da2a16da5df49fa67e1e44a.deb
+Size: 822890
+MD5sum: 994d6d129a2215e2ebd9dc33f59633d6
+SHA1: 773cb1e13651e0b13a91bbeaa229493d9ce2f004
+SHA256: a9a7696c99f1accb780ae566e081a00d244c94973da2a16da5df49fa67e1e44a
+SHA512: d76cc2a899393b529add8f13a2972af56f82d618c7c70d46f5971b156f4ad5d1aaed758a3eed40917152fe9168df1a2c2ec5ad01765069ee748bfec866fe03a0
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
 Architecture: iphoneos-arm64
 Version: 5.0.4
 Section: Tweaks
@@ -13595,6 +13731,27 @@ MD5sum: 816c815aed66e73524723c7bc899f973
 SHA1: 35386acc2eed541e972b20f3b40d66883e2c781c
 SHA256: 1735696ce923f71ba45d3181fa2af5fb53f1417194a7bf59a925194f3f56a558
 SHA512: a3149387fabacdceca7cd2cc4f6db33e05fb6d37fa563d23b8349b3e25c21e5df172d6bd00cc5fb3e8cd2e2cc5c340a1c94738133e0f20eb3005eb0279fc3404
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64
+Version: 5.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3896
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64/com.mlgm.kayoko_5.1_iphoneos-arm64_9cf73b9117b87d7888d77f0e678fe2ae714121fff8684546b26b62a85fad011e.deb
+Size: 823300
+MD5sum: a52f107b8607e47364844922f9006038
+SHA1: b76b7ade1b8fd1b7de269e6466434c1a1cb00809
+SHA256: 9cf73b9117b87d7888d77f0e678fe2ae714121fff8684546b26b62a85fad011e
+SHA512: 94032a4a2f9f689ce44437f3cb20ef9ddd3872cb95f7a177291d23e30705c54030138276cd90dead48a083d85e6787b4a0cdebd841d77b6521e4c4efc196a5c0
 Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
 Name: Kayoko
 Author: mlgm
@@ -13622,6 +13779,45 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/kayoko.png
 SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
 
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64e
+Version: 5.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3864
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/iphoneos-arm64e/com.mlgm.kayoko_5.1_iphoneos-arm64e_80f683238a9e081293cb6bfdded979b37249aedbcc5926210a4f41ffd66e9992.deb
+Size: 817970
+MD5sum: 7c0e4fba29f0fe1d75b5fa15c016261d
+SHA1: b1898090f8564e5f14b31a18562a5285e377bc32
+SHA256: 80f683238a9e081293cb6bfdded979b37249aedbcc5926210a4f41ffd66e9992
+SHA512: ea592cddc00c90834e16d5220de31aeb5917a3f82383783d2269618f732c63e281aaaea1d724f02d717617e1fe4796549b72f4fb174596c8e1462bac018f9ec6
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.prefnest
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 888
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.mlgm.prefnest_1.2.3_iphoneos-arm64_f0f768d3957d5db9ce9a7efbe15d7c5dde88e922124f3223eea7025e902ec91c.deb
+Size: 173566
+MD5sum: 5422aa416b3300203e00a22b8cf78bfc
+SHA1: 5b8b24e67d38aaff361812c61f686287cb5bacaa
+SHA256: f0f768d3957d5db9ce9a7efbe15d7c5dde88e922124f3223eea7025e902ec91c
+SHA512: f0d98a1db20974d49ee5a079498810a8b9f79bcedabbe15f43f35ba503684e53e28ebb3818bc28671423af13be0d5907e778187182c892944fa02dc60ab5cd69
+Description: 整理设置首页，集中收纳越狱插件。
+Name: PrefNest
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Author: mlgm
+
 Package: com.mlgm.prefnest
 Architecture: iphoneos-arm64e
 Version: 1.2
@@ -13635,6 +13831,24 @@ MD5sum: 7b146f35a80d5f105ca4d89e47b181ab
 SHA1: 949bb5a05b549c9347127e8b1c21a3d231f9dc9c
 SHA256: 914882fd2a80534a636377406219b3852be8b8505756b6b12fcf5a4b82b949b1
 SHA512: 4ec4556c859b19d5f1f1af298ae9dbcc146fa301075e06c444c59bab388061c8fc7759160752027f382915eb09376f64db7217051e91bb2c50d2cba774942b90
+Description: 整理设置首页，集中收纳越狱插件。
+Name: PrefNest
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Author: mlgm
+
+Package: com.mlgm.prefnest
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 888
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.mlgm.prefnest_1.2.3_iphoneos-arm64e_64777b016faab23e5876ff06b8489a00e684c233a0234d9c88108f1687c043bc.deb
+Size: 171396
+MD5sum: d711334ad1f194e13145aaf715be91fa
+SHA1: 429ec9df7d731dc2902b6908ba1a7b33f37e1eec
+SHA256: 64777b016faab23e5876ff06b8489a00e684c233a0234d9c88108f1687c043bc
+SHA512: c77ea2d170580dfda942a72cfe118c1f861007c0e5da6ae571b35a78aba9cbee2a0fb161f534da328bd85186378225ae745fe06374e808d32ccc827a02e41f45
 Description: 整理设置首页，集中收纳越狱插件。
 Name: PrefNest
 Icon: https://mlgm66.github.io/icon/prefnest.png
@@ -13797,6 +14011,42 @@ Description: 触摸轨迹可视化
 Name: Taploom
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/taploom.png
+
+Package: com.mlgm.watchfix
+Architecture: iphoneos-arm64
+Version: 2.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 5248
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/com.mlgm.watchfix_2.1_iphoneos-arm64_aca4126b66430377da59c6eb95c49379cc4db4f15ecfdf7ce7327a9452841bb1.deb
+Size: 823780
+MD5sum: e7da2d27252cd4304728cfdeda46bcc7
+SHA1: 22ec6a975024d37a934791105f5bc5ce481032cc
+SHA256: aca4126b66430377da59c6eb95c49379cc4db4f15ecfdf7ce7327a9452841bb1
+SHA512: 131e900b526f4c376b842062ac616d0812159a3d47b3eae80234e758c71290aa268d1ca304e70984997c2727ffe61abe7ef12df8e17326734980c1f743e82223
+Description: 解决 Apple Watch 连接问题
+Name: WatchFix
+Author: 577FKJ
+Icon: https://mlgm66.github.io/icon/watchfix.png
+
+Package: com.mlgm.watchfix
+Architecture: iphoneos-arm64e
+Version: 2.1
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 5252
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.mlgm.watchfix_2.1_iphoneos-arm64e_c2a0ae21e6d1edca8bbe40b6df3e1bcb19fea6cf0d1ec716811ac7302253540a.deb
+Size: 819440
+MD5sum: c55d8e398452727ba2bdab0a9b446f25
+SHA1: 1bd77c591ad7ce0088e8cf90b864883cbf8330f5
+SHA256: c2a0ae21e6d1edca8bbe40b6df3e1bcb19fea6cf0d1ec716811ac7302253540a
+SHA512: 195927e750b223540ead1570e53d7e74b5fde967009c89df3615eb7badf943e12a593d3094088e27ba95b65e1e31632fd6ccada2a877a2c68bd3dda7de872736
+Description: 解决 Apple Watch 连接问题
+Name: WatchFix
+Author: 577FKJ
+Icon: https://mlgm66.github.io/icon/watchfix.png
 
 Package: com.monian.b612patch
 Architecture: iphoneos-arm64
@@ -22383,6 +22633,53 @@ Icon: https://MrSuuu.github.io/Sileo/depictions/icon-home27.png
 
 Package: com.zegeyoudaoli.liquidass27
 Architecture: iphoneos-arm64
+Version: 1.0.0-125+rootless
+Section: Tweaks
+Maintainer: dylv&泽哥
+Installed-Size: 10392
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Filename: debs/iphoneos-arm64/com.zegeyoudaoli.liquidass27_1.0.0-125+rootless_iphoneos-arm64_583a242bb16a20b5df437820f52c4ee2c88b38cd41560aede3754f261778b606.deb
+Size: 3655328
+MD5sum: b559888375b567b76626746437f28244
+SHA1: 5a24b8e42f3ff94d7b48126d66cc20f2c9bae437
+SHA256: 583a242bb16a20b5df437820f52c4ee2c88b38cd41560aede3754f261778b606
+SHA512: c706ac0edd4e1cddf7517d9571cd239dd728a383f85faaa804bba3731cca5c2b590460b64f15c34eb5f324799cec7cd616732ef67775deebcd35fa4f4b52eed0
+Description: 本版是基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
+ 【本版的改动】
+ • 重构液态玻璃渲染引擎 / 对标 iOS 27 系统
+ • 重构锁屏大时钟减少卡顿增强观感
+ • 新增锁屏时钟/日期/通知/横幅/灵动岛/上下文菜单/警报渐变引擎并设置可调参数
+ • 新增小组件去背景及相应设置项
+ • 新增更多可调参数
+ • 新增全界面导航栏液态玻璃
+ • 新增底部弹窗 / App 弹窗液态玻璃
+ • 新增灵动岛液态玻璃（上岛全元素液态）
+ • 新增「灵动岛」设置页面
+ • 新增锁屏日期 / 农历行液态玻璃（跟随时钟效果）
+ • 新增锁屏“通知清除按钮”透明化
+ • 新增锁屏“通知中心”文字直接隐藏
+ • 新增音量 HUD 液态玻璃
+ • 修复锁屏时钟景深效果
+ • 修复锁屏场景下灵动岛取不到子视图的问题
+ • 修复 iOS 16 设备标签栏透镜渲染错位问题
+ • 修复灵动岛实时活动远端渲染黑块问题
+ • 修复标签栏文字闪烁的 bug
+ • 修复调试日志开关被诊断包硬编码为常开、导致渲染路径每帧同步写盘（卡顿/掉帧/发热）
+ • 修复总开关关闭后，仍然保持液态的问题（需多次注销）
+ 【兼容性】
+ 已验证：iOS 17.0（roothide / Relaxin 越狱）
+ 支持系统：iOS 16.0–17.3.1；部分 iOS 16 设备存在兼容问题，那些设备请改装「Liquid (Gl)ass · 泽哥维护兼容版」（包名 dylv.liquidass）
+ 本插件包名已由 dylv.liquidass 改为 com.zegeyoudaoli.liquidass27，与旧版本是两个独立插件：装了旧线不会自动收到本线更新，需要重新安装本包（安装时会提示替换旧包）。
+Name: Liquid (Gl)ass 27（rootless 测试）
+Author: dylv&泽哥
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json
+
+Package: com.zegeyoudaoli.liquidass27
+Architecture: iphoneos-arm64
 Version: 1.0.0-34+rootless
 Section: Tweaks
 Maintainer: dylv&泽哥
@@ -22771,6 +23068,52 @@ Description: 本版是基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用
  支持系统：iOS 16.0–17.3.1；部分 iOS 16 设备存在兼容问题，那些设备请改装「Liquid (Gl)ass · 泽哥维护兼容版」（包名 dylv.liquidass）
  本插件包名已由 dylv.liquidass 改为 com.zegeyoudaoli.liquidass27，与旧版本是两个独立插件：装了旧线不会自动收到本线更新，需要重新安装本包（安装时会提示替换旧包）。
 Name: Liquid (Gl)ass 27（rootless 测试）
+Author: dylv&泽哥
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json
+
+Package: com.zegeyoudaoli.liquidass27
+Architecture: iphoneos-arm64e
+Version: 1.0.0-125
+Section: Tweaks
+Maintainer: dylv&泽哥
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Filename: debs/iphoneos-arm64e/com.zegeyoudaoli.liquidass27_1.0.0-125_iphoneos-arm64e_0e0a46a5436a736955ff699c0c4e153ed3d1f8a59eb661612273587267d42b51.deb
+Size: 3659872
+MD5sum: 6a6c0f39849fa70c07e50805fbfdc04c
+SHA1: 995563a4e61242c5eb6ee2b2cb3a89baa7810367
+SHA256: 0e0a46a5436a736955ff699c0c4e153ed3d1f8a59eb661612273587267d42b51
+SHA512: 661b3e0a30b59d1743ff619dbdfa0a96389d8723c816ea14f8d3a26455e2080881abb2a2eb5c1d9119075e521e873ed4143ec2d312e70ee4e2c3f68efb8ec404
+Description: 本版是基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
+ 【本版的改动】
+ • 重构液态玻璃渲染引擎 / 对标 iOS 27 系统
+ • 重构锁屏大时钟减少卡顿增强观感
+ • 新增锁屏时钟/日期/通知/横幅/灵动岛/上下文菜单/警报渐变引擎并设置可调参数
+ • 新增小组件去背景及相应设置项
+ • 新增更多可调参数
+ • 新增全界面导航栏液态玻璃
+ • 新增底部弹窗 / App 弹窗液态玻璃
+ • 新增灵动岛液态玻璃（上岛全元素液态）
+ • 新增「灵动岛」设置页面
+ • 新增锁屏日期 / 农历行液态玻璃（跟随时钟效果）
+ • 新增锁屏“通知清除按钮”透明化
+ • 新增锁屏“通知中心”文字直接隐藏
+ • 新增音量 HUD 液态玻璃
+ • 修复锁屏时钟景深效果
+ • 修复锁屏场景下灵动岛取不到子视图的问题
+ • 修复 iOS 16 设备标签栏透镜渲染错位问题
+ • 修复灵动岛实时活动远端渲染黑块问题
+ • 修复标签栏文字闪烁的 bug
+ • 修复调试日志开关被诊断包硬编码为常开、导致渲染路径每帧同步写盘（卡顿/掉帧/发热）
+ • 修复总开关关闭后，仍然保持液态的问题（需多次注销）
+ 【兼容性】
+ 已验证：iOS 17.0（roothide / Relaxin 越狱）
+ 支持系统：iOS 16.0–17.3.1；部分 iOS 16 设备存在兼容问题，那些设备请改装「Liquid (Gl)ass · 泽哥维护兼容版」（包名 dylv.liquidass）
+ 本插件包名已由 dylv.liquidass 改为 com.zegeyoudaoli.liquidass27，与旧版本是两个独立插件：装了旧线不会自动收到本线更新，需要重新安装本包（安装时会提示替换旧包）。
+Name: Liquid (Gl)ass 27
 Author: dylv&泽哥
 Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
 Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html
@@ -27393,6 +27736,29 @@ SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64
+Version: 0.3.4
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 96260
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64/wiki.qaq.apelin_0.3.4_iphoneos-arm64_7bf642a2daa6b90a82b5670b9b69314242e97724404166c08604ffc6bd099789.deb
+Size: 33106052
+MD5sum: 057b7c130e5b10d14532c2834e923966
+SHA1: ae7433a091ad2f1ca7fcb9e32a17fab7fa323c20
+SHA256: 7bf642a2daa6b90a82b5670b9b69314242e97724404166c08604ffc6bd099789
+SHA512: c3186bd96ef65be26e63b9f12752e3eb707502835b5a3624c4a7499e4074d43f77128318a0c343b929d5c1131320634501e452b86052362f5db2717a896a5a7d
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
 Architecture: iphoneos-arm64e
 Version: 0.1.5
 Priority: optional
@@ -27729,6 +28095,29 @@ MD5sum: 7b5bd12a9affa34eb9f891f7ede5898c
 SHA1: 312a5101bd4395a2f81abae8a986a9dead5a4fd9
 SHA256: 20dedb8ea6c90c70b9ef08fad8fa0b64a6479b6c77bc36f40591753a142b3830
 SHA512: 1146eaa33ca022d191f44a9facfb08c62c0e385e2921f9ea1439a3b5a7efe286e37e2a3139377503ffe0cc5c193b453da84cde89e32956d8c2cb19181a56ddcb
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64e
+Version: 0.3.4
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 96260
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64e/wiki.qaq.apelin_0.3.4_iphoneos-arm64e_5b55ad49828ef79d33c87d57b3b1306ef5d21b844bbbf154fa1542be21b633d0.deb
+Size: 33096436
+MD5sum: d09ceb5cc9defee6766ef3c3fbba1776
+SHA1: bb21c56d8d8463603377c7949ca0d837fc46a22c
+SHA256: 5b55ad49828ef79d33c87d57b3b1306ef5d21b844bbbf154fa1542be21b633d0
+SHA512: 06cf5abb158a66027253eba3d495cdfcef09dba9acd47f07516de594c9e0da1bfb632e595913f7d5a0a77fa77e9f9cf6cdc2a1dbc453f022a1843dc281b42be7
 Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
  Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
 Name: Apelin
@@ -29998,6 +30387,27 @@ MD5sum: 50a10c6c48bc0caec493772308476722
 SHA1: e3099c8b45deafa2343fd43688fc7c4a7abfe218
 SHA256: 078755b71225cd67dfb5948a863c10699b10b0d646482faea66213aa1d650fd4
 SHA512: 51355ab696f4b8ea9601b29e0d5646a727099107d5cad8a31e0404b2419bf3856804986c59f48e27ca428ed6ce180c891597136323420165bce2c7d148aeca6a
+Homepage: https://github.com/owngoal-dev/RootHidePatcher
+Description: Convert supported tweak packages for RootHide custom firmware.
+Name: Umbra Patcher
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Support: https://github.com/owngoal-dev/RootHidePatcher/issues
+
+Package: wiki.qaq.umbra.patcher
+Architecture: iphoneos-arm64e
+Version: 3.0-2
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 2532
+Depends: firmware (>= 15.0), bash, coreutils, findutils, grep, sed, libxar1, ldid, file, dpkg, gawk, plutil(>= 0.2.2-1), uikittools(>= 2.1.6-4)
+Conflicts: com.roothide.patcher
+Replaces: com.roothide.patcher
+Filename: debs/iphoneos-arm64e/wiki.qaq.umbra.patcher_3.0-2_iphoneos-arm64e_5d82e5d51e75f653412ecf0a8a255f4f73c8257c32d3f428d21eb633705eabe4.deb
+Size: 882202
+MD5sum: 98eba5ce5e44683b9d308f0a87d1f589
+SHA1: d3e6e3aad134bac31287a7f19f018aec7cf7ee37
+SHA256: 5d82e5d51e75f653412ecf0a8a255f4f73c8257c32d3f428d21eb633705eabe4
+SHA512: 295b8098b3ab5800c2a87e2a4eaeb5d1134fe99d3924a2ddc40687403072089ea9966b471f911abd2ad86fec73460087bec44805b82792442ab0aecac77125a0
 Homepage: https://github.com/owngoal-dev/RootHidePatcher
 Description: Convert supported tweak packages for RootHide custom firmware.
 Name: Umbra Patcher
