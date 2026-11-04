@@ -11015,6 +11015,42 @@ Name: DYYY
 Author: huami
 Icon: https://huayuarc.github.io/icon/douyin.jpg
 
+Package: com.huayuarc.ccsimfix
+Architecture: iphoneos-arm64
+Version: 1.0-2
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 56
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64/com.huayuarc.ccsimfix_1.0-2_iphoneos-arm64_98d39a6094706efb1bd86a3ae88dba9f10a37a722f72396ad1b99f648cce57b9.deb
+Size: 4872
+MD5sum: be4570f4c03c3bc664e9dbef49c57c3f
+SHA1: 2ce91584452d750cd898727f8a3b38b5f0c73a04
+SHA256: 98d39a6094706efb1bd86a3ae88dba9f10a37a722f72396ad1b99f648cce57b9
+SHA512: f1a4ea56f6c86a3d27962b9272d3020ea16263269af1462256d1f137dcc116ed7455a677b722edff5ed0aaa83e022a433191947c6e98e64c877fa68a91a6c23f
+Description: 修复 CCSIM 控制中心模块在 iOS 17 上卡死的问题。CCSIM 在控制中心里同步调用 CoreTelephony 的 getSIMStatus:error: / copyLabel:error:，iOS 17 上 CommCenter 不回复时该调用永不返回，会把 SpringBoard 主线程锁死（只能强重启）。本插件为这两个调用加上超时保护，超时即返回安全值，界面不再冻结。
+Name: CCSIMFix
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/ccsim.jpg
+
+Package: com.huayuarc.ccsimfix
+Architecture: iphoneos-arm64e
+Version: 1.0-2
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 152
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.huayuarc.ccsimfix_1.0-2_iphoneos-arm64e_fe86aa2a66876de90baeb4be207f245618efe8fff14a95b439d735613fc90cc9.deb
+Size: 6464
+MD5sum: b9f7936de5b3194607b68dc5c4f8248f
+SHA1: 28ea9df5f0a2e15fc5a6ed10e64743f6bbdb3b02
+SHA256: fe86aa2a66876de90baeb4be207f245618efe8fff14a95b439d735613fc90cc9
+SHA512: c90fa08d1e3890909b5c80f795c6130afced8bf2b4b506199c7944e0f025e895de57081ab8a98d3790b3da2265e13d8e59d63bc8bd2d2573178b56be4aed4d18
+Description: 修复 CCSIM 控制中心模块在 iOS 17 上卡死的问题。CCSIM 在控制中心里同步调用 CoreTelephony 的 getSIMStatus:error: / copyLabel:error:，iOS 17 上 CommCenter 不回复时该调用永不返回，会把 SpringBoard 主线程锁死（只能强重启）。本插件为这两个调用加上超时保护，超时即返回安全值，界面不再冻结。
+Name: CCSIMFix
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/ccsim.jpg
+
 Package: com.huayuarc.cputhermal
 Architecture: iphoneos-arm64
 Version: 1.6.2-103
@@ -12879,6 +12915,26 @@ Description: 去除录屏延迟，并可实时配置控制中心收起行为
 Name: 去除录屏延迟
 Author: LaYii
 icon: https://huayuarc.github.io/icon/luzhi.jpg
+
+Package: com.lindo.mubx
+Architecture: iphoneos-arm64e
+Version: 1.0.7
+Section: Tweaks
+Maintainer: lindo
+Installed-Size: 4316
+Depends: mobilesubstrate, preferenceloader, firmware(>=15.0)
+Conflicts: com.restiveconch.actionbar,com.udevs.dockx,com.lindo.dockx,com.muzi.kayoko,com.lindo.typex
+Filename: debs/iphoneos-arm64e/com.lindo.mubx_1.0.7_iphoneos-arm64e_d32474a3f169191419f75eec9aaa818c5169028059a311be0e866c10e56b24c7.deb
+Size: 1102856
+MD5sum: 427cb62a2cf7e6b3d9af91bc945a3fd1
+SHA1: 8777c316939988ab124b6ba6632ea99e2afce048
+SHA256: d32474a3f169191419f75eec9aaa818c5169028059a311be0e866c10e56b24c7
+SHA512: 204dcfbd7f5d8ea1f20ccbdaec55c6e049d768ab03118cef60f97ec99844371bd4aac86f60205663a598efca73338cf38f565fdb29ea1b1b7d66a2b23b08ad7d
+Description: 参考 TypeX 和 Kayoko 实现两个插件的功能，超级键盘增强
+Name: MUBX
+Author: lindo
+Icon: https://udevsharold.github.io/repo/depictions/com.lindo.mubx/icon/icon.png
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.lindo.mubx
 
 Package: com.liquidui.liquidui
 Architecture: iphoneos-arm64e
@@ -16680,6 +16736,46 @@ SHA512: a68e74b42bd16be5fa054b824ffd9ab30560ac335fb9804c0dddb4d1e3e7f987bf3697a1
 Description: 轻量 deb 下载工具，不支持付费才能下的插件
 Name: debd
 Author: zhaonan
+
+Package: com.netskao.ccsim
+Architecture: iphoneos-arm64
+Version: 1.1-17
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 248
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.huayuarc.ccsimfix
+Replaces: com.huayuarc.ccsimfix
+Filename: debs/iphoneos-arm64/com.netskao.ccsim_1.1-17_iphoneos-arm64_37b7e1900334ad4bc2999f2641b9278185ffc5d3cf86be95c4b7e11f8dbe6aac.deb
+Size: 29512
+MD5sum: b0c585939f71604194acf7c7756d142f
+SHA1: 84d8144e9ac2a684a56cbc6c51936ccd63752c21
+SHA256: 37b7e1900334ad4bc2999f2641b9278185ffc5d3cf86be95c4b7e11f8dbe6aac
+SHA512: 7f2dfdc2c4ede39917e561497400f06bb4296c8f38df5043338b71fa0aa9023f0b78822aa3c1cf2460c9107519ed5075ca338beac7e040f5abb526362366be2e
+Description: 控制中心快速启用或禁用其中一张 SIM 卡（已内置 iOS 17 卡死修复）。
+Name: CCSIM
+Author: Netskao, Huayuarc
+Icon: https://huayuarc.github.io/icon/ccsim.jpg
+
+Package: com.netskao.ccsim
+Architecture: iphoneos-arm64e
+Version: 1.1-17
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 344
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.huayuarc.ccsimfix
+Replaces: com.huayuarc.ccsimfix
+Filename: debs/iphoneos-arm64e/com.netskao.ccsim_1.1-17_iphoneos-arm64e_0212431af5d92988af945c569fa125754eb4f915cd35777ae3b5aa05feef31dd.deb
+Size: 32056
+MD5sum: fd248dfd7666dcb1a2d82662da7432df
+SHA1: ea35f49443e54d099cd6767d8e2aa509efcdd39d
+SHA256: 0212431af5d92988af945c569fa125754eb4f915cd35777ae3b5aa05feef31dd
+SHA512: 8b67a9c4d2be1be31cd53acb15d3e42f61756ebda8195e726c168e28222a3aa2031b829f95e625b60c86cd936b3b9bb0035a5bfe23c1945aec783e310811de03
+Description: 控制中心快速启用或禁用其中一张 SIM 卡（已内置 iOS 17 卡死修复）。
+Name: CCSIM
+Author: Netskao, Huayuarc
+Icon: https://huayuarc.github.io/icon/ccsim.jpg
 
 Package: com.ngkhoi.26home
 Architecture: iphoneos-arm64e
@@ -26401,6 +26497,46 @@ Description: 红果短剧界面净化、短剧广告控制、原生独立设置�
 Name: 红果净化
 Author: junhong
 
+Package: hongguofn
+Architecture: iphoneos-arm64
+Version: 2.2.1
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 5180
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64/hongguofn_2.2.1_iphoneos-arm64_b35a21290c7bdd46c9f831de348100b832ba73ab56dac35d6c77826f2e478586.deb
+Size: 2254104
+MD5sum: 1a591d2276c8be5f22aeea57fec775f8
+SHA1: 0574d07faf89aae32606ae6830be43607230e87d
+SHA256: b35a21290c7bdd46c9f831de348100b832ba73ab56dac35d6c77826f2e478586
+SHA512: fc4924b67d2b2e037fffba3b30ac384a2b844238a4e8bbbae1647eed8e0fb9d2fa41e660dd1f57b9279dc248ec60e29dfd5c0292d26e9862bb6f3fc04437fa9e
+Homepage: https://hongguo.goforit.si
+Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
+ 兼容红果短剧与红果漫剧，版本适配7.4.1，低版本可能存在兼容问题不再适配，请更新至7.4.1版本使用。
+Name: 红果净化
+Author: Junhong
+icon: https://huayuarc.github.io/icon/hongguo.png
+
+Package: hongguofn
+Architecture: iphoneos-arm64e
+Version: 2.2.1
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 5164
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/hongguofn_2.2.1_iphoneos-arm64e_b436aac31fb0b64b5f2d02fba753541c43f405f043c0ce4c68f908e58e75731e.deb
+Size: 2235464
+MD5sum: 0d8f995959efb37dcd1d2cce1b9c63da
+SHA1: 790b019a9a25430198b4293864a62c77e31af224
+SHA256: b436aac31fb0b64b5f2d02fba753541c43f405f043c0ce4c68f908e58e75731e
+SHA512: ae0facf64c50a4b04a9b355212d53ef592ac5bb918b42fe7e4c09ad309f3669d3c5b018f92f49bf62cb032328a588e935c23779e8c26f6acd5c9015156c44e6d
+Homepage: https://hongguo.goforit.si
+Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
+ 兼容红果短剧与红果漫剧，版本适配7.4.1，低版本可能存在兼容问题不再适配，请更新至7.4.1版本使用。
+Name: 红果净化
+Author: Junhong
+icon: https://huayuarc.github.io/icon/hongguo.png
+
 Package: im.mjh.doleo
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -26425,6 +26561,24 @@ ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.json
 Tags: compatible_min::ios15.0
 
 Package: im.mjh.doleo
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 1040
+Depends: mobilesubstrate, dpkg
+Filename: debs/iphoneos-arm64/im.mjh.doleo_1.0.3_iphoneos-arm64_676efb61ac19017f883f2a6b011eb78d997a604fb635479d99cfa3630c93443e.deb
+Size: 232544
+MD5sum: b843f401e5536bc69d0bd81fa86877c0
+SHA1: 7a1dd882e3011e3339c59daa3ab8bf842c377486
+SHA256: 676efb61ac19017f883f2a6b011eb78d997a604fb635479d99cfa3630c93443e
+SHA512: 95a35227551b8a63b7eb2555f18e4e2a29c29509c1a00ca45f10db98af77235fa042b61370f7fa0101202d09b980781959485e42ea7b3b572ff0f53fa6cd3233
+Description: 在Sileo中下载并保留本地DEB软件包。Download and keep local DEB packages in Sileo.
+Name: Doleo
+Author: Junhong
+Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
+
+Package: im.mjh.doleo
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Section: Tweaks
@@ -26446,6 +26600,24 @@ Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.roothide.html
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json
 Tags: compatible_min::ios15.0
+
+Package: im.mjh.doleo
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 1040
+Depends: mobilesubstrate, dpkg
+Filename: debs/iphoneos-arm64e/im.mjh.doleo_1.0.3_iphoneos-arm64e_ad6add6f7bb91436168d697c1084fc73982043b73e08ca63ce514578a1d91844.deb
+Size: 232480
+MD5sum: 664cf990388386290c71a6fa9f45640a
+SHA1: 5c85e5994d47b9306109169883c5722483ab16bb
+SHA256: ad6add6f7bb91436168d697c1084fc73982043b73e08ca63ce514578a1d91844
+SHA512: 5398cdc51f718c5a2bc2bbdfe434ef69ed585d96b5b916eddb52aeed572d437857445b03a461e299b927908ddc0bcf191d72d209f8e0cc4d18e171eb4003094c
+Description: 在Sileo中下载并保留本地DEB软件包。Download and keep local DEB packages in Sileo.
+Name: Doleo
+Author: Junhong
+Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
 
 Package: im.mjh.xianyuadblock
 Architecture: iphoneos-arm64
@@ -27451,6 +27623,40 @@ SHA256: 315cd37b903cd7a90fff890d6b95555f6368d2859142ba868bff4ccfcb804ca8
 SHA512: 338ec772f7874a556f6ea4f9f840927ea49361f55d549200534b25aa18552840b8947e5bec74ece035ace2857dd4485eea6b87068ee63df3fdf5df1c3f1cb045
 Description: Shared path API compatibility for packages converted by Hide2Less.
 Name: Hide2Less Compatibility
+Author: Banana
+
+Package: iya.banana.ios27animation
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 3448
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/iya.banana.ios27animation_1.0.1_iphoneos-arm64_2e84301cbe2d10219deb72a0afb44209e385f3be9c3d06be340c9d682b635ca7.deb
+Size: 830554
+MD5sum: f4927d358575e19853cc74f0518ec19e
+SHA1: 41998cbaa55edd8b0932f7dc9149c59f837de925
+SHA256: 2e84301cbe2d10219deb72a0afb44209e385f3be9c3d06be340c9d682b635ca7
+SHA512: f7173dfa10fb97ae7fc53f63e68b35003c4f46d35e6d8c99874b5b3993d8711790c598e7815724247673add5662e710bf16121f8fd5bafe2ff312c6bed9ba374
+Description: iOS27-inspired system animations for iOS15-18. Purchase and device activation required.
+Name: iOS27 Animation
+Author: Banana
+
+Package: iya.banana.ios27animation
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 3448
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/iya.banana.ios27animation_1.0.1_iphoneos-arm64e_2618af67315c9e1c7ae020144e4e1629c09feafd1ad00f55dbda68cc5cb4e9e4.deb
+Size: 828536
+MD5sum: 730515c7c75561e6a269508eda7ee782
+SHA1: 70b4c8cce483def6b5511a756c53b0cb51edc08d
+SHA256: 2618af67315c9e1c7ae020144e4e1629c09feafd1ad00f55dbda68cc5cb4e9e4
+SHA512: 76ce19fef80c4a1f35772b167da8f32b29b1d6314672be9d7a19eec2f09f4af571bde9edc29e2ebef1453bc720da4f284490b750a6a0e3cfe56766b061c126c4
+Description: iOS27-inspired system animations for iOS15-18. Purchase and device activation required.
+Name: iOS27 Animation
 Author: Banana
 
 Package: iya.banana.iphoneduoflow
