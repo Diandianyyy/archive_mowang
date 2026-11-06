@@ -867,6 +867,23 @@ Author: MoWang
 
 Package: com.MoWang.islanddigest
 Architecture: iphoneos-arm64
+Version: 0.3.26
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 2124
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.MoWang.islanddigest_0.3.26_iphoneos-arm64_bc6c074c2c6bc6a769d07dc0e22367ca836f7ff27eaf5954ddf0cfc8702a7184.deb
+Size: 1583698
+MD5sum: 5d2defdd97d0e1fd5c4fd67f07e4b82d
+SHA1: 31ea3806cbeb495fa0e8203a62a572cb0e9ca491
+SHA256: bc6c074c2c6bc6a769d07dc0e22367ca836f7ff27eaf5954ddf0cfc8702a7184
+SHA512: c7eb561c1e1e16990f6b101dfc9678204a3419fb23b292bbb212f4594ed5a95995526af62bd7442b9c9a6b05b4ec04767e1a3e5326834417cf24c9923ef64acd
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Name: 灵屿通知
+Author: MoWang
+
+Package: com.MoWang.islanddigest
+Architecture: iphoneos-arm64
 Version: 0.3.3
 Section: Tweaks
 Maintainer: MoWang
@@ -997,6 +1014,23 @@ MD5sum: 9beaf4e540af86d0060a11edd409fb84
 SHA1: 3a2a839e3cc51cf9e4562afe3c659bb332c0d66a
 SHA256: d3606a0e592e7a867a9864e1dc290fc280897e673706d3c220a68b4f01d151fa
 SHA512: eb894c49d057e0ddeac443696c6b15613dc28a2f4789aeb15af53c601ea1812238ce0015de771ffba159e5a9fe8bbd24e0840a26176f1b1534f2072fe473a844
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Name: 灵屿通知
+Author: MoWang
+
+Package: com.MoWang.islanddigest
+Architecture: iphoneos-arm64e
+Version: 0.3.26
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 2124
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.MoWang.islanddigest_0.3.26_iphoneos-arm64e_f5b860b6d207f093793c78d3adac808447ace2733f69bb239b899cfead612d7b.deb
+Size: 1583418
+MD5sum: c2ad1048287bb0b32c8aeb348677c66a
+SHA1: 5e6804e5f98670279f632e955c2b5f34909a42de
+SHA256: f5b860b6d207f093793c78d3adac808447ace2733f69bb239b899cfead612d7b
+SHA512: 2c2d951d9b4faea563b77cb7a4d24355f10ee286ec497a4394d4364b9c4a92b36cb10f5273006852615c046c78a386ffb96802321a215b62c92129a53151ff96
 Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
 Name: 灵屿通知
 Author: MoWang
@@ -2338,6 +2372,27 @@ Name: TrollPadEx
 Author: khanhduytran0 & Banana
 
 Package: com.banana.trollpadex
+Architecture: iphoneos-arm64
+Version: 2.0.8
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 704
+Provides: com.kdt.trollpad
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), plistbuddy
+Conflicts: com.kdt.trollpad
+Replaces: com.kdt.trollpad
+Filename: debs/iphoneos-arm64/com.banana.trollpadex_2.0.8_iphoneos-arm64_ee253d3655790d950c0bbe2509fc9329549324916a2e9dd957f2e43bd6aa705c.deb
+Size: 66504
+MD5sum: 53b9d6b3daebd4c1f551917a0a73ffd2
+SHA1: 80997f50b24cce73644afdd29f2b09b6ea7fb488
+SHA256: ee253d3655790d950c0bbe2509fc9329549324916a2e9dd957f2e43bd6aa705c
+SHA512: 388a66c89725f5eefa373f9e3124edd70d7dee865a05bb48863adac81b47f841e6e02e8bff682de08ed3fe5908a2d71babbe168af14aa9f19b0c8f7529f10084
+Description: 为 iPhone 带来更灵活的多任务、窗口与外接显示体验。Enhanced iPhone multitasking and Stage Manager controls based on TrollPad.
+Name: TrollPadEx
+Author: khanhduytran0 & Banana
+icon: https://huayuarc.github.io/icon/TrollPad.png
+
+Package: com.banana.trollpadex
 Architecture: iphoneos-arm64e
 Version: 2.0.1
 Section: Tweaks
@@ -2416,6 +2471,27 @@ SHA512: bc8d3b6b58844e7e13b954fde85127fa13ca99493118efe933371aa9ab1b5f62783b3a16
 Description: Enhanced iPhone multitasking and Stage Manager controls based on TrollPad.
 Name: TrollPadEx
 Author: khanhduytran0 & Banana
+
+Package: com.banana.trollpadex
+Architecture: iphoneos-arm64e
+Version: 2.0.8
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 704
+Provides: com.kdt.trollpad
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), plistbuddy
+Conflicts: com.kdt.trollpad
+Replaces: com.kdt.trollpad
+Filename: debs/iphoneos-arm64e/com.banana.trollpadex_2.0.8_iphoneos-arm64e_808049349982577d6025a21da2e961772167ac48158e0595701b91809716a327.deb
+Size: 65736
+MD5sum: 1f4f1ef11991f5bfad1af61df5ff82d0
+SHA1: 6233a27d4d05ca22856b952107f22b2e8b43c81c
+SHA256: 808049349982577d6025a21da2e961772167ac48158e0595701b91809716a327
+SHA512: 7ebd8764c84bef2e2560558560c7b23fab864870141f22f532c9b152904300927127c891b134fc7464f6c88c273198e03c4988e299a949a1ebe638ce3439211c
+Description: 为 iPhone 带来更灵活的多任务、窗口与外接显示体验。Enhanced iPhone multitasking and Stage Manager controls based on TrollPad.
+Name: TrollPadEx
+Author: khanhduytran0 & Banana
+icon: https://huayuarc.github.io/icon/TrollPad.png
 
 Package: com.be-huge.floating-view
 Architecture: iphoneos-arm64
@@ -9631,6 +9707,40 @@ Description: 锁屏时保持 Surge-iOS-NE 的活跃性。(支持iOS 15-17)
 Name: SurgeActive
 Author: crctdd
 icon: https://huayuarc.github.io/icon/surgeactive.jpg
+
+Package: com.dao.asjtiktok
+Architecture: iphoneos-arm64
+Version: 1.4
+Section: 嗨-工具
+Maintainer: Ahmad Rashed
+Depends: mobilesubstrate
+Conflicts: com.ahmad.asjtiktok
+Filename: debs/iphoneos-arm64/com.dao.asjtiktok_1.4_iphoneos-arm64_049d79ea86f39c9748cbced30d844cd7e52a10420cc0f539958617f2fb26e050.deb
+Size: 928408
+MD5sum: ad1d02c4785ce596d7179e1175ce1d2d
+SHA1: 16040b09bc4d1932d7cd3ad1a120b94433667d08
+SHA256: 049d79ea86f39c9748cbced30d844cd7e52a10420cc0f539958617f2fb26e050
+SHA512: 1cb269947117d3ce0f486d9322f1eaf9189094cc96c8bedf10d3ca7fd08c4d3e5c8c5a7e31adce3b72eb4de524e5d7eabb23d7753068557979a5d1091db41c74
+Description: TikTok多功能插件，可下载等，多语言支持，自动识别机器语言；插件入口：主页—>右上角“三”—>底部ASJTikTok。
+Name: ASJTok(rootless)
+Author: Ahmad Rashed
+
+Package: com.dao.asjtiktok
+Architecture: iphoneos-arm64e
+Version: 1.4
+Section: 嗨-工具
+Maintainer: Ahmad Rashed
+Depends: mobilesubstrate
+Conflicts: com.ahmad.asjtiktok
+Filename: debs/iphoneos-arm64e/com.dao.asjtiktok_1.4_iphoneos-arm64e_da5029694e0c8fa88dc968aa469d94fe8288f4f1be1201d2d519e3c596d786d6.deb
+Size: 929276
+MD5sum: 8004bb7ea35c3a72dad2ef1d17067102
+SHA1: 4fe741c3e5280b9c9659ba909affd28b0846dffe
+SHA256: da5029694e0c8fa88dc968aa469d94fe8288f4f1be1201d2d519e3c596d786d6
+SHA512: a21d1616de2babec4896d33d2a82e30a6dc7ffe4283cb8d976f6d10ca33101168780b987be6f074e153cbd2db63c687fc53c3937a01116d9d5eb5b99068ffbfa
+Description: TikTok多功能插件，可下载等，多语言支持，自动识别机器语言；插件入口：主页—>右上角“三”—>底部ASJTikTok。
+Name: ASJTok(RootHide)
+Author: Ahmad Rashed
 
 Package: com.dao.filzacrack
 Architecture: iphoneos-arm64e
@@ -24258,6 +24368,23 @@ Description: 本项目仅限个人学习使用，仅针对 Relaxin 越狱环境�
 Name: 超级截图
 Author: yzdmm2024
 
+Package: com.wacljcr.superscreenshot
+Architecture: iphoneos-arm64
+Version: 8.0.39
+Section: Tweaks
+Maintainer: yzdmm2024
+Installed-Size: 2360
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.wacljcr.superscreenshot_8.0.39_iphoneos-arm64_71192212b999275d966f2f8705550f4e63728e896c52a4f37475017b1ac6ea17.deb
+Size: 774870
+MD5sum: 39c19d1437bb8f126c8c3df5e46b0b47
+SHA1: ba8fb6f75dafc357d041ae95425bc199211210e3
+SHA256: 71192212b999275d966f2f8705550f4e63728e896c52a4f37475017b1ac6ea17
+SHA512: dc1587d895b58d01b9dca948142bca6145b9c5e23a6a81dae1ed2ee2fc0014ac6d93873e8e31685e72d5d6ccb8b5e8fa9a11289d09ccdcc659bb0ef874202060
+Description: 本项目仅限个人学习使用，仅针对 Relaxin 越狱环境、iOS 16.6.1 进行适配，其他越狱 / 系统版本均未测试。使用产生的各类报错、异常问题，请使用者自行排查解决。功能说明：截图与裁剪（控制中心按钮或手势呼出浮层，拖框选区可拖动 / 缩放微调，支持正常截图与长截图；触发方式支持双指上滑与「自定义手势」——录制一笔专属形状（圆圈 / 对勾 / Z 等），以后只有画出同样的形状才触发，避免打游戏误碰）；长截图提供 2 种采集方式（长截图界面左上角按钮循环切换）：① 自动滚动——注入驱动任意 App 的 UIScrollView 逐屏自动滚动并精确拼接整页长图，可随时点「停止」；② 手动——框好后滑动页面、点「下一屏 ▼」逐屏采集；自动滚动已放开为全 App 注入（不再仅限微信/QQ）；图片拼接编辑器（复刻 Picsew：多张截图缝线式拼接，单张照片可旋转 / 翻转 / 裁剪 / 删除 / 前后移动，裁剪界面内直接带标注工具（小马赛克 / 大马赛克 / 模糊 / 画笔 / 矩形 / 文字 / 撤销 / 完成），支持马赛克（大 / 小）/ 模糊 / 画笔 / 矩形 / 文字标注，结果可保存 / 复制到剪贴板 / 分享，可选机型套壳且套壳更真实）；OCR 文字识别（视觉大模型引擎与百度 PaddleOCR 两种识别源，结果按阅读顺序上→下、同行左→右重排，可复制全文）；翻译（大模型或百度翻译对选中文字翻译，原文 / 译文可分别复制）；画图标注（画笔实线 / 马克笔半透明粗线 / 橡皮，可选颜色与透明度、撤销）；识码（识别二维码 / 条码，结果可复制或用 Safari 打开）；打开豆包（把当前截图带进豆包 App 直接对话提问，图片同时存入剪贴板可长按粘贴，替代原问 AI / 去状态栏按钮）；图像打码（方块像素马赛克 / 高斯模糊两种涂抹脱敏，可手动涂抹或智能识别手机号、身份证自动打码）；取色（吸管点取图中任意颜色并复制 HEX 值）；旋转（90° / 180° 旋转当前图）；图片压缩（一键压缩并提示前后体积）；贴图（把图片作为浮动窗贴到屏幕，可拖动、双指缩放、关闭）；复制 / 保存 / 分享（复制图片或文字到剪贴板；保存到专属相册「超级截图」；系统分享）；导出 PDF（把截图导出为 PDF）；还原（一键还原为编辑前原图）；启动（工具栏「启动」弹层选要秒开的 App，微信 / QQ / 闲鱼 预设或自定义 URL Scheme，秒开并把截图存入剪贴板）；截图历史记录（回看历次截图）；手机壳库（设置开启后正常截图自动套入手机外壳模板，含中框与刘海，套壳渲染更真实）；常驻悬浮球（设置「启用常驻悬浮球」开关：屏幕常驻可拖动悬浮球，点它直接呼出超级截图，替代控制中心按钮；关闭则回到控制中心方式）；URL 指令（cjt://jb 局部截图 / cjt://zc 正常截图 / cjt://ct 长截图 / cjt://pf 拼接，可在 Safari 地址栏或快捷指令「打开 URL」里触发，设置里多选启用）；设置丰富（工具栏自由排序 / 显隐 / 改名 / 换图标 SF Symbol；控制中心图标五选一相机 / 剪刀 / 闪电 / 文档 / 星星；大模型库识别引擎 / 问 AI / 翻译 分别选模型、一键导入预设、连接测试；百度 PaddleOCR 与百度翻译密钥配置；本插件已彻底放开，无需设备授权或解锁码）。
+Name: 超级截图
+Author: yzdmm2024
+
 Package: com.wacljcr.wxkbtoolbar10
 Architecture: iphoneos-arm64
 Version: 4.0
@@ -25964,6 +26091,25 @@ Author: zooah212
 icon: https://huayuarc.github.io/icon/swipedeck.png
 
 Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64
+Version: 0.5.8-6
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 7528
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64/com.zooah.swipedeck_0.5.8-6_iphoneos-arm64_5ac6b026ce15d9e5886427131fda27022c428fb06e950011a4945ade366f9303.deb
+Size: 2420116
+MD5sum: b792286fee5c31de3779944f55a650c3
+SHA1: f0c0d4e1d4a1a541ad42eb7132c9474fb9f39eb8
+SHA256: 5ac6b026ce15d9e5886427131fda27022c428fb06e950011a4945ade366f9303
+SHA512: f498a77d48866938fc5b407290930903af9db94476e37bc80b9aa8c400b1f95a10619589a70e1dfa274cc0ceaa10fc183d5f9772ef500981be31129d916c8806
+Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
+   *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
 Architecture: iphoneos-arm64e
 Version: 0.5.7-3
 Section: Tweaks
@@ -25977,6 +26123,26 @@ MD5sum: fea4e7438058ff716ebc36350140c976
 SHA1: dc0ab8fb58c8e04c331a9b0e1d0f0ebb3e405e09
 SHA256: 99e790561a1a742b6a139f5f9c5ab2463db410793c14e06d4b49b1fd743632ec
 SHA512: 4cebc8dd94622e1ce9aeb5bf54f9f3170d3705c8ab85f15eb0cc87d34981c554dd07784ddff053d09bf5f969b6cf48906fd435b248ff6e655ce0661a8488080d
+Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
+   *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Name: SwipeDeck - 快捷助手
+Author: zooah212
+icon: https://huayuarc.github.io/icon/swipedeck.png
+
+Package: com.zooah.swipedeck
+Architecture: iphoneos-arm64e
+Version: 0.5.8-6
+Section: Tweaks
+Maintainer: zooah212
+Installed-Size: 7528
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/iphoneos-arm64e/com.zooah.swipedeck_0.5.8-6_iphoneos-arm64e_deffee694d7a31856359f55095082ac99a6c13ad8a3fe55aee4b87e07993b9fd.deb
+Size: 2393012
+MD5sum: 6a0a8bbd633f2e09fbff20175f91fcfc
+SHA1: f1aa72b95346e4eafe1d0adc24c0f9cf500025fc
+SHA256: deffee694d7a31856359f55095082ac99a6c13ad8a3fe55aee4b87e07993b9fd
+SHA512: e2ae08633adeb650195c9d6edd601d44ad3c610fb9c63eaffd0bf606059d353b040533a6c68076d7a44020970ed8a097f79efb89d5a82cddabdeef0dd9fcd3f2
 Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
    *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
 Name: SwipeDeck - 快捷助手
@@ -28762,6 +28928,24 @@ Name: 一芽分屏 (Iya Split)
 Author: Banana
 
 Package: iya.banana.multitask
+Architecture: iphoneos-arm64
+Version: 0.1.6-1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 2744
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/iya.banana.multitask_0.1.6-1_iphoneos-arm64_c10c8859dd36c89285d885e712413c28f45c4c054394f0618a659b09eb868ca2.deb
+Size: 486184
+MD5sum: 2ab5b93e58c71251ab2f2ad5c9c43421
+SHA1: 4cd3702dfe7fa92c2c47c729c8bfaa131c187a7e
+SHA256: c10c8859dd36c89285d885e712413c28f45c4c054394f0618a659b09eb868ca2
+SHA512: ac535c85933255be31ce4d148b078c845ac7887560c88a10545d6518159723c7ea988c9c7b98ba4a9da6f189c6c59e2bb124efc40ecb44f8b25b59844ccfa9e4
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Name: 一芽分屏 (Iya Split)
+Author: Banana
+icon: https://huayuarc.github.io/icon/onboarding-icon.png
+
+Package: iya.banana.multitask
 Architecture: iphoneos-arm64e
 Version: 0.1.0
 Section: Tweaks
@@ -28880,6 +29064,24 @@ SHA512: 0d12ae0970d94839fb7447f05fe5e376af02121f1b7ed350990834c61fc8f6e5c4969b68
 Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
 Name: 一芽分屏 (Iya Split)
 Author: Banana
+
+Package: iya.banana.multitask
+Architecture: iphoneos-arm64e
+Version: 0.1.6-1
+Section: Tweaks
+Maintainer: Banana
+Installed-Size: 2728
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/iya.banana.multitask_0.1.6-1_iphoneos-arm64e_9131970f366b14184d04e6c62005b958628f8abf64cd5dddb7eef531657c0ded.deb
+Size: 483408
+MD5sum: 97dbd2dc690e3119cac7c0ab6fa88a2c
+SHA1: a49e16d48104b2db3bcad421aa897338238c5c04
+SHA256: 9131970f366b14184d04e6c62005b958628f8abf64cd5dddb7eef531657c0ded
+SHA512: bebb4d4e32ce980d96f94fc4f1b17c1cec1cc25f129d31b6b04e9dc3f7e9e6c217aab6170dc637318d0941075f3dad64e6749f55bc0b54b3dc50ea5e464b10c7
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Name: 一芽分屏 (Iya Split)
+Author: Banana
+icon: https://huayuarc.github.io/icon/onboarding-icon.png
 
 Package: iya.banana.musichaptics
 Architecture: iphoneos-arm64
@@ -29860,6 +30062,25 @@ Description: 在锁定屏幕上显示充满电的剩余时间 Show time left to 
 Name: 锁屏充电胶囊
 Author: waruhachi
 icon: https://huayuarc.github.io/icon/jikan.png
+
+Package: netskao.picsartcrack
+Architecture: iphoneos-arm64e
+Version: 1.1-5
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 376
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/iphoneos-arm64e/netskao.picsartcrack_1.1-5_iphoneos-arm64e_460898ed815a9c37293317629b09656737cd44c5741f775ac2fd4ea16cf4f737.deb
+Size: 89440
+MD5sum: e694c4470f0b110fd1d17aeaf150d73b
+SHA1: 45349b8243dbc201ddf6a9741d23357e777e7e0e
+SHA256: 460898ed815a9c37293317629b09656737cd44c5741f775ac2fd4ea16cf4f737
+SHA512: 005ee92343791e61461ffb8966ae9d30a9e65bc0ccbbab22eda0183be7110a309716f3dab31189eb617ae7c59265284cf05ca6554f5f38c93a9ec3dc67e909de
+Description: PicsArt美易解锁全功能，仅支持中国区20.7.9及以上版本
+Name: PicsArt Crack
+Author: Netskao
+icon: https://huayuarc.github.io/icon/picsartcrack.jpg
 
 Package: netskao.wechatpurifications
 Architecture: iphoneos-arm64e
