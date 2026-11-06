@@ -14826,6 +14826,25 @@ Icon: https://mlgm66.github.io/icon/actra.png
 Author: mlgm
 
 Package: com.mlgm.actra
+Architecture: iphoneos-arm64
+Version: 1.3.5
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 4116
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/iphoneos-arm64/com.mlgm.actra_1.3.5_iphoneos-arm64_0c7f97a3dcf186ce897a4782e771d71017a59dd875c47e32e352e59aca0a7d75.deb
+Size: 817094
+MD5sum: e27d91e8a742d22ac942f93214995726
+SHA1: 83d180456292e039ce86535742f6a9a0714409d3
+SHA256: 0c7f97a3dcf186ce897a4782e771d71017a59dd875c47e32e352e59aca0a7d75
+SHA512: f8645d434f6676de7ee40739734f7458dd143eac49736dc73676ac5550ba4c9fd640b69bc974bbfde96ebfb6464fb1849dfd4c4c0b2af0530070ce3db8adcaa7
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
+Package: com.mlgm.actra
 Architecture: iphoneos-arm64e
 Version: 1.0
 Section: Tweaks
@@ -15053,6 +15072,25 @@ Name: Actra
 Icon: https://mlgm66.github.io/icon/actra.png
 Author: mlgm
 
+Package: com.mlgm.actra
+Architecture: iphoneos-arm64e
+Version: 1.3.5
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 4116
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/iphoneos-arm64e/com.mlgm.actra_1.3.5_iphoneos-arm64e_a7963708f64be12c763b1474f912c7d0245ae9e9225bdcdc2a0ddc191e0d26be.deb
+Size: 818212
+MD5sum: 212e54e2794f7ce533ad61d9f552dfb5
+SHA1: 3bab30f83b5a0394c780db778dee69aac0af9af2
+SHA256: a7963708f64be12c763b1474f912c7d0245ae9e9225bdcdc2a0ddc191e0d26be
+SHA512: e6f421e44b8f3c81ba568bac928a49af692311f41d37591931e4cf6c4c8d58997342227cc2bfba312625448febeb3f5f8f6a636fcb4aad2a084c3f6fcc6057fc
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
 Package: com.mlgm.clippa
 Architecture: iphoneos-arm64
 Version: 1.0.3
@@ -15092,6 +15130,25 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/clippa.png
 
 Package: com.mlgm.clippa
+Architecture: iphoneos-arm64
+Version: 1.1
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 36732
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.mlgm.clippa_1.1_iphoneos-arm64_12a4d113c4b95e6dcc247c77357d92a1bf2c5c0f053ef3eb8183eabe4f9670cd.deb
+Size: 31188440
+MD5sum: 16cd242e3d907b2aa460b3608bc628ee
+SHA1: fad5f1cc158847a9bb5dee6dbae9a9301cb57556
+SHA256: 12a4d113c4b95e6dcc247c77357d92a1bf2c5c0f053ef3eb8183eabe4f9670cd
+SHA512: b8814044621c1da3686922b73b512862a70c19bcaae0b2873e2e8637e15948b8cdba978aade8d10e605df41a15b1140e5008b7e44875490db1b1fe25c6110330
+Description: 截图与悬浮贴图工具。
+Name: Clippa
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+
+Package: com.mlgm.clippa
 Architecture: iphoneos-arm64e
 Version: 1.0.3
 Priority: optional
@@ -15124,6 +15181,25 @@ MD5sum: b95155d26dc0a7b849de65e4f0248e2f
 SHA1: a36f723ffefe7674e2b15c7e213e89fb0bf39eeb
 SHA256: 90066e5b709d82a9087710170812bfe4200599244265d389bac982b03b0ff154
 SHA512: a0c4b9c7244b6f1f6880ee59d6bc83f81a0944679beee14307aae1d78e46c37294946a5242819f2459d8a7469d1fff28920723a32ea6dd09c3b1d300b55ffee4
+Description: 截图与悬浮贴图工具。
+Name: Clippa
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+
+Package: com.mlgm.clippa
+Architecture: iphoneos-arm64e
+Version: 1.1
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 36728
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.mlgm.clippa_1.1_iphoneos-arm64e_9f77f648580bf8238dc0487e222c112073c589ab5251801f48a773f747511eff.deb
+Size: 31186524
+MD5sum: 91ab43b0572b789d438d93faaa4b26d3
+SHA1: 1ade23035a9d401acb7f3b4347915fb7b1848651
+SHA256: 9f77f648580bf8238dc0487e222c112073c589ab5251801f48a773f747511eff
+SHA512: 8b4e201bd9e8c7c0bfcade7b65d0d4749ba62c6a461c09effe4ca6d6f82fe57ee6b0a93b2deb5fc6f643979632efa82e7a358bfe0078a056a60f1bb30ca94a8b
 Description: 截图与悬浮贴图工具。
 Name: Clippa
 Author: mlgm
@@ -15639,6 +15715,24 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/taploom.png
 
 Package: com.mlgm.taploom
+Architecture: iphoneos-arm64
+Version: 1.1.8
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 1124
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64/com.mlgm.taploom_1.1.8_iphoneos-arm64_8c3b3c12aa455b799246d6ae61cbfbd75e53201efacc8a1a1265a49311bd9ff7.deb
+Size: 184744
+MD5sum: e48d33d604d723968a4d104aa1a136bd
+SHA1: cc1ec8c98cd2bedfce9b5a73d8d71c6a1ce4fa3f
+SHA256: 8c3b3c12aa455b799246d6ae61cbfbd75e53201efacc8a1a1265a49311bd9ff7
+SHA512: c004cdd39747043a98754bcd0bc9a4d065ebbc38aae7b368626e5de0657731032e8edebab49f51a78b15dc1d044a0e0fb870b92a49f03a40e780ea82f3bd3442
+Description: 触摸轨迹可视化
+Name: Taploom
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/taploom.png
+
+Package: com.mlgm.taploom
 Architecture: iphoneos-arm64e
 Version: 1.1
 Section: Tweaks
@@ -15687,6 +15781,24 @@ MD5sum: 6979071d0fe49d1dd5e66a2debba6381
 SHA1: c12c0d6b1204c29334b98876582ea51f3d8cb176
 SHA256: 96bd0e83a2438cf556e742b0ebb2517301745855981e09123f3419ea64f637dd
 SHA512: 06040aef4c1bc44ee7c11efa065095ded6537994ee1175daec002d3bc58219b883680e76e5ce010b0bf353d451d88af9c5851391444e1280493c5c9773edf5f3
+Description: 触摸轨迹可视化
+Name: Taploom
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/taploom.png
+
+Package: com.mlgm.taploom
+Architecture: iphoneos-arm64e
+Version: 1.1.8
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 1124
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: debs/iphoneos-arm64e/com.mlgm.taploom_1.1.8_iphoneos-arm64e_90e630e4bca47c908f62af68738fbaa8e0d1a08d881e188e98fe423cd64b2df6.deb
+Size: 184652
+MD5sum: 13a0b873c634a9e63ff68a2b80935782
+SHA1: 5241fdd83f0f8088f6cca8adfcb22daf549a35ed
+SHA256: 90e630e4bca47c908f62af68738fbaa8e0d1a08d881e188e98fe423cd64b2df6
+SHA512: 98489140da7255ce9bf051334780955848ae5661ba340d64fc953ed23d594a8e8f4f90184e138d40909442251678fc928f5442641f8a7b814cadeb28120e92d1
 Description: 触摸轨迹可视化
 Name: Taploom
 Author: mlgm
