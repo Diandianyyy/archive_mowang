@@ -29754,6 +29754,55 @@ Name: 设置插件收纳
 Author: MoWang
 
 Package: dev.owngoal.settingsorganizer
+Architecture: iphoneos-arm64
+Version: 0.0.9
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 538
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/dev.owngoal.settingsorganizer_0.0.9_iphoneos-arm64_0d8a31c95909ac1ac86c9328d9ebe9758bcbe60f44b3bb4814bf0ef99bc35ee8.deb
+Size: 96606
+MD5sum: 4d624e3366d7668d8fd1ac693d62a53e
+SHA1: 3ebf3f7d1e23633d191bcf79a5e8c3d1e7d5e103
+SHA256: 0d8a31c95909ac1ac86c9328d9ebe9758bcbe60f44b3bb4814bf0ef99bc35ee8
+SHA512: 6469cb9498e68992e038a60c57f9e87b03e881dc3c445954951e8a6b19e6d7a7dde199fc2d4b3e336ef158a08c2d58e60fe4eeb8c2a87ed2b78a482df3a4873b
+Description: 设置分类收纳、首页与二级菜单布局、自定义名称、壁纸和横幅。
+ 【插件介绍】
+ 将插件、系统功能和应用设置分类收纳，让设置首页更整洁。
+ .
+ 【主要功能】
+ • 分类管理：手动调整分类，长按条目修改显示名称。
+ • 外观设置：自选壁纸和横幅，调整遮罩及横幅高度。
+ • 导航文字：自定义首页标题与左上角返回文字。
+ • 账户入口：可隐藏首页 Apple ID 入口，不修改账户。
+ .
+ 【0.0.9 更新】
+ 1. 新增首页布局
+ 支持居中、九宫格、双列、最左侧、最右侧、紧凑列表，共六种样式。
+ 九宫格默认三列，首页八个分类入口占八格。
+ .
+ 2. 新增二级菜单布局
+ 收纳分类列表支持六种样式，可独立选择或跟随首页。
+ 支持多行名称和大字号适配，保留条目跳转与长按改名。
+ .
+ 3. 调整选项位置
+ 以下四项集中放在「壁纸无遮罩」下方：
+ • 左上角返回文字
+ • 首页左上角标题
+ • 首页布局
+ • 二级菜单布局
+ .
+ 【使用方法】
+ 设置 → 我的插件 → 设置插件收纳 → 收纳与外观。
+ 选择布局后，返回对应页面查看。安装更新后，请关闭并重新打开设置。
+ .
+ 【适用范围】
+ 二级布局仅作用于收纳分类列表，不调整系统详情页或第三方插件内部页面。
+ 壁纸主要适用于支持的 UIKit 页面，部分自绘页面可能遮挡。
+Name: 设置插件收纳
+Author: MoWang
+
+Package: dev.owngoal.settingsorganizer
 Architecture: iphoneos-arm64e
 Version: 0.0.1
 Section: Tweaks
@@ -29886,6 +29935,55 @@ SHA1: 66524b8fadd10987c72f99798e498ad5b8157395
 SHA256: bf97a20c7dcaa67f6fca1ae0f13cee3cf1e3123049f090dfcbc8d3f09bf8ef29
 SHA512: 675ed4c247ea565598b7e21f86feb2c09488a1c0e6bb36e70853fca5f73b8d00bfef7d13fd91ec58e9407b6839148fd2d8fd84f2a891acd5b2ae3a6c562d1008
 Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Name: 设置插件收纳
+Author: MoWang
+
+Package: dev.owngoal.settingsorganizer
+Architecture: iphoneos-arm64e
+Version: 0.0.9
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 264
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/dev.owngoal.settingsorganizer_0.0.9_iphoneos-arm64e_1f1a17e5191d81c71bf6c0891d3cc03a82b16fd0ab49158218f707b22115cb5e.deb
+Size: 77288
+MD5sum: ac2c8879c69c7477d5d60a72aa2be1e8
+SHA1: 270c2cc3fab74f8ce0746eebedf84fe4112303dc
+SHA256: 1f1a17e5191d81c71bf6c0891d3cc03a82b16fd0ab49158218f707b22115cb5e
+SHA512: 7222e3b6a7b9461a949379c41ad788710f812c1513e7a48027457f9b46e340eac7330bc860f6aeecafa9670c177f1cdf1af068fd5fea1c0399b1273f4a84ec7f
+Description: 设置分类收纳、首页与二级菜单布局、自定义名称、壁纸和横幅。
+ 【插件介绍】
+ 将插件、系统功能和应用设置分类收纳，让设置首页更整洁。
+ .
+ 【主要功能】
+ • 分类管理：手动调整分类，长按条目修改显示名称。
+ • 外观设置：自选壁纸和横幅，调整遮罩及横幅高度。
+ • 导航文字：自定义首页标题与左上角返回文字。
+ • 账户入口：可隐藏首页 Apple ID 入口，不修改账户。
+ .
+ 【0.0.9 更新】
+ 1. 新增首页布局
+ 支持居中、九宫格、双列、最左侧、最右侧、紧凑列表，共六种样式。
+ 九宫格默认三列，首页八个分类入口占八格。
+ .
+ 2. 新增二级菜单布局
+ 收纳分类列表支持六种样式，可独立选择或跟随首页。
+ 支持多行名称和大字号适配，保留条目跳转与长按改名。
+ .
+ 3. 调整选项位置
+ 以下四项集中放在「壁纸无遮罩」下方：
+ • 左上角返回文字
+ • 首页左上角标题
+ • 首页布局
+ • 二级菜单布局
+ .
+ 【使用方法】
+ 设置 → 我的插件 → 设置插件收纳 → 收纳与外观。
+ 选择布局后，返回对应页面查看。安装更新后，请关闭并重新打开设置。
+ .
+ 【适用范围】
+ 二级布局仅作用于收纳分类列表，不调整系统详情页或第三方插件内部页面。
+ 壁纸主要适用于支持的 UIKit 页面，部分自绘页面可能遮挡。
 Name: 设置插件收纳
 Author: MoWang
 
@@ -34125,6 +34223,23 @@ MD5sum: fa5efe6cb4658430e397b893183c8eb1
 SHA1: cc97ce97c1d70dc0c6d2e67796f032e0bffdd0b3
 SHA256: 018ddd507d4d764cf3c4f12df20f54aa4b6d091ccdd86c3e990e9d2e49048e0a
 SHA512: 22784bfbfc09d8a19dc29f5743eef42645c409576681e9f5569eac61c4d804a34a4a07d1203a79e3b4a590a1d9c1a6ff03dc8a159ead53bb8c7613bdf5521bd0
+Description: 电池耗电分析：统计各 App 前台/后台运行时长与电量变化，估算耗电占比，展示电量历史与充放电统计。注：耗电为估算值，仅供参考，非精确测量。
+Name: 电池耗电分析
+Author: yzdmm2024
+
+Package: wacljcr.batteryanalyzer
+Architecture: iphoneos-arm64e
+Version: 1.6.7
+Section: Tweaks
+Maintainer: yzdmm2024
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64e/wacljcr.batteryanalyzer_1.6.7_iphoneos-arm64e_fe2e3eca956a69ffeca9286747f62552f0c60d88c4ca0b33d5dac56c702781c2.deb
+Size: 175400
+MD5sum: 497d0baafa5aad3fae5055ae41adb323
+SHA1: 0d273be95403ac79e1d4f5a90d98ab5675bbd964
+SHA256: fe2e3eca956a69ffeca9286747f62552f0c60d88c4ca0b33d5dac56c702781c2
+SHA512: 44d3de9de776a9edc3ea48040f6948269a89f427ec48f95519c1a5fce61a470629dce2f266ff9575ed6c602e8ef0da872b725208133d67e2928820dff2da18e0
 Description: 电池耗电分析：统计各 App 前台/后台运行时长与电量变化，估算耗电占比，展示电量历史与充放电统计。注：耗电为估算值，仅供参考，非精确测量。
 Name: 电池耗电分析
 Author: yzdmm2024
