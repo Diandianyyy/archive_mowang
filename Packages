@@ -15353,6 +15353,24 @@ Name: 耗电发热排行榜
 Author: jumping8
 icon: https://huayuarc.github.io/icon/thermaldetect.png
 
+Package: com.jumping.thermaldetect
+Architecture: iphoneos-arm64e
+Version: 1.0.32-2
+Section: Utilities
+Maintainer: jumping8
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: org.coolstar.ellekit | mobilesubstrate | com.ex.substitute
+Filename: debs/iphoneos-arm64e/com.jumping.thermaldetect_1.0.32-2_iphoneos-arm64e_56a61576b012aebcd6d2cfbd92874c8509472e477966c2b6053f20c69056cedf.deb
+Size: 248566
+MD5sum: 348461bb350e8628bfefb950b34bd562
+SHA1: f1a2b1862882a1a47cfe248edae9097f5bbfcc72
+SHA256: 56a61576b012aebcd6d2cfbd92874c8509472e477966c2b6053f20c69056cedf
+SHA512: 67f92bf81c65f03274fc3148dadcc4b4607c1f89c5cdeb19f81d16f338ef4200e05fe7cb98f103280573ba33596a11a6d5811c2a4022e7eeca5df2dc226e7af1
+Description: 定位哪个插件耗电发热排行榜，仅16.2系统真机，其他系统要安装自行负责。
+Name: 耗电发热排行榜
+Author: jumping8
+Icon: file:///var/jb/Library/PreferenceBundles/com.jumping.thermaldetect.bundle/Icon.png
+
 Package: com.kdt.unrestrictmirroring
 Architecture: iphoneos-arm64
 Version: 0.0.2
@@ -21098,6 +21116,27 @@ Icon: https://qq391160.github.io/repo/icons/thermal.png
 
 Package: com.qq391160.cpucore
 Architecture: iphoneos-arm64
+Version: 2.0.500
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4428
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64/com.qq391160.cpucore_2.0.500_iphoneos-arm64_d667d60510e4643f8cd343acf94830859eec0d37f8ca708ddac21e6e6877092f.deb
+Size: 675544
+MD5sum: 96ce9b44ded0e7fd83ebaf79ab5f09af
+SHA1: d5fb41c34e6633701b01265c701c5a186151897d
+SHA256: d667d60510e4643f8cd343acf94830859eec0d37f8ca708ddac21e6e6877092f
+SHA512: a33906e8a115b30c77b0ee97103d32a20d240cd4b2a46fa4b2af126045dcc95f1325587a3672516e475f0188b9c854e88a752c587b1b8a76ab8cbda69d2b9aa1
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64
 Version: 2.0.89
 Priority: optional
 Section: Tweaks
@@ -21554,6 +21593,27 @@ MD5sum: 28de45ec85bd1b3339341a996ae289ce
 SHA1: b2aec21ef0fa5f4e3e1619742382f38ee1ea0f48
 SHA256: 7c042aa0425d11f71dbcbd3da44ed5331440d45a96fd8b7d9a5cd2645b0bd357
 SHA512: ee138a5ee7e1ff12baa061046f21512ad4a7534d626e38c11bb9b3928d265d4522feaeec94646a819a8f5e2db1565d500ef57b40bc06bdb2e3f4c3039e530d03
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64e
+Version: 2.0.500
+Priority: optional
+Section: Tweaks
+Maintainer: qq391160
+Installed-Size: 4700
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/iphoneos-arm64e/com.qq391160.cpucore_2.0.500_iphoneos-arm64e_2048689e6f280442912d4eeb9482c8cf84d5d3e35fc8704cbd1b077f62054f06.deb
+Size: 750988
+MD5sum: b4722f7c6b26a29feae2a0480aa84b0e
+SHA1: 60c6971a91faf16d9689ccde810a0ec6928a0214
+SHA256: 2048689e6f280442912d4eeb9482c8cf84d5d3e35fc8704cbd1b077f62054f06
+SHA512: 9aac94a997b20809ca8c6dbb3abc67be802b594ca223b143b8d8dcec0e8290528a2c9d693439b7e5a3d21c9c841b1db44e7332ebfd23743c281f5dd36c352482
 Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
 Name: CPU智能温控(iOS16/17)
 Author: qq391160
@@ -29662,6 +29722,81 @@ Description: 给Safari添加iOS27液态玻璃效果。
 Name: 27Safari
 Author: 泽哥
 
+Package: com.zege.liquidglaze
+Architecture: iphoneos-arm64
+Version: 2.0.0-150+rootless
+Section: Tweaks
+Maintainer: 泽哥有道理
+Installed-Size: 14636
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless, com.zegeyoudaoli.liquidass27
+Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless, com.zegeyoudaoli.liquidass27
+Filename: debs/iphoneos-arm64/com.zege.liquidglaze_2.0.0-150+rootless_iphoneos-arm64_5ddde8c88222a52f83315a89f2b0fb10831f698f2d2ed0d846158d1e2d842250.deb
+Size: 5399802
+MD5sum: 1c1b06858b03813ea17fdc2688a18c79
+SHA1: a77e5ff414bc2df228641fe9b908951c2635df25
+SHA256: 5ddde8c88222a52f83315a89f2b0fb10831f698f2d2ed0d846158d1e2d842250
+SHA512: a937f7fed283bc8addd60f8ea31a00cb1f188d17472add4279d64af4eec2c42925a3433106ff763eed5bcf8e528352e0ce1f875cbab7f96f30e2624ef73c79c5
+Description: 液态琉璃 · 让整个 iOS 界面变成液态玻璃（自编版）。
+ 【功能】
+ • 液态玻璃渲染引擎（对标 iOS 26 Liquid Glass 系统）
+ • 锁屏大时钟 / 日期 / 通知 / 横幅 / 灵动岛 / 上下文菜单 / 警报渐变引擎，参数可调
+ • 小组件去背景及相应设置项
+ • 全界面导航栏液态玻璃
+ • 底部弹窗 / App 弹窗液态玻璃
+ • 灵动岛液态玻璃（上岛全元素液态）
+ • 「灵动岛」独立设置页面
+ • 锁屏日期 / 农历行液态玻璃（跟随时钟效果）
+ • 锁屏「通知清除按钮」透明化、「通知中心」文字直接隐藏
+ • 音量 HUD 液态玻璃
+ • 锁屏时钟随通知 / 滚动 / 编辑拖拽连续变化大小
+ 【兼容性】
+ 已验证：iOS 17.0（roothide / Relaxin 越狱）
+ 支持系统：iOS 16.0–17.3.1
+ 本插件包名 com.zege.liquidglaze 与历史包为两个独立插件：装了旧包不会自动收到本线更新，需重新安装本包（安装时会提示替换旧包）。
+Name: 液态琉璃 Liquid Glaze（rootless 测试）
+Author: 泽哥有道理
+Icon: https://repo.zege.top/depictions/icon-liquidglaze.png
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidglaze.html
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidglaze.json
+
+Package: com.zege.liquidglaze
+Architecture: iphoneos-arm64e
+Version: 2.0.0-150
+Section: Tweaks
+Maintainer: 泽哥有道理
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless, com.zegeyoudaoli.liquidass27
+Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless, com.zegeyoudaoli.liquidass27
+Filename: debs/iphoneos-arm64e/com.zege.liquidglaze_2.0.0-150_iphoneos-arm64e_2ac14126d86801f38d6188bf8a0284e3b0be9ef125f4a1bf0f54b108a40aae3e.deb
+Size: 5402056
+MD5sum: 0855bea68cf918f8eab6d4b5d4eb579b
+SHA1: 6c8f993c4daa18831ea65638fe99dfa0aa0b5fcc
+SHA256: 2ac14126d86801f38d6188bf8a0284e3b0be9ef125f4a1bf0f54b108a40aae3e
+SHA512: e718bee8a363b163a67cfe15145a1d868741afc8c57d35c652af641171033d0e6421fa89846d52bd77f4ded2825c85325f404495b9828ca3f17e3a95334342ca
+Description: 液态琉璃 · 让整个 iOS 界面变成液态玻璃（自编版）。
+ 【功能】
+ • 液态玻璃渲染引擎（对标 iOS 26 Liquid Glass 系统）
+ • 锁屏大时钟 / 日期 / 通知 / 横幅 / 灵动岛 / 上下文菜单 / 警报渐变引擎，参数可调
+ • 小组件去背景及相应设置项
+ • 全界面导航栏液态玻璃
+ • 底部弹窗 / App 弹窗液态玻璃
+ • 灵动岛液态玻璃（上岛全元素液态）
+ • 「灵动岛」独立设置页面
+ • 锁屏日期 / 农历行液态玻璃（跟随时钟效果）
+ • 锁屏「通知清除按钮」透明化、「通知中心」文字直接隐藏
+ • 音量 HUD 液态玻璃
+ • 锁屏时钟随通知 / 滚动 / 编辑拖拽连续变化大小
+ 【兼容性】
+ 已验证：iOS 17.0（roothide / Relaxin 越狱）
+ 支持系统：iOS 16.0–17.3.1
+ 本插件包名 com.zege.liquidglaze 与历史包为两个独立插件：装了旧包不会自动收到本线更新，需重新安装本包（安装时会提示替换旧包）。
+Name: 液态琉璃 Liquid Glaze
+Author: 泽哥有道理
+Icon: https://repo.zege.top/depictions/icon-liquidglaze.png
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidglaze.html
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidglaze.json
+
 Package: com.zege.sileobackground
 Architecture: iphoneos-arm64
 Version: 1.1.6
@@ -31338,6 +31473,55 @@ Name: 设置插件收纳
 Author: MoWang
 
 Package: dev.owngoal.settingsorganizer
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 538
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64/dev.owngoal.settingsorganizer_0.1.1_iphoneos-arm64_05accfc22397efb74ab7e83e847915c1cb7a5d132df08aba8bf4206bc7ff052e.deb
+Size: 98066
+MD5sum: c00aac9ceb50b797a484a48056badea7
+SHA1: 6c026a77ec4694ee4d52ebd99f143ab01d48c78f
+SHA256: 05accfc22397efb74ab7e83e847915c1cb7a5d132df08aba8bf4206bc7ff052e
+SHA512: 7d24d4c07e87b620c609fd4ac85fd8c3aabf49cb6bdeeaa80fc2ef8a903a7e1f9e8f2955f6bc9fcce82b5625a09c76bf3f7dc9598a9e97712c675341186038b5
+Description: 设置分类收纳、首页与二级菜单布局、自定义名称、壁纸和横幅。
+  【插件介绍】
+  将插件、系统功能和应用设置分类收纳，让设置首页更整洁。
+ .
+  【主要功能】
+  · 分类管理：手动调整分类，长按条目修改显示名称。
+  · 外观设置：自选壁纸和横幅，调整遮罩及横幅高度。
+  · 导航文字：自定义首页标题与左上角返回文字。
+  · 账户入口：可隐藏首页 Apple ID 入口，不修改账户。
+ .
+  【0.1.1 更新】
+  修复插件页面退到桌面后，再打开设置回到首页的问题。
+ .
+  【0.1.0 更新】
+  1. 修复搜索输入：修复 Choicy「应用程序」列表搜索框无法输入的问题。
+  2. 修复图标加载：修复重启设置后首次进入「第三方 App」图标延迟显示的问题。
+ .
+  【0.0.9 更新】
+  1. 新增首页布局：支持居中、九宫格、双列、最左侧、最右侧、紧凑列表，共六种样式。九宫格默认三列，首页八个分类入口占八格。
+  2. 新增二级菜单布局：收纳分类列表支持六种样式，可独立选择或跟随首页。支持多行名称和大字号适配，保留条目跳转与长按改名。
+  3. 调整选项位置：以下四项集中放在「壁纸无遮罩」下方：
+  · 左上角返回文字
+  · 首页左上角标题
+  · 首页布局
+  · 二级菜单布局
+ .
+  【使用方法】
+  设置 → 我的插件 → 设置插件收纳 → 收纳与外观。
+  选择布局后，返回对应页面查看。安装更新后，请关闭并重新打开设置。
+ .
+  【适用范围】
+  二级布局仅作用于收纳分类列表，不调整系统详情页或第三方插件内部页面。
+  壁纸主要适用于支持的 UIKit 页面，部分自绘页面可能遮挡。
+Name: 设置插件收纳
+Author: MoWang
+
+Package: dev.owngoal.settingsorganizer
 Architecture: iphoneos-arm64e
 Version: 0.0.1
 Section: Tweaks
@@ -31556,6 +31740,55 @@ Description: 设置分类收纳、首页与二级菜单布局、自定义名称�
   收纳分类列表支持六种样式，可独立选择或跟随首页。支持多行名称和大字号适配，保留条目跳转与长按改名。
   3. 调整选项位置
   以下四项集中放在「壁纸无遮罩」下方：
+  · 左上角返回文字
+  · 首页左上角标题
+  · 首页布局
+  · 二级菜单布局
+ .
+  【使用方法】
+  设置 → 我的插件 → 设置插件收纳 → 收纳与外观。
+  选择布局后，返回对应页面查看。安装更新后，请关闭并重新打开设置。
+ .
+  【适用范围】
+  二级布局仅作用于收纳分类列表，不调整系统详情页或第三方插件内部页面。
+  壁纸主要适用于支持的 UIKit 页面，部分自绘页面可能遮挡。
+Name: 设置插件收纳
+Author: MoWang
+
+Package: dev.owngoal.settingsorganizer
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 264
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/dev.owngoal.settingsorganizer_0.1.1_iphoneos-arm64e_317ccbd714a091435631065ad1d6f6d00ff1641611dff3dcdd3a20fc342730f2.deb
+Size: 78222
+MD5sum: b1e16c73f27969373d76044ee2a7929b
+SHA1: b27f93d27b22272fc0c978cb865f835f1c7cf223
+SHA256: 317ccbd714a091435631065ad1d6f6d00ff1641611dff3dcdd3a20fc342730f2
+SHA512: 8de512d015c8ff7ead1feafb89c1b5b6eefb19446da7c14361554229132c5acbddb1f579ab34bc81690c7867eba5c90d82f6c45208890d326fa5509f85f7fdd6
+Description: 设置分类收纳、首页与二级菜单布局、自定义名称、壁纸和横幅。
+  【插件介绍】
+  将插件、系统功能和应用设置分类收纳，让设置首页更整洁。
+ .
+  【主要功能】
+  · 分类管理：手动调整分类，长按条目修改显示名称。
+  · 外观设置：自选壁纸和横幅，调整遮罩及横幅高度。
+  · 导航文字：自定义首页标题与左上角返回文字。
+  · 账户入口：可隐藏首页 Apple ID 入口，不修改账户。
+ .
+  【0.1.1 更新】
+  修复插件页面退到桌面后，再打开设置回到首页的问题。
+ .
+  【0.1.0 更新】
+  1. 修复搜索输入：修复 Choicy「应用程序」列表搜索框无法输入的问题。
+  2. 修复图标加载：修复重启设置后首次进入「第三方 App」图标延迟显示的问题。
+ .
+  【0.0.9 更新】
+  1. 新增首页布局：支持居中、九宫格、双列、最左侧、最右侧、紧凑列表，共六种样式。九宫格默认三列，首页八个分类入口占八格。
+  2. 新增二级菜单布局：收纳分类列表支持六种样式，可独立选择或跟随首页。支持多行名称和大字号适配，保留条目跳转与长按改名。
+  3. 调整选项位置：以下四项集中放在「壁纸无遮罩」下方：
   · 左上角返回文字
   · 首页左上角标题
   · 首页布局
@@ -37388,6 +37621,29 @@ SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64
+Version: 0.4.5
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 97344
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64/wiki.qaq.apelin_0.4.5_iphoneos-arm64_3d33174c2d57a40bd4fc62c15fcecfbf3b1f5d4a4a1e12a208bed0e1df577b79.deb
+Size: 33602528
+MD5sum: f7d0ec9a3d0541559a1592aadef3bb05
+SHA1: 24a4a2bca9b20db3f4586724f22f1c13dd461cf4
+SHA256: 3d33174c2d57a40bd4fc62c15fcecfbf3b1f5d4a4a1e12a208bed0e1df577b79
+SHA512: 86361a018d5e67edc262c18466f9b371120bed0dee2b60ebafeb9d8ac644d557108753fb8b5a329116f4287bf8f5dd94ed20da0f6b9f7edb2f5a23780a12aa7c
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
 Architecture: iphoneos-arm64e
 Version: 0.1.5
 Priority: optional
@@ -37839,6 +38095,29 @@ MD5sum: 7f4acb16fbe18e485100bbf9a9a1e6c0
 SHA1: 952168c344239db3d6ebf83735aafec524e53fdd
 SHA256: 0dd3fa96b40902d4c3448dd5edd1fe02d0756a25acabd87823d7efb40aac4361
 SHA512: 6f6d943d3a1d941d0381075f3d16d9add19ec19fa7fb582aaaae90d84d3a06c48a13bf1ccac93859682b1adeeb462e3d948472767fa83b2bb6316bde2de65447
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Name: Apelin
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin
+Architecture: iphoneos-arm64e
+Version: 0.4.5
+Priority: optional
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 97344
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/iphoneos-arm64e/wiki.qaq.apelin_0.4.5_iphoneos-arm64e_b654b6f01814ea26df823990758f069b56edd7d20bddc5aac5a7ab44e1fac3be.deb
+Size: 33589264
+MD5sum: 3066020f0a7102c37a5c6e945e5feb6a
+SHA1: f2d2f8c39b9952bfa8d89449b8cbbed8ba89a4c7
+SHA256: b654b6f01814ea26df823990758f069b56edd7d20bddc5aac5a7ab44e1fac3be
+SHA512: 237e4560bd1d431b4034f4bb01dff0da87a5756e3713694d0883172ed8b8007b344237db3a8e8c05a39cf4105b52b8f8a71ab2ce28166dabdcb258ab8146c14b
 Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
  Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
 Name: Apelin
