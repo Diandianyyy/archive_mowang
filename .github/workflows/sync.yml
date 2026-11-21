@@ -52,6 +52,7 @@ jobs:
               --source "https://mowang7426.github.io/mowang/" \
               --max-downloads "$batch"
             git add Packages Packages.bz2 Packages.gz Packages.xz debs/
+            if [ -f bad-packages.log ]; then git add bad-packages.log; fi
             if git diff --cached --quiet; then break; fi
             git commit -m "Sync new packages from Mowang"
             git push
