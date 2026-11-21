@@ -41,6 +41,8 @@ jobs:
 
       - name: Download, verify and commit packages in batches
         run: |
+          exec > >(tee /tmp/sync-diagnostic.log) 2>&1
+          trap 'code=$?; if (( code != 0 )); then echo "::error::$(tail -c 5000 /tmp/sync-diagnostic.log | tr "\n" " ")"; fi' EXIT
           [[ "$MAX_DOWNLOADS" =~ ^[0-9]+$ ]] || exit 1
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
