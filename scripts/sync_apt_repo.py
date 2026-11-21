@@ -191,6 +191,13 @@ def write_indexes() -> None:
             zipped.write(payload)
 
 
+def record_bad_package(source, package, error):
+    log = Path("bad-packages.log")
+    with log.open("a", encoding="utf-8") as output:
+        fields = [source, package.get("Package", ""), package.get("Version", ""), str(error)]
+        output.write("\t".join(v.replace("\n", " ").replace("\r", " ").replace("\t", " ") for v in fields) + "\n")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--source", action="append", required=True,
@@ -209,7 +216,8 @@ def main() -> None:
         for package in upstream:
             digest = package.get("SHA256", "").lower()
             if not re.fullmatch(r"[0-9a-f]{64}", digest):
-                raise ValueError(f"Missing or invalid SHA256 in {source}: {package.get('Package')}")
+                record_bad_package(source, package, ValueError("Missing or invalid SHA256"))
+                continue
             if digest not in queued:
                 missing.append((source, package))
                 queued.add(digest)
@@ -224,9 +232,10 @@ def main() -> None:
             break
         try:
             destination = download_package(source, package)
-        except FileNotFoundError as error:
+        except Exception as error:
             unavailable += 1
-            print(f"Unavailable, will retry next run: {error}", flush=True)
+            record_bad_package(source, package, error)
+            print(f"Skipped bad package; will retry next run: {error}", flush=True)
             continue
         downloaded += 1
         print(f"[{downloaded}] Downloaded {destination}", flush=True)
