@@ -51,7 +51,7 @@ jobs:
             batch=100
             if (( remaining > 0 && remaining < batch )); then batch=$remaining; fi
             python3 -u scripts/sync_apt_repo.py \
-              --source "https://mowang7426.github.io/mowang/" \
+              --source "https://raw.githubusercontent.com/mowang7426/mowang/main/" \
               --max-downloads "$batch"
             git add Packages Packages.bz2 Packages.gz Packages.xz debs/
             if [ -f bad-packages.log ]; then git add bad-packages.log; fi
